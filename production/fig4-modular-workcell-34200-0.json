@@ -1,0 +1,365 @@
+{
+  "schema_version": "0.0.0",
+  "datamodel_version": "v0.1",
+  "firmware_version": "v0.1",
+  "mtconnect_version": "1.4",
+  "hydra_schema": {
+    "model": 34200,
+    "submodel": 0,
+    "native_name": "Figure 4 Modular Workcell"
+  },
+  "mtconnect_schema": {
+    "sample_interval": 0,
+    "native_name": "Figure 4 Modular Workcell"
+  },
+  "meta": {
+    "alias": "fig4-modular-workcell",
+    "hrn": "hrn:34200-0:Device:52c233a792a8027c"
+  },
+  "components": [
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Controller",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "controller",
+        "hrn": "hrn:34200-0:Component:8acd17c349dd2f53",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Ip-Address",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.ip_address",
+            "hrn": "hrn:34200-0:DataItem:981d9f5cbeebdf95",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Workcell Version",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Workcell-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.workcell_version",
+            "hrn": "hrn:34200-0:DataItem:e1ea278cd9153522"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Appliance SW Version\nreported_ver: v1.0.1-8",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Appliance-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.appliance_version",
+            "hrn": "hrn:34200-0:DataItem:f397be4e557c4ac9"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Conditions",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "conditions",
+        "hrn": "hrn:34200-0:Component:3cf6b8389629c611",
+        "required": true
+      },
+      "dataitems": [
+
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Device",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "device",
+        "hrn": "hrn:34200-0:Component:2824d342cddde423",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "reported_ver: v1.0.1-8",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Workcell-Id",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "workcell_id",
+            "hrn": "hrn:34200-0:DataItem:ff50751a7684d187"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EMERGENCY_STOP",
+            "name": "Emergency-Stop",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "emergency_stop",
+            "hrn": "hrn:34200-0:DataItem:908ee340864e9a23"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AVAILABILITY",
+            "name": "Available",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "available",
+            "hrn": "hrn:34200-0:DataItem:6e0a520a24a336c9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "reported_ver: v1.0.1-8",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Printer-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_name",
+            "hrn": "hrn:34200-0:DataItem:ae55a541594c3530"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Humidity of Chamber",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "HUMIDITY",
+            "name": "Chamber-Humidity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "???",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_humidity",
+            "hrn": "hrn:34200-0:DataItem:442acb2b3a591119"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Temperature of Chamber",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Chamber-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_temperature",
+            "hrn": "hrn:34200-0:DataItem:fe7182a2c800d3a9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Printer Serial Number\nreported_ver: v1.0.1-8",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "serial_number",
+            "hrn": "hrn:34200-0:DataItem:27df2b90b58b1766",
+            "device_state": true,
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "Fault Type",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LOGIC_PROGRAM",
+            "name": "Fault-Status",
+            "category": "CONDITION",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "fault_status",
+            "hrn": "hrn:34200-0:DataItem:2f96bc5ebf8d5434"
+          }
+        }
+      ]
+    }
+  ]
+}
