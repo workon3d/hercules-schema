@@ -70,7 +70,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Material-Date",
             "category": "EVENT",
             "subtype": "",
