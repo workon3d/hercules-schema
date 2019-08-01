@@ -779,7 +779,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Label-Last-Used-Date",
             "category": "EVENT",
             "subtype": "",
@@ -831,7 +831,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Batch-Expiration-Date",
             "category": "EVENT",
             "subtype": "",
@@ -2256,7 +2256,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Build-End-Time",
             "category": "EVENT",
             "subtype": "",
@@ -2282,7 +2282,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Build-Start-Time",
             "category": "EVENT",
             "subtype": "",
@@ -2891,7 +2891,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Controller-Version-Date",
             "category": "EVENT",
             "subtype": "",
@@ -3462,7 +3462,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "License-Activation-Date",
             "category": "EVENT",
             "subtype": "",
@@ -3644,7 +3644,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Tube-Installation-Date",
             "category": "EVENT",
             "subtype": "",
