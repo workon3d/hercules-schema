@@ -3655,7 +3655,7 @@
             "sample_rate": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "HARDWARE",
             "name": "Fault-Service-Fault",
             "category": "CONDITION",
             "level": "ANY",
@@ -3678,7 +3678,7 @@
             "sample_rate": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "HARDWARE",
             "name": "Fault-General-Fault",
             "category": "CONDITION",
             "level": "ANY",
