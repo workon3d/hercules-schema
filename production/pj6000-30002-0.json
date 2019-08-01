@@ -44,12 +44,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "SERIAL_NUMBER",
+            "type": "MESSAGE",
             "name": "Cart-Tag-Serial-Number",
             "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -498,12 +495,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "SERIAL_NUMBER",
+            "type": "MESSAGE",
             "name": "Stock-Tag-Serial-Number",
             "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -749,12 +743,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "SERIAL_NUMBER",
+            "type": "MESSAGE",
             "name": "Vat-Tag-Serial-Number",
             "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1381,12 +1372,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "SERIAL_NUMBER",
+            "type": "MESSAGE",
             "name": "Laser-Serial-Number",
             "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
