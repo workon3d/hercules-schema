@@ -314,7 +314,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Build-End-Time",
             "category": "EVENT",
             "subtype": "",
@@ -518,12 +518,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DENSITY",
+            "type": "MASS",
             "name": "Stock-Part-2-Material-Density",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "KILOGRAM/LITER",
-            "representation": "",
+            "units": "KILOGRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -622,7 +620,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Part-2-Expiration",
             "category": "EVENT",
             "subtype": "",
@@ -900,12 +898,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DENSITY",
+            "type": "MASS",
             "name": "Stock-Part-1-Material-Density",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "KILOGRAM/LITER",
-            "representation": "",
+            "units": "KILOGRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1004,7 +1000,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Part-1-Expiration",
             "category": "EVENT",
             "subtype": "",
@@ -1282,12 +1278,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DENSITY",
+            "type": "MASS",
             "name": "Stock-Support-2-Material-Density",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "KILOGRAM/LITER",
-            "representation": "",
+            "units": "KILOGRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1386,7 +1380,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Support-2-Expiration",
             "category": "EVENT",
             "subtype": "",
@@ -1664,12 +1658,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DENSITY",
+            "type": "MASS",
             "name": "Stock-Support-1-Material-Density",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "KILOGRAM/LITER",
-            "representation": "",
+            "units": "KILOGRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1768,7 +1760,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Support-1-Expiration",
             "category": "EVENT",
             "subtype": "",
@@ -2231,7 +2223,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Controller-Release-Date",
             "category": "EVENT",
             "subtype": "",
@@ -3861,7 +3853,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Last-Dropmass-Test",
             "category": "EVENT",
             "subtype": "",
@@ -3887,7 +3879,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Startup-Time",
             "category": "EVENT",
             "subtype": "",
@@ -4189,7 +4181,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_LONG",
+            "type": "SAMPLE_NUM",
             "notes": "frequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
             "description": "Total support material used by the machine for a customer.",
             "data_source": "10004 = GET_PRINTER_USAGE",
@@ -4215,7 +4207,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_LONG",
+            "type": "SAMPLE_NUM",
             "notes": "frequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
             "description": "Total support material used by the machine.",
             "data_source": "10004 = GET_PRINTER_USAGE",
@@ -4241,7 +4233,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_LONG",
+            "type": "SAMPLE_NUM",
             "notes": "frequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
             "description": "Total part material used by the machine for a customer.",
             "data_source": "10004 = GET_PRINTER_USAGE",
@@ -4267,7 +4259,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_LONG",
+            "type": "SAMPLE_NUM",
             "notes": "frequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
             "description": "Total part material used by the machine.",
             "data_source": "10004 = GET_PRINTER_USAGE",
@@ -4411,7 +4403,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Release-Date",
             "category": "EVENT",
             "subtype": "",
