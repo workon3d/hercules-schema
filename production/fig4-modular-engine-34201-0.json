@@ -582,7 +582,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Controller-Version-Date",
             "category": "EVENT",
             "subtype": "",
@@ -1218,7 +1218,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Build-Start-Time",
             "category": "EVENT",
             "subtype": "",
@@ -1244,7 +1244,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Build-End-Time",
             "category": "EVENT",
             "subtype": "",
@@ -1992,7 +1992,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Material-Last-Stir-Time",
             "category": "EVENT",
             "subtype": "",
@@ -2018,7 +2018,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Material-Next-Stir-Time",
             "category": "EVENT",
             "subtype": "",
@@ -2460,12 +2460,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DENSITY",
+            "type": "MASS",
             "name": "Stock-Material-Specific-Gravity",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
+            "units": "KILOGRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2512,7 +2510,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Material-Expiration-Date",
             "category": "EVENT",
             "subtype": "",
@@ -3344,7 +3342,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Batch-Expiration-Date",
             "category": "EVENT",
             "subtype": "",
@@ -3396,7 +3394,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Stock-Label-Last-Used-Date",
             "category": "EVENT",
             "subtype": "",
@@ -4703,7 +4701,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "Tube-Installation-Date",
             "category": "EVENT",
             "subtype": "",
@@ -4885,7 +4883,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATETIME_STAMP",
+            "type": "CLOCK_TIME",
             "name": "License-Activation-Date",
             "category": "EVENT",
             "subtype": "",
