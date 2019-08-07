@@ -2016,22 +2016,6 @@
             "device_state": true,
             "emitted_by_adapter": true
           }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "name": "Controller-Mac-Address",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.mac_address",
-            "hrn": "hrn:32005-0:DataItem:1f246e5ca38a38c5",
-            "required": true
-          }
         }
       ]
     },
