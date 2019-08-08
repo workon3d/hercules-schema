@@ -318,7 +318,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Left Feed",
+        "name": "Left-Feed",
         "sample_interval": 0,
         "tag": "Feeder",
         "native_name": ""
@@ -362,7 +362,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Right Feed",
+        "name": "Right-Feed",
         "sample_interval": 0,
         "tag": "Feeder",
         "native_name": ""
@@ -1059,22 +1059,6 @@
             "device_state": true,
             "required": true
           }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "name": "Printer-State",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "printer_state",
-            "hrn": "hrn:32004-0:DataItem:b4669068a296d597",
-            "required": true
-          }
         }
       ]
     },
@@ -1666,22 +1650,6 @@
             "hrn": "hrn:32004-0:DataItem:981d9f5cbeebdf95",
             "device_state": true,
             "emitted_by_adapter": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "name": "Controller-Mac-Address",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.mac_address",
-            "hrn": "hrn:32004-0:DataItem:1f246e5ca38a38c5",
-            "required": true
           }
         }
       ]
