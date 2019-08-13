@@ -360,9 +360,9 @@
             "type": "MESSAGE_NUM",
             "notes": "Between 0 and 1",
             "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "data_source": "10041 = GET_CURRENT_BUILD_LAYER",
+            "native_type": "DOUBLE",
+            "native_units": "Percent",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -415,7 +415,7 @@
             "notes": "Convert enum code to string representation\nfrequency: Power-up, State Change\nNONE\nIDLE\nBUILDING\nPAUSED\nCOMPLETED\nERROR\nABORTED\nABORTING\nPAUSING\njira: DASH-3721\nphase: 1",
             "description": "",
             "data_source": "10040 = GET_CURRENT_BUILD_STATE",
-            "native_type": "INT",
+            "native_type": "STRING",
             "native_units": "Enum",
             "sample_rate": 0,
             "native_name": ""
@@ -441,7 +441,7 @@
             "notes": "frequency: Power-up, Every three mins\njira: DASH-3721\nphase: 1\nhttps://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/676364358/MJP+Job+Data+Reporting",
             "description": "Job Data Reporting",
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "INT, TIME_T, DOUBLE, ETC",
+            "native_type": "STRING:JSON",
             "native_units": "Epoch, kg, etc",
             "sample_rate": 0,
             "native_name": ""
@@ -719,7 +719,7 @@
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
-            "native_units": "Kilograms",
+            "native_units": "Grams",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1099,7 +1099,7 @@
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
-            "native_units": "Kilograms",
+            "native_units": "Grams",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1479,7 +1479,7 @@
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
-            "native_units": "Kilograms",
+            "native_units": "Grams",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1859,7 +1859,7 @@
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
-            "native_units": "Kilograms",
+            "native_units": "Grams",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3899,7 +3899,7 @@
             "notes": "Current State of Printer:\nNONE\nINITIALIZING\nIDLE\nBUSY\nPRINTING\nERROR\nNOT_INITIALIZED\nSTANDBY\nSHUTDOWN\nWARMUP\nREBOOT\nDIAGNOSTICS\nSHUTTING_DOWN\nUPGRADE\nfrequency: Whenever a state change is detected.\njira: DASH-3729\nphase: 1",
             "description": "",
             "data_source": "10001 = GET_CURRENT_STATE",
-            "native_type": "INTEGER",
+            "native_type": "STRING",
             "native_units": "Enum",
             "sample_rate": 0,
             "native_name": ""
@@ -4055,7 +4055,7 @@
             "notes": "frequency: Job Completion. Includes aborted and failed jobs.\njira: DASH-3721\nphase: 1",
             "description": "Total layers printed in band 3.",
             "data_source": "10142 = GET_NVRAM_DATA",
-            "native_type": "STRING",
+            "native_type": "INTEGER",
             "native_units": "Count",
             "sample_rate": 0,
             "native_name": ""
@@ -4081,7 +4081,7 @@
             "notes": "frequency: Job Completion. Includes aborted and failed jobs.\njira: DASH-3721\nphase: 1",
             "description": "Total layers printed in band 2.",
             "data_source": "10142 = GET_NVRAM_DATA",
-            "native_type": "STRING",
+            "native_type": "INTEGER",
             "native_units": "Count",
             "sample_rate": 0,
             "native_name": ""
@@ -4107,7 +4107,7 @@
             "notes": "frequency: Job Completion. Includes aborted and failed jobs.\njira: DASH-3721\nphase: 1",
             "description": "Total layers printed in band 1.",
             "data_source": "10142 = GET_NVRAM_DATA",
-            "native_type": "STRING",
+            "native_type": "INTEGER",
             "native_units": "Count",
             "sample_rate": 0,
             "native_name": ""
