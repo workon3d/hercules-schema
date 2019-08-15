@@ -1,0 +1,4522 @@
+{
+  "schema_version": "0.0.0",
+  "datamodel_version": "v0.1",
+  "firmware_version": "v0.1",
+  "mtconnect_version": "1.4",
+  "hydra_schema": {
+    "model": 20000,
+    "submodel": 0,
+    "native_name": "MJP 2500"
+  },
+  "mtconnect_schema": {
+    "sample_interval": 0,
+    "native_name": "MJP 2500"
+  },
+  "meta": {
+    "alias": "mjp2500",
+    "hrn": "hrn:20000-0:Device:7f43337355962c95"
+  },
+  "components": [
+    {
+      "hydra_schema": {
+        "description": "test",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Device",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "device",
+        "hrn": "hrn:20000-0:Component:5707538b3e1c7e41",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: Power-up, 1/Day\njira: DASH-3736, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Printer-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_name",
+            "hrn": "hrn:20000-0:DataItem:0567eaef75cde3af"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "E.G. ProJet 2500\nfrequency: Power-up, 1/Day\njira: DASH-3736, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Model-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "model_name",
+            "hrn": "hrn:20000-0:DataItem:518a8f5a4949fcc4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE\nfrequency: Power-up, 1/Day\njira: DASH-3736, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Model",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "model",
+            "hrn": "hrn:20000-0:DataItem:9b7d4cc8f244af74",
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE\nfrequency: Power-up, 1/Day\njira: DASH-3736, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Submodel",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "submodel",
+            "hrn": "hrn:20000-0:DataItem:70e325278436b0ab"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Timezone",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "timezone",
+            "hrn": "hrn:20000-0:DataItem:584bbd3c64674a8b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: Power-up, 1/Day\njira: DASH-3736, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Release-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "release_version",
+            "hrn": "hrn:20000-0:DataItem:e9dc122053c6555f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: Power-up, 1/Day\njira: DASH-3736, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DATETIME_STAMP",
+            "name": "Release-Date",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "YYYY-MM-DDThh:mm:ss.ffff",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "release_date",
+            "hrn": "hrn:20000-0:DataItem:973abacd3af6e38b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: Power-up, 1/Day\njira: DASH-3736, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "serial_number",
+            "hrn": "hrn:20000-0:DataItem:1f4a278b5824e1c9",
+            "device_state": true,
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Emitted by adapter",
+            "description": "",
+            "data_source": "Stack",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Adapter-Id",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "adapter_id",
+            "hrn": "hrn:20000-0:DataItem:68b0aeee8e05e70b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Total number of hours the machine has been on.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "DOUBLE",
+            "native_units": "Hours",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Lifetime-Machine-Hours",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_machine_hours",
+            "hrn": "hrn:20000-0:DataItem:7144a52978f52aad"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Number of hours the machine has been on for a customer.Cumulative number of hours the machine has been powered on for a customer.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "DOUBLE",
+            "native_units": "Hours",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Customer-Machine-Hours",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "customer_machine_hours",
+            "hrn": "hrn:20000-0:DataItem:d4971b89cbb2c982"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_LONG",
+            "notes": "Total part material used by the machine.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "Grams",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Lifetime-Part-Material-Used",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_part_material_used",
+            "hrn": "hrn:20000-0:DataItem:7338ad77929711da"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_LONG",
+            "notes": "Total part material used by the machine for a customer.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "Grams",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Customer-Part-Material-Used",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "customer_part_material_used",
+            "hrn": "hrn:20000-0:DataItem:5785fb247be9df77"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_LONG",
+            "notes": "Total support material used by the machine.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "Grams",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Lifetime-Support-Material-Used",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_support_material_used",
+            "hrn": "hrn:20000-0:DataItem:e55769a93bbdff69"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_LONG",
+            "notes": "Total support material used by the machine for a customer.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "Grams",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Customer-Support-Material-Used",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "customer_support_material_used",
+            "hrn": "hrn:20000-0:DataItem:f0d32807c11aea75"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Total layers printed by the machine.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Lifetime-Total-Layer-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_total_layer_count",
+            "hrn": "hrn:20000-0:DataItem:72889475f58d89c0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Total layers printed by the machine for a customer.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Customer-Total-Layer-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "customer_total_layer_count",
+            "hrn": "hrn:20000-0:DataItem:e6161c624272d84e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Total layers printed in band 1.\nfrequency: Job Completion. Includes aborted and failed jobs.\njira: DASH-3721\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_DATA",
+            "native_type": "STRING",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Lifetime-Band-1-Layer-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_band_1_layer_count",
+            "hrn": "hrn:20000-0:DataItem:6a49ec14f7d5194e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Total layers printed in band 2.\nfrequency: Job Completion. Includes aborted and failed jobs.\njira: DASH-3721\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_DATA",
+            "native_type": "STRING",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Lifetime-Band-2-Layer-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_band_2_layer_count",
+            "hrn": "hrn:20000-0:DataItem:df36668901f7f667"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Total layers printed in band 3.\nfrequency: Job Completion. Includes aborted and failed jobs.\njira: DASH-3721\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_DATA",
+            "native_type": "STRING",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Lifetime-Band-3-Layer-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_band_3_layer_count",
+            "hrn": "hrn:20000-0:DataItem:d4a7c4c4e1195d7e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Total machine build hours for a customer.\nfrequency: Power-up, change to material data, layer count, and at job completion.1/Hr\njira: DASH-3719, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "DOUBLE",
+            "native_units": "Hours",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Customer-Total-Print-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "customer_total_print_time",
+            "hrn": "hrn:20000-0:DataItem:331f90d72ed09a83"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Current uptime of a machine since the most recent power-on.\nfrequency: Power-up, change to material data, layer count, and at job completion.1/Hr\njira: DASH-3721, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "INTEGER",
+            "native_units": "Seconds",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "A",
+            "name": "Machine-Uptime",
+            "category": "TEST",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "machine_uptime",
+            "hrn": "hrn:20000-0:DataItem:7f277743ecf90bc6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "Total number of jobs that printed successfully.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721\nphase: 1",
+            "description": "s",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Completed-Job-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "completed_job_count",
+            "hrn": "hrn:20000-0:DataItem:60e4dc19afc9dfa6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "Total number of jobs that were started but could not complete.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3721\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Failed-Job-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "failed_job_count",
+            "hrn": "hrn:20000-0:DataItem:5e8b050cd07e4f0d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INTDSDFWEXCSDFWERFGSDFGDFGWERWERWERXSDFS",
+            "notes": "",
+            "description": "",
+            "data_source": "sdfsdfwefwefwef",
+            "native_type": "INT[]",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONDUCTIVITY",
+            "name": "System-State",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SIEMENS/METER",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "system_state",
+            "hrn": "hrn:20000-0:DataItem:28d40400c187cab8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "The Hydra Client is started when the ProJetService starts.(Online Hours Today)\nfrequency: Power-up\njira: DASH-3722\nphase: 1",
+            "description": "",
+            "data_source": "Timestamp at start of Hydra Client",
+            "native_type": "YYYY-MM-DDTHH:MM:SS.FFFF",
+            "native_units": "ISO 8601",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DATETIME_STAMP",
+            "name": "Startup-Time",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "YYYY-MM-DDThh:mm:ss.ffff",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "startup_time",
+            "hrn": "hrn:20000-0:DataItem:357b0d98330050c3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Operator Maintenance",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Operator-Maintenance",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "operator_maintenance",
+            "hrn": "hrn:20000-0:DataItem:c15ae846d92d6c9b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "Note: This does not assume that the calibration was completed successfully\nfrequency: Whenever user decides to perform one\njira: DASH-3966\nphase: 1",
+            "description": "",
+            "data_source": "Timestamp at the calibration start10002 = GET_CURRENT_STATUS",
+            "native_type": "YYYY-MM-DDTHH:MM:SS.FFFF",
+            "native_units": "ISO 8601",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DATETIME_STAMP",
+            "name": "Last-Dropmass-Test",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "YYYY-MM-DDThh:mm:ss.ffff",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "last_dropmass_test",
+            "hrn": "hrn:20000-0:DataItem:f02aaee6bf05803b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Timezone",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "timezone",
+            "hrn": "hrn:20000-0:DataItem:584bbd3c64674a8b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INTDSDFWEXCSDFWERFGSDFGDFGWERWERWERXSDFS",
+            "notes": "",
+            "description": "",
+            "data_source": "sdfsdfwefwefwef",
+            "native_type": "INT[]",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONDUCTIVITY",
+            "name": "System-State",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SIEMENS/METER",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "system_state",
+            "hrn": "hrn:20000-0:DataItem:28d40400c187cab8"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Conditions",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "conditions",
+        "hrn": "hrn:20000-0:Component:2881a42924b56818",
+        "required": true
+      },
+      "dataitems": [
+
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Hood-Fan",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "hood_fan",
+        "hrn": "hrn:20000-0:Component:4bfcc0cd5736851c"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "(External Temperature)\nfrequency: Power-up, Every three mins\njira: DASH-3733, 3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Hood-Fan-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "hood_fan.temperature",
+            "hrn": "hrn:20000-0:DataItem:e08744ca21d67bc9"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Plenum",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "plenum",
+        "hrn": "hrn:20000-0:Component:58ddfd63602dc172"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "(Internal Temperature)\nfrequency: Power-up, Every three mins\njira: DASH-3733, 3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Plenum-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "plenum.temperature",
+            "hrn": "hrn:20000-0:DataItem:8fed5a4a66fef918"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Left-Lamp",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "left_lamp",
+        "hrn": "hrn:20000-0:Component:0952369507f41db5"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "The total time (ms hours) the left lamp is operating in Dim mode. The data is retrieved and forwarded at Startup of Hydra Process and whenever the Part/Support material usage data or the total layer count is updated. Dash machines do not print in dim mode.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3725, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "DOUBLE",
+            "native_units": "HOURS",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Left-Lamp-Dim-Mode-Duration",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "left_lamp.dim_mode_duration",
+            "hrn": "hrn:20000-0:DataItem:acee46ea733a4bad"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "The total time (ms hours) the left lamp is operating in Bright mode.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3725, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "DOUBLE",
+            "native_units": "HOURS",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Left-Lamp-Bright-Mode-Duration",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "left_lamp.bright_mode_duration",
+            "hrn": "hrn:20000-0:DataItem:872f2d0d63438849"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Right-Lamp",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "right_lamp",
+        "hrn": "hrn:20000-0:Component:d68191af8bf0005a"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "The total time (ms hours) the right lamp is operating in Dim mode.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3725, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "DOUBLE",
+            "native_units": "HOURS",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Right-Lamp-Dim-Mode-Duration",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "right_lamp.dim_mode_duration",
+            "hrn": "hrn:20000-0:DataItem:9812cea0246d5873"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "The total time (ms hours) the right lamp is operating in Bright mode.\nfrequency: Power-up, change to material data, layer count, and at job completion.\njira: DASH-3725, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_USAGE",
+            "native_type": "DOUBLE",
+            "native_units": "HOURS",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Right-Lamp-Bright-Mode-Duration",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "right_lamp.bright_mode_duration",
+            "hrn": "hrn:20000-0:DataItem:7c6488e085e8bac1"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Engine-Calibration",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "engine_calibration",
+        "hrn": "hrn:20000-0:Component:dcd3eadfc04b41fb"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4015)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Band-1-Hd-Forward-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_1.hd_forward_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:a070bf4441b30c73"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4015)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Band-1-Uhd-Forward-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_1.uhd_forward_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:cfbb2813ad6e644c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4015)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Band-1-Xhd-Forward-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_1.xhd_forward_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:aff5488bfdc003cc"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4014)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-1-Hd-Reverse-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_1.hd_reverse_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:869eaa09bec36e56"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4014)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-1-Uhd-Reverse-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_1.uhd_reverse_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:add854a833f060ec"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4014)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-1-Xhd-Reverse-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_1.xhd_reverse_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:67982e5c719f7152"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4017)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-2-Hd-Forward-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_2.hd_forward_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:ccd9e2f469486fdb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4017)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-2-Uhd-Forward-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_2.uhd_forward_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:5c7cd81e6706352d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4017)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-2-Xhd-Forward-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_2.xhd_forward_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:e89cc4bab597a2d2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4016)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-2-Hd-Reverse-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_2.hd_reverse_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:d95f4438d7b6f0a2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4016)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-2-Uhd-Reverse-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_2.uhd_reverse_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:2cdeb433eac17f8d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4016)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-2-Xhd-Reverse-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_2.xhd_reverse_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:4c4a5ca9afea8e10"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4019)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-3-Hd-Forward-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_3.hd_forward_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:e5029fbee5ac3c03"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4019)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-3-Uhd-Forward-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_3.uhd_forward_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:13cb575fe2c6a0eb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4019)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-3-Xhd-Forward-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_3.xhd_forward_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:50c407349b214efa"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4018)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-3-Hd-Reverse-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_3.hd_reverse_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:d379d9757524fd12"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4018)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-3-Uhd-Reverse-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_3.uhd_reverse_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:936b3740c924b14a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Used for aligning bands in x-axis. The data is forwarded as a string\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4018)",
+            "native_type": "INTEGER",
+            "native_units": "Micrometers",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Band-3-Xhd-Reverse-Imaging-X-Tweak-1",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "band_3.xhd_reverse_imaging_x_tweak_1",
+            "hrn": "hrn:20000-0:DataItem:d94142d4016b72a4"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Hms-Motor",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "hms_motor",
+        "hrn": "hrn:20000-0:Component:7fa1aefe6b6f6a8b"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "HMS motor position where the wiper will touch the print head (used in a wipe routine)\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4038)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Wiper-Zero-Engage-Position",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "wiper_zero_engage_position",
+            "hrn": "hrn:20000-0:DataItem:5039cba8f32cc34d"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "X-Axis",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "x_axis",
+        "hrn": "hrn:20000-0:Component:f47050c7ccedf755"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "X axis position where the wipe routine will start and the HMS motor will move the wiper up and touch the head.\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4039)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "X-Axis-Wipe-Begin-Position",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "x_axis.wipe_begin_position",
+            "hrn": "hrn:20000-0:DataItem:48f624a8a89888fe"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Y-Axis",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "y_axis",
+        "hrn": "hrn:20000-0:Component:93411c32260788bc"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Y Axis motor position for Band 1 (includes offset)\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4027)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Y-Axis-Band-1-Position",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "y_axis.band_1_position",
+            "hrn": "hrn:20000-0:DataItem:908e96050daa9dea"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Offset from default Y Axis motor position for Band 1\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4030)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Y-Axis-Band-1-Calibrated-Offset",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "y_axis.band_1_calibrated_offset",
+            "hrn": "hrn:20000-0:DataItem:023e04530eec4a5b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Y Axis motor position for Band 2 (includes offset)\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4028)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Y-Axis-Band-2-Position",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "y_axis.band_2_position",
+            "hrn": "hrn:20000-0:DataItem:6f5b0191a2575c93"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Offset from default Y Axis motor position for Band 2\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4031)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Y-Axis-Band-2-Calibrated-Offset",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "y_axis.band_2_calibrated_offset",
+            "hrn": "hrn:20000-0:DataItem:5aa70a9ebfe794bb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Y Axis motor position for Band 3 (includes offset)\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4029)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Y-Axis-Band-3-Position",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "y_axis.band_3_position",
+            "hrn": "hrn:20000-0:DataItem:f338a3ee7e1a9efa"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Offset from default Y Axis motor position for Band 3\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4032)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Y-Axis-Band-3-Calibrated-Offset",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "y_axis.band_3_calibrated_offset",
+            "hrn": "hrn:20000-0:DataItem:bccba36dd8cc582a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4035)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Y-Axis-Home-Position-Offset",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "y_axis.home_position_offset",
+            "hrn": "hrn:20000-0:DataItem:99a7268d21193eb1"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Z-Axis",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "z_axis",
+        "hrn": "hrn:20000-0:Component:ab976c75cb9bb03a"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Z-Axis motor position where the build plate touches the planarizer (auto calibrated before every job)\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4020)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Z-Axis-Planarizer-Contact-Position",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "z_axis.planarizer_contact_position",
+            "hrn": "hrn:20000-0:DataItem:77d9b93e118accb7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Highest position the Z-Axis can physically go (stalled against the hard stop).\nfrequency: Power-up, calibration data is updated\njira: DASH-3718DASH-3803\nphase: 1",
+            "description": "",
+            "data_source": "10142 = GET_NVRAM_VALUE (4034)",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeters",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Z-Axis-Top-Hard-Stop-Position",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "z_axis.top_hard_stop_position",
+            "hrn": "hrn:20000-0:DataItem:465920479374464d"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Printhead",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "printhead",
+        "hrn": "hrn:20000-0:Component:04a04c5c0bde7042"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: Power-up, 1/Day\njira: DASH-3736\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Print-Head-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "print_head.serial_number",
+            "hrn": "hrn:20000-0:DataItem:4961ca3a2a32c2f2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "Data is reported when the PH NVRAM is updated during Drop Mass Calibrationadjusts each jet some number of integer norm clicks.\nfrequency: Drop Mass Calibration Test\njira: DASH-3735DASH-3824\nphase: 21",
+            "description": "",
+            "data_source": "20053 = PERFORM_PRINTHEAD_DROPMASS (operation 9)",
+            "native_type": "FLOAT",
+            "native_units": "click",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Print-Head-Norm-Adjust",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "print_head.norm_adjust",
+            "hrn": "hrn:20000-0:DataItem:df8fbf9030bde555"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Data is reported when the PH NVRAM is updated during Drop Mass Calibration\nfrequency: Drop Mass Calibration Test\njira: DASH-3735DASH-3824\nphase: 21",
+            "description": "",
+            "data_source": "20053 = PERFORM_PRINTHEAD_DROPMASS (operation 12)",
+            "native_type": "FLOAT",
+            "native_units": "Volts",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "VOLTAGE",
+            "name": "Print-Head-Base-Voltage",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "VOLT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "print_head.base_voltage",
+            "hrn": "hrn:20000-0:DataItem:8678b0f2d233f22e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Print-Head-Jetstack-1-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "print_head.jetstack_1_temperature",
+            "hrn": "hrn:20000-0:DataItem:4501b21e59525809"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Print-Head-Jetstack-2-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "print_head.jetstack_2_temperature",
+            "hrn": "hrn:20000-0:DataItem:6d22571552ffc012"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Print-Head-Reservoir-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "print_head.reservoir_temperature",
+            "hrn": "hrn:20000-0:DataItem:988ae2450b59a6e7"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Hms-Waste",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "hms_waste",
+        "hrn": "hrn:20000-0:Component:1ae4ce752987bb77"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Maps to thermistor.waste_trough\nfrequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Hms-Waste-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "hms_waste.temperature",
+            "hrn": "hrn:20000-0:DataItem:b4d04a24b471468e"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Planarizer-Waste",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "planarizer_waste",
+        "hrn": "hrn:20000-0:Component:01243b2ede668d6c"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Maps to thermistor.waste_collector\nfrequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Planarizer-Waste-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "planarizer_waste.temperature",
+            "hrn": "hrn:20000-0:DataItem:def16f210f9d46dd"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Planarizer-Belt",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "planarizer_belt",
+        "hrn": "hrn:20000-0:Component:5b1dd9c8fc7a5a4f"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "Installation Date\njira: DASH-3714\nphase: 2",
+            "description": "",
+            "data_source": "TBD",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Planarizer-Belt-Install-Date",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "planarizer_belt.install_date",
+            "hrn": "hrn:20000-0:DataItem:8e2d7b26a6d011cb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "Number of hours the Planarizer Belt has been installed\njira: DASH-3714\nphase: 2",
+            "description": "",
+            "data_source": "TBD",
+            "native_type": "FLOAT",
+            "native_units": "HOURS",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Planarizer-Belt-Hours-Used",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "planarizer_belt.hours_used",
+            "hrn": "hrn:20000-0:DataItem:bc4fda0eb65fa87a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "Number of times 6 mos passed since its installation\njira: DASH-3714\nphase: 2",
+            "description": "",
+            "data_source": "TBD",
+            "native_type": "INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Planarizer-Belt-Inspected",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "planarizer_belt.inspected",
+            "hrn": "hrn:20000-0:DataItem:0c32e7dcd482522b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Planarizer-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "planarizer.temperature",
+            "hrn": "hrn:20000-0:DataItem:127fff6141513aee"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "Number of times 12 mos passed since its installation.\njira: DASH-3714\nphase: 2",
+            "description": "",
+            "data_source": "TBD",
+            "native_type": "INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Planarizer-Belt-Replaced",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "planarizer_belt.replaced",
+            "hrn": "hrn:20000-0:DataItem:87b346861910f2de"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Waste-Bag",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "waste_bag",
+        "hrn": "hrn:20000-0:Component:57e45e5a31eeaddf"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "Number of times waste bag reached TBD grams of max capacity.\njira: DASH-3723\nphase: 2",
+            "description": "",
+            "data_source": "TBD",
+            "native_type": "INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Waste-Bag-Near-Full",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "waste_bag.near_full",
+            "hrn": "hrn:20000-0:DataItem:bc93210a8da7923f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "Number of times waste bag exceeded max capacity.\njira: DASH-3723\nphase: 2",
+            "description": "",
+            "data_source": "DevFault 93-500",
+            "native_type": "INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Waste-Bag-Full",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "waste_bag.full",
+            "hrn": "hrn:20000-0:DataItem:6df797baff86e71b"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Controller",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "controller",
+        "hrn": "hrn:20000-0:Component:8c7b0bbcde7f4d5e",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Control Core Version\nfrequency: Power-up, 1/Day\njira: DASH-3736, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Release-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.release_version",
+            "hrn": "hrn:20000-0:DataItem:cc99ed20ba9d50ea"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "phase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DATETIME_STAMP",
+            "name": "Controller-Release-Date",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.release_date",
+            "hrn": "hrn:20000-0:DataItem:2aae0971ef5eb287"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: Power-up, 1/Day\njira: DASH-3736, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Ui-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.ui_version",
+            "hrn": "hrn:20000-0:DataItem:1a7c90ac47180961"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: Power-up, 1/Day\njira: DASH-3736, 3783, 3789, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Digital-Motion-Controller-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.digital_motion_controller_version",
+            "hrn": "hrn:20000-0:DataItem:46912e5ed705f7cb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: Power-up, 1/Day\njira: DASH-3736, 3783, 3789, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Carriage-Driver-Board-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.carriage_driver_board_version",
+            "hrn": "hrn:20000-0:DataItem:d2e1e44f9ac39b2d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: Power-up, 1/Day\njira: DASH-3736, 3783, 3789, 3826\nphase: 1",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Print-Head-Digital-Analog-Control-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.print_head_digital_analog_control_version",
+            "hrn": "hrn:20000-0:DataItem:e3cb9746589857e7"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Stock-Support-1",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "stock_support_1",
+        "hrn": "hrn:20000-0:Component:60e1431ae48bd86d"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Support-1-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.name",
+            "hrn": "hrn:20000-0:DataItem:8d2ed04d8ac0d9b4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Stock-Support-1-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.temperature",
+            "hrn": "hrn:20000-0:DataItem:b7a51a140f1ad98c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Percent Remaining",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FILL_LEVEL",
+            "name": "Stock-Support-1-Level",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.level",
+            "hrn": "hrn:20000-0:DataItem:edfcf0ca13bbfe8c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Grams",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Support-1-Consumed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.consumed",
+            "hrn": "hrn:20000-0:DataItem:da14d909319c7405"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Kilograms",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Support-1-Capacity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.capacity",
+            "hrn": "hrn:20000-0:DataItem:a1801ef432c47417"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "ARRAY OF INTEGERS",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-1-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.status",
+            "hrn": "hrn:20000-0:DataItem:de30c890343fafc2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Material Type, e.g. Support, Rigid, Flexible, etc\nfrequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-1-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.type",
+            "hrn": "hrn:20000-0:DataItem:e28fd0aa9bf01719"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-1-Color-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.color_code",
+            "hrn": "hrn:20000-0:DataItem:55fb78ba98395697"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DATETIME_STAMP",
+            "name": "Stock-Support-1-Expiration",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.expiration",
+            "hrn": "hrn:20000-0:DataItem:d9c67e20068634ab"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "ASCII formatted batch code e.g. \"RL150228A\"",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-1-Batch-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.batch_code",
+            "hrn": "hrn:20000-0:DataItem:9758ee1addd5f138"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-1-Order-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.order_number",
+            "hrn": "hrn:20000-0:DataItem:05591683ba022469"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "jira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "UID",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Stock-Support-1-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.serial_number",
+            "hrn": "hrn:20000-0:DataItem:642c52e0ccdc1a57"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "FLOAT",
+            "native_units": "grams/cc",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DENSITY",
+            "name": "Stock-Support-1-Material-Density",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM/LITER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.material_density",
+            "hrn": "hrn:20000-0:DataItem:df4f124e736dfe49"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-1-Pump-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_1.pump_count",
+            "hrn": "hrn:20000-0:DataItem:9b245b08676205f5"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Stock-Support-2",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "stock_support_2",
+        "hrn": "hrn:20000-0:Component:1bba6888c4a40ac4"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Support-2-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.name",
+            "hrn": "hrn:20000-0:DataItem:4eeac3d3883fb7f1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Stock-Support-2-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.temperature",
+            "hrn": "hrn:20000-0:DataItem:09f4f5a58f90d520"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Percent Remaining",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FILL_LEVEL",
+            "name": "Stock-Support-2-Level",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.level",
+            "hrn": "hrn:20000-0:DataItem:a325e2cd590b9bfb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Grams",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Support-2-Consumed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.consumed",
+            "hrn": "hrn:20000-0:DataItem:6a768350ce63de6e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Kilograms",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Support-2-Capacity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.capacity",
+            "hrn": "hrn:20000-0:DataItem:eac7ba65c4708520"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "ARRAY OF INTEGERS",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-2-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.status",
+            "hrn": "hrn:20000-0:DataItem:c7076ad8488d1f2f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-2-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.type",
+            "hrn": "hrn:20000-0:DataItem:ec032867a8f5ff01"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-2-Color-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.color_code",
+            "hrn": "hrn:20000-0:DataItem:fd86d91180ff5d91"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DATETIME_STAMP",
+            "name": "Stock-Support-2-Expiration",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.expiration",
+            "hrn": "hrn:20000-0:DataItem:99474a0ecb873112"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "ASCII formatted batch code e.g. \"RL150228A\"",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-2-Batch-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.batch_code",
+            "hrn": "hrn:20000-0:DataItem:c9594cafda83b887"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-2-Order-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.order_number",
+            "hrn": "hrn:20000-0:DataItem:2dee7f3d507c7063"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "jira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "UID",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Stock-Support-2-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.serial_number",
+            "hrn": "hrn:20000-0:DataItem:84141661f1cbe88d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "FLOAT",
+            "native_units": "grams/cc",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DENSITY",
+            "name": "Stock-Support-2-Material-Density",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM/LITER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.material_density",
+            "hrn": "hrn:20000-0:DataItem:eacfaf17c5b3862d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Support-2-Pump-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.support_2.pump_count",
+            "hrn": "hrn:20000-0:DataItem:6f9cf29bd99ff9a0"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Stock-Part-1",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "stock_part_1",
+        "hrn": "hrn:20000-0:Component:315d1d53c33f6554"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Part-1-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.name",
+            "hrn": "hrn:20000-0:DataItem:2e3795f021f17879"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Stock-Part-1-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.temperature",
+            "hrn": "hrn:20000-0:DataItem:060e0b6c3e3a01a0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Percent Remaining",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FILL_LEVEL",
+            "name": "Stock-Part-1-Level",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.level",
+            "hrn": "hrn:20000-0:DataItem:75c22c6ca3cb3399"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Grams",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-1-Consumed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.consumed",
+            "hrn": "hrn:20000-0:DataItem:45acb77dbf3485e7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Kilograms",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-1-Capacity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.capacity",
+            "hrn": "hrn:20000-0:DataItem:04bdb7624c4d395f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "ARRAY OF INTEGERS",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-1-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.status",
+            "hrn": "hrn:20000-0:DataItem:dabe0c5a162a32b5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-1-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.type",
+            "hrn": "hrn:20000-0:DataItem:34bd5ddd10e58d0b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-1-Color-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.color_code",
+            "hrn": "hrn:20000-0:DataItem:21015e19683ff3ed"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DATETIME_STAMP",
+            "name": "Stock-Part-1-Expiration",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.expiration",
+            "hrn": "hrn:20000-0:DataItem:6e013c3022519662"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "ASCII formatted batch code e.g. \"RL150228A\"",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-1-Batch-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.batch_code",
+            "hrn": "hrn:20000-0:DataItem:5675e7f955fa21b7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-1-Order-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.order_number",
+            "hrn": "hrn:20000-0:DataItem:b9ad970528e8b03e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "UID",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Stock-Part-1-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.serial_number",
+            "hrn": "hrn:20000-0:DataItem:f229b0e3826d1f73"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "FLOAT",
+            "native_units": "grams/ml",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DENSITY",
+            "name": "Stock-Part-1-Material-Density",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM/LITER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.material_density",
+            "hrn": "hrn:20000-0:DataItem:0cb2d93dfdcb117e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-1-Pump-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_1.pump_count",
+            "hrn": "hrn:20000-0:DataItem:7ce6aa944d309871"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Stock-Part-2",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "stock_part_2",
+        "hrn": "hrn:20000-0:Component:f0f352a3e34fe57f"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Part-2-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.name",
+            "hrn": "hrn:20000-0:DataItem:3eced0c3f9d61aae"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Stock-Part-2-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.temperature",
+            "hrn": "hrn:20000-0:DataItem:77c1a2d5fcb3caa4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Percent Remaining",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FILL_LEVEL",
+            "name": "Stock-Part-2-Level",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.level",
+            "hrn": "hrn:20000-0:DataItem:c86e0d2828d97f6d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Grams",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-2-Consumed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.consumed",
+            "hrn": "hrn:20000-0:DataItem:61faf71902970dad"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Kilograms",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-2-Capacity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.capacity",
+            "hrn": "hrn:20000-0:DataItem:d8ceb6dde84dfcdf"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "ARRAY OF INTEGERS",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-2-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.status",
+            "hrn": "hrn:20000-0:DataItem:198c6dc5b1581364"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-2-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.type",
+            "hrn": "hrn:20000-0:DataItem:178bd39034d8817b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-2-Color-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.color_code",
+            "hrn": "hrn:20000-0:DataItem:d68354dd9d7f12e6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DATETIME_STAMP",
+            "name": "Stock-Part-2-Expiration",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.expiration",
+            "hrn": "hrn:20000-0:DataItem:829cd2b5376569b5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "ASCII formatted batch code e.g. \"RL150228A\"",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-2-Batch-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.batch_code",
+            "hrn": "hrn:20000-0:DataItem:0b136e59f3477026"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "frequency: When bottle is installed or material status change.\njira: DASH-3728\nphase: 1",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-2-Order-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.order_number",
+            "hrn": "hrn:20000-0:DataItem:8611d57fcb26bc4b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "UID",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Stock-Part-2-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.serial_number",
+            "hrn": "hrn:20000-0:DataItem:7e9f4aac266c1a94"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "FLOAT",
+            "native_units": "grams/cc",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DENSITY",
+            "name": "Stock-Part-2-Material-Density",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM/LITER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.material_density",
+            "hrn": "hrn:20000-0:DataItem:7d2dfe66e2ecac0f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-2-Pump-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.part_2.pump_count",
+            "hrn": "hrn:20000-0:DataItem:f8af9de471ea3913"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Build",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "build",
+        "hrn": "hrn:20000-0:Component:adfa4ac6848036ec",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Job Data Reporting\nfrequency: Power-up, Every three mins\njira: DASH-3721\nphase: 1",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "INT, TIME_T, DOUBLE, ETC",
+            "native_units": "Epoch, kg, etc",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AXIS_FEEDRATE",
+            "name": "Build-Job-Data",
+            "category": "SAMPLE",
+            "subtype": "COMMANDED",
+            "units": "MILLIMETER/SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.job_data",
+            "hrn": "hrn:20000-0:DataItem:965642d8b58d1971"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Convert enum code to string representation\nfrequency: Power-up, State Change\njira: DASH-3721\nphase: 1",
+            "description": "",
+            "data_source": "10040 = GET_CURRENT_BUILD_STATE",
+            "native_type": "INT",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DIRECTION",
+            "name": "Build-State",
+            "category": "EVENT",
+            "subtype": "LINEAR",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.state",
+            "hrn": "hrn:20000-0:DataItem:54fc196c2d6da587"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "frequency: Power-up, Every Three Mins\njira: DASH-3721\nphase: 1",
+            "description": "",
+            "data_source": "10041 = GET_CURRENT_BUILD_LAYER",
+            "native_type": "INT",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PART_COUNT",
+            "name": "Build-Current-Layer",
+            "category": "EVENT",
+            "subtype": "GOOD",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.current_layer",
+            "hrn": "hrn:20000-0:DataItem:1f645cd8d1489add"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "Between 0 and 1",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Progress",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.progress",
+            "hrn": "hrn:20000-0:DataItem:3424756c580e0393"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "frequency: Power-up, Every Three Mins\njira: DASH-3721\nphase: 1",
+            "description": "",
+            "data_source": "10041 = GET_CURRENT_BUILD_LAYER",
+            "native_type": "INT",
+            "native_units": "Seconds",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PATH_POSITION",
+            "name": "Build-Time-Remaining",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER_3D",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.time_remaining",
+            "hrn": "hrn:20000-0:DataItem:2b4d4d47d4aa77d9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "If the data is available. E.G. job in active, printing/pending queue will not have a end time.\nfrequency: When a job is added/removed to/from Completed and Active job Queue.\njira: DASH-3730, DASH-3731\nphase: 1",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PATH_FEEDRATE",
+            "name": "Build-End-Time",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER/SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.end_time",
+            "hrn": "hrn:20000-0:DataItem:4368af724700a7ce"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Current Print Engine state0 = INIT1 = PRE_WARMUP2 = MECH_INIT3 = WARMUP4 = READY5 = PRINT6 = LOW_POWER7 = SLEEP8 = RECOVERY9 = MECH_CMD10 = DIAGS11 = SHELL12 = PAUSE13 = SHUTDOWN\nfrequency: Power-up, Every Three Mins\nphase: 1",
+            "description": "",
+            "data_source": "20015 = GET_ENGINE_STATE",
+            "native_type": "INT",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Engine-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "DEGREE/SECOND^2",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.engine_state",
+            "hrn": "hrn:20000-0:DataItem:578b3d41283a2a1b"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Mdm",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "mdm",
+        "hrn": "hrn:20000-0:Component:1ebe9ddf08637ae4"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Part-Block-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.part_block.temperature",
+            "hrn": "hrn:20000-0:DataItem:22e540268baa1b26"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Support-Block-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.support_block.temperature",
+            "hrn": "hrn:20000-0:DataItem:4d3f46d36eb43924"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Part-Umbilical-Lower-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.part_umbilical_lower.temperature",
+            "hrn": "hrn:20000-0:DataItem:768a61dc0ac00f28"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Optional for Dash, dependent on DMC version - TBDAlways present for Karat/Karst \nfrequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Part-Umbilical-Upper-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.part_umbilical_upper.temperature",
+            "hrn": "hrn:20000-0:DataItem:2976eb4f5e669084"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Support-Umbilical-Lower-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.support_umbilical_lower.temperature",
+            "hrn": "hrn:20000-0:DataItem:2c5fd3d90cc39ac1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Support-Umbilical-Upper-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.support_umbilical_upper.temperature",
+            "hrn": "hrn:20000-0:DataItem:fbbf8c9ca99761f3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "frequency: Power-up, 1/Sec\njira: DASH-3727\nphase: 1",
+            "description": "",
+            "data_source": "10100 = GET_TEMPERATURE",
+            "native_type": "DOUBLE",
+            "native_units": "Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Inlet-Block-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.inlet_block.temperature",
+            "hrn": "hrn:20000-0:DataItem:959bb4277a0d39fb"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Mli",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "mli",
+        "hrn": "hrn:20000-0:Component:40f6ea25102bd074"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Number of cartridges installed in the printer with unexpected state changes, e.g. level, etc.\nfrequency: Power-up, 1/Day\njira: DASH-3734\nphase: 1",
+            "description": "",
+            "data_source": "10400 = GET_MUD_INFO",
+            "native_type": "INT",
+            "native_units": "Count",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Mli-Warning-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "mli.warning_count",
+            "hrn": "hrn:20000-0:DataItem:761640ec4fa50d03"
+          }
+        }
+      ]
+    }
+  ]
+}
