@@ -1535,7 +1535,7 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_INT",
             "notes": "(0 : close, 1:open, 2:undefined, 3:error)",
             "description": "",
             "data_source": "",
@@ -1545,9 +1545,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Pneumatic-Jaws-Sensor-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1561,7 +1561,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1571,11 +1571,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "EQUIPMENT_TIMER",
             "name": "Pneumatic-Powder-Filter-Total-Hours",
-            "category": "",
-            "subtype": "",
-            "units": "",
+            "category": "SAMPLE",
+            "subtype": "POWERD",
+            "units": "SECOND",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -1587,7 +1587,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "SAMPLE_NUM",
             "notes": "Only if Russell sieve",
             "description": "",
             "data_source": "",
@@ -1597,9 +1597,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "PRESSURE",
             "name": "Pneumatic-Powder-Filter-Differential-Pressure",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1613,7 +1613,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1623,9 +1623,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Pneumatic-Recycling-Blower-Active",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1639,7 +1639,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1649,9 +1649,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Pneumatic-Recycling-Blower-Actual",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1665,7 +1665,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1675,9 +1675,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Pneumatic-Recycling-Blower-Setpoint",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
