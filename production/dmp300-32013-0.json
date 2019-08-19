@@ -35,7 +35,7 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "",
+            "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
             "data_source": "Emitter",
             "native_type": "STRING",
@@ -61,7 +61,7 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "",
+            "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
             "data_source": "Emitter",
             "native_type": "STRING",
@@ -87,7 +87,7 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "",
+            "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
             "data_source": "Emitter",
             "native_type": "STRING",
@@ -113,7 +113,7 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "",
+            "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
             "data_source": "Emitter",
             "native_type": "STRING",
@@ -141,7 +141,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "",
+            "data_source": "Emitter",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -167,7 +167,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "",
+            "data_source": "Emitter",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -193,7 +193,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "",
+            "data_source": "Emitter",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -219,7 +219,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "",
+            "data_source": "Emitter",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -1393,7 +1393,7 @@
             "description": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "int",
             "sample_rate": 0,
             "native_name": ""
           },
