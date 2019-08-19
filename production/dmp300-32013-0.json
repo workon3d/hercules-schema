@@ -34,19 +34,19 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "EVENT",
             "notes": "",
             "description": "",
-            "data_source": "",
-            "native_type": "",
+            "data_source": "Emitter",
+            "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "DOOR_STATE",
             "name": "Optical-Door-Mtc-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -60,19 +60,19 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "EVENT",
             "notes": "",
             "description": "",
-            "data_source": "",
-            "native_type": "",
+            "data_source": "Emitter",
+            "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "DOOR_STATE",
             "name": "Process-Chamber-Door-Mtc-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -86,19 +86,19 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "EVENT",
             "notes": "",
             "description": "",
-            "data_source": "",
-            "native_type": "",
+            "data_source": "Emitter",
+            "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "DOOR_STATE",
             "name": "Sliding-Door-Mtc-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -112,19 +112,19 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "EVENT",
             "notes": "",
             "description": "",
-            "data_source": "",
+            "data_source": "Emitter",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "DOOR_STATE",
             "name": "Glove-Door-Mtc-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -141,7 +141,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "Emitter",
+            "data_source": "",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -167,7 +167,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "Emitter",
+            "data_source": "",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -193,7 +193,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "Emitter",
+            "data_source": "",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -219,7 +219,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "Emitter",
+            "data_source": "",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -1092,7 +1092,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1388,11 +1388,11 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_INT",
             "notes": "mtc_name: Build Platform Status",
             "description": "",
             "data_source": "",
-            "native_type": "STRING",
+            "native_type": "INT",
             "native_units": "",
             "sample_rate": 0,
             "native_name": ""
@@ -1444,7 +1444,7 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "FLOAT",
             "native_units": "float",
             "sample_rate": 0,
             "native_name": ""
@@ -1518,7 +1518,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1669,33 +1669,7 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Pneumatic-Recycling-Blower-Actual",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "pneumatic.recycling_blower.actual",
-            "hrn": "hrn:32013-0:DataItem:204633d903ba93db"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
+            "native_type": "INT",
             "native_units": "",
             "sample_rate": 0,
             "native_name": ""
