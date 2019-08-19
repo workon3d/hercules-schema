@@ -34,8 +34,8 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
+            "type": "EVENT",
+            "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -44,9 +44,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "DOOR_STATE",
             "name": "Optical-Door-Mtc-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -60,8 +60,8 @@
         },
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
+            "type": "EVENT",
+            "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -70,9 +70,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "DOOR_STATE",
             "name": "Process-Chamber-Door-Mtc-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -86,8 +86,8 @@
         },
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
+            "type": "EVENT",
+            "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -96,9 +96,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "DOOR_STATE",
             "name": "Sliding-Door-Mtc-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -112,8 +112,8 @@
         },
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
+            "type": "EVENT",
+            "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -122,9 +122,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "DOOR_STATE",
             "name": "Glove-Door-Mtc-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -141,7 +141,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "Emitter",
+            "data_source": "",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -167,7 +167,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "Emitter",
+            "data_source": "",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -193,7 +193,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "Emitter",
+            "data_source": "",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -219,7 +219,7 @@
             "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
-            "data_source": "Emitter",
+            "data_source": "",
             "native_type": "STRING",
             "native_units": "",
             "sample_rate": 0,
@@ -1362,12 +1362,12 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_INT",
             "notes": "mtc_name: Build Platform Status",
             "description": "",
             "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "int",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1643,7 +1643,7 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "INT",
             "native_units": "",
             "sample_rate": 0,
             "native_name": ""
@@ -1669,7 +1669,7 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "INT",
             "native_units": "",
             "sample_rate": 0,
             "native_name": ""
