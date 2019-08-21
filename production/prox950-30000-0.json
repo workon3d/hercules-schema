@@ -2352,7 +2352,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "From ProcessCurrentJobData service",
+            "notes": "layer based BorderType mode\n0: BORDER, 1: HATCH, 2: FILL, 3: BORDER_PRIME",
             "description": "",
             "data_source": "",
             "native_type": "INTEGER",
