@@ -2351,6 +2351,33 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "From ProcessCurrentJobData service",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Mode",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.mode",
+            "hrn": "hrn:30001-0:DataItem:223c52a012df79fe"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "SAMPLE_NUM",
             "notes": "What is this? Is this total estimated cured vol?\nCurrently this is material weight being used for a job. We can make it volume if that's how you want to represent the units for material quantity used in the build.\nMarco Chen: Yes, we would like it to be volume (ml).",
             "description": "",
