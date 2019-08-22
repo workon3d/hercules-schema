@@ -2352,8 +2352,8 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "layer based BorderType mode\n0: BORDER, 1: HATCH, 2: FILL, 3: BORDER_PRIME",
-            "description": "",
+            "notes": "Differently with v0.1, Firmware is supposed to use build.border_type",
+            "description": "layer based BorderType mode\n0: BORDER, 1: HATCH, 2: FILL, 3: BORDER_PRIME",
             "data_source": "",
             "native_type": "INTEGER",
             "native_units": "",
@@ -2374,33 +2374,6 @@
           "meta": {
             "alias": "build.border_type",
             "hrn": "hrn:30000-0:DataItem:dca84191e0d3b884"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "From ProcessCurrentJobData service",
-            "description": "",
-            "data_source": "",
-            "native_type": "INTEGER",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Mode",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "sample_interval": 0,
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.mode",
-            "hrn": "hrn:30000-0:DataItem:223c52a012df79fe"
           }
         },
         {
