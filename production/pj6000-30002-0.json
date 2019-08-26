@@ -1790,10 +1790,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "PROCESS",
+            "type": "PROCESS_TIMER",
             "name": "Build-Remaining-Duration",
             "category": "SAMPLE",
-            "subtype": "",
+            "subtype": "PROCESS",
             "units": "SECOND",
             "representation": "",
             "sample_rate": 0,
@@ -1816,10 +1816,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "PROCESS",
+            "type": "PROCESS_TIMER",
             "name": "Build-Estimate-Duration",
             "category": "SAMPLE",
-            "subtype": "",
+            "subtype": "PROCESS",
             "units": "SECOND",
             "representation": "",
             "sample_rate": 0,
