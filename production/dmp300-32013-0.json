@@ -3145,6 +3145,33 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "https://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/659424585/Maintenance+Schedule+Tasks",
+            "description": "",
+            "data_source": "",
+            "native_type": "JSON",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Maintenance-Schedule-Tasks",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "maintenance_schedule_tasks",
+            "hrn": "hrn:32013-0:DataItem:23eb3a378d9f4a9d"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "EVENT",
             "notes": "",
             "description": "",
