@@ -766,6 +766,60 @@
             "native_name": ""
           },
           "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Laser-2-Small-Profile-Width-Y",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_profile_width_y",
+            "hrn": "hrn:30000-0:DataItem:7fa4373102d19088"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Laser-2-Small-Profile-Width-X",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2..small_profile_width_x",
+            "hrn": "hrn:30000-0:DataItem:fe3680a1d7698e33"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
             "name": "Laser-2-Switching-Spots-Time",
             "category": "SAMPLE",
