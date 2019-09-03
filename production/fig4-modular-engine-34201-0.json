@@ -3020,8 +3020,8 @@
         },
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "What Units? Timestamp? Bool?",
+            "type": "SAMPLE_CLOCK_TIME",
+            "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -3030,11 +3030,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "CLOCK_TIME",
             "name": "Agitator-Motor-Start",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "YYYY-MM-DDThh:mm:ss.ffff",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -3046,8 +3046,8 @@
         },
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "What Units? Timestamp? Bool?",
+            "type": "SAMPLE_CLOCK_TIME",
+            "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -3056,11 +3056,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "CLOCK_TIME",
             "name": "Agitator-Motor-Stop",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "YYYY-MM-DDThh:mm:ss.ffff",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
