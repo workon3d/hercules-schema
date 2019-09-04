@@ -4343,11 +4343,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "name": "Adapter-Id",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "adapter_id",
             "hrn": "hrn:20000-0:DataItem:7d650dc1b411161c"
