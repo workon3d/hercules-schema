@@ -4334,6 +4334,27 @@
         },
         {
           "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Emitted by adapter",
+            "description": "",
+            "data_source": "Stack",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "name": "Adapter-Id",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "adapter_id",
+            "hrn": "hrn:20000-0:DataItem:7d650dc1b411161c"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "EVENT",
             "notes": "frequency: Power-up, 1/Day\njira: DASH-3736, 3826\nphase: 1",
             "description": "",
