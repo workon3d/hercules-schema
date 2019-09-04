@@ -264,16 +264,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "HUMIDITY",
-            "name": "Chamber-Humidity",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "???",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "chamber_humidity",
             "hrn": "hrn:34200-0:DataItem:442acb2b3a591119"
