@@ -251,11 +251,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Exhaust-Filter-Fan-Target-Rpm",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "PROGRAMMED",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -277,11 +277,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Exhaust-Filter-Fan-Actual-Rpm",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "ACTUAL",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -481,7 +481,7 @@
             "name": "Controller-Fs-Free",
             "category": "EVENT",
             "subtype": "",
-            "units": "BYTES",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -870,11 +870,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Aurora-Fan-Rpm",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "ACTUAL",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -1401,7 +1401,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "ELECTRIC_ENERGY",
+            "type": "ELECTRICAL_ENERGY",
             "name": "Build-Layer-Energy",
             "category": "SAMPLE",
             "subtype": "",
@@ -1883,7 +1883,7 @@
             "description": "",
             "data_source": "",
             "native_type": "SHORT",
-            "native_units": "minutes",
+            "native_units": "MINUTE",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1935,7 +1935,7 @@
             "description": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "grams",
+            "native_units": "GRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1944,7 +1944,7 @@
             "name": "Stock-Bve-Accumulator",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2091,7 +2091,7 @@
             "description": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "grams",
+            "native_units": "GRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2100,7 +2100,7 @@
             "name": "Stock-Material-Current-Weight",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "GRAM",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2117,7 +2117,7 @@
             "description": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "grams",
+            "native_units": "GRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2126,7 +2126,7 @@
             "name": "Stock-Material-Empty-Threshold-Weight",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "GRAM",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2143,7 +2143,7 @@
             "description": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "grams",
+            "native_units": "GRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2152,7 +2152,7 @@
             "name": "Stock-Material-Fill-Overage-Weight",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "GRAM",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2169,7 +2169,7 @@
             "description": "",
             "data_source": "",
             "native_type": "USHORT",
-            "native_units": "milliwatts",
+            "native_units": "MILLIWATT",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2178,7 +2178,7 @@
             "name": "Stock-Material-Clean-Job-Led-Watts",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "MILLIWATT",
+            "units": "WATT",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2195,7 +2195,7 @@
             "description": "",
             "data_source": "",
             "native_type": "SHORT",
-            "native_units": "milliseconds",
+            "native_units": "MILLISECOND",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2204,7 +2204,7 @@
             "name": "Stock-Material-Clean-Job-Exposure-Time",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "MILLISECOND",
+            "units": "SECOND",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2226,11 +2226,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Stock-Material-Pumpback-Rate",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "ACTUAL",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2252,11 +2252,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Stock-Material-Dose-Rate",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "ACTUAL",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2278,11 +2278,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Stock-Material-Fill-Rate",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "ACTUAL",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2304,11 +2304,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Stock-Material-Prime-Rate",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "ACTUAL",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2330,11 +2330,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Stock-Material-Stirring-Velocity",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "ACTUAL",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2377,7 +2377,7 @@
             "description": "",
             "data_source": "",
             "native_type": "SHORT",
-            "native_units": "days",
+            "native_units": "DAY",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2385,8 +2385,8 @@
             "type": "PROCESS_TIMER",
             "name": "Stock-Material-Max-Stirring-Interval",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
+            "subtype": "DELAY",
+            "units": "SECOND",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2557,7 +2557,7 @@
             "description": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "grams",
+            "native_units": "GRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2566,7 +2566,7 @@
             "name": "Stock-Vessel-Fill-Weight",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2583,17 +2583,7 @@
             "description": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "mililiters",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "VOLUME",
-            "name": "Stock-Vessel-Capacity",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLILITER",
-            "representation": "",
+            "native_units": "MILLILITER",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3259,7 +3249,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "GRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3415,7 +3405,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "GRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3809,7 +3799,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "ELECTRIC_ENERGY",
+            "type": "ELECTRICAL_ENERGY",
             "name": "Resin-Tray-Total-Energy",
             "category": "SAMPLE",
             "subtype": "",
@@ -4411,16 +4401,6 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "HUMIDITY",
-            "name": "Chamber-Humidity",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "???",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
