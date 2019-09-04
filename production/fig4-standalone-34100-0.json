@@ -390,7 +390,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "ELECTRIC_ENERGY",
+            "type": "ELECTRICAL_ENERGY",
             "name": "Resin-Tray-Total-Energy",
             "category": "SAMPLE",
             "subtype": "",
@@ -748,7 +748,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "GRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -930,7 +930,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "GRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -956,7 +956,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "GRAM",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1294,7 +1294,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "??",
+            "native_units": "COUNT",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1347,16 +1347,6 @@
             "data_source": "",
             "native_type": "",
             "native_units": "MILLILITER",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "VOLUME",
-            "name": "Stock-Volume",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "LITER",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1424,7 +1414,7 @@
             "description": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "",
+            "native_units": "MILLISECOND",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1433,7 +1423,7 @@
             "name": "Stock-Material-Exposure",
             "category": "EVENT",
             "subtype": "",
-            "units": "MILLISECOND",
+            "units": "SECOND",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2099,7 +2089,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "ELECTRIC_ENERGY",
+            "type": "ELECTRICAL_ENERGY",
             "name": "Build-Layer-Energy",
             "category": "SAMPLE",
             "subtype": "",
@@ -2603,11 +2593,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Aurora-Fan-Rpm",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "ACTUAL",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -2991,7 +2981,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "BYTES",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3000,7 +2990,7 @@
             "name": "Controller-Fs-Free",
             "category": "EVENT",
             "subtype": "",
-            "units": "BYTES",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -3195,11 +3185,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Exhaust-Filter-Fan-Actual-Rpm",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "ACTUAL",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -3221,11 +3211,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FREQUENCY",
+            "type": "ROTARY_VELOCITY",
             "name": "Exhaust-Filter-Fan-Target-Rpm",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "RPM",
+            "subtype": "PROGRAMMED",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -3926,16 +3916,6 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "HUMIDITY",
-            "name": "Chamber-Humidity",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "???",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
