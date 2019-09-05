@@ -6,10 +6,10 @@
       <xs:documentation> DEPRECATED: A power measuring component </xs:documentation>
     </xs:annotation>
     <xs:complexContent>
-      <xs:extension base="ComponentType"/>
+      <xs:extension base="CommonComponentType"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="Mli" type="MliType" substitutionGroup="Component">
+  <xs:element name="Mli" type="MliType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation> DEPRECATED: A power measuring component </xs:documentation>
     </xs:annotation>
