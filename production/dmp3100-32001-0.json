@@ -685,7 +685,7 @@
             "name": "Controller-Mem-Used",
             "category": "EVENT",
             "subtype": "",
-            "units": "BYTES",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -711,7 +711,7 @@
             "name": "Controller-Fs-Total",
             "category": "EVENT",
             "subtype": "",
-            "units": "BYTES",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -737,7 +737,7 @@
             "name": "Controller-Fs-Free",
             "category": "EVENT",
             "subtype": "",
-            "units": "BYTES",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -1085,7 +1085,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "MILLIBAR",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1094,7 +1094,7 @@
             "name": "Pneumatic-Chamber-Relative-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "MBAR",
+            "units": "PASCAL",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -1267,7 +1267,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "MILLIBAR",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1276,7 +1276,7 @@
             "name": "Pneumatic-Process-Filter-Differential-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "MBAR",
+            "units": "PASCAL",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -3315,7 +3315,7 @@
             "name": "Oxygen-Concentration",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "PPM",
+            "units": "PERCENT",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -3388,7 +3388,7 @@
             "description": "",
             "data_source": "Emitter",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "enum",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3397,7 +3397,7 @@
             "name": "Submodel",
             "category": "EVENT",
             "subtype": "",
-            "units": "integer (enum)",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -3416,7 +3416,7 @@
             "description": "",
             "data_source": "Emitter",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "enum",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3425,7 +3425,7 @@
             "name": "Model",
             "category": "EVENT",
             "subtype": "",
-            "units": "integer (enum)",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
