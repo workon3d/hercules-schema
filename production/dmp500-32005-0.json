@@ -1767,16 +1767,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "HUMIDITY",
-            "name": "Chamber-Humidity-2",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "chamber_humidity_2",
             "hrn": "hrn:32005-0:DataItem:fe8c3cdbd9893e2d"
@@ -1790,16 +1780,6 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "HUMIDITY",
-            "name": "Chamber-Humidity",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1946,7 +1926,7 @@
             "description": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "enum",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1955,7 +1935,7 @@
             "name": "Model",
             "category": "EVENT",
             "subtype": "",
-            "units": "integer (enum)",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -1974,7 +1954,7 @@
             "description": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "enum",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1983,7 +1963,7 @@
             "name": "Submodel",
             "category": "EVENT",
             "subtype": "",
-            "units": "integer (enum)",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
