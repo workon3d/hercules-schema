@@ -9,7 +9,7 @@
       <xs:extension base="mt:ComponentType"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="Mli" type="MliType" substitutionGroup="mt:CommonComponent">
+  <xs:element name="Mli" type="MliType" substitutionGroup="mt:Component">
     <xs:annotation>
       <xs:documentation> DEPRECATED: A power measuring component </xs:documentation>
     </xs:annotation>
