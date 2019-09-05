@@ -2297,16 +2297,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "HUMIDITY",
-            "name": "Chamber-Humidity-2",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "chamber_humidity_2",
             "hrn": "hrn:32000-0:DataItem:fe8c3cdbd9893e2d"
@@ -2320,16 +2310,6 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "HUMIDITY",
-            "name": "Chamber-Humidity",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
