@@ -536,17 +536,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "VOLUME",
-            "name": "Vat-Total-Volume",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLILITER",
-            "representation": "",
+            "native_units": "MILLILITER",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -562,17 +552,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "VOLUME",
-            "name": "Vat-Material-Volume",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLILITER",
-            "representation": "",
+            "native_units": "MILLILITER",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -754,6 +734,60 @@
         "hrn": "hrn:30001-0:Component:d2eb2aa51394e4b5"
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Laser-2-Small-Profile-Width-Y",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_profile_width_y",
+            "hrn": "hrn:30001-0:DataItem:7fa4373102d19088"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Laser-2-Small-Profile-Width-X",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_profile_width_x",
+            "hrn": "hrn:30001-0:DataItem:fe3680a1d7698e33"
+          }
+        },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
