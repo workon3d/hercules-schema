@@ -879,7 +879,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "HOUR",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -905,7 +905,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "MILLIBAR",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -914,7 +914,7 @@
             "name": "Pneumatic-Chamber-Relative-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "MBAR",
+            "units": "PASCAL",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -1087,7 +1087,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "MILLIBAR",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1096,7 +1096,7 @@
             "name": "Pneumatic-Process-Filter-Differential-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "MBAR",
+            "units": "PASCAL",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -1113,7 +1113,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "HOUR",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2732,6 +2732,33 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
+            "notes": "https://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/659424585/Maintenance+Schedule+Tasks",
+            "description": "",
+            "data_source": "",
+            "native_type": "JSON",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Maintenance-Schedule-Tasks",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "sample_interval": 0,
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "maintenance_schedule_tasks",
+            "hrn": "hrn:32012-0:DataItem:23eb3a378d9f4a9d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
             "notes": "Configuration Data\nhttps://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/686032598/Configuration+Data",
             "description": "",
             "data_source": "",
@@ -3033,7 +3060,7 @@
             "name": "Oxygen-Concentration",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "PPM",
+            "units": "PERCENT",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -3106,7 +3133,7 @@
             "description": "",
             "data_source": "Emitter",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "enum",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3115,7 +3142,7 @@
             "name": "Submodel",
             "category": "EVENT",
             "subtype": "",
-            "units": "integer (enum)",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -3134,7 +3161,7 @@
             "description": "",
             "data_source": "Emitter",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "enum",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3143,7 +3170,7 @@
             "name": "Model",
             "category": "EVENT",
             "subtype": "",
-            "units": "integer (enum)",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
