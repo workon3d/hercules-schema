@@ -536,17 +536,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "VOLUME",
-            "name": "Vat-Total-Volume",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLILITER",
-            "representation": "",
+            "native_units": "MILLILITER",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -562,17 +552,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "VOLUME",
-            "name": "Vat-Material-Volume",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLILITER",
-            "representation": "",
+            "native_units": "MILLILITER",
             "sample_rate": 0,
             "native_name": ""
           },
