@@ -1,0 +1,5124 @@
+{
+  "schema_version": "0.0.0",
+  "datamodel_version": "sla-future",
+  "firmware_version": "sla-future",
+  "mtconnect_version": "1.4",
+  "hydra_schema": {
+    "model": 31001,
+    "submodel": 0,
+    "native_name": "ProX 6100"
+  },
+  "mtconnect_schema": {
+    "sample_interval": 0,
+    "native_name": "ProX 6100"
+  },
+  "meta": {
+    "alias": "prox6100",
+    "hrn": "hrn:31001-0:Device:509d9871f3c9af1e"
+  },
+  "components": [
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Stock",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "stock",
+        "hrn": "hrn:31001-0:Component:67ee690dcad376f3"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "BOOL",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Mqc-Connection-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.mqc_connection_state",
+            "hrn": "hrn:31001-0:DataItem:2295333c7ca51ce9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Material-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.material_code",
+            "hrn": "hrn:31001-0:DataItem:2e4c33c7a14704c1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Mqc-Mode",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.mqc_mode",
+            "hrn": "hrn:31001-0:DataItem:f523c85849b9d463"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "FLOAT",
+            "native_units": "LITER",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.fresh_material_volume",
+            "hrn": "hrn:31001-0:DataItem:3ca3095b5cb13434"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "FLOAT",
+            "native_units": "LITER",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.blender_material_volume",
+            "hrn": "hrn:31001-0:DataItem:a11dabe4dd891fa6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Percent",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONCENTRATION",
+            "name": "Stock-Fresh-Blend-Percentage",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.fresh_blend_percentage",
+            "hrn": "hrn:31001-0:DataItem:108c6d8e7cbc6520"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "DISCRETE",
+            "description": "",
+            "data_source": "10062 = GET_MATERIAL_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Material-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.material_name",
+            "hrn": "hrn:31001-0:DataItem:962caeae335a6cf6"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Build",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "build",
+        "hrn": "hrn:31001-0:Component:0ef95c89a75c8ad4",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.status",
+            "hrn": "hrn:31001-0:DataItem:80b5007951a77cc5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "INTEGER",
+            "native_units": "seconds",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PROCESS_TIMER",
+            "name": "Build-Pending-Duration",
+            "category": "SAMPLE",
+            "subtype": "PROCESS",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.pending_duration",
+            "hrn": "hrn:31001-0:DataItem:6b8c3c5dfefadbee"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "INTEGER",
+            "native_units": "seconds",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PROCESS_TIMER",
+            "name": "Build-Elapsed-Duration",
+            "category": "SAMPLE",
+            "subtype": "PROCESS",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.elapsed_duration",
+            "hrn": "hrn:31001-0:DataItem:36eebbbb59c22b22"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeter",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Build-Total-Stage-Height",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.total_stage_height",
+            "hrn": "hrn:31001-0:DataItem:2f2b875cf2a9564b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeter",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Build-Current-Stage-Height",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.current_stage_height",
+            "hrn": "hrn:31001-0:DataItem:36e8688c8a0b83e0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeter",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Build-Current-Height",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.current_height",
+            "hrn": "hrn:31001-0:DataItem:31902de57a26286c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_CLOCK_TIME",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "INTEGER",
+            "native_units": "time_t",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TIME",
+            "name": "Build-Estimated-End-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.estimated_end_time",
+            "hrn": "hrn:31001-0:DataItem:de68d4f04e3ec799"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_CLOCK_TIME",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "INTEGER",
+            "native_units": "time_t",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TIME",
+            "name": "Build-Start-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.start_time",
+            "hrn": "hrn:31001-0:DataItem:833bdc191fc876ef"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "LONG",
+            "native_units": "Seconds",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Build-Stage-Durations",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.stage_durations",
+            "hrn": "hrn:31001-0:DataItem:16d05430fb556278"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "DOUBLE",
+            "native_units": "Millimeter",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Build-Total-Print-Height",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.total_print_height",
+            "hrn": "hrn:31001-0:DataItem:533b4997d344834c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_CLOCK_TIME",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "INTEGER",
+            "native_units": "time_t",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TIME",
+            "name": "Build-Last-Updated-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.last_updated_time",
+            "hrn": "hrn:31001-0:DataItem:d2797d9cf350817b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_CLOCK_TIME",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "INTEGER",
+            "native_units": "time_t",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TIME",
+            "name": "Build-Submit-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.submit_time",
+            "hrn": "hrn:31001-0:DataItem:de732d0a1d188abd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Seconds",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PROCESS_TIMER",
+            "name": "Build-Time-Estimate",
+            "category": "SAMPLE",
+            "subtype": "PROCESS",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.time_estimate",
+            "hrn": "hrn:31001-0:DataItem:9724a1624f14f566"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Style",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.style",
+            "hrn": "hrn:31001-0:DataItem:83a964b0409b4090"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "DISCRETE",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "STRING",
+            "native_units": "HD/UHD/HDS",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Mode",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.mode",
+            "hrn": "hrn:31001-0:DataItem:223c52a012df79fe"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Machine-Sender",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.machine_sender",
+            "hrn": "hrn:31001-0:DataItem:2a9965d83bbd750a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Owner",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.owner",
+            "hrn": "hrn:31001-0:DataItem:77cffff523c5ebc8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "DISCRETE",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.name",
+            "hrn": "hrn:31001-0:DataItem:e049d1d801cf8ac9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "DISCRETE",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PROGRAM",
+            "name": "Build-Filename",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.filename",
+            "hrn": "hrn:31001-0:DataItem:150ea00f1e760d92"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "DISCRETE",
+            "description": "",
+            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PART_ID",
+            "name": "Build-Id",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.id",
+            "hrn": "hrn:31001-0:DataItem:b9b64d3d7aa2a6a8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10001 = GET_CURRENT_STATE",
+            "native_type": "INTEGER",
+            "native_units": "Enum",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Current-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.current_state",
+            "hrn": "hrn:31001-0:DataItem:114336c08e789ef1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "DISCRETE",
+            "description": "",
+            "data_source": "Event-Emitter",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONTROLLER_MODE",
+            "name": "Build-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.state",
+            "hrn": "hrn:31001-0:DataItem:b9e56f808974be5a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "BSIdle = 0BSWarmup = 1BSBuild = 2BSCoolDown = 3",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Stage",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.stage",
+            "hrn": "hrn:31001-0:DataItem:1179883c1e643159"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "Emitter",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EXECUTION",
+            "name": "Build-Execution",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.execution",
+            "hrn": "hrn:31001-0:DataItem:943a9b59e7d6ee5f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Job Data Reporting",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Job-Data",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.job_data",
+            "hrn": "hrn:31001-0:DataItem:46ad87aad579653e",
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Controller",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "controller",
+        "hrn": "hrn:31001-0:Component:8acd17c349dd2f53",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Mac-Address",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.mac_address",
+            "hrn": "hrn:31001-0:DataItem:1f246e5ca38a38c5",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Ip-Address",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.ip_address",
+            "hrn": "hrn:31001-0:DataItem:981d9f5cbeebdf95",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING:JSON",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Current-Job",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.current_job",
+            "hrn": "hrn:31001-0:DataItem:e72debfdbe6530ba"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING:JSON",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Previous-Job",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.previous_job",
+            "hrn": "hrn:31001-0:DataItem:cebea9919265d13b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-3dconnect-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.3dconnect_version",
+            "hrn": "hrn:31001-0:DataItem:d0f95d2c18269bbb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Build-Prep-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.build_prep_version",
+            "hrn": "hrn:31001-0:DataItem:415401247168086c"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Laser",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "laser",
+        "hrn": "hrn:31001-0:Component:a1e842e87de1f4d2"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=\"\"",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-Z-Coil-Temperature-Delta-Max",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.z_coil.temperature_delta_max",
+            "hrn": "hrn:31001-0:DataItem:423160e75b3d03e7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=\"\"",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-Y-Mirror-Temperature-Delta-Max",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.y_mirror.temperature_delta_max",
+            "hrn": "hrn:31001-0:DataItem:1c709ec36fbdde15"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=\"\"",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-X-Mirror-Temperature-Delta-Max",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.x_mirror.temperature_delta_max",
+            "hrn": "hrn:31001-0:DataItem:217d709c5d230c51"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Ohm",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Laser-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:30fcd3d5f7cc435e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Laser-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:cbd0bb78de8131ef"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Amp",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Laser-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.current_mean",
+            "hrn": "hrn:31001-0:DataItem:6fcd3eb29fd7f181"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-Temperature-Setpoint-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.temperature_setpoint_mean",
+            "hrn": "hrn:31001-0:DataItem:ce21a369fbca35b7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-Temperature-Error-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.temperature_error_mean",
+            "hrn": "hrn:31001-0:DataItem:6edc0dd99d0d8e32"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=STANDARD_DEVIATION",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-Temperature-Error-Variance",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.temperature_error_variance",
+            "hrn": "hrn:31001-0:DataItem:9b8620093fc9c570"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Laser-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:9c7cf2643d8cff29"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "%",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Laser-Duty-Cycle-Mean",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.duty_cycle_mean",
+            "hrn": "hrn:31001-0:DataItem:148d59affe1dfa41"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "XML File",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Laser-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.serial_number",
+            "hrn": "hrn:31001-0:DataItem:f31836940382352b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-X-Mirror-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.x_mirror.temperature",
+            "hrn": "hrn:31001-0:DataItem:20e6592c5830922d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Laser-X-Mirror-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.x_mirror.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:94df70ee6bf6dc2a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-X-Mirror-Temperature-Max",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.x_mirror.temperature_max",
+            "hrn": "hrn:31001-0:DataItem:e1a1e87652412aa0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-Y-Mirror-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.y_mirror.temperature",
+            "hrn": "hrn:31001-0:DataItem:b052d018ef9509a0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Laser-Y-Mirror-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.y_mirror.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:200c8a764aa220b2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-Y-Mirror-Temperature-Max",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.y_mirror.temperature_max",
+            "hrn": "hrn:31001-0:DataItem:d8aeffed0f17bb6a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-Z-Coil-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.z_coil.temperature",
+            "hrn": "hrn:31001-0:DataItem:9bcd0bf09a48284a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Laser-Z-Coil-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.z_coil.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:936c30e3e80ad05b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-Z-Coil-Temperature-Max",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.z_coil.temperature_max",
+            "hrn": "hrn:31001-0:DataItem:8accfb69a3e79eca"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Laser-Z-Coil-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser.z_coil.serial_number",
+            "hrn": "hrn:31001-0:DataItem:2452bd26f4f365ea"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Part-Bed",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "part_bed",
+        "hrn": "hrn:31001-0:Component:4477102290e25396"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Ohm",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Part-Bed-Right-Inner-Heaters-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.right_inner_heaters.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:a1e99ff82b921d68"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Bed-Right-Inner-Heaters-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.right_inner_heaters.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:68a81540781c7031"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Amp",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Part-Bed-Right-Inner-Heaters-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.right_inner_heaters.current_mean",
+            "hrn": "hrn:31001-0:DataItem:6616c0564f83a1f5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Ohm",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Part-Bed-Left-Inner-Heaters-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.left_inner_heaters.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:36e58b434ef657e2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Bed-Left-Inner-Heaters-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.left_inner_heaters.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:15702df6efc4fcde"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Amp",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Part-Bed-Left-Inner-Heaters-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.left_inner_heaters.current_mean",
+            "hrn": "hrn:31001-0:DataItem:7966315262afd0f1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Ohm",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Part-Bed-Right-Front-Q4-Heater-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.right_front_q4_heater.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:ee082549cf01a49c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Bed-Right-Front-Q4-Heater-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.right_front_q4_heater.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:e53d9adf7bc52ea2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Amp",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Part-Bed-Right-Front-Q4-Heater-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.right_front_q4_heater.current_mean",
+            "hrn": "hrn:31001-0:DataItem:96f03b7f61a79966"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Ohm",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Part-Bed-Left-Front-Q3-Heater-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.left_front_q3_heater.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:dc56bead850b1ff6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Bed-Left-Front-Q3-Heater-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.left_front_q3_heater.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:e09dff90ad7cdd96"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Amp",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Part-Bed-Left-Front-Q3-Heater-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.left_front_q3_heater.current_mean",
+            "hrn": "hrn:31001-0:DataItem:193dcf01c425a792"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Ohm",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Part-Bed-Left-Back-Q2-Heater-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.left_back_q2_heater.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:e911e99e1943c317"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Bed-Left-Back-Q2-Heater-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.left_back_q2_heater.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:f6b046cb9381be47"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Amp",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Part-Bed-Left-Back-Q2-Heater-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.left_back_q2_heater.current_mean",
+            "hrn": "hrn:31001-0:DataItem:aa5100970ead9f34"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Ohm",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Part-Bed-Right-Back-Q1-Heater-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.right_back_q1_heater.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:8cef081005342332"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Bed-Right-Back-Q1-Heater-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.right_back_q1_heater.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:201ab93a77264a94"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Amp",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Part-Bed-Right-Back-Q1-Heater-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.right_back_q1_heater.current_mean",
+            "hrn": "hrn:31001-0:DataItem:c5f729bb5e283579"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "%",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Bed-Master-Duty-Cycle",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.master_duty_cycle",
+            "hrn": "hrn:31001-0:DataItem:7f4ef33a75145436"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Part-Bed-Temperature-Setpoint-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.temperature_setpoint_mean",
+            "hrn": "hrn:31001-0:DataItem:3f3d7a7a3860b6d6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Part-Bed-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.temperature",
+            "hrn": "hrn:31001-0:DataItem:7e8a12d1a06e552f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Bed-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:737c214a82569e58"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Part-Bed-Temperature-Error-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.temperature_error_mean",
+            "hrn": "hrn:31001-0:DataItem:27596bb797d78d55"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=STANDARD_DEVIATION",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Part-Bed-Temperature-Error-Variance",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.temperature_error_variance",
+            "hrn": "hrn:31001-0:DataItem:35a85accec350c5e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "%",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Bed-Duty-Cycle-Mean",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.duty_cycle_mean",
+            "hrn": "hrn:31001-0:DataItem:82bb1749204db299"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Black-Body",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "black_body",
+        "hrn": "hrn:31001-0:Component:bd5c23a4ed41b202"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Black-Body-Temperature-Setpoint-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "black_body.temperature_setpoint_mean",
+            "hrn": "hrn:31001-0:DataItem:74dbb5b4d466982c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Black-Body-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "black_body.temperature",
+            "hrn": "hrn:31001-0:DataItem:386dd36e9341a484"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Black-Body-Temperature-Error-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "black_body.temperature_error_mean",
+            "hrn": "hrn:31001-0:DataItem:bb5d3a24ea9ebc14"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=STANDARD_DEVIATION",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Black-Body-Temperature-Error-Variance",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "black_body.temperature_error_variance",
+            "hrn": "hrn:31001-0:DataItem:ae59b35fa6fe76e8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Black-Body-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "black_body.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:cf0c474fa465583a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "%",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Black-Body-Duty-Cycle-Mean",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "black_body.duty_cycle_mean",
+            "hrn": "hrn:31001-0:DataItem:01993abddae7ad93"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "LONG",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Black-Body-Measurement-Pos-Rising-Edge-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "black_body.measurement_pos_rising_edge_count",
+            "hrn": "hrn:31001-0:DataItem:af7148712fb89830"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "LONG",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Black-Body-Home-Pos-Rising-Edge-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "black_body.home_pos_rising_edge_count",
+            "hrn": "hrn:31001-0:DataItem:b24d14de3e145324"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Y",
+        "sample_interval": 0,
+        "tag": "Linear",
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "roller",
+        "hrn": "hrn:31001-0:Component:0bd21e6c7681f769"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Roller-Left-Proximity-Position",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "INCH",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "roller.left_proximity_position",
+            "hrn": "hrn:31001-0:DataItem:c6a1d0eb3bad2a4c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "LONG",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Roller-Left-Proximity-Sensor-Rising-Edge-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "roller.left_proximity_sensor.rising_edge_count",
+            "hrn": "hrn:31001-0:DataItem:aa42c2048e0995d4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Roller-Right-Proximity-Position",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "INCH",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "roller.right_proximity_position",
+            "hrn": "hrn:31001-0:DataItem:f8aa136dd11d60ea"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "LONG",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Roller-Right-Proximity-Sensor-Rising-Edge-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "roller.right_proximity_sensor.rising_edge_count",
+            "hrn": "hrn:31001-0:DataItem:b0eeea43aec0f6af"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "X",
+        "sample_interval": 0,
+        "tag": "Linear",
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "piston",
+        "hrn": "hrn:31001-0:Component:3558b57bc416c34a"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Ohm",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Piston-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "piston.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:fb35ce7fc0cba021"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Amp",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Piston-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "piston.current_mean",
+            "hrn": "hrn:31001-0:DataItem:aeaa4acf78db4be2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Piston-Temperature-Setpoint-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "piston.temperature_setpoint_mean",
+            "hrn": "hrn:31001-0:DataItem:af67ac3d3e536013"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Piston-Temperature-Error-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "piston.temperature_error_mean",
+            "hrn": "hrn:31001-0:DataItem:6064997462b16ddb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=STANDARD_DEVIATION",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Piston-Temperature-Error-Variance",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "piston.temperature_error_variance",
+            "hrn": "hrn:31001-0:DataItem:fc234eee20bf742a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Piston-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "piston.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:0f5c305e3110ffae"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "%",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Piston-Duty-Cycle-Mean",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "piston.duty_cycle_mean",
+            "hrn": "hrn:31001-0:DataItem:694caefffeddcf4b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Piston-Position",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLIMETER",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "piston.position",
+            "hrn": "hrn:31001-0:DataItem:8a1a579921cb2856"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Piston-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "piston.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:8075166b207f9ed9"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Part-Ir-Block",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "part_ir_block",
+        "hrn": "hrn:31001-0:Component:58419751392b5178"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Part-Ir-Block-Temperature-Setpoint-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_ir_block.temperature_setpoint_mean",
+            "hrn": "hrn:31001-0:DataItem:27056a373070cbda"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Ir-Block-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_ir_block.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:71836fa40d2989fe"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Part-Ir-Block-Realtime-Adjusted-Max-Change",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_ir_block.realtime_adjusted_max_change",
+            "hrn": "hrn:31001-0:DataItem:f08045224adda0f9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "LONG",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Ir-Block-Realtime-Adjusted-Change-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_ir_block.realtime_adjusted_change_count",
+            "hrn": "hrn:31001-0:DataItem:c30f1f2bac8ef85f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Part-Ir-Block-Temperature-Error-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_ir_block.temperature_error_mean",
+            "hrn": "hrn:31001-0:DataItem:9ec825539504b544"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=STANDARD_DEVIATION",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Part-Ir-Block-Temperature-Error-Variance",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_ir_block.temperature_error_variance",
+            "hrn": "hrn:31001-0:DataItem:9a96f965af8801bb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "%",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Part-Ir-Block-Duty-Cycle-Mean",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_ir_block.duty_cycle_mean",
+            "hrn": "hrn:31001-0:DataItem:2cab1d654217e372"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Ir-Sensor-Head",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "ir_sensor_head",
+        "hrn": "hrn:31001-0:Component:e73b479550022cd9"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Ir-Sensor-Head-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "ir_sensor_head.serial_number",
+            "hrn": "hrn:31001-0:DataItem:038825347af6a80b"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Cylinder",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "cylinder",
+        "hrn": "hrn:31001-0:Component:7518c23f19f7ef18"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Ohm",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Cylinder-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "cylinder.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:1daaa9283cb50bc1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Amp",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Cylinder-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "cylinder.current_mean",
+            "hrn": "hrn:31001-0:DataItem:3cd79c560c68cb25"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Cylinder-Temperature-Setpoint-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "cylinder.temperature_setpoint_mean",
+            "hrn": "hrn:31001-0:DataItem:9d10a2dd07230714"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Cylinder-Temperature-Error-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "cylinder.temperature_error_mean",
+            "hrn": "hrn:31001-0:DataItem:3de59f626836f96a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=STANDARD_DEVIATION",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Cylinder-Temperature-Error-Variance",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "cylinder.temperature_error_variance",
+            "hrn": "hrn:31001-0:DataItem:f0929584d1b5390c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Cylinder-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "cylinder.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:0f95679b91957482"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "%",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Cylinder-Duty-Cycle-Mean",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "cylinder.duty_cycle_mean",
+            "hrn": "hrn:31001-0:DataItem:1511482fda49cf76"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Cylinder-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "cylinder.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:791901bb876c3ece"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Scanner",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "scanner",
+        "hrn": "hrn:31001-0:Component:f971f89392a867a5"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Scanner-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "scanner.serial_number",
+            "hrn": "hrn:31001-0:DataItem:959ec7cc9c9bb5fc"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Enclosure",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "enclosure",
+        "hrn": "hrn:31001-0:Component:73ff32c1a979a35a"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=\"\"",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Electrical-Enclosure-Temperature-Delta-Max",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "electrical_enclosure.temperature_delta_max",
+            "hrn": "hrn:31001-0:DataItem:741f6fefacbd4f10"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Electrical-Enclosure-Temperature-Max",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "electrical_enclosure.temperature_max",
+            "hrn": "hrn:31001-0:DataItem:29fe5bc16aeec33c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Electrical-Enclosure-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "electrical_enclosure.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:e863e8d1ab5ad1e2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Electrical-Enclosure-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "electrical_enclosure.temperature",
+            "hrn": "hrn:31001-0:DataItem:2d0e8cfb7d647c27"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "LONG",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Prm-Up-Rising-Edge-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "prm_up.rising_edge_count",
+            "hrn": "hrn:31001-0:DataItem:42ff4ce09ffa3678"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "%",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONCENTRATION",
+            "name": "Oxygen-Level",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "oxygen_level",
+            "hrn": "hrn:31001-0:DataItem:587d79c1cba0df52"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Oxygen-Level-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "oxygen_level_reject_count",
+            "hrn": "hrn:31001-0:DataItem:f12b926aa9e6a578"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONCENTRATION",
+            "name": "Oxygen-Level-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "oxygen_level_mean",
+            "hrn": "hrn:31001-0:DataItem:968413c66a726a8d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=STANDARD_DEVIATION",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "%",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONCENTRATION",
+            "name": "Oxygen-Level-Variance",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "oxygen_level_variance",
+            "hrn": "hrn:31001-0:DataItem:cc35253b082de031"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Card-Rack-Asm-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "card_rack_asm.serial_number",
+            "hrn": "hrn:31001-0:DataItem:19502f58f48415bd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Mirror-Driver-Board-1-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "mirror_driver_board_1.serial_number",
+            "hrn": "hrn:31001-0:DataItem:2a408ca25e691826"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Mirror-Driver-Board-2-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "mirror_driver_board_2.serial_number",
+            "hrn": "hrn:31001-0:DataItem:5e44422d156c4da1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Motion-Control-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "motion_control.serial_number",
+            "hrn": "hrn:31001-0:DataItem:0bc3ac566b984ee8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Heater-Control-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "heater_control.serial_number",
+            "hrn": "hrn:31001-0:DataItem:b8fdf02181c4a91a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Sinter-Installer-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sinter_installer.version",
+            "hrn": "hrn:31001-0:DataItem:eda02dd05dc7b7c7"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Loader",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "loader",
+        "hrn": "hrn:31001-0:Component:94e8c0bf16af6229"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Loader-Mqc-Firmware-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "loader.mqc_firmware_version",
+            "hrn": "hrn:31001-0:DataItem:c9a0c2b11bb1c55d"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Feeder",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "feeder",
+        "hrn": "hrn:31001-0:Component:53b7de2011b88641"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Feeder-Right-Heater-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.right_heater.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:46f3650bb389e977"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Feeder-Right-Heater-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.right_heater.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:98ca286d3c46cd72"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Feeder-Right-Heater-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.right_heater.current_mean",
+            "hrn": "hrn:31001-0:DataItem:7f20f12ac32c0410"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "RESISTANCE",
+            "name": "Feeder-Left-Heater-Resistance-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "OHM",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.left_heater.resistance_mean",
+            "hrn": "hrn:31001-0:DataItem:ac0fecd3b46a00b0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Feeder-Left-Heater-Current-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.left_heater.current_reject_count",
+            "hrn": "hrn:31001-0:DataItem:78d39789bf7c2a46"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "AMPERAGE",
+            "name": "Feeder-Left-Heater-Current-Mean",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "AMPERE",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.left_heater.current_mean",
+            "hrn": "hrn:31001-0:DataItem:aa7daa7310fed10f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Left-Heater-Temperature-Setpoint-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.left_heater.temperature_setpoint_mean",
+            "hrn": "hrn:31001-0:DataItem:2bb14a15728858fc"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Left-Heater-Temperature-Error-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.left_heater.temperature_error_mean",
+            "hrn": "hrn:31001-0:DataItem:c8e0c114ddab8367"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=STANDARD_DEVIATION",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Left-Heater-Temperature-Error-Variance",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.left_heater.temperature_error_variance",
+            "hrn": "hrn:31001-0:DataItem:c6bd552d2d9cfbaa"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Feeder-Left-Heater-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.left_heater.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:19be43eaf07352e4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Feeder-Left-Heater-Duty-Cycle-Mean",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.left_heater.duty_cycle_mean",
+            "hrn": "hrn:31001-0:DataItem:d98190bef53dcd62"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Right-Heater-Temperature-Setpoint-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.right_heater.temperature_setpoint_mean",
+            "hrn": "hrn:31001-0:DataItem:d15e48a7eac42fc8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Right-Heater-Temperature-Error-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.right_heater.temperature_error_mean",
+            "hrn": "hrn:31001-0:DataItem:3eb954e539515d51"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=STANDARD_DEVIATION",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Right-Heater-Temperature-Error-Variance",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.right_heater.temperature_error_variance",
+            "hrn": "hrn:31001-0:DataItem:426f157342f58e55"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Feeder-Right-Heater-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.right_heater.temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:02e9b7d6878730fb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Feeder-Right-Heater-Duty-Cycle-Mean",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.right_heater.duty_cycle_mean",
+            "hrn": "hrn:31001-0:DataItem:9a45bfee3b68e384"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "LONG",
+            "native_units": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Feeder-Upper-Proximity-Sensor-Rising-Edge-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.upper_proximity_sensor.rising_edge_count",
+            "hrn": "hrn:31001-0:DataItem:cb62eaf1bd04d1e4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "LONG",
+            "native_units": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Feeder-Lower-Proximity-Sensor-Rising-Edge-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.lower_proximity_sensor.rising_edge_count",
+            "hrn": "hrn:31001-0:DataItem:c662a95c2704894c"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Pneumatic",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "pneumatic",
+        "hrn": "hrn:31001-0:Component:a1c888bcf12956a2"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PRESSURE",
+            "name": "Pneumatic-Overflow-Transport-Air-Pressure",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PASCAL",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.overflow_transport.air_pressure",
+            "hrn": "hrn:31001-0:DataItem:3e8d43f07c35a591"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PRESSURE",
+            "name": "Pneumatic-Overflow-Transport-Air-Pressure-Lower-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PASCAL",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.overflow_transport.air_pressure_lower_mean",
+            "hrn": "hrn:31001-0:DataItem:3280a11152694bc7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=AVERAGE",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PRESSURE",
+            "name": "Pneumatic-Overflow-Transport-Air-Pressure-Upper-Mean",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PASCAL",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.overflow_transport.air_pressure_upper_mean",
+            "hrn": "hrn:31001-0:DataItem:b1ee6134d93fb439"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "LONG",
+            "native_units": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Overflow-Proximity-Sensor-Rising-Edge-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.overflow_proximity_sensor.rising_edge_count",
+            "hrn": "hrn:31001-0:DataItem:94942ca0b18da709"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Conditions",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "conditions",
+        "hrn": "hrn:31001-0:Component:3cf6b8389629c611",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "N2_PRESSURE_SWITCH_ALARM",
+            "native_severity": "ALARM",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-N2-Pressure-Switch",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "",
+            "qualifier": "",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.n2_pressure_switch",
+            "hrn": "hrn:31001-0:DataItem:a2560fe02d09fff1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "{native_code: ALARM_PART_BED_HEATER_OVER_TEMP, native_severity: ALARM, level: FAULT, qualifier: HIGH_TEMP},\n{native_code: WARNING_PART_BED_OVER_TEMP, native_severity: WARNING, level: WARNING, qualifier: HIGH_TEMP},\n{native_code: WARNING_PART_BED_HTR_GOING_OFF, native_severity: WARNING, level: WARNING, qualifier: OFF},\n{native_code: ALARM_PART_BED_HTR_GOING_OFF, native_severity: ALARM, level: FAULT, qualifier: OFF}",
+            "description": "",
+            "native_code": "ANY",
+            "native_severity": "ANY",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Part-Bed-Heater-Temperature",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.part_bed_heater_temperature",
+            "hrn": "hrn:31001-0:DataItem:a1b6ce3ca46b4c7d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "ALARM_LASER_FAULT",
+            "native_severity": "ALARM",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Laser-Alarm",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "",
+            "qualifier": "",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.laser_alarm",
+            "hrn": "hrn:31001-0:DataItem:e9a2dc393605c992"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "WARNING_LASER_WINDOW_TEMP",
+            "native_severity": "WARNING",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Laser-Window-Temperature",
+            "category": "CONDITION",
+            "level": "WARNING",
+            "message": "",
+            "qualifier": "HIGH_TEMP",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.laser_window_temperature",
+            "hrn": "hrn:31001-0:DataItem:6997bf5b615ce956"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "WARNING_HFM_LOW_POWDER",
+            "native_severity": "WARNING",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Hfm-Powder",
+            "category": "CONDITION",
+            "level": "WARNING",
+            "message": "",
+            "qualifier": "LOW_POWDER",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.hfm_powder",
+            "hrn": "hrn:31001-0:DataItem:cad7e54bce6c91c9"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Device",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "device",
+        "hrn": "hrn:31001-0:Component:2824d342cddde423",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Reject count is the number that tells us how many times the data from the sensor was filtered/rejected",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Ambient-Temperature-Reject-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "ambient_temperature_reject_count",
+            "hrn": "hrn:31001-0:DataItem:82b7953207494a4c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Ambient-Temperature-Max",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "ambient_temperature_max",
+            "hrn": "hrn:31001-0:DataItem:7bf7e0c640e4bd52"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Ambient-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "ambient_temperature",
+            "hrn": "hrn:31001-0:DataItem:bfcbde6c0a19fb19"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Release-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "release_version",
+            "hrn": "hrn:31001-0:DataItem:2f98ccd9d2d0277f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "Shared Memory",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Printer-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_state",
+            "hrn": "hrn:31001-0:DataItem:b4669068a296d597",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Printer-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_name",
+            "hrn": "hrn:31001-0:DataItem:ae55a541594c3530"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Model-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "model_name",
+            "hrn": "hrn:31001-0:DataItem:70f07587e28d1cb8",
+            "device_state": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10003 = GET_PRINTER_INFO",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Model",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "model",
+            "hrn": "hrn:31001-0:DataItem:9a6c650472a3ba4d",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "10004 = GET_PRINTER_INFO",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Submodel",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "submodel",
+            "hrn": "hrn:31001-0:DataItem:8aecfacadb540b52",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
+            "description": "",
+            "data_source": "Emitter (REGISTER_DEVICE)",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Timezone",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "timezone",
+            "hrn": "hrn:31001-0:DataItem:f30b533afb3a3ff8",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "Emitter",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FUNCTIONAL_MODE",
+            "name": "Functional-Mode",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "functional_mode",
+            "hrn": "hrn:31001-0:DataItem:b167fa521d28577b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "serial_number",
+            "hrn": "hrn:31001-0:DataItem:27df2b90b58b1766",
+            "device_state": true,
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Changes-Done",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "changes_done",
+            "hrn": "hrn:31001-0:DataItem:7520eab01c1abd6a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Machine-Performance",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "machine_performance",
+            "hrn": "hrn:31001-0:DataItem:eb97617b0c04f023"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Customer-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "customer_name",
+            "hrn": "hrn:31001-0:DataItem:2741291924aff734"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Machine-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "machine_number",
+            "hrn": "hrn:31001-0:DataItem:563aaea059a3c8d7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "{ “value_list”: [{“eco-lco”: “…”, “title”: “…”}, …]}",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Eco-Lco",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "eco_lco",
+            "hrn": "hrn:31001-0:DataItem:c7b98c846258983a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "XML",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Service-Person-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "service_person_name",
+            "hrn": "hrn:31001-0:DataItem:4ef734263f9d3b8b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Emitted by adapter",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Adapter-Id",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "adapter_id",
+            "hrn": "hrn:31001-0:DataItem:c599101195a68310",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        }
+      ]
+    }
+  ]
+}
