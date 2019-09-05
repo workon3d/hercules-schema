@@ -1,0 +1,55 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns="urn:mtconnect.org:MTConnectDevices:1.4" targetNamespace="urn:mtconnect.org:MTConnectDevices:1.4" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+  <xs:include schemaLocation="http://schemas.mtconnect.org/schemas/MTConnectDevices_1.4.xsd"/>
+  <xs:complexType name="LaserComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Laser" type="LaserComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="LaserDoorComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LaserDoor" type="LaserDoorComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="VatComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Vat" type="VatComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="CartComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Cart" type="CartComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>
