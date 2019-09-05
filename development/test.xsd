@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns="urn:3dsystems.com:MTConnectDevices:1.4" xmlns:e="urn:3dsystems.com:MTConnectDevices:1.4" xmlns:mt="urn:mtconnect.org:MTConnectDevices:1.4" targetNamespace="urn:3dsystems.com:MTConnectDevices:1.4" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+  <xs:import namespace="urn:mtconnect.org:MTConnectDevices:1.4" schemaLocation="urn:mtconnect.org:MTConnectDevices:1.4 http://schemas.mtconnect.org/schemas/MTConnectDevices_1.4.xsd"/>
+
+  <xs:complexType name="MliType">
+    <xs:annotation>
+      <xs:documentation> DEPRECATED: A power measuring component </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="mt:ComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Mli" type="MliType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation> DEPRECATED: A power measuring component </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+</xs:schema>
