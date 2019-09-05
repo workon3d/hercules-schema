@@ -117,17 +117,7 @@
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "FLOAT",
-            "native_units": "Liter",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "VOLUME",
-            "name": "Stock-Fresh-Material-Volume",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "LITER",
-            "representation": "",
+            "native_units": "LITER",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -143,17 +133,7 @@
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "FLOAT",
-            "native_units": "Liter",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "VOLUME",
-            "name": "Stock-Blender-Material-Volume",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "LITER",
-            "representation": "",
+            "native_units": "LITER",
             "sample_rate": 0,
             "native_name": ""
           },
