@@ -1,0 +1,2445 @@
+{
+  "schema_version": "0.0.0",
+  "datamodel_version": "v0.1",
+  "firmware_version": "v0.1",
+  "mtconnect_version": "1.4",
+  "hydra_schema": {
+    "model": 30000,
+    "submodel": 0,
+    "native_name": "ProX 950"
+  },
+  "mtconnect_schema": {
+    "sample_interval": 0,
+    "native_name": "ProX 950"
+  },
+  "meta": {
+    "alias": "prox950",
+    "hrn": "hrn:30000-0:Device:84c8f560040ba5fa"
+  },
+  "components": [
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Device",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "device",
+        "hrn": "hrn:30000-0:Component:be2cd7201cb52fd1"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "From conman 10003",
+            "description": "",
+            "data_source": "hostname of printer",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Printer-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_name",
+            "hrn": "hrn:30000-0:DataItem:a74a375d61c4631e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Printer-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_state",
+            "hrn": "hrn:30000-0:DataItem:9d3158a943b0e187"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "From conman 10001",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "System-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "system_state",
+            "hrn": "hrn:30000-0:DataItem:992a318811b32c2a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Chamber-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_temperature",
+            "hrn": "hrn:30000-0:DataItem:71c1ef2e201b9c29"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "From conman 70001",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "serial_number",
+            "hrn": "hrn:30000-0:DataItem:86d76ebd6d089ba8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "From device_server on printer",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Sw-Version-3dconnect",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sw_version_3dconnect",
+            "hrn": "hrn:30000-0:DataItem:ae06da870557da26"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "test",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Adapter-Id",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "adapter_id",
+            "hrn": "hrn:30000-0:DataItem:e35a13f7b4a64fb3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Dsp-Model",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "dsp_model",
+            "hrn": "hrn:30000-0:DataItem:0826d9a8bf75cd58"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Bit-File-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "bit_file_version",
+            "hrn": "hrn:30000-0:DataItem:04d75f0df9ee19ef"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Build",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "build",
+        "hrn": "hrn:30000-0:Component:8f8664fb92916e34"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Should this be converted to 'CONTROLLER_MODE'?",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.state",
+            "hrn": "hrn:30000-0:DataItem:e91ffca07d491b7a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Job Data Reporting",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Job-Data",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.job_data",
+            "hrn": "hrn:30000-0:DataItem:8276cc6c7b810538"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "Set to 0 by conman-trans when job completes",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PART_COUNT",
+            "name": "Build-Current-Layer",
+            "category": "EVENT",
+            "subtype": "GOOD",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.current_layer",
+            "hrn": "hrn:30000-0:DataItem:c237984e57421aa1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "From conman 10047",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Build-Time-Remaining",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.time_remaining",
+            "hrn": "hrn:30000-0:DataItem:a5a8d0b04fa54491"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Build-Draw-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.draw_time",
+            "hrn": "hrn:30000-0:DataItem:22f675155910c475"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Build-Leveling-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.leveling_time",
+            "hrn": "hrn:30000-0:DataItem:d8834ca199eca76a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Build-Recoating-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.recoating_time",
+            "hrn": "hrn:30000-0:DataItem:e2a2abee340e34a0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Build-Sweep-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.sweep_time",
+            "hrn": "hrn:30000-0:DataItem:9d378c239a825a0d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Build-Elevator-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.elevator_time",
+            "hrn": "hrn:30000-0:DataItem:3993922da2a0138f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "CAD height of object",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Build-Z-Height",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.z_height",
+            "hrn": "hrn:30000-0:DataItem:2407c0a448b57601"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Is this linear or rotary velocity?What is this the \"speed\" of? (Speed the current layer is being drawn)",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "VELOCITY",
+            "name": "Build-Speed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLIMETER/SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.speed",
+            "hrn": "hrn:30000-0:DataItem:485e601f349efb2f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Component",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.component",
+            "hrn": "hrn:30000-0:DataItem:db2c913d00abdd7e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Build-Cure-Depth",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.cure_depth",
+            "hrn": "hrn:30000-0:DataItem:2af8878a8884955b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0: border1: hatch or support2: fill",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Block-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.block_type",
+            "hrn": "hrn:30000-0:DataItem:2d070935d53e95fe"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Fill-Space",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.fill_space",
+            "hrn": "hrn:30000-0:DataItem:516d36750ec37306"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "From conman-trans using 10041 for current layer and 10042 for total layers then calc %progress",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Progress",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "DISCRETE",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.progress",
+            "hrn": "hrn:30000-0:DataItem:aef7cb63f3f8c490"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "From conman 10042",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Total-Layers",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.total_layers",
+            "hrn": "hrn:30000-0:DataItem:e3ada3bbb24f3a14"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "What is this?Is this total estimated cured vol?Currently this is material weight being used for a job. We can make it volume if that's how you want to represent the units for material quantity used in the build.Marco Chen: Yes, we would like it to be volume (ml).",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Build-Material-Quantity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.material_quantity",
+            "hrn": "hrn:30000-0:DataItem:f8f66ee2b67206b3"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Laser-2",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "laser_2",
+        "hrn": "hrn:30000-0:Component:140a7ccd93fa6756"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Laser-2-Installed-Hours",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.installed_hours",
+            "hrn": "hrn:30000-0:DataItem:7ca8a21e8007013b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "When we install a laser printhead there are different amounts of hours on the laser depending on  manufacturing and testing process,. Warranty hours is essentially zeroing out the hour meter by documenting how many hours were on the laser when it was installed.",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Laser-2-Warranty-Hours",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.warranty_hours",
+            "hrn": "hrn:30000-0:DataItem:a0d19c4642e4998c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Laser-2-Current-Hours",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.current_hours",
+            "hrn": "hrn:30000-0:DataItem:83f755066df111b2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-2-Diode-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.diode_temperature",
+            "hrn": "hrn:30000-0:DataItem:d71d089def7648bd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-2-Doubler-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.doubler_temperature",
+            "hrn": "hrn:30000-0:DataItem:f8b4d4c6e6f303f6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-2-Tripler-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.tripler_temperature",
+            "hrn": "hrn:30000-0:DataItem:7b917795c416bbc2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "WATTAGE",
+            "name": "Laser-2-Fad-Power",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "WATT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.fad_power",
+            "hrn": "hrn:30000-0:DataItem:269f1e82251b72df"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "WATTAGE",
+            "name": "Laser-2-Power",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "WATT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.power",
+            "hrn": "hrn:30000-0:DataItem:cb8f2d34bd89929a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Laser-2-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.serial_number",
+            "hrn": "hrn:30000-0:DataItem:09de77a5f2e9e330"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "safety cover",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Laser-2-Door",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.door",
+            "hrn": "hrn:30000-0:DataItem:6593babb77df30fa"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "This is LS peak sum",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONCENTRATION",
+            "name": "Laser-2-Large-Pin-Ratio",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.large_pin_ratio",
+            "hrn": "hrn:30000-0:DataItem:64c97a4e200cfbca"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=\"MAXIMUM\"",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Laser-2-Large-Max-Adc",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.large_max_adc",
+            "hrn": "hrn:30000-0:DataItem:4d7477f01b96b797"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Laser-2-Large-Profile-Center-X",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.large_profile_center_x",
+            "hrn": "hrn:30000-0:DataItem:7230c1e3b692f601"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Laser-2-Large-Profile-Center-Y",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.large_profile_center_y",
+            "hrn": "hrn:30000-0:DataItem:bfa3ed659620f7ed"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Laser-2-Large-Max-Line-Sum-X",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.large_max_line_sum_x",
+            "hrn": "hrn:30000-0:DataItem:c39ff6eb11390a5a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Laser-2-Large-Max-Line-Sum-Y",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.large_max_line_sum_y",
+            "hrn": "hrn:30000-0:DataItem:e8c177cd447a4618"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Laser-2-Large-Profile-Width-X",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.large_profile_width_x",
+            "hrn": "hrn:30000-0:DataItem:58fb427cd280de57"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Laser-2-Large-Profile-Width-Y",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.large_profile_width_y",
+            "hrn": "hrn:30000-0:DataItem:df8bb86849e66b41"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Laser-2-Large-Profile-Drift-X",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.large_profile_drift_x",
+            "hrn": "hrn:30000-0:DataItem:eb8270ede3c7fb31"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Laser-2-Large-Profile-Drift-Y",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.large_profile_drift_y",
+            "hrn": "hrn:30000-0:DataItem:7663e19a302c5dbd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "This is SS peak sum",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONCENTRATION",
+            "name": "Laser-2-Small-Pin-Ratio",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_pin_ratio",
+            "hrn": "hrn:30000-0:DataItem:17c39894008d6457"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=\"MAXIMUM\"",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Laser-2-Small-Max-Adc",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_max_adc",
+            "hrn": "hrn:30000-0:DataItem:b1067958021a4799"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Laser-2-Small-Profile-Center-X",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_profile_center_x",
+            "hrn": "hrn:30000-0:DataItem:3fb273fe478f4437"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Laser-2-Small-Profile-Center-Y",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_profile_center_y",
+            "hrn": "hrn:30000-0:DataItem:4a7745bdd5fe1c2f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Laser-2-Small-Max-Line-Sum-X",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_max_line_sum_x",
+            "hrn": "hrn:30000-0:DataItem:5e68c428ddaae9b6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Laser-2-Small-Max-Line-Sum-Y",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_max_line_sum_y",
+            "hrn": "hrn:30000-0:DataItem:fbf6e3ace2cf9087"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Laser-2-Small-Profile-Drift-X",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_profile_drift_x",
+            "hrn": "hrn:30000-0:DataItem:9d6aed6aa6f82b11"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Laser-2-Small-Profile-Drift-Y",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.small_profile_drift_y",
+            "hrn": "hrn:30000-0:DataItem:099302cd8c0f5df6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Laser-2-Switching-Spots-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_2.switching_spots_time",
+            "hrn": "hrn:30000-0:DataItem:c90fde9240748735"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Vat",
+        "sample_interval": 0,
+        "tag": "Vat",
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "vat",
+        "hrn": "hrn:30000-0:Component:b94f92023a7a828e"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "sensor count",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FILL_LEVEL",
+            "name": "Vat-Level-Fine",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "vat.level_fine",
+            "hrn": "hrn:30000-0:DataItem:142e921856051cca"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Vat-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "vat.temperature",
+            "hrn": "hrn:30000-0:DataItem:f77815c0131eb1fc"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Vat-Safety-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "vat.safety_temperature",
+            "hrn": "hrn:30000-0:DataItem:1b837e82d22fe398"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Vat-Material",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "vat.material",
+            "hrn": "hrn:30000-0:DataItem:a456e073d0826159"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_CLOCK_TIME",
+            "notes": "W3C ISO 8601Is this the first time an MDM is used? Can the initial timestamp when the serial number is received suffice? We can make it that and annotate it here. It's mostly important that we have a record of how it's sourced.control software will not send this date. Date will be calculated on hydra side based on the first time a vat serial number is seen.",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TIME",
+            "name": "Vat-Install-Date",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "YYYY-MM-DDThh:mm:ss.ffff",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "vat.install_date",
+            "hrn": "hrn:30000-0:DataItem:dbf115faa97d646a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Vat-Tag-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "vat.tag_serial_number",
+            "hrn": "hrn:30000-0:DataItem:d77013f585f56c30"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "amount of material used from SLA cartridges since last reset(current build vol)",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "VOLUME",
+            "name": "Vat-Material-Volume",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLILITER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "vat.material_volume",
+            "hrn": "hrn:30000-0:DataItem:762988a85ccdd4e7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "total material consumed in this MDM unit since the beginning of time",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "VOLUME",
+            "name": "Vat-Total-Volume",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLILITER",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "vat.total_volume",
+            "hrn": "hrn:30000-0:DataItem:c52284c7f6d3e155"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "current cartridge count",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Vat-Cartridge-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "vat.cartridge_count",
+            "hrn": "hrn:30000-0:DataItem:2291366f285730ce"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "total cartridges consumed in this MDM unit since the beginning of time",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Vat-Cartridge-Total",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "vat.cartridge_total",
+            "hrn": "hrn:30000-0:DataItem:5fc651704bb3073c"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Stock",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "stock",
+        "hrn": "hrn:30000-0:Component:b7ae0612ae880885"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "ADC counts from reservoir load cell",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FILL_LEVEL",
+            "name": "Stock-Level",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.level",
+            "hrn": "hrn:30000-0:DataItem:b637ad13f2ece4fe"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "bias set when load cells are calibrated",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Reservoir-Bias",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "COUNT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.reservoir_bias",
+            "hrn": "hrn:30000-0:DataItem:c7a1b7eb702b0585"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Sensor status on/off (bottom)",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Comp-Sensor-1-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.comp_sensor_1.status",
+            "hrn": "hrn:30000-0:DataItem:738679cb5f8e38df"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Sensor status on/off (top)",
+            "description": "",
+            "data_source": "",
+            "native_type": "INTEGER",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Comp-Sensor-2-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.comp_sensor_2.status",
+            "hrn": "hrn:30000-0:DataItem:1ded232ffa96c527"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "batch number of current cartridge",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Cartridge-1-Batch-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.cartridge_1.batch_number",
+            "hrn": "hrn:30000-0:DataItem:778df2bbfed43ff0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "cartridge weight",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Cartridge-1-Weight",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "Kilogram",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.cartridge_1.weight",
+            "hrn": "hrn:30000-0:DataItem:91a20ab02c9188d1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "bottle weight for bottle slot #2 on prox 950",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Cartridge-2-Weight",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "Kilogram",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.cartridge_2.weight",
+            "hrn": "hrn:30000-0:DataItem:2b8648b9e1ed5d54"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "cartridge material name",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Cartridge-1-Material",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.cartridge_1.material",
+            "hrn": "hrn:30000-0:DataItem:3be1e84dc37ee48b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "material name for bottle slot#2 on prox 950",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Cartridge-2-Material",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.cartridge_2.material",
+            "hrn": "hrn:30000-0:DataItem:390cafed70333629"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Controller",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "controller",
+        "hrn": "hrn:30000-0:Component:4177cb5434a1981a"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "From conman 10003",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Mac-Address",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "mac format",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.mac_address",
+            "hrn": "hrn:30000-0:DataItem:924a04114dfbf7c9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "From device_server in printer",
+            "description": "test",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Ip-Address",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.ip_address",
+            "hrn": "hrn:30000-0:DataItem:f767d51b576a301a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Revision",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.revision",
+            "hrn": "hrn:30000-0:DataItem:53ecf770148a169c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Mem-Used",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.mem_used",
+            "hrn": "hrn:30000-0:DataItem:dcfd37444b9f2079"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Cart",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "cart",
+        "hrn": "hrn:30000-0:Component:fa4387b15ad993d7"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "value: start, stopThis should be absorbed by MDM related subtype - either Vat or StockD) We can move to vat if wanted. I thought this was a removable cart component distinct from the MDM on the 6k/7ks. Is this different for this machine?T)  Vat is only removable on 6Ks but even on a 6k it makes no sense to think of them as separate entities. The \"vat\" on a 6k is a metal bucket. Everything is in the MDM (or Cart, as you call it).",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Cart-Pump-Action",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "cart.pump_action",
+            "hrn": "hrn:30000-0:DataItem:9a24034bd3336b6b"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Conditions",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "conditions",
+        "hrn": "hrn:30000-0:Component:cb5261b7e5433ef2"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "ALARM_PART_BED_HEATER_OVER_TEMP / WARNING_PART_BED_OVER_TEMP / WARNING_PART_BED_HTR_GOING_OFF / ALARM_PART_BED_HTR_GOING_OFF",
+            "native_severity": "ALARM/WARNING/WARNING/ALARM",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Part-Bed-Heater-Temperature",
+            "category": "CONDITION",
+            "level": "FAULT/WARNING/WARNING/FAULT",
+            "message": "",
+            "qualifier": "HIGH_TEMP / HIGH_TEMP / OFF / OFF",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.part_bed_heater_temperature",
+            "hrn": "hrn:30000-0:DataItem:2f3bb61b721f7068"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "DSP Error",
+            "native_severity": "CRITICAL",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "HARDWARE",
+            "name": "Fault-Dsp-Error",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "Fatal DSP Error",
+            "qualifier": "",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.dsp_error",
+            "hrn": "hrn:30000-0:DataItem:7c39c7d0faa4c3e8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "test",
+            "native_severity": "",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "HARDWARE",
+            "name": "Fault-Dsp-Not-Found",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "",
+            "qualifier": "",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.dsp_not_found",
+            "hrn": "hrn:30000-0:DataItem:7165bea1e571b071"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "Fine Level Timeout",
+            "native_severity": "CRITICAL",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Fine-Level-Timeout",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "Fine Level Timeout",
+            "qualifier": "",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.fine_level_timeout",
+            "hrn": "hrn:30000-0:DataItem:28df012a1c80235e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "There are eight possible versions of the message. Each message prefixed by either Large or Small, then each message refers to the 1/2, 1, 2, or 4 mil sensor",
+            "description": "",
+            "native_code": "Profiling Error",
+            "native_severity": "CRITICAL",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Pinhole-Shift",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "[Large,Small]: failed to find [1/2, 1, 2, 4] mil sensor",
+            "qualifier": "",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.pinhole_shift",
+            "hrn": "hrn:30000-0:DataItem:9b931e0383634579"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "ALARM_PART_BED_HEATER_OVER_TEMP / WARNING_PART_BED_OVER_TEMP / WARNING_PART_BED_HTR_GOING_OFF / ALARM_PART_BED_HTR_GOING_OFF",
+            "native_severity": "ALARM/WARNING/WARNING/ALARM",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Part-Bed-Heater-Temperature",
+            "category": "CONDITION",
+            "level": "FAULT/WARNING/WARNING/FAULT",
+            "message": "",
+            "qualifier": "HIGH_TEMP / HIGH_TEMP / OFF / OFF",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.part_bed_heater_temperature",
+            "hrn": "hrn:30000-0:DataItem:2f3bb61b721f7068"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "Chamber Door Open",
+            "native_severity": "CRITICAL",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Enable",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "User must enable machine",
+            "qualifier": "",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.enable",
+            "hrn": "hrn:30000-0:DataItem:ec1c651e6e456c37"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "",
+            "native_severity": "",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Mirror-Indexing",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "Mirror indexing failed",
+            "qualifier": "",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.mirror_indexing",
+            "hrn": "hrn:30000-0:DataItem:029c277a84e103c6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "Not available until Fall '18 6k code release",
+            "description": "",
+            "native_code": "Laser Power Too Low To Start",
+            "native_severity": "CRITICAL",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Laser-Power-Low",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "Unable to set max power to read fad after 5 attempts.",
+            "qualifier": "",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "fault.laser_power_low",
+            "hrn": "hrn:30000-0:DataItem:2dd5e610a8ebbbf1"
+          }
+        }
+      ]
+    }
+  ]
+}
