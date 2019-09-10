@@ -2909,7 +2909,7 @@
             "name": "Wiper-Zero-Engage-Position",
             "category": "SAMPLE",
             "subtype": "ACTUAL",
-            "units": "",
+            "units": "MILLIMETER",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -3648,98 +3648,6 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS",
-            "description": "",
-            "native_code": "",
-            "native_severity": "NORMAL/WARNING",
-            "sample_rate": 0
-          },
-          "mtconnect_schema": {
-            "type": "HARDWARE",
-            "name": "Operator-Maintenance-Printhead-Filter-Build-Overdue",
-            "category": "CONDITION",
-            "level": "ANY",
-            "message": "",
-            "qualifier": "",
-            "sample_rate": 0
-          },
-          "meta": {
-            "alias": "operator_maintenance.printhead_filter_build.overdue",
-            "hrn": "hrn:20000-0:DataItem:46f32e983d69aebe"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "CONDITION",
-            "notes": "20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS",
-            "description": "",
-            "native_code": "",
-            "native_severity": "NORMAL/WARNING",
-            "sample_rate": 0
-          },
-          "mtconnect_schema": {
-            "type": "HARDWARE",
-            "name": "Operator-Maintenance-Printhead-Filter-Support-Overdue",
-            "category": "CONDITION",
-            "level": "ANY",
-            "message": "",
-            "qualifier": "",
-            "sample_rate": 0
-          },
-          "meta": {
-            "alias": "operator_maintenance.printhead_filter_support.overdue",
-            "hrn": "hrn:20000-0:DataItem:77704f5b4a3c764c"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "CONDITION",
-            "notes": "20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS",
-            "description": "",
-            "native_code": "",
-            "native_severity": "NORMAL/WARNING",
-            "sample_rate": 0
-          },
-          "mtconnect_schema": {
-            "type": "HARDWARE",
-            "name": "Operator-Maintenance-Build-Manifold-Filter-Overdue",
-            "category": "CONDITION",
-            "level": "ANY",
-            "message": "",
-            "qualifier": "",
-            "sample_rate": 0
-          },
-          "meta": {
-            "alias": "operator_maintenance.build_manifold_filter.overdue",
-            "hrn": "hrn:20000-0:DataItem:d6339458ee4346de"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "CONDITION",
-            "notes": "20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS",
-            "description": "",
-            "native_code": "",
-            "native_severity": "NORMAL/WARNING",
-            "sample_rate": 0
-          },
-          "mtconnect_schema": {
-            "type": "HARDWARE",
-            "name": "Operator-Maintenance-Support-Manifold-Filter-Overdue",
-            "category": "CONDITION",
-            "level": "ANY",
-            "message": "",
-            "qualifier": "",
-            "sample_rate": 0
-          },
-          "meta": {
-            "alias": "operator_maintenance.support_manifold_filter.overdue",
-            "hrn": "hrn:20000-0:DataItem:02ae5cd89acdfb81"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "CONDITION",
             "notes": "frequency: Power-up and once every day\njira: DASH-3965\n20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS",
             "description": "",
             "native_severity": "NORMAL/WARNING",
@@ -3881,114 +3789,6 @@
         "required": true
       },
       "dataitems": [
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "notes": "Only when Wax configuration",
-            "description": "",
-            "data_source": "20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS",
-            "native_type": "DOUBLE",
-            "native_units": "Percent",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Operator-Maintenance-Printhead-Filter-Build-Percent",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "PERCENT",
-            "sample_interval": 0,
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "operator_maintenance.printhead_filter_build.percent",
-            "hrn": "hrn:20000-0:DataItem:7ca1de447536a7ef"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "notes": "Only when Wax configuration",
-            "description": "",
-            "data_source": "20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS",
-            "native_type": "DOUBLE",
-            "native_units": "Percent",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Operator-Maintenance-Printhead-Filter-Support-Percent",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "PERCENT",
-            "sample_interval": 0,
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "operator_maintenance.printhead_filter_support.percent",
-            "hrn": "hrn:20000-0:DataItem:c18028f6fd44a105"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "notes": "Only when Wax configuration",
-            "description": "",
-            "data_source": "20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS",
-            "native_type": "DOUBLE",
-            "native_units": "Percent",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Operator-Maintenance-Build-Manifold-Filter-Percent",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "PERCENT",
-            "sample_interval": 0,
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "operator_maintenance.build_manifold_filter.percent",
-            "hrn": "hrn:20000-0:DataItem:583b7559c540c2bc"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "notes": "Only when Wax configuration",
-            "description": "",
-            "data_source": "20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS",
-            "native_type": "DOUBLE",
-            "native_units": "Percent",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Operator-Maintenance-Support-Manifold-Filter-Percent",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "PERCENT",
-            "sample_interval": 0,
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "operator_maintenance.support_manifold_filter.percent",
-            "hrn": "hrn:20000-0:DataItem:7f9536ad79dcfc44"
-          }
-        },
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
@@ -4475,7 +4275,7 @@
             "name": "Customer-Support-Material-Used",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -4501,7 +4301,7 @@
             "name": "Lifetime-Support-Material-Used",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -4527,7 +4327,7 @@
             "name": "Customer-Part-Material-Used",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -4553,7 +4353,7 @@
             "name": "Lifetime-Part-Material-Used",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
