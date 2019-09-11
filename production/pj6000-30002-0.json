@@ -153,84 +153,6 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_LONG",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "LONG",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Fs-Free",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "bytes",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.fs_free",
-            "hrn": "hrn:30002-0:DataItem:c0e46a8b5b160d19"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Mem-Used",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "PERCENT",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.mem_used",
-            "hrn": "hrn:30002-0:DataItem:022db488ad743c6d"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Cpu-Load",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "PERCENT",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.cpu_load",
-            "hrn": "hrn:30002-0:DataItem:9fa636d4a2492648"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
             "description": "",
@@ -442,7 +364,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "mac format",
             "description": "",
             "data_source": "From conman 10003",
             "native_type": "STRING",
@@ -455,7 +377,7 @@
             "name": "Controller-Mac-Address",
             "category": "EVENT",
             "subtype": "",
-            "units": "mac format",
+            "units": "MAC FORMAT",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -664,16 +586,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "COUNT",
-            "name": "Vat-Bottle-Count",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "COUNT",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "vat.bottle_count",
             "hrn": "hrn:30002-0:DataItem:abebffdb423192c0"
@@ -686,17 +598,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Vat-Material-Volume",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "mL",
-            "representation": "",
+            "native_units": "mL",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -717,11 +619,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "FILL_LEVEL",
             "name": "Vat-Level-Coarse",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "PERCENT",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -1033,16 +935,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Small-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser.small_max_line_sum_y",
             "hrn": "hrn:30002-0:DataItem:588c37cafd4029ca"
@@ -1056,16 +948,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Small-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1137,16 +1019,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Large-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser.large_max_line_sum_y",
             "hrn": "hrn:30002-0:DataItem:2c21c5eb65a7ba84"
@@ -1160,16 +1032,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Large-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1420,16 +1282,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Profile-Peak-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser.profile_peak_sum_y",
             "hrn": "hrn:30002-0:DataItem:f296c2f913d4516d"
@@ -1443,16 +1295,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Profile-Peak-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1472,16 +1314,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Sum-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser.sum_adc",
             "hrn": "hrn:30002-0:DataItem:8ab118bc3716a300"
@@ -1495,16 +1327,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Max-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3031,6 +2853,24 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "adapter_id",
+            "hrn": "hrn:30002-0:DataItem:c599101195a68310",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE_INT",
             "notes": "Emitted by Adapter",
             "description": "",
@@ -3055,32 +2895,6 @@
             "alias": "printer_state",
             "hrn": "hrn:30002-0:DataItem:b4669068a296d597",
             "required": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Adapter-Guid",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "adapter_guid",
-            "hrn": "hrn:30002-0:DataItem:ac0ecafdca0dea8f"
           }
         },
         {
