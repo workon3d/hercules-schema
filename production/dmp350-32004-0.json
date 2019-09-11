@@ -14,7 +14,8 @@
   },
   "meta": {
     "alias": "dmp350",
-    "hrn": "hrn:32004-0:Device:958c240c05b6e366"
+    "hrn": "hrn:32004-0:Device:958c240c05b6e366",
+    "origin": "32000-0"
   },
   "components": [
     {
@@ -29,7 +30,8 @@
       },
       "meta": {
         "alias": "stock",
-        "hrn": "hrn:32004-0:Component:67ee690dcad376f3"
+        "hrn": "hrn:32004-0:Component:67ee690dcad376f3",
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -55,7 +57,8 @@
           },
           "meta": {
             "alias": "stock.material_enum",
-            "hrn": "hrn:32004-0:DataItem:982a13170d142f7f"
+            "hrn": "hrn:32004-0:DataItem:982a13170d142f7f",
+            "origin": "32000-0"
           }
         },
         {
@@ -81,7 +84,8 @@
           },
           "meta": {
             "alias": "stock.material_name",
-            "hrn": "hrn:32004-0:DataItem:962caeae335a6cf6"
+            "hrn": "hrn:32004-0:DataItem:962caeae335a6cf6",
+            "origin": "32000-0"
           }
         }
       ]
@@ -99,7 +103,8 @@
       "meta": {
         "alias": "build",
         "hrn": "hrn:32004-0:Component:0ef95c89a75c8ad4",
-        "required": true
+        "required": true,
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -126,7 +131,8 @@
           "meta": {
             "alias": "build.job_data",
             "hrn": "hrn:32004-0:DataItem:46ad87aad579653e",
-            "required": true
+            "required": true,
+            "origin": "32000-0"
           }
         },
         {
@@ -152,7 +158,8 @@
           },
           "meta": {
             "alias": "build.remaining_layers",
-            "hrn": "hrn:32004-0:DataItem:0a646bed669a9483"
+            "hrn": "hrn:32004-0:DataItem:0a646bed669a9483",
+            "origin": "32000-0"
           }
         },
         {
@@ -179,7 +186,8 @@
           "meta": {
             "alias": "build.current_layer",
             "hrn": "hrn:32004-0:DataItem:42f6523ddedd66c9",
-            "required": true
+            "required": true,
+            "origin": "32000-0"
           }
         },
         {
@@ -194,7 +202,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "PROCESS",
+            "type": "ACCUMULATED_TIME",
             "name": "Build-Estimated-Time",
             "category": "SAMPLE",
             "subtype": "",
@@ -205,7 +213,8 @@
           },
           "meta": {
             "alias": "build.estimated_time",
-            "hrn": "hrn:32004-0:DataItem:c0b85703e8c47bfb"
+            "hrn": "hrn:32004-0:DataItem:c0b85703e8c47bfb",
+            "origin": "32000-0"
           }
         },
         {
@@ -232,7 +241,8 @@
           "meta": {
             "alias": "build.time_remaining",
             "hrn": "hrn:32004-0:DataItem:289c33e569078146",
-            "required": true
+            "required": true,
+            "origin": "32000-0"
           }
         },
         {
@@ -259,7 +269,8 @@
           "meta": {
             "alias": "build.progress",
             "hrn": "hrn:32004-0:DataItem:2c4a9c6b6f0005ef",
-            "required": true
+            "required": true,
+            "origin": "32000-0"
           }
         },
         {
@@ -285,7 +296,8 @@
           },
           "meta": {
             "alias": "build.machine_cycle_state",
-            "hrn": "hrn:32004-0:DataItem:d260df76a7af5daa"
+            "hrn": "hrn:32004-0:DataItem:d260df76a7af5daa",
+            "origin": "32000-0"
           }
         },
         {
@@ -311,7 +323,8 @@
           },
           "meta": {
             "alias": "build.state",
-            "hrn": "hrn:32004-0:DataItem:b9e56f808974be5a"
+            "hrn": "hrn:32004-0:DataItem:b9e56f808974be5a",
+            "origin": "32000-0"
           }
         }
       ]
@@ -329,7 +342,8 @@
       "meta": {
         "alias": "controller",
         "hrn": "hrn:32004-0:Component:8acd17c349dd2f53",
-        "required": true
+        "required": true,
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -357,7 +371,8 @@
             "alias": "controller.ip_address",
             "hrn": "hrn:32004-0:DataItem:981d9f5cbeebdf95",
             "device_state": true,
-            "emitted_by_adapter": true
+            "emitted_by_adapter": true,
+            "origin": "32000-0"
           }
         },
         {
@@ -383,7 +398,8 @@
           },
           "meta": {
             "alias": "controller.user_role",
-            "hrn": "hrn:32004-0:DataItem:2255c34bec29ecef"
+            "hrn": "hrn:32004-0:DataItem:2255c34bec29ecef",
+            "origin": "32000-0"
           }
         },
         {
@@ -409,7 +425,8 @@
           },
           "meta": {
             "alias": "controller.monitoring_running",
-            "hrn": "hrn:32004-0:DataItem:1ed7ca64269bc042"
+            "hrn": "hrn:32004-0:DataItem:1ed7ca64269bc042",
+            "origin": "32000-0"
           }
         },
         {
@@ -435,7 +452,8 @@
           },
           "meta": {
             "alias": "controller.master_version",
-            "hrn": "hrn:32004-0:DataItem:c9948de8a67f7b60"
+            "hrn": "hrn:32004-0:DataItem:c9948de8a67f7b60",
+            "origin": "32000-0"
           }
         },
         {
@@ -461,7 +479,8 @@
           },
           "meta": {
             "alias": "controller.master_running",
-            "hrn": "hrn:32004-0:DataItem:d2205838c9d18aaa"
+            "hrn": "hrn:32004-0:DataItem:d2205838c9d18aaa",
+            "origin": "32000-0"
           }
         },
         {
@@ -487,7 +506,8 @@
           },
           "meta": {
             "alias": "controller.installer_name",
-            "hrn": "hrn:32004-0:DataItem:e8a3373b262712fc"
+            "hrn": "hrn:32004-0:DataItem:e8a3373b262712fc",
+            "origin": "32000-0"
           }
         },
         {
@@ -513,7 +533,8 @@
           },
           "meta": {
             "alias": "controller.3dconnect_version",
-            "hrn": "hrn:32004-0:DataItem:d0f95d2c18269bbb"
+            "hrn": "hrn:32004-0:DataItem:d0f95d2c18269bbb",
+            "origin": "32000-0"
           }
         },
         {
@@ -539,7 +560,8 @@
           },
           "meta": {
             "alias": "controller.monitoring_version",
-            "hrn": "hrn:32004-0:DataItem:b8afce1cf543b6a3"
+            "hrn": "hrn:32004-0:DataItem:b8afce1cf543b6a3",
+            "origin": "32000-0"
           }
         },
         {
@@ -565,7 +587,8 @@
           },
           "meta": {
             "alias": "controller.deposition_version",
-            "hrn": "hrn:32004-0:DataItem:b343b8af73144792"
+            "hrn": "hrn:32004-0:DataItem:b343b8af73144792",
+            "origin": "32000-0"
           }
         },
         {
@@ -591,7 +614,8 @@
           },
           "meta": {
             "alias": "controller.deposition_running",
-            "hrn": "hrn:32004-0:DataItem:983db04dae43bd6f"
+            "hrn": "hrn:32004-0:DataItem:983db04dae43bd6f",
+            "origin": "32000-0"
           }
         },
         {
@@ -617,7 +641,8 @@
           },
           "meta": {
             "alias": "controller.control_version",
-            "hrn": "hrn:32004-0:DataItem:e3aaa28d49b7332c"
+            "hrn": "hrn:32004-0:DataItem:e3aaa28d49b7332c",
+            "origin": "32000-0"
           }
         },
         {
@@ -643,7 +668,8 @@
           },
           "meta": {
             "alias": "controller.control_running",
-            "hrn": "hrn:32004-0:DataItem:7ed268f8d67e037a"
+            "hrn": "hrn:32004-0:DataItem:7ed268f8d67e037a",
+            "origin": "32000-0"
           }
         },
         {
@@ -669,7 +695,8 @@
           },
           "meta": {
             "alias": "controller.machine_server_version",
-            "hrn": "hrn:32004-0:DataItem:d1ce50801381b7c0"
+            "hrn": "hrn:32004-0:DataItem:d1ce50801381b7c0",
+            "origin": "32000-0"
           }
         }
       ]
@@ -686,7 +713,8 @@
       },
       "meta": {
         "alias": "pneumatic",
-        "hrn": "hrn:32004-0:Component:a1c888bcf12956a2"
+        "hrn": "hrn:32004-0:Component:a1c888bcf12956a2",
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -712,7 +740,8 @@
           },
           "meta": {
             "alias": "pneumatic.compressed_air_pressure",
-            "hrn": "hrn:32004-0:DataItem:cfaf0b24ebc66c09"
+            "hrn": "hrn:32004-0:DataItem:cfaf0b24ebc66c09",
+            "origin": "32000-0"
           }
         },
         {
@@ -738,7 +767,8 @@
           },
           "meta": {
             "alias": "pneumatic.argon_pressure",
-            "hrn": "hrn:32004-0:DataItem:a37556b24eb158ad"
+            "hrn": "hrn:32004-0:DataItem:a37556b24eb158ad",
+            "origin": "32000-0"
           }
         }
       ]
@@ -756,7 +786,8 @@
       },
       "meta": {
         "alias": "right_feed",
-        "hrn": "hrn:32004-0:Component:9b9dee2b3cb9f220"
+        "hrn": "hrn:32004-0:Component:9b9dee2b3cb9f220",
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -782,7 +813,8 @@
           },
           "meta": {
             "alias": "axes.right_feed.status",
-            "hrn": "hrn:32004-0:DataItem:daaab8704f597893"
+            "hrn": "hrn:32004-0:DataItem:daaab8704f597893",
+            "origin": "32000-0"
           }
         }
       ]
@@ -800,7 +832,8 @@
       },
       "meta": {
         "alias": "left_feed",
-        "hrn": "hrn:32004-0:Component:365e7b076bd9d147"
+        "hrn": "hrn:32004-0:Component:365e7b076bd9d147",
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -826,7 +859,8 @@
           },
           "meta": {
             "alias": "axes.left_feed.status",
-            "hrn": "hrn:32004-0:DataItem:0997bb64ad5859b1"
+            "hrn": "hrn:32004-0:DataItem:0997bb64ad5859b1",
+            "origin": "32000-0"
           }
         }
       ]
@@ -844,7 +878,8 @@
       },
       "meta": {
         "alias": "coater",
-        "hrn": "hrn:32004-0:Component:1b0606363ae4e209"
+        "hrn": "hrn:32004-0:Component:1b0606363ae4e209",
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -870,7 +905,8 @@
           },
           "meta": {
             "alias": "axes.coater.alarm_clear_signal",
-            "hrn": "hrn:32004-0:DataItem:7cd92891388c1992"
+            "hrn": "hrn:32004-0:DataItem:7cd92891388c1992",
+            "origin": "32000-0"
           }
         },
         {
@@ -896,7 +932,8 @@
           },
           "meta": {
             "alias": "axes.coater.status",
-            "hrn": "hrn:32004-0:DataItem:e1973ad2300e92bc"
+            "hrn": "hrn:32004-0:DataItem:e1973ad2300e92bc",
+            "origin": "32000-0"
           }
         },
         {
@@ -922,7 +959,8 @@
           },
           "meta": {
             "alias": "axes.coater.direction",
-            "hrn": "hrn:32004-0:DataItem:366915555652028a"
+            "hrn": "hrn:32004-0:DataItem:366915555652028a",
+            "origin": "32000-0"
           }
         }
       ]
@@ -940,7 +978,8 @@
       },
       "meta": {
         "alias": "build_platform",
-        "hrn": "hrn:32004-0:Component:a59afe5a76753be0"
+        "hrn": "hrn:32004-0:Component:a59afe5a76753be0",
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -966,7 +1005,8 @@
           },
           "meta": {
             "alias": "axes.build_platform.status",
-            "hrn": "hrn:32004-0:DataItem:33f2f162f27c4ea5"
+            "hrn": "hrn:32004-0:DataItem:33f2f162f27c4ea5",
+            "origin": "32000-0"
           }
         }
       ]
@@ -983,7 +1023,8 @@
       },
       "meta": {
         "alias": "laser1",
-        "hrn": "hrn:32004-0:Component:9bdac05f5a91cd77"
+        "hrn": "hrn:32004-0:Component:9bdac05f5a91cd77",
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -1009,7 +1050,8 @@
           },
           "meta": {
             "alias": "laser_1.serial_number",
-            "hrn": "hrn:32004-0:DataItem:23fd2558b5017566"
+            "hrn": "hrn:32004-0:DataItem:23fd2558b5017566",
+            "origin": "32000-0"
           }
         },
         {
@@ -1035,7 +1077,8 @@
           },
           "meta": {
             "alias": "laser_1.temperature",
-            "hrn": "hrn:32004-0:DataItem:9a9b74d7e2411361"
+            "hrn": "hrn:32004-0:DataItem:9a9b74d7e2411361",
+            "origin": "32000-0"
           }
         }
       ]
@@ -1052,7 +1095,8 @@
       },
       "meta": {
         "alias": "scanner1",
-        "hrn": "hrn:32004-0:Component:d2aa3f415e5ba783"
+        "hrn": "hrn:32004-0:Component:d2aa3f415e5ba783",
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -1078,7 +1122,8 @@
           },
           "meta": {
             "alias": "scanner_1.serial_number",
-            "hrn": "hrn:32004-0:DataItem:fc50e3ae2d81eb30"
+            "hrn": "hrn:32004-0:DataItem:fc50e3ae2d81eb30",
+            "origin": "32000-0"
           }
         }
       ]
@@ -1095,7 +1140,8 @@
       },
       "meta": {
         "alias": "door",
-        "hrn": "hrn:32004-0:Component:3e0a61ef8bee7d6c"
+        "hrn": "hrn:32004-0:Component:3e0a61ef8bee7d6c",
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -1121,7 +1167,8 @@
           },
           "meta": {
             "alias": "process_door.state",
-            "hrn": "hrn:32004-0:DataItem:ac816bb9daa6498d"
+            "hrn": "hrn:32004-0:DataItem:ac816bb9daa6498d",
+            "origin": "32000-0"
           }
         }
       ]
@@ -1138,7 +1185,8 @@
       "meta": {
         "alias": "conditions",
         "hrn": "hrn:32004-0:Component:3cf6b8389629c611",
-        "required": true
+        "required": true,
+        "origin": "32000-0"
       },
       "dataitems": [
 
@@ -1157,7 +1205,8 @@
       "meta": {
         "alias": "device",
         "hrn": "hrn:32004-0:Component:2824d342cddde423",
-        "required": true
+        "required": true,
+        "origin": "32000-0"
       },
       "dataitems": [
         {
@@ -1183,7 +1232,8 @@
           },
           "meta": {
             "alias": "maintenance_schedule_tasks",
-            "hrn": "hrn:32004-0:DataItem:23eb3a378d9f4a9d"
+            "hrn": "hrn:32004-0:DataItem:23eb3a378d9f4a9d",
+            "origin": "32000-0"
           }
         },
         {
@@ -1209,7 +1259,8 @@
           },
           "meta": {
             "alias": "job_counter",
-            "hrn": "hrn:32004-0:DataItem:5636563cf7ccafbd"
+            "hrn": "hrn:32004-0:DataItem:5636563cf7ccafbd",
+            "origin": "32000-0"
           }
         },
         {
@@ -1235,7 +1286,8 @@
           },
           "meta": {
             "alias": "chamber_temperature_2",
-            "hrn": "hrn:32004-0:DataItem:b720bcf3e1df6751"
+            "hrn": "hrn:32004-0:DataItem:b720bcf3e1df6751",
+            "origin": "32000-0"
           }
         },
         {
@@ -1261,7 +1313,8 @@
           },
           "meta": {
             "alias": "chamber_temperature",
-            "hrn": "hrn:32004-0:DataItem:fe7182a2c800d3a9"
+            "hrn": "hrn:32004-0:DataItem:fe7182a2c800d3a9",
+            "origin": "32000-0"
           }
         },
         {
@@ -1277,7 +1330,8 @@
           },
           "meta": {
             "alias": "chamber_humidity_2",
-            "hrn": "hrn:32004-0:DataItem:fe8c3cdbd9893e2d"
+            "hrn": "hrn:32004-0:DataItem:fe8c3cdbd9893e2d",
+            "origin": "32000-0"
           }
         },
         {
@@ -1293,7 +1347,8 @@
           },
           "meta": {
             "alias": "chamber_humidity",
-            "hrn": "hrn:32004-0:DataItem:442acb2b3a591119"
+            "hrn": "hrn:32004-0:DataItem:442acb2b3a591119",
+            "origin": "32000-0"
           }
         },
         {
@@ -1321,7 +1376,8 @@
             "alias": "adapter_id",
             "hrn": "hrn:32004-0:DataItem:c599101195a68310",
             "device_state": true,
-            "emitted_by_adapter": true
+            "emitted_by_adapter": true,
+            "origin": "32000-0"
           }
         },
         {
@@ -1347,7 +1403,8 @@
           },
           "meta": {
             "alias": "lifetime_melting_hours",
-            "hrn": "hrn:32004-0:DataItem:80240c15fae2ca2d"
+            "hrn": "hrn:32004-0:DataItem:80240c15fae2ca2d",
+            "origin": "32000-0"
           }
         },
         {
@@ -1373,7 +1430,8 @@
           },
           "meta": {
             "alias": "lifetime_deposition_hours",
-            "hrn": "hrn:32004-0:DataItem:2f9401fa9cb24cb5"
+            "hrn": "hrn:32004-0:DataItem:2f9401fa9cb24cb5",
+            "origin": "32000-0"
           }
         },
         {
@@ -1399,7 +1457,8 @@
           },
           "meta": {
             "alias": "lifetime_build_hours",
-            "hrn": "hrn:32004-0:DataItem:f5c70158a3700bd0"
+            "hrn": "hrn:32004-0:DataItem:f5c70158a3700bd0",
+            "origin": "32000-0"
           }
         },
         {
@@ -1425,7 +1484,8 @@
           },
           "meta": {
             "alias": "lifetime_on_hours",
-            "hrn": "hrn:32004-0:DataItem:da8ef98aef0719f4"
+            "hrn": "hrn:32004-0:DataItem:da8ef98aef0719f4",
+            "origin": "32000-0"
           }
         },
         {
@@ -1451,7 +1511,8 @@
           },
           "meta": {
             "alias": "oxygen_sensor_ppm.value",
-            "hrn": "hrn:32004-0:DataItem:82491cb805ee492d"
+            "hrn": "hrn:32004-0:DataItem:82491cb805ee492d",
+            "origin": "32000-0"
           }
         },
         {
@@ -1470,14 +1531,15 @@
             "name": "Build-Plate-Temperature",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "CELCIUS",
+            "units": "CELSIUS",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "meta": {
             "alias": "build_plate.temperature",
-            "hrn": "hrn:32004-0:DataItem:978eda03885e80ab"
+            "hrn": "hrn:32004-0:DataItem:978eda03885e80ab",
+            "origin": "32000-0"
           }
         },
         {
@@ -1503,7 +1565,8 @@
           },
           "meta": {
             "alias": "oxygen_concentration",
-            "hrn": "hrn:32004-0:DataItem:389e3d5345802bb0"
+            "hrn": "hrn:32004-0:DataItem:389e3d5345802bb0",
+            "origin": "32000-0"
           }
         },
         {
@@ -1531,7 +1594,8 @@
             "alias": "serial_number",
             "hrn": "hrn:32004-0:DataItem:27df2b90b58b1766",
             "device_state": true,
-            "required": true
+            "required": true,
+            "origin": "32000-0"
           }
         },
         {
@@ -1559,7 +1623,8 @@
             "alias": "timezone",
             "hrn": "hrn:32004-0:DataItem:f30b533afb3a3ff8",
             "device_state": true,
-            "emitted_by_adapter": true
+            "emitted_by_adapter": true,
+            "origin": "32000-0"
           }
         },
         {
@@ -1587,7 +1652,8 @@
             "alias": "submodel",
             "hrn": "hrn:32004-0:DataItem:8aecfacadb540b52",
             "device_state": true,
-            "emitted_by_adapter": true
+            "emitted_by_adapter": true,
+            "origin": "32000-0"
           }
         },
         {
@@ -1615,7 +1681,8 @@
             "alias": "model",
             "hrn": "hrn:32004-0:DataItem:9a6c650472a3ba4d",
             "device_state": true,
-            "emitted_by_adapter": true
+            "emitted_by_adapter": true,
+            "origin": "32000-0"
           }
         },
         {
@@ -1642,7 +1709,8 @@
           "meta": {
             "alias": "model_name",
             "hrn": "hrn:32004-0:DataItem:70f07587e28d1cb8",
-            "device_state": true
+            "device_state": true,
+            "origin": "32000-0"
           }
         }
       ]
