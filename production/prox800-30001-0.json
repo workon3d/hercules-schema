@@ -159,7 +159,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "From conman 10003",
+            "notes": "From conman 10003, MAC FORMAT",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -172,7 +172,7 @@
             "name": "Controller-Mac-Address",
             "category": "EVENT",
             "subtype": "",
-            "units": "mac format",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -268,7 +268,7 @@
             "name": "Stock-Cartridge-2-Weight",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "Kilogram",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -294,7 +294,7 @@
             "name": "Stock-Cartridge-1-Weight",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "Kilogram",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -773,11 +773,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "LENGTH",
             "name": "Laser-2-Small-Profile-Width-X",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
             "sample_interval": 0,
             "representation": "",
             "sample_rate": 0,
@@ -877,16 +877,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Small-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_2.small_max_line_sum_y",
             "hrn": "hrn:30001-0:DataItem:85d1a6670919fcd8"
@@ -900,16 +890,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Small-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -978,16 +958,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Small-Max-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1137,16 +1107,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Large-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_2.large_max_line_sum_y",
             "hrn": "hrn:30001-0:DataItem:50ca05a8bdbc1ef9"
@@ -1160,16 +1120,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Large-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1238,16 +1188,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Large-Max-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1700,16 +1640,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Small-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_1.small_max_line_sum_y",
             "hrn": "hrn:30001-0:DataItem:3d806b340c1c2561"
@@ -1723,16 +1653,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Small-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1801,16 +1721,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Small-Max-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1960,16 +1870,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Large-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_1.large_max_line_sum_y",
             "hrn": "hrn:30001-0:DataItem:8538763cbcbedc6a"
@@ -1983,16 +1883,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Large-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2061,16 +1951,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Large-Max-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2395,7 +2275,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESAAGE",
+            "type": "MESSAGE",
             "name": "Build-Border-Type",
             "category": "EVENT",
             "subtype": "",
