@@ -14,7 +14,8 @@
   },
   "meta": {
     "alias": "prox950",
-    "hrn": "hrn:30000-0:Device:7f21b49c692150bb"
+    "hrn": "hrn:30000-0:Device:7f21b49c692150bb",
+    "origin": "30001-0"
   },
   "components": [
     {
@@ -29,7 +30,8 @@
       },
       "meta": {
         "alias": "cart",
-        "hrn": "hrn:30000-0:Component:1ca659d355e47e2d"
+        "hrn": "hrn:30000-0:Component:1ca659d355e47e2d",
+        "origin": "30001-0"
       },
       "dataitems": [
         {
@@ -55,7 +57,8 @@
           },
           "meta": {
             "alias": "cart.pump_action",
-            "hrn": "hrn:30000-0:DataItem:d72c362bfc20aaf7"
+            "hrn": "hrn:30000-0:DataItem:d72c362bfc20aaf7",
+            "origin": "30001-0"
           }
         }
       ]
@@ -73,7 +76,8 @@
       "meta": {
         "alias": "controller",
         "hrn": "hrn:30000-0:Component:8acd17c349dd2f53",
-        "required": true
+        "required": true,
+        "origin": "30001-0"
       },
       "dataitems": [
         {
@@ -99,7 +103,8 @@
           },
           "meta": {
             "alias": "controller.mem_used",
-            "hrn": "hrn:30000-0:DataItem:022db488ad743c6d"
+            "hrn": "hrn:30000-0:DataItem:022db488ad743c6d",
+            "origin": "30001-0"
           }
         },
         {
@@ -125,7 +130,8 @@
           },
           "meta": {
             "alias": "controller.revision",
-            "hrn": "hrn:30000-0:DataItem:f5380142a239edd0"
+            "hrn": "hrn:30000-0:DataItem:f5380142a239edd0",
+            "origin": "30001-0"
           }
         },
         {
@@ -153,13 +159,14 @@
             "alias": "controller.ip_address",
             "hrn": "hrn:30000-0:DataItem:981d9f5cbeebdf95",
             "device_state": true,
-            "emitted_by_adapter": true
+            "emitted_by_adapter": true,
+            "origin": "30001-0"
           }
         },
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "From conman 10003",
+            "notes": "From conman 10003, MAC FORMAT",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -172,7 +179,7 @@
             "name": "Controller-Mac-Address",
             "category": "EVENT",
             "subtype": "",
-            "units": "mac format",
+            "units": "",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -180,7 +187,8 @@
           "meta": {
             "alias": "controller.mac_address",
             "hrn": "hrn:30000-0:DataItem:1f246e5ca38a38c5",
-            "required": true
+            "required": true,
+            "origin": "30001-0"
           }
         }
       ]
@@ -197,7 +205,8 @@
       },
       "meta": {
         "alias": "stock",
-        "hrn": "hrn:30000-0:Component:67ee690dcad376f3"
+        "hrn": "hrn:30000-0:Component:67ee690dcad376f3",
+        "origin": "30001-0"
       },
       "dataitems": [
         {
@@ -223,7 +232,8 @@
           },
           "meta": {
             "alias": "stock.cartridge_2.material",
-            "hrn": "hrn:30000-0:DataItem:8faf3a287791efd2"
+            "hrn": "hrn:30000-0:DataItem:8faf3a287791efd2",
+            "origin": "30001-0"
           }
         },
         {
@@ -249,7 +259,8 @@
           },
           "meta": {
             "alias": "stock.cartridge_1.material",
-            "hrn": "hrn:30000-0:DataItem:99ec359753d57427"
+            "hrn": "hrn:30000-0:DataItem:99ec359753d57427",
+            "origin": "30001-0"
           }
         },
         {
@@ -268,14 +279,15 @@
             "name": "Stock-Cartridge-2-Weight",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "Kilogram",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "meta": {
             "alias": "stock.cartridge_2.weight",
-            "hrn": "hrn:30000-0:DataItem:3acbf4001652355d"
+            "hrn": "hrn:30000-0:DataItem:3acbf4001652355d",
+            "origin": "30001-0"
           }
         },
         {
@@ -294,14 +306,15 @@
             "name": "Stock-Cartridge-1-Weight",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "Kilogram",
+            "units": "KILOGRAM",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "meta": {
             "alias": "stock.cartridge_1.weight",
-            "hrn": "hrn:30000-0:DataItem:ad1e0803001afe63"
+            "hrn": "hrn:30000-0:DataItem:ad1e0803001afe63",
+            "origin": "30001-0"
           }
         },
         {
@@ -327,7 +340,8 @@
           },
           "meta": {
             "alias": "stock.cartridge_2.batch_number",
-            "hrn": "hrn:30000-0:DataItem:884f936a7fef955e"
+            "hrn": "hrn:30000-0:DataItem:884f936a7fef955e",
+            "origin": "30001-0"
           }
         },
         {
@@ -353,7 +367,8 @@
           },
           "meta": {
             "alias": "stock.cartridge_1.batch_number",
-            "hrn": "hrn:30000-0:DataItem:c271d80b23b4ec60"
+            "hrn": "hrn:30000-0:DataItem:c271d80b23b4ec60",
+            "origin": "30001-0"
           }
         },
         {
@@ -379,7 +394,8 @@
           },
           "meta": {
             "alias": "stock.comp_sensor_2.status",
-            "hrn": "hrn:30000-0:DataItem:135d1cda4fd71dcb"
+            "hrn": "hrn:30000-0:DataItem:135d1cda4fd71dcb",
+            "origin": "30001-0"
           }
         },
         {
@@ -405,7 +421,8 @@
           },
           "meta": {
             "alias": "stock.comp_sensor_1.status",
-            "hrn": "hrn:30000-0:DataItem:a93830ab8ea29a05"
+            "hrn": "hrn:30000-0:DataItem:a93830ab8ea29a05",
+            "origin": "30001-0"
           }
         },
         {
@@ -431,7 +448,8 @@
           },
           "meta": {
             "alias": "stock.reservoir_bias",
-            "hrn": "hrn:30000-0:DataItem:fe98811173a4c2ab"
+            "hrn": "hrn:30000-0:DataItem:fe98811173a4c2ab",
+            "origin": "30001-0"
           }
         },
         {
@@ -457,7 +475,8 @@
           },
           "meta": {
             "alias": "stock.level",
-            "hrn": "hrn:30000-0:DataItem:4df3fa840139ba2b"
+            "hrn": "hrn:30000-0:DataItem:4df3fa840139ba2b",
+            "origin": "30001-0"
           }
         }
       ]
@@ -474,7 +493,8 @@
       },
       "meta": {
         "alias": "vat",
-        "hrn": "hrn:30000-0:Component:49b4d720b33aa914"
+        "hrn": "hrn:30000-0:Component:49b4d720b33aa914",
+        "origin": "30001-0"
       },
       "dataitems": [
         {
@@ -500,7 +520,8 @@
           },
           "meta": {
             "alias": "vat.cartridge_total",
-            "hrn": "hrn:30000-0:DataItem:04fdd72da81b852a"
+            "hrn": "hrn:30000-0:DataItem:04fdd72da81b852a",
+            "origin": "30001-0"
           }
         },
         {
@@ -526,7 +547,8 @@
           },
           "meta": {
             "alias": "vat.cartridge_count",
-            "hrn": "hrn:30000-0:DataItem:ca0674b84b6c09bb"
+            "hrn": "hrn:30000-0:DataItem:ca0674b84b6c09bb",
+            "origin": "30001-0"
           }
         },
         {
@@ -542,7 +564,8 @@
           },
           "meta": {
             "alias": "vat.total_volume",
-            "hrn": "hrn:30000-0:DataItem:cf1159fdb8070e2d"
+            "hrn": "hrn:30000-0:DataItem:cf1159fdb8070e2d",
+            "origin": "30001-0"
           }
         },
         {
@@ -558,7 +581,8 @@
           },
           "meta": {
             "alias": "vat.material_volume",
-            "hrn": "hrn:30000-0:DataItem:9f1389390a19c583"
+            "hrn": "hrn:30000-0:DataItem:9f1389390a19c583",
+            "origin": "30001-0"
           }
         },
         {
@@ -584,7 +608,8 @@
           },
           "meta": {
             "alias": "vat.tag_serial_number",
-            "hrn": "hrn:30000-0:DataItem:63e7134b0709b5bd"
+            "hrn": "hrn:30000-0:DataItem:63e7134b0709b5bd",
+            "origin": "30001-0"
           }
         },
         {
@@ -610,7 +635,8 @@
           },
           "meta": {
             "alias": "vat.install_date",
-            "hrn": "hrn:30000-0:DataItem:396ea11602f8b603"
+            "hrn": "hrn:30000-0:DataItem:396ea11602f8b603",
+            "origin": "30001-0"
           }
         },
         {
@@ -636,7 +662,8 @@
           },
           "meta": {
             "alias": "vat.material",
-            "hrn": "hrn:30000-0:DataItem:9e44bd374075df5b"
+            "hrn": "hrn:30000-0:DataItem:9e44bd374075df5b",
+            "origin": "30001-0"
           }
         },
         {
@@ -662,7 +689,8 @@
           },
           "meta": {
             "alias": "vat.safety_temperature",
-            "hrn": "hrn:30000-0:DataItem:14cdf960e25a7c4e"
+            "hrn": "hrn:30000-0:DataItem:14cdf960e25a7c4e",
+            "origin": "30001-0"
           }
         },
         {
@@ -688,7 +716,8 @@
           },
           "meta": {
             "alias": "vat.temperature",
-            "hrn": "hrn:30000-0:DataItem:825071929a7b5aef"
+            "hrn": "hrn:30000-0:DataItem:825071929a7b5aef",
+            "origin": "30001-0"
           }
         },
         {
@@ -714,7 +743,8 @@
           },
           "meta": {
             "alias": "vat.level_fine",
-            "hrn": "hrn:30000-0:DataItem:b0f8163d711fd120"
+            "hrn": "hrn:30000-0:DataItem:b0f8163d711fd120",
+            "origin": "30001-0"
           }
         }
       ]
@@ -731,7 +761,8 @@
       },
       "meta": {
         "alias": "laser_2",
-        "hrn": "hrn:30000-0:Component:d2eb2aa51394e4b5"
+        "hrn": "hrn:30000-0:Component:d2eb2aa51394e4b5",
+        "origin": "30001-0"
       },
       "dataitems": [
         {
@@ -758,7 +789,8 @@
           },
           "meta": {
             "alias": "laser_2.small_profile_width_y",
-            "hrn": "hrn:30000-0:DataItem:7fa4373102d19088"
+            "hrn": "hrn:30000-0:DataItem:7fa4373102d19088",
+            "origin": "30001-0"
           }
         },
         {
@@ -773,11 +805,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "LENGTH",
             "name": "Laser-2-Small-Profile-Width-X",
             "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
             "sample_interval": 0,
             "representation": "",
             "sample_rate": 0,
@@ -785,7 +817,8 @@
           },
           "meta": {
             "alias": "laser_2.small_profile_width_x",
-            "hrn": "hrn:30000-0:DataItem:fe3680a1d7698e33"
+            "hrn": "hrn:30000-0:DataItem:fe3680a1d7698e33",
+            "origin": "30001-0"
           }
         },
         {
@@ -811,7 +844,8 @@
           },
           "meta": {
             "alias": "laser_2.switching_spots_time",
-            "hrn": "hrn:30000-0:DataItem:626f0d04d14b2992"
+            "hrn": "hrn:30000-0:DataItem:626f0d04d14b2992",
+            "origin": "30001-0"
           }
         },
         {
@@ -837,7 +871,8 @@
           },
           "meta": {
             "alias": "laser_2.small_profile_drift_y",
-            "hrn": "hrn:30000-0:DataItem:2fa718f7bc50ef8c"
+            "hrn": "hrn:30000-0:DataItem:2fa718f7bc50ef8c",
+            "origin": "30001-0"
           }
         },
         {
@@ -863,7 +898,8 @@
           },
           "meta": {
             "alias": "laser_2.small_profile_drift_x",
-            "hrn": "hrn:30000-0:DataItem:69e7c248afa8d0d0"
+            "hrn": "hrn:30000-0:DataItem:69e7c248afa8d0d0",
+            "origin": "30001-0"
           }
         },
         {
@@ -874,22 +910,13 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Small-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "meta": {
             "alias": "laser_2.small_max_line_sum_y",
-            "hrn": "hrn:30000-0:DataItem:85d1a6670919fcd8"
+            "hrn": "hrn:30000-0:DataItem:85d1a6670919fcd8",
+            "origin": "30001-0"
           }
         },
         {
@@ -903,19 +930,10 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Small-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_2.small_max_line_sum_x",
-            "hrn": "hrn:30000-0:DataItem:24614a5d2d8106f3"
+            "hrn": "hrn:30000-0:DataItem:24614a5d2d8106f3",
+            "origin": "30001-0"
           }
         },
         {
@@ -941,7 +959,8 @@
           },
           "meta": {
             "alias": "laser_2.small_profile_center_y",
-            "hrn": "hrn:30000-0:DataItem:3f22a853e2d7ebcc"
+            "hrn": "hrn:30000-0:DataItem:3f22a853e2d7ebcc",
+            "origin": "30001-0"
           }
         },
         {
@@ -967,7 +986,8 @@
           },
           "meta": {
             "alias": "laser_2.small_profile_center_x",
-            "hrn": "hrn:30000-0:DataItem:946e537b9f5740c4"
+            "hrn": "hrn:30000-0:DataItem:946e537b9f5740c4",
+            "origin": "30001-0"
           }
         },
         {
@@ -981,19 +1001,10 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Small-Max-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_2.small_max_adc",
-            "hrn": "hrn:30000-0:DataItem:2dce88e6eeb14c89"
+            "hrn": "hrn:30000-0:DataItem:2dce88e6eeb14c89",
+            "origin": "30001-0"
           }
         },
         {
@@ -1019,7 +1030,8 @@
           },
           "meta": {
             "alias": "laser_2.small_pin_ratio",
-            "hrn": "hrn:30000-0:DataItem:4d0eefae6107f1dc"
+            "hrn": "hrn:30000-0:DataItem:4d0eefae6107f1dc",
+            "origin": "30001-0"
           }
         },
         {
@@ -1045,7 +1057,8 @@
           },
           "meta": {
             "alias": "laser_2.large_profile_drift_y",
-            "hrn": "hrn:30000-0:DataItem:beab1e7ead563284"
+            "hrn": "hrn:30000-0:DataItem:beab1e7ead563284",
+            "origin": "30001-0"
           }
         },
         {
@@ -1071,7 +1084,8 @@
           },
           "meta": {
             "alias": "laser_2.large_profile_drift_x",
-            "hrn": "hrn:30000-0:DataItem:c21c3ec218fdfc16"
+            "hrn": "hrn:30000-0:DataItem:c21c3ec218fdfc16",
+            "origin": "30001-0"
           }
         },
         {
@@ -1097,7 +1111,8 @@
           },
           "meta": {
             "alias": "laser_2.large_profile_width_y",
-            "hrn": "hrn:30000-0:DataItem:fb1dbb3bddf65967"
+            "hrn": "hrn:30000-0:DataItem:fb1dbb3bddf65967",
+            "origin": "30001-0"
           }
         },
         {
@@ -1123,7 +1138,8 @@
           },
           "meta": {
             "alias": "laser_2.large_profile_width_x",
-            "hrn": "hrn:30000-0:DataItem:a514fc7dca650e19"
+            "hrn": "hrn:30000-0:DataItem:a514fc7dca650e19",
+            "origin": "30001-0"
           }
         },
         {
@@ -1134,22 +1150,13 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Large-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "meta": {
             "alias": "laser_2.large_max_line_sum_y",
-            "hrn": "hrn:30000-0:DataItem:50ca05a8bdbc1ef9"
+            "hrn": "hrn:30000-0:DataItem:50ca05a8bdbc1ef9",
+            "origin": "30001-0"
           }
         },
         {
@@ -1163,19 +1170,10 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Large-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_2.large_max_line_sum_x",
-            "hrn": "hrn:30000-0:DataItem:b3a18f6291a403f8"
+            "hrn": "hrn:30000-0:DataItem:b3a18f6291a403f8",
+            "origin": "30001-0"
           }
         },
         {
@@ -1201,7 +1199,8 @@
           },
           "meta": {
             "alias": "laser_2.large_profile_center_y",
-            "hrn": "hrn:30000-0:DataItem:f81c8c1b0993f781"
+            "hrn": "hrn:30000-0:DataItem:f81c8c1b0993f781",
+            "origin": "30001-0"
           }
         },
         {
@@ -1227,7 +1226,8 @@
           },
           "meta": {
             "alias": "laser_2.large_profile_center_x",
-            "hrn": "hrn:30000-0:DataItem:21ef92fab2bb330b"
+            "hrn": "hrn:30000-0:DataItem:21ef92fab2bb330b",
+            "origin": "30001-0"
           }
         },
         {
@@ -1241,19 +1241,10 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-2-Large-Max-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_2.large_max_adc",
-            "hrn": "hrn:30000-0:DataItem:6f119bf3f8cd38cf"
+            "hrn": "hrn:30000-0:DataItem:6f119bf3f8cd38cf",
+            "origin": "30001-0"
           }
         },
         {
@@ -1279,7 +1270,8 @@
           },
           "meta": {
             "alias": "laser_2.large_pin_ratio",
-            "hrn": "hrn:30000-0:DataItem:a422bbb10846204a"
+            "hrn": "hrn:30000-0:DataItem:a422bbb10846204a",
+            "origin": "30001-0"
           }
         },
         {
@@ -1305,7 +1297,8 @@
           },
           "meta": {
             "alias": "laser_2.door",
-            "hrn": "hrn:30000-0:DataItem:9cb552627362b195"
+            "hrn": "hrn:30000-0:DataItem:9cb552627362b195",
+            "origin": "30001-0"
           }
         },
         {
@@ -1331,7 +1324,8 @@
           },
           "meta": {
             "alias": "laser_2.serial_number",
-            "hrn": "hrn:30000-0:DataItem:586ecaee9cbb9023"
+            "hrn": "hrn:30000-0:DataItem:586ecaee9cbb9023",
+            "origin": "30001-0"
           }
         },
         {
@@ -1357,7 +1351,8 @@
           },
           "meta": {
             "alias": "laser_2.power",
-            "hrn": "hrn:30000-0:DataItem:d15a3f57efaada2d"
+            "hrn": "hrn:30000-0:DataItem:d15a3f57efaada2d",
+            "origin": "30001-0"
           }
         },
         {
@@ -1383,7 +1378,8 @@
           },
           "meta": {
             "alias": "laser_2.fad_power",
-            "hrn": "hrn:30000-0:DataItem:d2c9880ca457098c"
+            "hrn": "hrn:30000-0:DataItem:d2c9880ca457098c",
+            "origin": "30001-0"
           }
         },
         {
@@ -1409,7 +1405,8 @@
           },
           "meta": {
             "alias": "laser_2.tripler_temperature",
-            "hrn": "hrn:30000-0:DataItem:d1b99e85a672ff2b"
+            "hrn": "hrn:30000-0:DataItem:d1b99e85a672ff2b",
+            "origin": "30001-0"
           }
         },
         {
@@ -1435,7 +1432,8 @@
           },
           "meta": {
             "alias": "laser_2.doubler_temperature",
-            "hrn": "hrn:30000-0:DataItem:52e77e8f25f6f669"
+            "hrn": "hrn:30000-0:DataItem:52e77e8f25f6f669",
+            "origin": "30001-0"
           }
         },
         {
@@ -1461,7 +1459,8 @@
           },
           "meta": {
             "alias": "laser_2.diode_temperature",
-            "hrn": "hrn:30000-0:DataItem:cdc779a2c590c09f"
+            "hrn": "hrn:30000-0:DataItem:cdc779a2c590c09f",
+            "origin": "30001-0"
           }
         },
         {
@@ -1487,7 +1486,8 @@
           },
           "meta": {
             "alias": "laser_2.current_hours",
-            "hrn": "hrn:30000-0:DataItem:f1dc0c9dcffbaf4c"
+            "hrn": "hrn:30000-0:DataItem:f1dc0c9dcffbaf4c",
+            "origin": "30001-0"
           }
         },
         {
@@ -1513,7 +1513,8 @@
           },
           "meta": {
             "alias": "laser_2.warranty_hours",
-            "hrn": "hrn:30000-0:DataItem:0cd3a287e70a8869"
+            "hrn": "hrn:30000-0:DataItem:0cd3a287e70a8869",
+            "origin": "30001-0"
           }
         },
         {
@@ -1539,7 +1540,8 @@
           },
           "meta": {
             "alias": "laser_2.installed_hours",
-            "hrn": "hrn:30000-0:DataItem:6aa0358fc56cf4ff"
+            "hrn": "hrn:30000-0:DataItem:6aa0358fc56cf4ff",
+            "origin": "30001-0"
           }
         }
       ]
@@ -1556,7 +1558,8 @@
       },
       "meta": {
         "alias": "laser_1",
-        "hrn": "hrn:30000-0:Component:b23f896a75d9e00f"
+        "hrn": "hrn:30000-0:Component:b23f896a75d9e00f",
+        "origin": "30001-0"
       },
       "dataitems": [
         {
@@ -1582,7 +1585,8 @@
           },
           "meta": {
             "alias": "laser_1.switching_spots_time",
-            "hrn": "hrn:30000-0:DataItem:307b0ed37d6d76d3"
+            "hrn": "hrn:30000-0:DataItem:307b0ed37d6d76d3",
+            "origin": "30001-0"
           }
         },
         {
@@ -1608,7 +1612,8 @@
           },
           "meta": {
             "alias": "laser_1.small_profile_width_y",
-            "hrn": "hrn:30000-0:DataItem:7137875747b7105c"
+            "hrn": "hrn:30000-0:DataItem:7137875747b7105c",
+            "origin": "30001-0"
           }
         },
         {
@@ -1634,7 +1639,8 @@
           },
           "meta": {
             "alias": "laser_1.small_profile_width_x",
-            "hrn": "hrn:30000-0:DataItem:63bb92db796ab21b"
+            "hrn": "hrn:30000-0:DataItem:63bb92db796ab21b",
+            "origin": "30001-0"
           }
         },
         {
@@ -1660,7 +1666,8 @@
           },
           "meta": {
             "alias": "laser_1.small_profile_drift_y",
-            "hrn": "hrn:30000-0:DataItem:0bfc7dc4aa428e20"
+            "hrn": "hrn:30000-0:DataItem:0bfc7dc4aa428e20",
+            "origin": "30001-0"
           }
         },
         {
@@ -1686,7 +1693,8 @@
           },
           "meta": {
             "alias": "laser_1.small_profile_drift_x",
-            "hrn": "hrn:30000-0:DataItem:4398b0b108d083a9"
+            "hrn": "hrn:30000-0:DataItem:4398b0b108d083a9",
+            "origin": "30001-0"
           }
         },
         {
@@ -1697,22 +1705,13 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Small-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "meta": {
             "alias": "laser_1.small_max_line_sum_y",
-            "hrn": "hrn:30000-0:DataItem:3d806b340c1c2561"
+            "hrn": "hrn:30000-0:DataItem:3d806b340c1c2561",
+            "origin": "30001-0"
           }
         },
         {
@@ -1726,19 +1725,10 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Small-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_1.small_max_line_sum_x",
-            "hrn": "hrn:30000-0:DataItem:47a745e4a39fbfbf"
+            "hrn": "hrn:30000-0:DataItem:47a745e4a39fbfbf",
+            "origin": "30001-0"
           }
         },
         {
@@ -1764,7 +1754,8 @@
           },
           "meta": {
             "alias": "laser_1.small_profile_center_y",
-            "hrn": "hrn:30000-0:DataItem:9f30177e0f69695b"
+            "hrn": "hrn:30000-0:DataItem:9f30177e0f69695b",
+            "origin": "30001-0"
           }
         },
         {
@@ -1790,7 +1781,8 @@
           },
           "meta": {
             "alias": "laser_1.small_profile_center_x",
-            "hrn": "hrn:30000-0:DataItem:eac4051dbe7052bb"
+            "hrn": "hrn:30000-0:DataItem:eac4051dbe7052bb",
+            "origin": "30001-0"
           }
         },
         {
@@ -1804,19 +1796,10 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Small-Max-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_1.small_max_adc",
-            "hrn": "hrn:30000-0:DataItem:5adccb307db446fe"
+            "hrn": "hrn:30000-0:DataItem:5adccb307db446fe",
+            "origin": "30001-0"
           }
         },
         {
@@ -1842,7 +1825,8 @@
           },
           "meta": {
             "alias": "laser_1.small_pin_ratio",
-            "hrn": "hrn:30000-0:DataItem:208692157fd74161"
+            "hrn": "hrn:30000-0:DataItem:208692157fd74161",
+            "origin": "30001-0"
           }
         },
         {
@@ -1868,7 +1852,8 @@
           },
           "meta": {
             "alias": "laser_1.large_profile_width_y",
-            "hrn": "hrn:30000-0:DataItem:233c715cb1aadc3d"
+            "hrn": "hrn:30000-0:DataItem:233c715cb1aadc3d",
+            "origin": "30001-0"
           }
         },
         {
@@ -1894,7 +1879,8 @@
           },
           "meta": {
             "alias": "laser_1.large_profile_width_x",
-            "hrn": "hrn:30000-0:DataItem:51f1af0628264e93"
+            "hrn": "hrn:30000-0:DataItem:51f1af0628264e93",
+            "origin": "30001-0"
           }
         },
         {
@@ -1920,7 +1906,8 @@
           },
           "meta": {
             "alias": "laser_1.large_profile_drift_x",
-            "hrn": "hrn:30000-0:DataItem:28a26c0d6645f284"
+            "hrn": "hrn:30000-0:DataItem:28a26c0d6645f284",
+            "origin": "30001-0"
           }
         },
         {
@@ -1946,7 +1933,8 @@
           },
           "meta": {
             "alias": "laser_1.large_profile_drift_y",
-            "hrn": "hrn:30000-0:DataItem:23838e3869681000"
+            "hrn": "hrn:30000-0:DataItem:23838e3869681000",
+            "origin": "30001-0"
           }
         },
         {
@@ -1957,22 +1945,13 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Large-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
           "meta": {
             "alias": "laser_1.large_max_line_sum_y",
-            "hrn": "hrn:30000-0:DataItem:8538763cbcbedc6a"
+            "hrn": "hrn:30000-0:DataItem:8538763cbcbedc6a",
+            "origin": "30001-0"
           }
         },
         {
@@ -1986,19 +1965,10 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Large-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_1.large_max_line_sum_x",
-            "hrn": "hrn:30000-0:DataItem:5de38a957a583d87"
+            "hrn": "hrn:30000-0:DataItem:5de38a957a583d87",
+            "origin": "30001-0"
           }
         },
         {
@@ -2024,7 +1994,8 @@
           },
           "meta": {
             "alias": "laser_1.large_profile_center_y",
-            "hrn": "hrn:30000-0:DataItem:7499e3f875591a6a"
+            "hrn": "hrn:30000-0:DataItem:7499e3f875591a6a",
+            "origin": "30001-0"
           }
         },
         {
@@ -2050,7 +2021,8 @@
           },
           "meta": {
             "alias": "laser_1.large_profile_center_x",
-            "hrn": "hrn:30000-0:DataItem:6c99a74d1a4434fd"
+            "hrn": "hrn:30000-0:DataItem:6c99a74d1a4434fd",
+            "origin": "30001-0"
           }
         },
         {
@@ -2064,19 +2036,10 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-1-Large-Max-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser_1.large_max_adc",
-            "hrn": "hrn:30000-0:DataItem:243d36135e4eab27"
+            "hrn": "hrn:30000-0:DataItem:243d36135e4eab27",
+            "origin": "30001-0"
           }
         },
         {
@@ -2102,7 +2065,8 @@
           },
           "meta": {
             "alias": "laser_1.large_pin_ratio",
-            "hrn": "hrn:30000-0:DataItem:c48817f3a3ec7214"
+            "hrn": "hrn:30000-0:DataItem:c48817f3a3ec7214",
+            "origin": "30001-0"
           }
         },
         {
@@ -2128,7 +2092,8 @@
           },
           "meta": {
             "alias": "laser_1.door",
-            "hrn": "hrn:30000-0:DataItem:8dd6b66b7a9f5096"
+            "hrn": "hrn:30000-0:DataItem:8dd6b66b7a9f5096",
+            "origin": "30001-0"
           }
         },
         {
@@ -2154,7 +2119,8 @@
           },
           "meta": {
             "alias": "laser_1.serial_number",
-            "hrn": "hrn:30000-0:DataItem:23fd2558b5017566"
+            "hrn": "hrn:30000-0:DataItem:23fd2558b5017566",
+            "origin": "30001-0"
           }
         },
         {
@@ -2180,7 +2146,8 @@
           },
           "meta": {
             "alias": "laser_1.power",
-            "hrn": "hrn:30000-0:DataItem:4e8c5558534fd276"
+            "hrn": "hrn:30000-0:DataItem:4e8c5558534fd276",
+            "origin": "30001-0"
           }
         },
         {
@@ -2206,7 +2173,8 @@
           },
           "meta": {
             "alias": "laser_1.fad_power",
-            "hrn": "hrn:30000-0:DataItem:fbd3ba20b5f2cfa8"
+            "hrn": "hrn:30000-0:DataItem:fbd3ba20b5f2cfa8",
+            "origin": "30001-0"
           }
         },
         {
@@ -2232,7 +2200,8 @@
           },
           "meta": {
             "alias": "laser_1.tripler_temperature",
-            "hrn": "hrn:30000-0:DataItem:ae1050e7403e5114"
+            "hrn": "hrn:30000-0:DataItem:ae1050e7403e5114",
+            "origin": "30001-0"
           }
         },
         {
@@ -2258,7 +2227,8 @@
           },
           "meta": {
             "alias": "laser_1.doubler_temperature",
-            "hrn": "hrn:30000-0:DataItem:dc8a90387fe9ad79"
+            "hrn": "hrn:30000-0:DataItem:dc8a90387fe9ad79",
+            "origin": "30001-0"
           }
         },
         {
@@ -2284,7 +2254,8 @@
           },
           "meta": {
             "alias": "laser_1.diode_temperature",
-            "hrn": "hrn:30000-0:DataItem:10a9054473e9256b"
+            "hrn": "hrn:30000-0:DataItem:10a9054473e9256b",
+            "origin": "30001-0"
           }
         },
         {
@@ -2310,7 +2281,8 @@
           },
           "meta": {
             "alias": "laser_1.current_hours",
-            "hrn": "hrn:30000-0:DataItem:5136f7e4cd6ad4e0"
+            "hrn": "hrn:30000-0:DataItem:5136f7e4cd6ad4e0",
+            "origin": "30001-0"
           }
         },
         {
@@ -2336,7 +2308,8 @@
           },
           "meta": {
             "alias": "laser_1.warranty_hours",
-            "hrn": "hrn:30000-0:DataItem:048e1474ed7900a0"
+            "hrn": "hrn:30000-0:DataItem:048e1474ed7900a0",
+            "origin": "30001-0"
           }
         },
         {
@@ -2362,7 +2335,8 @@
           },
           "meta": {
             "alias": "laser_1.installed_hours",
-            "hrn": "hrn:30000-0:DataItem:aa5fba297524702d"
+            "hrn": "hrn:30000-0:DataItem:aa5fba297524702d",
+            "origin": "30001-0"
           }
         }
       ]
@@ -2380,7 +2354,8 @@
       "meta": {
         "alias": "build",
         "hrn": "hrn:30000-0:Component:0ef95c89a75c8ad4",
-        "required": true
+        "required": true,
+        "origin": "30001-0"
       },
       "dataitems": [
         {
@@ -2395,7 +2370,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESAAGE",
+            "type": "MESSAGE",
             "name": "Build-Border-Type",
             "category": "EVENT",
             "subtype": "",
@@ -2407,7 +2382,8 @@
           },
           "meta": {
             "alias": "build.border_type",
-            "hrn": "hrn:30000-0:DataItem:dca84191e0d3b884"
+            "hrn": "hrn:30000-0:DataItem:dca84191e0d3b884",
+            "origin": "30001-0"
           }
         },
         {
@@ -2433,7 +2409,8 @@
           },
           "meta": {
             "alias": "build.material_quantity",
-            "hrn": "hrn:30000-0:DataItem:ab6806c87b9cf434"
+            "hrn": "hrn:30000-0:DataItem:ab6806c87b9cf434",
+            "origin": "30001-0"
           }
         },
         {
@@ -2459,7 +2436,8 @@
           },
           "meta": {
             "alias": "build.total_layers",
-            "hrn": "hrn:30000-0:DataItem:7819ae669c802846"
+            "hrn": "hrn:30000-0:DataItem:7819ae669c802846",
+            "origin": "30001-0"
           }
         },
         {
@@ -2486,7 +2464,8 @@
           "meta": {
             "alias": "build.progress",
             "hrn": "hrn:30000-0:DataItem:2c4a9c6b6f0005ef",
-            "required": true
+            "required": true,
+            "origin": "30001-0"
           }
         },
         {
@@ -2512,7 +2491,8 @@
           },
           "meta": {
             "alias": "build.fill_space",
-            "hrn": "hrn:30000-0:DataItem:1d00cdc3c4650026"
+            "hrn": "hrn:30000-0:DataItem:1d00cdc3c4650026",
+            "origin": "30001-0"
           }
         },
         {
@@ -2538,7 +2518,8 @@
           },
           "meta": {
             "alias": "build.block_type",
-            "hrn": "hrn:30000-0:DataItem:db44c6bfab169d23"
+            "hrn": "hrn:30000-0:DataItem:db44c6bfab169d23",
+            "origin": "30001-0"
           }
         },
         {
@@ -2564,7 +2545,8 @@
           },
           "meta": {
             "alias": "build.cure_depth",
-            "hrn": "hrn:30000-0:DataItem:8d44256b077c175c"
+            "hrn": "hrn:30000-0:DataItem:8d44256b077c175c",
+            "origin": "30001-0"
           }
         },
         {
@@ -2590,7 +2572,8 @@
           },
           "meta": {
             "alias": "build.component",
-            "hrn": "hrn:30000-0:DataItem:0707e85135754a67"
+            "hrn": "hrn:30000-0:DataItem:0707e85135754a67",
+            "origin": "30001-0"
           }
         },
         {
@@ -2616,7 +2599,8 @@
           },
           "meta": {
             "alias": "build.speed",
-            "hrn": "hrn:30000-0:DataItem:0bbf310390daf6d8"
+            "hrn": "hrn:30000-0:DataItem:0bbf310390daf6d8",
+            "origin": "30001-0"
           }
         },
         {
@@ -2642,7 +2626,8 @@
           },
           "meta": {
             "alias": "build.z_height",
-            "hrn": "hrn:30000-0:DataItem:d4993ccce67d6c68"
+            "hrn": "hrn:30000-0:DataItem:d4993ccce67d6c68",
+            "origin": "30001-0"
           }
         },
         {
@@ -2668,7 +2653,8 @@
           },
           "meta": {
             "alias": "build.elevator_time",
-            "hrn": "hrn:30000-0:DataItem:1c1fc5cae6413854"
+            "hrn": "hrn:30000-0:DataItem:1c1fc5cae6413854",
+            "origin": "30001-0"
           }
         },
         {
@@ -2694,7 +2680,8 @@
           },
           "meta": {
             "alias": "build.sweep_time",
-            "hrn": "hrn:30000-0:DataItem:2e3e73194e875154"
+            "hrn": "hrn:30000-0:DataItem:2e3e73194e875154",
+            "origin": "30001-0"
           }
         },
         {
@@ -2720,7 +2707,8 @@
           },
           "meta": {
             "alias": "build.recoating_time",
-            "hrn": "hrn:30000-0:DataItem:f724026edcabd873"
+            "hrn": "hrn:30000-0:DataItem:f724026edcabd873",
+            "origin": "30001-0"
           }
         },
         {
@@ -2746,7 +2734,8 @@
           },
           "meta": {
             "alias": "build.leveling_time",
-            "hrn": "hrn:30000-0:DataItem:b7f5e0f15dae4a00"
+            "hrn": "hrn:30000-0:DataItem:b7f5e0f15dae4a00",
+            "origin": "30001-0"
           }
         },
         {
@@ -2772,7 +2761,8 @@
           },
           "meta": {
             "alias": "build.draw_time",
-            "hrn": "hrn:30000-0:DataItem:d7952ed0e20fc105"
+            "hrn": "hrn:30000-0:DataItem:d7952ed0e20fc105",
+            "origin": "30001-0"
           }
         },
         {
@@ -2799,7 +2789,8 @@
           "meta": {
             "alias": "build.time_remaining",
             "hrn": "hrn:30000-0:DataItem:289c33e569078146",
-            "required": true
+            "required": true,
+            "origin": "30001-0"
           }
         },
         {
@@ -2826,7 +2817,8 @@
           "meta": {
             "alias": "build.current_layer",
             "hrn": "hrn:30000-0:DataItem:42f6523ddedd66c9",
-            "required": true
+            "required": true,
+            "origin": "30001-0"
           }
         },
         {
@@ -2853,7 +2845,8 @@
           "meta": {
             "alias": "build.job_data",
             "hrn": "hrn:30000-0:DataItem:46ad87aad579653e",
-            "required": true
+            "required": true,
+            "origin": "30001-0"
           }
         },
         {
@@ -2879,7 +2872,8 @@
           },
           "meta": {
             "alias": "build.state",
-            "hrn": "hrn:30000-0:DataItem:b9e56f808974be5a"
+            "hrn": "hrn:30000-0:DataItem:b9e56f808974be5a",
+            "origin": "30001-0"
           }
         }
       ]
@@ -2897,7 +2891,8 @@
       "meta": {
         "alias": "conditions",
         "hrn": "hrn:30000-0:Component:3cf6b8389629c611",
-        "required": true
+        "required": true,
+        "origin": "30001-0"
       },
       "dataitems": [
         {
@@ -2920,7 +2915,8 @@
           },
           "meta": {
             "alias": "fault.laser_power_low",
-            "hrn": "hrn:30000-0:DataItem:e64b403fcc9c2346"
+            "hrn": "hrn:30000-0:DataItem:e64b403fcc9c2346",
+            "origin": "30001-0"
           }
         },
         {
@@ -2943,7 +2939,8 @@
           },
           "meta": {
             "alias": "fault.mirror_indexing",
-            "hrn": "hrn:30000-0:DataItem:54ec765df8b3ec6b"
+            "hrn": "hrn:30000-0:DataItem:54ec765df8b3ec6b",
+            "origin": "30001-0"
           }
         },
         {
@@ -2966,7 +2963,8 @@
           },
           "meta": {
             "alias": "fault.enable",
-            "hrn": "hrn:30000-0:DataItem:05e3a36c005aa48a"
+            "hrn": "hrn:30000-0:DataItem:05e3a36c005aa48a",
+            "origin": "30001-0"
           }
         },
         {
@@ -2989,7 +2987,8 @@
           },
           "meta": {
             "alias": "fault.sweep_error",
-            "hrn": "hrn:30000-0:DataItem:9ae8aa83c6a98949"
+            "hrn": "hrn:30000-0:DataItem:9ae8aa83c6a98949",
+            "origin": "30001-0"
           }
         },
         {
@@ -3012,7 +3011,8 @@
           },
           "meta": {
             "alias": "fault.pinhole_shift",
-            "hrn": "hrn:30000-0:DataItem:df884835b495079c"
+            "hrn": "hrn:30000-0:DataItem:df884835b495079c",
+            "origin": "30001-0"
           }
         },
         {
@@ -3035,7 +3035,8 @@
           },
           "meta": {
             "alias": "fault.fine_level_timeout",
-            "hrn": "hrn:30000-0:DataItem:b5f9bb4bc598419e"
+            "hrn": "hrn:30000-0:DataItem:b5f9bb4bc598419e",
+            "origin": "30001-0"
           }
         },
         {
@@ -3058,7 +3059,8 @@
           },
           "meta": {
             "alias": "fault.dsp_not_found",
-            "hrn": "hrn:30000-0:DataItem:b2fa8f7ed051a477"
+            "hrn": "hrn:30000-0:DataItem:b2fa8f7ed051a477",
+            "origin": "30001-0"
           }
         },
         {
@@ -3081,7 +3083,8 @@
           },
           "meta": {
             "alias": "fault.dsp_error",
-            "hrn": "hrn:30000-0:DataItem:c11d8401fbb360d6"
+            "hrn": "hrn:30000-0:DataItem:c11d8401fbb360d6",
+            "origin": "30001-0"
           }
         }
       ]
@@ -3099,7 +3102,8 @@
       "meta": {
         "alias": "device",
         "hrn": "hrn:30000-0:Component:2824d342cddde423",
-        "required": true
+        "required": true,
+        "origin": "30001-0"
       },
       "dataitems": [
         {
@@ -3125,7 +3129,8 @@
           },
           "meta": {
             "alias": "bit_file_version",
-            "hrn": "hrn:30000-0:DataItem:eab187457203dfe1"
+            "hrn": "hrn:30000-0:DataItem:eab187457203dfe1",
+            "origin": "30001-0"
           }
         },
         {
@@ -3151,7 +3156,8 @@
           },
           "meta": {
             "alias": "dsp_model",
-            "hrn": "hrn:30000-0:DataItem:c17401aca848c6ba"
+            "hrn": "hrn:30000-0:DataItem:c17401aca848c6ba",
+            "origin": "30001-0"
           }
         },
         {
@@ -3179,7 +3185,8 @@
             "alias": "adapter_id",
             "hrn": "hrn:30000-0:DataItem:c599101195a68310",
             "device_state": true,
-            "emitted_by_adapter": true
+            "emitted_by_adapter": true,
+            "origin": "30001-0"
           }
         },
         {
@@ -3205,7 +3212,8 @@
           },
           "meta": {
             "alias": "sw_version_3dconnect",
-            "hrn": "hrn:30000-0:DataItem:1e8efb914ad451de"
+            "hrn": "hrn:30000-0:DataItem:1e8efb914ad451de",
+            "origin": "30001-0"
           }
         },
         {
@@ -3233,7 +3241,8 @@
             "alias": "serial_number",
             "hrn": "hrn:30000-0:DataItem:27df2b90b58b1766",
             "device_state": true,
-            "required": true
+            "required": true,
+            "origin": "30001-0"
           }
         },
         {
@@ -3259,7 +3268,8 @@
           },
           "meta": {
             "alias": "chamber_temperature",
-            "hrn": "hrn:30000-0:DataItem:fe7182a2c800d3a9"
+            "hrn": "hrn:30000-0:DataItem:fe7182a2c800d3a9",
+            "origin": "30001-0"
           }
         },
         {
@@ -3285,7 +3295,8 @@
           },
           "meta": {
             "alias": "system_state",
-            "hrn": "hrn:30000-0:DataItem:2f24e2f72ed2563a"
+            "hrn": "hrn:30000-0:DataItem:2f24e2f72ed2563a",
+            "origin": "30001-0"
           }
         },
         {
@@ -3312,7 +3323,8 @@
           "meta": {
             "alias": "printer_state",
             "hrn": "hrn:30000-0:DataItem:b4669068a296d597",
-            "required": true
+            "required": true,
+            "origin": "30001-0"
           }
         },
         {
@@ -3338,7 +3350,8 @@
           },
           "meta": {
             "alias": "printer_name",
-            "hrn": "hrn:30000-0:DataItem:ae55a541594c3530"
+            "hrn": "hrn:30000-0:DataItem:ae55a541594c3530",
+            "origin": "30001-0"
           }
         }
       ]
