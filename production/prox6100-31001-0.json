@@ -2546,7 +2546,7 @@
             "description": "",
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "INCH",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2555,7 +2555,7 @@
             "name": "Roller-Left-Proximity-Position",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "INCH",
+            "units": "MILLIMETER",
             "representation": "DISCRETE",
             "sample_rate": 0,
             "native_name": ""
@@ -2598,7 +2598,7 @@
             "description": "",
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "INCH",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -2607,7 +2607,7 @@
             "name": "Roller-Right-Proximity-Position",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "INCH",
+            "units": "MILLIMETER",
             "representation": "DISCRETE",
             "sample_rate": 0,
             "native_name": ""
