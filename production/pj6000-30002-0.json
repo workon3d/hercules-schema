@@ -592,16 +592,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "COUNT",
-            "name": "Vat-Bottle-Count",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "COUNT",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "vat.bottle_count",
             "hrn": "hrn:30002-0:DataItem:abebffdb423192c0"
@@ -615,16 +605,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "mL",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Vat-Material-Volume",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "LITER",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -645,11 +625,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "FILL_LEVEL",
             "name": "Vat-Level-Coarse",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "PERCENT",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
@@ -964,16 +944,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Small-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser.small_max_line_sum_y",
             "hrn": "hrn:30002-0:DataItem:588c37cafd4029ca"
@@ -987,16 +957,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Small-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1068,16 +1028,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Large-Max-Line-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser.large_max_line_sum_y",
             "hrn": "hrn:30002-0:DataItem:2c21c5eb65a7ba84"
@@ -1091,16 +1041,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Large-Max-Line-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1354,16 +1294,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Profile-Peak-Sum-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser.profile_peak_sum_y",
             "hrn": "hrn:30002-0:DataItem:f296c2f913d4516d"
@@ -1377,16 +1307,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Profile-Peak-Sum-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1406,16 +1326,6 @@
             "sample_rate": 0,
             "native_name": ""
           },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Sum-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
           "meta": {
             "alias": "laser.sum_adc",
             "hrn": "hrn:30002-0:DataItem:8ab118bc3716a300"
@@ -1429,16 +1339,6 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Max-Adc",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
             "sample_rate": 0,
             "native_name": ""
           },
