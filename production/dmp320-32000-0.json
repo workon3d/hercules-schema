@@ -194,7 +194,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "PROCESS",
+            "type": "ACCUMULATED_TIME",
             "name": "Build-Estimated-Time",
             "category": "SAMPLE",
             "subtype": "",
@@ -1470,7 +1470,7 @@
             "name": "Build-Plate-Temperature",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "CELCIUS",
+            "units": "CELSIUS",
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
