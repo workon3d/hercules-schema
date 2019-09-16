@@ -3244,32 +3244,6 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "reported_ver: float",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "GRAM",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MASS",
-            "name": "Stock-Bottle-Size",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "KILOGRAM",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.bottle_size",
-            "hrn": "hrn:34201-0:DataItem:dcdb86b572d7563d"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
             "description": "",
@@ -3396,32 +3370,6 @@
           "meta": {
             "alias": "stock.label_last_used_date",
             "hrn": "hrn:34201-0:DataItem:3ed863e018c600bb"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "reported_ver: float",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "GRAM",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MASS",
-            "name": "Stock-Label-Current-Used-Amount",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "KILOGRAM",
-            "representation": "",
-            "sample_rate": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.label_current_used_amount",
-            "hrn": "hrn:34201-0:DataItem:91930e4b4a56186a"
           }
         }
       ]
