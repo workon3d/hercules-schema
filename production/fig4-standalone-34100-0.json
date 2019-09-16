@@ -743,7 +743,7 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -925,7 +925,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -3154,7 +3154,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "HOUR",
             "sample_rate": 0,
             "native_name": ""
           },
