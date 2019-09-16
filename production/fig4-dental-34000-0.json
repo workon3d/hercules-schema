@@ -14,7 +14,8 @@
   },
   "meta": {
     "alias": "fig4-dental",
-    "hrn": "hrn:34000-0:Device:41ef68ca8a8d0cc2"
+    "hrn": "hrn:34000-0:Device:41ef68ca8a8d0cc2",
+    "origin": "34100-0"
   },
   "components": [
     {
@@ -29,7 +30,8 @@
       },
       "meta": {
         "alias": "robot",
-        "hrn": "hrn:34000-0:Component:3a587714694a80ea"
+        "hrn": "hrn:34000-0:Component:3a587714694a80ea",
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -55,7 +57,8 @@
           },
           "meta": {
             "alias": "robot.learning_event",
-            "hrn": "hrn:34000-0:DataItem:112095b9bad9afb9"
+            "hrn": "hrn:34000-0:DataItem:112095b9bad9afb9",
+            "origin": "34100-0"
           }
         },
         {
@@ -81,7 +84,8 @@
           },
           "meta": {
             "alias": "robot.speed_preset",
-            "hrn": "hrn:34000-0:DataItem:03adfc1374ccbd2f"
+            "hrn": "hrn:34000-0:DataItem:03adfc1374ccbd2f",
+            "origin": "34100-0"
           }
         }
       ]
@@ -98,7 +102,8 @@
       },
       "meta": {
         "alias": "membrane",
-        "hrn": "hrn:34000-0:Component:e0631f7810f97b75"
+        "hrn": "hrn:34000-0:Component:e0631f7810f97b75",
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -124,7 +129,8 @@
           },
           "meta": {
             "alias": "membrane.hours_print_end",
-            "hrn": "hrn:34000-0:DataItem:f45ba16c3351d994"
+            "hrn": "hrn:34000-0:DataItem:f45ba16c3351d994",
+            "origin": "34100-0"
           }
         },
         {
@@ -150,7 +156,8 @@
           },
           "meta": {
             "alias": "membrane.hours_print_start",
-            "hrn": "hrn:34000-0:DataItem:a6fba1dedeebcdba"
+            "hrn": "hrn:34000-0:DataItem:a6fba1dedeebcdba",
+            "origin": "34100-0"
           }
         },
         {
@@ -176,7 +183,8 @@
           },
           "meta": {
             "alias": "membrane.total_hours",
-            "hrn": "hrn:34000-0:DataItem:5714b27f7ffac35c"
+            "hrn": "hrn:34000-0:DataItem:5714b27f7ffac35c",
+            "origin": "34100-0"
           }
         },
         {
@@ -202,7 +210,8 @@
           },
           "meta": {
             "alias": "membrane.tray_id",
-            "hrn": "hrn:34000-0:DataItem:f30cc6222315bc13"
+            "hrn": "hrn:34000-0:DataItem:f30cc6222315bc13",
+            "origin": "34100-0"
           }
         }
       ]
@@ -219,7 +228,8 @@
       },
       "meta": {
         "alias": "resin_tray",
-        "hrn": "hrn:34000-0:Component:48cf8f8c6a340333"
+        "hrn": "hrn:34000-0:Component:48cf8f8c6a340333",
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -245,7 +255,8 @@
           },
           "meta": {
             "alias": "resin_tray.type",
-            "hrn": "hrn:34000-0:DataItem:81a9317fb83af280"
+            "hrn": "hrn:34000-0:DataItem:81a9317fb83af280",
+            "origin": "34100-0"
           }
         },
         {
@@ -271,7 +282,8 @@
           },
           "meta": {
             "alias": "resin_tray.total_time",
-            "hrn": "hrn:34000-0:DataItem:9fe2599da9aca96e"
+            "hrn": "hrn:34000-0:DataItem:9fe2599da9aca96e",
+            "origin": "34100-0"
           }
         },
         {
@@ -297,7 +309,8 @@
           },
           "meta": {
             "alias": "resin_tray.total_untensions",
-            "hrn": "hrn:34000-0:DataItem:50a280f9defe0116"
+            "hrn": "hrn:34000-0:DataItem:50a280f9defe0116",
+            "origin": "34100-0"
           }
         },
         {
@@ -323,7 +336,8 @@
           },
           "meta": {
             "alias": "resin_tray.total_tensions",
-            "hrn": "hrn:34000-0:DataItem:24f99e251db9e035"
+            "hrn": "hrn:34000-0:DataItem:24f99e251db9e035",
+            "origin": "34100-0"
           }
         },
         {
@@ -349,7 +363,8 @@
           },
           "meta": {
             "alias": "resin_tray.total_layers",
-            "hrn": "hrn:34000-0:DataItem:7912a95252c80530"
+            "hrn": "hrn:34000-0:DataItem:7912a95252c80530",
+            "origin": "34100-0"
           }
         },
         {
@@ -375,7 +390,8 @@
           },
           "meta": {
             "alias": "resin_tray.level",
-            "hrn": "hrn:34000-0:DataItem:b3c87585b2baaf28"
+            "hrn": "hrn:34000-0:DataItem:b3c87585b2baaf28",
+            "origin": "34100-0"
           }
         },
         {
@@ -401,7 +417,8 @@
           },
           "meta": {
             "alias": "resin_tray.total_energy",
-            "hrn": "hrn:34000-0:DataItem:1efc229659c79a33"
+            "hrn": "hrn:34000-0:DataItem:1efc229659c79a33",
+            "origin": "34100-0"
           }
         },
         {
@@ -427,7 +444,8 @@
           },
           "meta": {
             "alias": "resin_tray.serial_number",
-            "hrn": "hrn:34000-0:DataItem:67069b2d8b38492a"
+            "hrn": "hrn:34000-0:DataItem:67069b2d8b38492a",
+            "origin": "34100-0"
           }
         }
       ]
@@ -444,7 +462,8 @@
       },
       "meta": {
         "alias": "projector",
-        "hrn": "hrn:34000-0:Component:13c44a07a2f0eb0c"
+        "hrn": "hrn:34000-0:Component:13c44a07a2f0eb0c",
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -470,7 +489,8 @@
           },
           "meta": {
             "alias": "projector.led_pwm_value",
-            "hrn": "hrn:34000-0:DataItem:dc14be2aabeba070"
+            "hrn": "hrn:34000-0:DataItem:dc14be2aabeba070",
+            "origin": "34100-0"
           }
         },
         {
@@ -496,7 +516,8 @@
           },
           "meta": {
             "alias": "projector.power_cal_table",
-            "hrn": "hrn:34000-0:DataItem:56f15deb1fa7605c"
+            "hrn": "hrn:34000-0:DataItem:56f15deb1fa7605c",
+            "origin": "34100-0"
           }
         },
         {
@@ -522,7 +543,8 @@
           },
           "meta": {
             "alias": "projector.serial_number",
-            "hrn": "hrn:34000-0:DataItem:4521ef4d32e5c2b5"
+            "hrn": "hrn:34000-0:DataItem:4521ef4d32e5c2b5",
+            "origin": "34100-0"
           }
         },
         {
@@ -548,7 +570,8 @@
           },
           "meta": {
             "alias": "projector.led_power_commanded",
-            "hrn": "hrn:34000-0:DataItem:06a372a1dd8a6a79"
+            "hrn": "hrn:34000-0:DataItem:06a372a1dd8a6a79",
+            "origin": "34100-0"
           }
         },
         {
@@ -574,7 +597,8 @@
           },
           "meta": {
             "alias": "projector.hours_print_end",
-            "hrn": "hrn:34000-0:DataItem:702b1013a56d41ba"
+            "hrn": "hrn:34000-0:DataItem:702b1013a56d41ba",
+            "origin": "34100-0"
           }
         },
         {
@@ -600,7 +624,8 @@
           },
           "meta": {
             "alias": "projector.led_total_hours",
-            "hrn": "hrn:34000-0:DataItem:82c3f4f3f5af1e7a"
+            "hrn": "hrn:34000-0:DataItem:82c3f4f3f5af1e7a",
+            "origin": "34100-0"
           }
         },
         {
@@ -626,7 +651,8 @@
           },
           "meta": {
             "alias": "projector.hours_print_start",
-            "hrn": "hrn:34000-0:DataItem:56bf16f5f405aed4"
+            "hrn": "hrn:34000-0:DataItem:56bf16f5f405aed4",
+            "origin": "34100-0"
           }
         },
         {
@@ -652,7 +678,8 @@
           },
           "meta": {
             "alias": "projector.total_hours",
-            "hrn": "hrn:34000-0:DataItem:59a2c3fd7013f9b7"
+            "hrn": "hrn:34000-0:DataItem:59a2c3fd7013f9b7",
+            "origin": "34100-0"
           }
         }
       ]
@@ -669,7 +696,8 @@
       },
       "meta": {
         "alias": "vat",
-        "hrn": "hrn:34000-0:Component:49b4d720b33aa914"
+        "hrn": "hrn:34000-0:Component:49b4d720b33aa914",
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -695,7 +723,8 @@
           },
           "meta": {
             "alias": "vat.resin_level",
-            "hrn": "hrn:34000-0:DataItem:dac9d090f1a8518f"
+            "hrn": "hrn:34000-0:DataItem:dac9d090f1a8518f",
+            "origin": "34100-0"
           }
         },
         {
@@ -721,7 +750,8 @@
           },
           "meta": {
             "alias": "vat.temperature",
-            "hrn": "hrn:34000-0:DataItem:825071929a7b5aef"
+            "hrn": "hrn:34000-0:DataItem:825071929a7b5aef",
+            "origin": "34100-0"
           }
         }
       ]
@@ -738,12 +768,13 @@
       },
       "meta": {
         "alias": "stock",
-        "hrn": "hrn:34000-0:Component:67ee690dcad376f3"
+        "hrn": "hrn:34000-0:Component:67ee690dcad376f3",
+        "origin": "34100-0"
       },
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -764,7 +795,8 @@
           },
           "meta": {
             "alias": "stock.label_current_used_amount",
-            "hrn": "hrn:34000-0:DataItem:91930e4b4a56186a"
+            "hrn": "hrn:34000-0:DataItem:91930e4b4a56186a",
+            "origin": "34100-0"
           }
         },
         {
@@ -790,7 +822,8 @@
           },
           "meta": {
             "alias": "stock.label_last_used_date",
-            "hrn": "hrn:34000-0:DataItem:3ed863e018c600bb"
+            "hrn": "hrn:34000-0:DataItem:3ed863e018c600bb",
+            "origin": "34100-0"
           }
         },
         {
@@ -816,7 +849,8 @@
           },
           "meta": {
             "alias": "stock.label_uuid",
-            "hrn": "hrn:34000-0:DataItem:1f792e21ed8d8ecd"
+            "hrn": "hrn:34000-0:DataItem:1f792e21ed8d8ecd",
+            "origin": "34100-0"
           }
         },
         {
@@ -842,7 +876,8 @@
           },
           "meta": {
             "alias": "stock.batch_expiration_date",
-            "hrn": "hrn:34000-0:DataItem:f8db47c0055e802e"
+            "hrn": "hrn:34000-0:DataItem:f8db47c0055e802e",
+            "origin": "34100-0"
           }
         },
         {
@@ -868,7 +903,8 @@
           },
           "meta": {
             "alias": "stock.batch_number",
-            "hrn": "hrn:34000-0:DataItem:a69b73a88dacc7f2"
+            "hrn": "hrn:34000-0:DataItem:a69b73a88dacc7f2",
+            "origin": "34100-0"
           }
         },
         {
@@ -894,7 +930,8 @@
           },
           "meta": {
             "alias": "stock.bottle_udi",
-            "hrn": "hrn:34000-0:DataItem:0dab3a10438be6e1"
+            "hrn": "hrn:34000-0:DataItem:0dab3a10438be6e1",
+            "origin": "34100-0"
           }
         },
         {
@@ -920,12 +957,13 @@
           },
           "meta": {
             "alias": "stock.bottle_sku",
-            "hrn": "hrn:34000-0:DataItem:9c7960067db7ff67"
+            "hrn": "hrn:34000-0:DataItem:9c7960067db7ff67",
+            "origin": "34100-0"
           }
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -946,7 +984,8 @@
           },
           "meta": {
             "alias": "stock.bottle_size",
-            "hrn": "hrn:34000-0:DataItem:dcdb86b572d7563d"
+            "hrn": "hrn:34000-0:DataItem:dcdb86b572d7563d",
+            "origin": "34100-0"
           }
         },
         {
@@ -972,7 +1011,8 @@
           },
           "meta": {
             "alias": "stock.amount_to_use",
-            "hrn": "hrn:34000-0:DataItem:453c5490e3a53895"
+            "hrn": "hrn:34000-0:DataItem:453c5490e3a53895",
+            "origin": "34100-0"
           }
         },
         {
@@ -998,7 +1038,8 @@
           },
           "meta": {
             "alias": "stock.barcode",
-            "hrn": "hrn:34000-0:DataItem:fd019cfcb5dfd293"
+            "hrn": "hrn:34000-0:DataItem:fd019cfcb5dfd293",
+            "origin": "34100-0"
           }
         },
         {
@@ -1024,7 +1065,8 @@
           },
           "meta": {
             "alias": "mdm_pump.count",
-            "hrn": "hrn:34000-0:DataItem:8b04f2ad6c80cd89"
+            "hrn": "hrn:34000-0:DataItem:8b04f2ad6c80cd89",
+            "origin": "34100-0"
           }
         },
         {
@@ -1050,7 +1092,8 @@
           },
           "meta": {
             "alias": "peri_motor.current",
-            "hrn": "hrn:34000-0:DataItem:73cf798eefc22566"
+            "hrn": "hrn:34000-0:DataItem:73cf798eefc22566",
+            "origin": "34100-0"
           }
         },
         {
@@ -1076,7 +1119,8 @@
           },
           "meta": {
             "alias": "agitator_motor.count",
-            "hrn": "hrn:34000-0:DataItem:26c8a6aa16cf33d9"
+            "hrn": "hrn:34000-0:DataItem:26c8a6aa16cf33d9",
+            "origin": "34100-0"
           }
         },
         {
@@ -1102,7 +1146,8 @@
           },
           "meta": {
             "alias": "agitator_motor.current",
-            "hrn": "hrn:34000-0:DataItem:dfbd974594287600"
+            "hrn": "hrn:34000-0:DataItem:dfbd974594287600",
+            "origin": "34100-0"
           }
         },
         {
@@ -1128,7 +1173,8 @@
           },
           "meta": {
             "alias": "agitator_motor.rotations",
-            "hrn": "hrn:34000-0:DataItem:c2eea30efbeaa179"
+            "hrn": "hrn:34000-0:DataItem:c2eea30efbeaa179",
+            "origin": "34100-0"
           }
         },
         {
@@ -1154,7 +1200,8 @@
           },
           "meta": {
             "alias": "agitator_motor.stop",
-            "hrn": "hrn:34000-0:DataItem:6902766d90550d0c"
+            "hrn": "hrn:34000-0:DataItem:6902766d90550d0c",
+            "origin": "34100-0"
           }
         },
         {
@@ -1180,7 +1227,8 @@
           },
           "meta": {
             "alias": "agitator_motor.start",
-            "hrn": "hrn:34000-0:DataItem:03d17f79d9b0e349"
+            "hrn": "hrn:34000-0:DataItem:03d17f79d9b0e349",
+            "origin": "34100-0"
           }
         },
         {
@@ -1206,7 +1254,8 @@
           },
           "meta": {
             "alias": "agitator_motor.total_agitation_time",
-            "hrn": "hrn:34000-0:DataItem:06a8bc138bfad3bd"
+            "hrn": "hrn:34000-0:DataItem:06a8bc138bfad3bd",
+            "origin": "34100-0"
           }
         },
         {
@@ -1232,7 +1281,8 @@
           },
           "meta": {
             "alias": "stock.bottle_status",
-            "hrn": "hrn:34000-0:DataItem:97c047988da131ae"
+            "hrn": "hrn:34000-0:DataItem:97c047988da131ae",
+            "origin": "34100-0"
           }
         },
         {
@@ -1258,7 +1308,8 @@
           },
           "meta": {
             "alias": "stock.pump_status",
-            "hrn": "hrn:34000-0:DataItem:b323ba7ed0982ab9"
+            "hrn": "hrn:34000-0:DataItem:b323ba7ed0982ab9",
+            "origin": "34100-0"
           }
         },
         {
@@ -1284,7 +1335,8 @@
           },
           "meta": {
             "alias": "stock.pump_rotations",
-            "hrn": "hrn:34000-0:DataItem:edc92ca4ffc69365"
+            "hrn": "hrn:34000-0:DataItem:edc92ca4ffc69365",
+            "origin": "34100-0"
           }
         },
         {
@@ -1310,7 +1362,8 @@
           },
           "meta": {
             "alias": "stock.pumped_amount",
-            "hrn": "hrn:34000-0:DataItem:a41d927d473d1e14"
+            "hrn": "hrn:34000-0:DataItem:a41d927d473d1e14",
+            "origin": "34100-0"
           }
         },
         {
@@ -1336,7 +1389,8 @@
           },
           "meta": {
             "alias": "stock.lot_number",
-            "hrn": "hrn:34000-0:DataItem:0adf453b199654a2"
+            "hrn": "hrn:34000-0:DataItem:0adf453b199654a2",
+            "origin": "34100-0"
           }
         },
         {
@@ -1352,7 +1406,8 @@
           },
           "meta": {
             "alias": "stock.volume",
-            "hrn": "hrn:34000-0:DataItem:cf6b195e801b17db"
+            "hrn": "hrn:34000-0:DataItem:cf6b195e801b17db",
+            "origin": "34100-0"
           }
         },
         {
@@ -1378,7 +1433,8 @@
           },
           "meta": {
             "alias": "stock.serial_number",
-            "hrn": "hrn:34000-0:DataItem:5d1f1e79d78395f5"
+            "hrn": "hrn:34000-0:DataItem:5d1f1e79d78395f5",
+            "origin": "34100-0"
           }
         },
         {
@@ -1404,7 +1460,8 @@
           },
           "meta": {
             "alias": "stock.material_watts",
-            "hrn": "hrn:34000-0:DataItem:107b9f6b45e2745d"
+            "hrn": "hrn:34000-0:DataItem:107b9f6b45e2745d",
+            "origin": "34100-0"
           }
         },
         {
@@ -1430,7 +1487,8 @@
           },
           "meta": {
             "alias": "stock.material_exposure",
-            "hrn": "hrn:34000-0:DataItem:29aeb10b74beecac"
+            "hrn": "hrn:34000-0:DataItem:29aeb10b74beecac",
+            "origin": "34100-0"
           }
         },
         {
@@ -1456,7 +1514,8 @@
           },
           "meta": {
             "alias": "stock.material_density",
-            "hrn": "hrn:34000-0:DataItem:164886f318561df9"
+            "hrn": "hrn:34000-0:DataItem:164886f318561df9",
+            "origin": "34100-0"
           }
         },
         {
@@ -1482,7 +1541,8 @@
           },
           "meta": {
             "alias": "stock.material_compatibility_name",
-            "hrn": "hrn:34000-0:DataItem:2fc93e2370251b8d"
+            "hrn": "hrn:34000-0:DataItem:2fc93e2370251b8d",
+            "origin": "34100-0"
           }
         },
         {
@@ -1508,7 +1568,8 @@
           },
           "meta": {
             "alias": "stock.material_compatibility_group",
-            "hrn": "hrn:34000-0:DataItem:9833fa69d1bad5af"
+            "hrn": "hrn:34000-0:DataItem:9833fa69d1bad5af",
+            "origin": "34100-0"
           }
         },
         {
@@ -1534,7 +1595,8 @@
           },
           "meta": {
             "alias": "stock.material_code",
-            "hrn": "hrn:34000-0:DataItem:2e4c33c7a14704c1"
+            "hrn": "hrn:34000-0:DataItem:2e4c33c7a14704c1",
+            "origin": "34100-0"
           }
         },
         {
@@ -1560,7 +1622,8 @@
           },
           "meta": {
             "alias": "stock.material_shade",
-            "hrn": "hrn:34000-0:DataItem:1bde32dcfea9c345"
+            "hrn": "hrn:34000-0:DataItem:1bde32dcfea9c345",
+            "origin": "34100-0"
           }
         },
         {
@@ -1586,7 +1649,8 @@
           },
           "meta": {
             "alias": "stock.material_type",
-            "hrn": "hrn:34000-0:DataItem:bf09a92b299f28b0"
+            "hrn": "hrn:34000-0:DataItem:bf09a92b299f28b0",
+            "origin": "34100-0"
           }
         },
         {
@@ -1612,7 +1676,8 @@
           },
           "meta": {
             "alias": "stock.material_name",
-            "hrn": "hrn:34000-0:DataItem:962caeae335a6cf6"
+            "hrn": "hrn:34000-0:DataItem:962caeae335a6cf6",
+            "origin": "34100-0"
           }
         }
       ]
@@ -1630,7 +1695,8 @@
       "meta": {
         "alias": "build",
         "hrn": "hrn:34000-0:Component:0ef95c89a75c8ad4",
-        "required": true
+        "required": true,
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -1656,7 +1722,8 @@
           },
           "meta": {
             "alias": "build.pixel_size",
-            "hrn": "hrn:34000-0:DataItem:6aa7e25e18779b24"
+            "hrn": "hrn:34000-0:DataItem:6aa7e25e18779b24",
+            "origin": "34100-0"
           }
         },
         {
@@ -1682,7 +1749,8 @@
           },
           "meta": {
             "alias": "build.regional_contrast_transfer_function",
-            "hrn": "hrn:34000-0:DataItem:49b392fabd50836e"
+            "hrn": "hrn:34000-0:DataItem:49b392fabd50836e",
+            "origin": "34100-0"
           }
         },
         {
@@ -1708,7 +1776,8 @@
           },
           "meta": {
             "alias": "build.contrast_transfer_function",
-            "hrn": "hrn:34000-0:DataItem:5ef4d8b96eec831f"
+            "hrn": "hrn:34000-0:DataItem:5ef4d8b96eec831f",
+            "origin": "34100-0"
           }
         },
         {
@@ -1734,7 +1803,8 @@
           },
           "meta": {
             "alias": "build.scale_factor_y",
-            "hrn": "hrn:34000-0:DataItem:a946726cb8497f8d"
+            "hrn": "hrn:34000-0:DataItem:a946726cb8497f8d",
+            "origin": "34100-0"
           }
         },
         {
@@ -1760,7 +1830,8 @@
           },
           "meta": {
             "alias": "build.scale_factor_x",
-            "hrn": "hrn:34000-0:DataItem:158c25fa738793ad"
+            "hrn": "hrn:34000-0:DataItem:158c25fa738793ad",
+            "origin": "34100-0"
           }
         },
         {
@@ -1786,7 +1857,8 @@
           },
           "meta": {
             "alias": "build.interval_down_time",
-            "hrn": "hrn:34000-0:DataItem:ba3621f6db4db225"
+            "hrn": "hrn:34000-0:DataItem:ba3621f6db4db225",
+            "origin": "34100-0"
           }
         },
         {
@@ -1812,7 +1884,8 @@
           },
           "meta": {
             "alias": "build.interval_number",
-            "hrn": "hrn:34000-0:DataItem:41580d5e99cd4964"
+            "hrn": "hrn:34000-0:DataItem:41580d5e99cd4964",
+            "origin": "34100-0"
           }
         },
         {
@@ -1838,7 +1911,8 @@
           },
           "meta": {
             "alias": "build.interval_pause_time",
-            "hrn": "hrn:34000-0:DataItem:2aeb94d974c9a24d"
+            "hrn": "hrn:34000-0:DataItem:2aeb94d974c9a24d",
+            "origin": "34100-0"
           }
         },
         {
@@ -1864,7 +1938,8 @@
           },
           "meta": {
             "alias": "build.irradiance_mask",
-            "hrn": "hrn:34000-0:DataItem:2b68153e3ff699f0"
+            "hrn": "hrn:34000-0:DataItem:2b68153e3ff699f0",
+            "origin": "34100-0"
           }
         },
         {
@@ -1890,7 +1965,8 @@
           },
           "meta": {
             "alias": "build.irradiance_multiplier",
-            "hrn": "hrn:34000-0:DataItem:2e49df18f572ba34"
+            "hrn": "hrn:34000-0:DataItem:2e49df18f572ba34",
+            "origin": "34100-0"
           }
         },
         {
@@ -1916,7 +1992,8 @@
           },
           "meta": {
             "alias": "build.cure_depth",
-            "hrn": "hrn:34000-0:DataItem:8d44256b077c175c"
+            "hrn": "hrn:34000-0:DataItem:8d44256b077c175c",
+            "origin": "34100-0"
           }
         },
         {
@@ -1942,7 +2019,8 @@
           },
           "meta": {
             "alias": "build.layer_thickness",
-            "hrn": "hrn:34000-0:DataItem:af46a5e1d05543c6"
+            "hrn": "hrn:34000-0:DataItem:af46a5e1d05543c6",
+            "origin": "34100-0"
           }
         },
         {
@@ -1968,7 +2046,8 @@
           },
           "meta": {
             "alias": "build.base_layer_cure_time",
-            "hrn": "hrn:34000-0:DataItem:9b17868a60eb3de7"
+            "hrn": "hrn:34000-0:DataItem:9b17868a60eb3de7",
+            "origin": "34100-0"
           }
         },
         {
@@ -1994,7 +2073,8 @@
           },
           "meta": {
             "alias": "build.base_layer_thickness",
-            "hrn": "hrn:34000-0:DataItem:51573c0c1ad50ea5"
+            "hrn": "hrn:34000-0:DataItem:51573c0c1ad50ea5",
+            "origin": "34100-0"
           }
         },
         {
@@ -2020,7 +2100,8 @@
           },
           "meta": {
             "alias": "build.base_layer_cure_count",
-            "hrn": "hrn:34000-0:DataItem:342213d7fc153fa9"
+            "hrn": "hrn:34000-0:DataItem:342213d7fc153fa9",
+            "origin": "34100-0"
           }
         },
         {
@@ -2047,7 +2128,8 @@
           "meta": {
             "alias": "build.time_remaining",
             "hrn": "hrn:34000-0:DataItem:289c33e569078146",
-            "required": true
+            "required": true,
+            "origin": "34100-0"
           }
         },
         {
@@ -2074,7 +2156,8 @@
           "meta": {
             "alias": "build.progress",
             "hrn": "hrn:34000-0:DataItem:2c4a9c6b6f0005ef",
-            "required": true
+            "required": true,
+            "origin": "34100-0"
           }
         },
         {
@@ -2100,7 +2183,8 @@
           },
           "meta": {
             "alias": "build.layer_energy",
-            "hrn": "hrn:34000-0:DataItem:60fb80cfdcf76167"
+            "hrn": "hrn:34000-0:DataItem:60fb80cfdcf76167",
+            "origin": "34100-0"
           }
         },
         {
@@ -2126,7 +2210,8 @@
           },
           "meta": {
             "alias": "build.total_layers",
-            "hrn": "hrn:34000-0:DataItem:7819ae669c802846"
+            "hrn": "hrn:34000-0:DataItem:7819ae669c802846",
+            "origin": "34100-0"
           }
         },
         {
@@ -2153,7 +2238,8 @@
           "meta": {
             "alias": "build.current_layer",
             "hrn": "hrn:34000-0:DataItem:42f6523ddedd66c9",
-            "required": true
+            "required": true,
+            "origin": "34100-0"
           }
         },
         {
@@ -2179,7 +2265,8 @@
           },
           "meta": {
             "alias": "build.state",
-            "hrn": "hrn:34000-0:DataItem:b9e56f808974be5a"
+            "hrn": "hrn:34000-0:DataItem:b9e56f808974be5a",
+            "origin": "34100-0"
           }
         },
         {
@@ -2205,7 +2292,8 @@
           },
           "meta": {
             "alias": "build.style_version",
-            "hrn": "hrn:34000-0:DataItem:0163855f9667a2e9"
+            "hrn": "hrn:34000-0:DataItem:0163855f9667a2e9",
+            "origin": "34100-0"
           }
         },
         {
@@ -2231,7 +2319,8 @@
           },
           "meta": {
             "alias": "build.oracle_work_order",
-            "hrn": "hrn:34000-0:DataItem:7f60fb59d4a6a46b"
+            "hrn": "hrn:34000-0:DataItem:7f60fb59d4a6a46b",
+            "origin": "34100-0"
           }
         },
         {
@@ -2257,7 +2346,8 @@
           },
           "meta": {
             "alias": "build.end_time",
-            "hrn": "hrn:34000-0:DataItem:4872d4a5d750fa91"
+            "hrn": "hrn:34000-0:DataItem:4872d4a5d750fa91",
+            "origin": "34100-0"
           }
         },
         {
@@ -2283,7 +2373,8 @@
           },
           "meta": {
             "alias": "build.start_time",
-            "hrn": "hrn:34000-0:DataItem:833bdc191fc876ef"
+            "hrn": "hrn:34000-0:DataItem:833bdc191fc876ef",
+            "origin": "34100-0"
           }
         },
         {
@@ -2309,7 +2400,8 @@
           },
           "meta": {
             "alias": "build.plate_id",
-            "hrn": "hrn:34000-0:DataItem:a1c2ea045fb2fc46"
+            "hrn": "hrn:34000-0:DataItem:a1c2ea045fb2fc46",
+            "origin": "34100-0"
           }
         },
         {
@@ -2335,7 +2427,8 @@
           },
           "meta": {
             "alias": "build.filename",
-            "hrn": "hrn:34000-0:DataItem:150ea00f1e760d92"
+            "hrn": "hrn:34000-0:DataItem:150ea00f1e760d92",
+            "origin": "34100-0"
           }
         },
         {
@@ -2361,7 +2454,8 @@
           },
           "meta": {
             "alias": "build.slicer_version",
-            "hrn": "hrn:34000-0:DataItem:64355c22a75785b0"
+            "hrn": "hrn:34000-0:DataItem:64355c22a75785b0",
+            "origin": "34100-0"
           }
         }
       ]
@@ -2378,7 +2472,8 @@
       },
       "meta": {
         "alias": "z_motor",
-        "hrn": "hrn:34000-0:Component:1798dacf80dec193"
+        "hrn": "hrn:34000-0:Component:1798dacf80dec193",
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -2404,7 +2499,8 @@
           },
           "meta": {
             "alias": "z_motor.home_location",
-            "hrn": "hrn:34000-0:DataItem:6484099cf45a4728"
+            "hrn": "hrn:34000-0:DataItem:6484099cf45a4728",
+            "origin": "34100-0"
           }
         },
         {
@@ -2430,7 +2526,8 @@
           },
           "meta": {
             "alias": "z_motor.total_movement_distance",
-            "hrn": "hrn:34000-0:DataItem:b0af35659d32e7d4"
+            "hrn": "hrn:34000-0:DataItem:b0af35659d32e7d4",
+            "origin": "34100-0"
           }
         },
         {
@@ -2456,7 +2553,8 @@
           },
           "meta": {
             "alias": "z_motor.home_position_up",
-            "hrn": "hrn:34000-0:DataItem:21ddc809a4d217f7"
+            "hrn": "hrn:34000-0:DataItem:21ddc809a4d217f7",
+            "origin": "34100-0"
           }
         },
         {
@@ -2482,7 +2580,8 @@
           },
           "meta": {
             "alias": "z_motor.home_position_down",
-            "hrn": "hrn:34000-0:DataItem:e3b3e0b61f7316ab"
+            "hrn": "hrn:34000-0:DataItem:e3b3e0b61f7316ab",
+            "origin": "34100-0"
           }
         },
         {
@@ -2508,7 +2607,8 @@
           },
           "meta": {
             "alias": "z_motor.commanded",
-            "hrn": "hrn:34000-0:DataItem:97ba289b10ef71d5"
+            "hrn": "hrn:34000-0:DataItem:97ba289b10ef71d5",
+            "origin": "34100-0"
           }
         },
         {
@@ -2534,7 +2634,8 @@
           },
           "meta": {
             "alias": "z_motor.position",
-            "hrn": "hrn:34000-0:DataItem:84c0e516e45c72e5"
+            "hrn": "hrn:34000-0:DataItem:84c0e516e45c72e5",
+            "origin": "34100-0"
           }
         },
         {
@@ -2560,7 +2661,8 @@
           },
           "meta": {
             "alias": "z_motor.current",
-            "hrn": "hrn:34000-0:DataItem:71d532e34883a6af"
+            "hrn": "hrn:34000-0:DataItem:71d532e34883a6af",
+            "origin": "34100-0"
           }
         }
       ]
@@ -2578,7 +2680,8 @@
       "meta": {
         "alias": "controller",
         "hrn": "hrn:34000-0:Component:8acd17c349dd2f53",
-        "required": true
+        "required": true,
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -2604,7 +2707,8 @@
           },
           "meta": {
             "alias": "aurora.fan_rpm",
-            "hrn": "hrn:34000-0:DataItem:65e53c3403a2d058"
+            "hrn": "hrn:34000-0:DataItem:65e53c3403a2d058",
+            "origin": "34100-0"
           }
         },
         {
@@ -2630,7 +2734,8 @@
           },
           "meta": {
             "alias": "aurora.light_sensor_temperature",
-            "hrn": "hrn:34000-0:DataItem:869ca045858eafd2"
+            "hrn": "hrn:34000-0:DataItem:869ca045858eafd2",
+            "origin": "34100-0"
           }
         },
         {
@@ -2656,7 +2761,8 @@
           },
           "meta": {
             "alias": "aurora.led_temperature",
-            "hrn": "hrn:34000-0:DataItem:af2a65578a6625db"
+            "hrn": "hrn:34000-0:DataItem:af2a65578a6625db",
+            "origin": "34100-0"
           }
         },
         {
@@ -2682,7 +2788,8 @@
           },
           "meta": {
             "alias": "aurora.dmd_temperature",
-            "hrn": "hrn:34000-0:DataItem:31d86693cb272293"
+            "hrn": "hrn:34000-0:DataItem:31d86693cb272293",
+            "origin": "34100-0"
           }
         },
         {
@@ -2708,7 +2815,8 @@
           },
           "meta": {
             "alias": "controller.internal_temperature",
-            "hrn": "hrn:34000-0:DataItem:43ca2aaf83293a74"
+            "hrn": "hrn:34000-0:DataItem:43ca2aaf83293a74",
+            "origin": "34100-0"
           }
         },
         {
@@ -2734,7 +2842,8 @@
           },
           "meta": {
             "alias": "controller.serial_number",
-            "hrn": "hrn:34000-0:DataItem:e5f4e41db2f3e0d3"
+            "hrn": "hrn:34000-0:DataItem:e5f4e41db2f3e0d3",
+            "origin": "34100-0"
           }
         },
         {
@@ -2760,7 +2869,8 @@
           },
           "meta": {
             "alias": "controller.secure_device_read_failure_count",
-            "hrn": "hrn:34000-0:DataItem:0c21903a8b9c92fd"
+            "hrn": "hrn:34000-0:DataItem:0c21903a8b9c92fd",
+            "origin": "34100-0"
           }
         },
         {
@@ -2786,7 +2896,8 @@
           },
           "meta": {
             "alias": "controller.print_mode",
-            "hrn": "hrn:34000-0:DataItem:fec1c82bfe6da4ae"
+            "hrn": "hrn:34000-0:DataItem:fec1c82bfe6da4ae",
+            "origin": "34100-0"
           }
         },
         {
@@ -2814,7 +2925,8 @@
             "alias": "controller.ip_address",
             "hrn": "hrn:34000-0:DataItem:981d9f5cbeebdf95",
             "device_state": true,
-            "emitted_by_adapter": true
+            "emitted_by_adapter": true,
+            "origin": "34100-0"
           }
         },
         {
@@ -2840,7 +2952,8 @@
           },
           "meta": {
             "alias": "controller.kernel_version",
-            "hrn": "hrn:34000-0:DataItem:e5f9679091f8837c"
+            "hrn": "hrn:34000-0:DataItem:e5f9679091f8837c",
+            "origin": "34100-0"
           }
         },
         {
@@ -2866,7 +2979,8 @@
           },
           "meta": {
             "alias": "controller.version",
-            "hrn": "hrn:34000-0:DataItem:3e12a316bb0eac6e"
+            "hrn": "hrn:34000-0:DataItem:3e12a316bb0eac6e",
+            "origin": "34100-0"
           }
         },
         {
@@ -2892,7 +3006,8 @@
           },
           "meta": {
             "alias": "controller.version_date",
-            "hrn": "hrn:34000-0:DataItem:d2e5836cc5fcce38"
+            "hrn": "hrn:34000-0:DataItem:d2e5836cc5fcce38",
+            "origin": "34100-0"
           }
         },
         {
@@ -2919,7 +3034,8 @@
           "meta": {
             "alias": "controller.mac_address",
             "hrn": "hrn:34000-0:DataItem:1f246e5ca38a38c5",
-            "required": true
+            "required": true,
+            "origin": "34100-0"
           }
         },
         {
@@ -2945,7 +3061,8 @@
           },
           "meta": {
             "alias": "controller.controller_mode",
-            "hrn": "hrn:34000-0:DataItem:c51740a427770c41"
+            "hrn": "hrn:34000-0:DataItem:c51740a427770c41",
+            "origin": "34100-0"
           }
         },
         {
@@ -2971,7 +3088,8 @@
           },
           "meta": {
             "alias": "controller.mem_used",
-            "hrn": "hrn:34000-0:DataItem:022db488ad743c6d"
+            "hrn": "hrn:34000-0:DataItem:022db488ad743c6d",
+            "origin": "34100-0"
           }
         },
         {
@@ -2997,7 +3115,8 @@
           },
           "meta": {
             "alias": "controller.fs_free",
-            "hrn": "hrn:34000-0:DataItem:c0e46a8b5b160d19"
+            "hrn": "hrn:34000-0:DataItem:c0e46a8b5b160d19",
+            "origin": "34100-0"
           }
         },
         {
@@ -3023,7 +3142,8 @@
           },
           "meta": {
             "alias": "controller.cpu_load",
-            "hrn": "hrn:34000-0:DataItem:9fa636d4a2492648"
+            "hrn": "hrn:34000-0:DataItem:9fa636d4a2492648",
+            "origin": "34100-0"
           }
         },
         {
@@ -3049,7 +3169,8 @@
           },
           "meta": {
             "alias": "controller.ui_version",
-            "hrn": "hrn:34000-0:DataItem:8cf81fb94ad8deef"
+            "hrn": "hrn:34000-0:DataItem:8cf81fb94ad8deef",
+            "origin": "34100-0"
           }
         },
         {
@@ -3075,7 +3196,8 @@
           },
           "meta": {
             "alias": "controller.workcell_version",
-            "hrn": "hrn:34000-0:DataItem:e1ea278cd9153522"
+            "hrn": "hrn:34000-0:DataItem:e1ea278cd9153522",
+            "origin": "34100-0"
           }
         },
         {
@@ -3101,7 +3223,8 @@
           },
           "meta": {
             "alias": "controller.appliance_version",
-            "hrn": "hrn:34000-0:DataItem:f397be4e557c4ac9"
+            "hrn": "hrn:34000-0:DataItem:f397be4e557c4ac9",
+            "origin": "34100-0"
           }
         }
       ]
@@ -3118,7 +3241,8 @@
       },
       "meta": {
         "alias": "exhaust_filter",
-        "hrn": "hrn:34000-0:Component:0931561f068226a9"
+        "hrn": "hrn:34000-0:Component:0931561f068226a9",
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -3144,7 +3268,8 @@
           },
           "meta": {
             "alias": "exhaust_filter.fan_state",
-            "hrn": "hrn:34000-0:DataItem:3166dd5bddd78ad2"
+            "hrn": "hrn:34000-0:DataItem:3166dd5bddd78ad2",
+            "origin": "34100-0"
           }
         },
         {
@@ -3154,7 +3279,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "HOUR",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3170,7 +3295,8 @@
           },
           "meta": {
             "alias": "exhaust_filter.fan_on_hours",
-            "hrn": "hrn:34000-0:DataItem:5a50caab8677a9af"
+            "hrn": "hrn:34000-0:DataItem:5a50caab8677a9af",
+            "origin": "34100-0"
           }
         },
         {
@@ -3196,7 +3322,8 @@
           },
           "meta": {
             "alias": "exhaust_filter.fan_actual_rpm",
-            "hrn": "hrn:34000-0:DataItem:fce6354d5d0bbbbe"
+            "hrn": "hrn:34000-0:DataItem:fce6354d5d0bbbbe",
+            "origin": "34100-0"
           }
         },
         {
@@ -3222,7 +3349,8 @@
           },
           "meta": {
             "alias": "exhaust_filter.fan_target_rpm",
-            "hrn": "hrn:34000-0:DataItem:003285ea2e8954f6"
+            "hrn": "hrn:34000-0:DataItem:003285ea2e8954f6",
+            "origin": "34100-0"
           }
         },
         {
@@ -3248,7 +3376,8 @@
           },
           "meta": {
             "alias": "exhaust_filter.carbon_filter_element_hours",
-            "hrn": "hrn:34000-0:DataItem:82f4ebf88c44ec40"
+            "hrn": "hrn:34000-0:DataItem:82f4ebf88c44ec40",
+            "origin": "34100-0"
           }
         }
       ]
@@ -3266,7 +3395,8 @@
       "meta": {
         "alias": "conditions",
         "hrn": "hrn:34000-0:Component:3cf6b8389629c611",
-        "required": true
+        "required": true,
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -3289,7 +3419,8 @@
           },
           "meta": {
             "alias": "fault.controller.internal_temperature",
-            "hrn": "hrn:34000-0:DataItem:6663311bf1dcfb5e"
+            "hrn": "hrn:34000-0:DataItem:6663311bf1dcfb5e",
+            "origin": "34100-0"
           }
         }
       ]
@@ -3307,7 +3438,8 @@
       "meta": {
         "alias": "device",
         "hrn": "hrn:34000-0:Component:2824d342cddde423",
-        "required": true
+        "required": true,
+        "origin": "34100-0"
       },
       "dataitems": [
         {
@@ -3333,7 +3465,8 @@
           },
           "meta": {
             "alias": "build_platform.present",
-            "hrn": "hrn:34000-0:DataItem:3f5d29cbf516d888"
+            "hrn": "hrn:34000-0:DataItem:3f5d29cbf516d888",
+            "origin": "34100-0"
           }
         },
         {
@@ -3359,7 +3492,8 @@
           },
           "meta": {
             "alias": "bypass_state",
-            "hrn": "hrn:34000-0:DataItem:b6f70514d7a626ee"
+            "hrn": "hrn:34000-0:DataItem:b6f70514d7a626ee",
+            "origin": "34100-0"
           }
         },
         {
@@ -3385,7 +3519,8 @@
           },
           "meta": {
             "alias": "chassis_state",
-            "hrn": "hrn:34000-0:DataItem:a88b16e927b117a5"
+            "hrn": "hrn:34000-0:DataItem:a88b16e927b117a5",
+            "origin": "34100-0"
           }
         },
         {
@@ -3411,7 +3546,8 @@
           },
           "meta": {
             "alias": "build_light.active",
-            "hrn": "hrn:34000-0:DataItem:54a2173146f266b6"
+            "hrn": "hrn:34000-0:DataItem:54a2173146f266b6",
+            "origin": "34100-0"
           }
         },
         {
@@ -3437,7 +3573,8 @@
           },
           "meta": {
             "alias": "build_platform.serial_number",
-            "hrn": "hrn:34000-0:DataItem:f15c21e8e130a114"
+            "hrn": "hrn:34000-0:DataItem:f15c21e8e130a114",
+            "origin": "34100-0"
           }
         },
         {
@@ -3463,7 +3600,8 @@
           },
           "meta": {
             "alias": "license_activation_date",
-            "hrn": "hrn:34000-0:DataItem:a8384a1778f48097"
+            "hrn": "hrn:34000-0:DataItem:a8384a1778f48097",
+            "origin": "34100-0"
           }
         },
         {
@@ -3489,7 +3627,8 @@
           },
           "meta": {
             "alias": "license_activation_type",
-            "hrn": "hrn:34000-0:DataItem:d6d6d5560ede010c"
+            "hrn": "hrn:34000-0:DataItem:d6d6d5560ede010c",
+            "origin": "34100-0"
           }
         },
         {
@@ -3515,7 +3654,8 @@
           },
           "meta": {
             "alias": "compressed_air_pressure",
-            "hrn": "hrn:34000-0:DataItem:b77508ac963d9df1"
+            "hrn": "hrn:34000-0:DataItem:b77508ac963d9df1",
+            "origin": "34100-0"
           }
         },
         {
@@ -3541,7 +3681,8 @@
           },
           "meta": {
             "alias": "chamber_door.mtc_state",
-            "hrn": "hrn:34000-0:DataItem:2b7eab2b8547587c"
+            "hrn": "hrn:34000-0:DataItem:2b7eab2b8547587c",
+            "origin": "34100-0"
           }
         },
         {
@@ -3567,7 +3708,8 @@
           },
           "meta": {
             "alias": "chamber_door.state",
-            "hrn": "hrn:34000-0:DataItem:f0884d0a05929f5a"
+            "hrn": "hrn:34000-0:DataItem:f0884d0a05929f5a",
+            "origin": "34100-0"
           }
         },
         {
@@ -3593,7 +3735,8 @@
           },
           "meta": {
             "alias": "lifetime_estimated_material_used",
-            "hrn": "hrn:34000-0:DataItem:e531b104a69328ce"
+            "hrn": "hrn:34000-0:DataItem:e531b104a69328ce",
+            "origin": "34100-0"
           }
         },
         {
@@ -3619,7 +3762,8 @@
           },
           "meta": {
             "alias": "leak_sensor.active",
-            "hrn": "hrn:34000-0:DataItem:3787743d722449b2"
+            "hrn": "hrn:34000-0:DataItem:3787743d722449b2",
+            "origin": "34100-0"
           }
         },
         {
@@ -3645,7 +3789,8 @@
           },
           "meta": {
             "alias": "tube_installation_date",
-            "hrn": "hrn:34000-0:DataItem:bc7aa3e35a2712e9"
+            "hrn": "hrn:34000-0:DataItem:bc7aa3e35a2712e9",
+            "origin": "34100-0"
           }
         },
         {
@@ -3671,7 +3816,8 @@
           },
           "meta": {
             "alias": "tube_material_sensor.active",
-            "hrn": "hrn:34000-0:DataItem:2d6aec2f9443014c"
+            "hrn": "hrn:34000-0:DataItem:2d6aec2f9443014c",
+            "origin": "34100-0"
           }
         },
         {
@@ -3697,7 +3843,8 @@
           },
           "meta": {
             "alias": "lifetime_build_hours",
-            "hrn": "hrn:34000-0:DataItem:f5c70158a3700bd0"
+            "hrn": "hrn:34000-0:DataItem:f5c70158a3700bd0",
+            "origin": "34100-0"
           }
         },
         {
@@ -3723,7 +3870,8 @@
           },
           "meta": {
             "alias": "lifetime_on_hours",
-            "hrn": "hrn:34000-0:DataItem:da8ef98aef0719f4"
+            "hrn": "hrn:34000-0:DataItem:da8ef98aef0719f4",
+            "origin": "34100-0"
           }
         },
         {
@@ -3749,7 +3897,8 @@
           },
           "meta": {
             "alias": "dddsprint_version",
-            "hrn": "hrn:34000-0:DataItem:c51906b44caced1a"
+            "hrn": "hrn:34000-0:DataItem:c51906b44caced1a",
+            "origin": "34100-0"
           }
         },
         {
@@ -3775,7 +3924,8 @@
           },
           "meta": {
             "alias": "print_tray.serial_number",
-            "hrn": "hrn:34000-0:DataItem:b53dc8da4d47f3a3"
+            "hrn": "hrn:34000-0:DataItem:b53dc8da4d47f3a3",
+            "origin": "34100-0"
           }
         },
         {
@@ -3801,7 +3951,8 @@
           },
           "meta": {
             "alias": "execution",
-            "hrn": "hrn:34000-0:DataItem:29cb8962979f34da"
+            "hrn": "hrn:34000-0:DataItem:29cb8962979f34da",
+            "origin": "34100-0"
           }
         },
         {
@@ -3827,7 +3978,8 @@
           },
           "meta": {
             "alias": "led_reference_table",
-            "hrn": "hrn:34000-0:DataItem:bb35a2694da74ac7"
+            "hrn": "hrn:34000-0:DataItem:bb35a2694da74ac7",
+            "origin": "34100-0"
           }
         },
         {
@@ -3853,7 +4005,8 @@
           },
           "meta": {
             "alias": "emergency_stop",
-            "hrn": "hrn:34000-0:DataItem:908ee340864e9a23"
+            "hrn": "hrn:34000-0:DataItem:908ee340864e9a23",
+            "origin": "34100-0"
           }
         },
         {
@@ -3879,7 +4032,8 @@
           },
           "meta": {
             "alias": "available",
-            "hrn": "hrn:34000-0:DataItem:6e0a520a24a336c9"
+            "hrn": "hrn:34000-0:DataItem:6e0a520a24a336c9",
+            "origin": "34100-0"
           }
         },
         {
@@ -3905,7 +4059,8 @@
           },
           "meta": {
             "alias": "printer_name",
-            "hrn": "hrn:34000-0:DataItem:ae55a541594c3530"
+            "hrn": "hrn:34000-0:DataItem:ae55a541594c3530",
+            "origin": "34100-0"
           }
         },
         {
@@ -3921,7 +4076,8 @@
           },
           "meta": {
             "alias": "chamber_humidity",
-            "hrn": "hrn:34000-0:DataItem:442acb2b3a591119"
+            "hrn": "hrn:34000-0:DataItem:442acb2b3a591119",
+            "origin": "34100-0"
           }
         },
         {
@@ -3947,7 +4103,8 @@
           },
           "meta": {
             "alias": "chamber_temperature",
-            "hrn": "hrn:34000-0:DataItem:fe7182a2c800d3a9"
+            "hrn": "hrn:34000-0:DataItem:fe7182a2c800d3a9",
+            "origin": "34100-0"
           }
         },
         {
@@ -3975,7 +4132,8 @@
             "alias": "serial_number",
             "hrn": "hrn:34000-0:DataItem:27df2b90b58b1766",
             "device_state": true,
-            "required": true
+            "required": true,
+            "origin": "34100-0"
           }
         },
         {
@@ -4001,7 +4159,8 @@
           },
           "meta": {
             "alias": "fault_status",
-            "hrn": "hrn:34000-0:DataItem:2f96bc5ebf8d5434"
+            "hrn": "hrn:34000-0:DataItem:2f96bc5ebf8d5434",
+            "origin": "34100-0"
           }
         }
       ]
