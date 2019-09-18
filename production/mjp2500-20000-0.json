@@ -615,7 +615,7 @@
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "TIME_T",
-            "native_units": "Epoch (secs)",
+            "native_units": "ISO 8601",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -995,7 +995,7 @@
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "TIME_T",
-            "native_units": "Epoch (secs)",
+            "native_units": "ISO 8601",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1375,7 +1375,7 @@
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "TIME_T",
-            "native_units": "Epoch (secs)",
+            "native_units": "ISO 8601",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1755,7 +1755,7 @@
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "TIME_T",
-            "native_units": "Epoch (secs)",
+            "native_units": "ISO 8601",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -3806,7 +3806,6 @@
             "category": "EVENT",
             "subtype": "",
             "units": "",
-            "sample_interval": 0,
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
