@@ -2732,7 +2732,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "[HYDRA-1198] Exceeds Max. Threshold: 650",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -2758,7 +2758,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "[HYDRA-1198] Exceeds Max. Threshold: 950",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
