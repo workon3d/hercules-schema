@@ -4038,6 +4038,33 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "frequency: Power-up and once every day\n0=empty 100=full\njira: DASH-4105",
+            "description": "",
+            "data_source": "10064 = GET_WASTE_INFO",
+            "native_type": "INTEGER",
+            "native_units": "Percent",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Operator-Maintenance-Waste-Bag-Percent",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_rate": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "operator_maintenance.waste_bag.percent",
+            "hrn": "hrn:20000-123:DataItem:0dba4528007fc13e",
+            "origin": "20000-0"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE_INT",
             "notes": "Emitted by adapter\nPrinter only send system_state. Printer_state UUID is inferred from system_state, the code is in adapter emitter module",
             "description": "",
