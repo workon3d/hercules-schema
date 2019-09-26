@@ -3648,6 +3648,52 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "ERROR_WARNING_OP_MAINT_WASTE_BAG_NEAR_FULL",
+            "native_severity": "NORMAL/WARNING",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "HARDWARE",
+            "name": "Operator-Maintenance-Waste-Bag-Near-Full",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "Waste bag level is (not) near full",
+            "qualifier": "OVERDUE",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "operator_maintenance.waste_bag.near_full",
+            "hrn": "hrn:20000-0:DataItem:6aae8781e8fa3a81"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "ERROR_WARNING_OP_MAINT_WASTE_BAG_FULL",
+            "native_severity": "NORMAL/WARNING",
+            "sample_rate": 0
+          },
+          "mtconnect_schema": {
+            "type": "HARDWARE",
+            "name": "Operator-Maintenance-Waste-Bag-Full",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "Waste bag level is (not) full",
+            "qualifier": "OVERDUE",
+            "sample_rate": 0
+          },
+          "meta": {
+            "alias": "operator_maintenance.waste_bag.full",
+            "hrn": "hrn:20000-0:DataItem:9de284e7350ef8e2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
             "notes": "frequency: Power-up and once every day\njira: DASH-3965\n20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS",
             "description": "",
             "native_severity": "NORMAL/WARNING",
