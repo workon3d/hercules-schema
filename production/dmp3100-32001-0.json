@@ -1610,7 +1610,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1636,7 +1636,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
