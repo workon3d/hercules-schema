@@ -1204,12 +1204,12 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "int",
+            "native_type": "INT",
+            "native_units": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1230,12 +1230,12 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "int",
+            "native_type": "INT",
+            "native_units": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1260,8 +1260,8 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "float",
+            "native_type": "FLOAT",
+            "native_units": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1286,8 +1286,8 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "float",
+            "native_type": "FLOAT",
+            "native_units": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1312,8 +1312,8 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "float",
+            "native_type": "FLOAT",
+            "native_units": "",
             "sample_rate": 0,
             "native_name": ""
           },
@@ -1404,7 +1404,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1430,7 +1430,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1604,7 +1604,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1630,7 +1630,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1752,7 +1752,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1778,7 +1778,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "motor torque feedback",
             "description": "",
             "data_source": "",
@@ -2720,7 +2720,6 @@
             "category": "EVENT",
             "subtype": "",
             "units": "",
-            "sample_interval": 0,
             "representation": "",
             "sample_rate": 0,
             "native_name": ""
