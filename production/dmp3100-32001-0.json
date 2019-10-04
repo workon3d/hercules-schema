@@ -1158,7 +1158,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "SAMPLE_INT",
             "notes": "This is a int (0-100%)",
             "description": "",
             "data_source": "",
@@ -1168,9 +1168,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "POWER_FACTOR",
             "name": "Pneumatic-Blower-Actual",
-            "category": "EVENT",
+            "category": "SAMPLE",
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
@@ -1410,7 +1410,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1436,7 +1436,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1758,7 +1758,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1784,7 +1784,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1958,7 +1958,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1984,7 +1984,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "motor torque feedback",
             "description": "",
             "data_source": "",
