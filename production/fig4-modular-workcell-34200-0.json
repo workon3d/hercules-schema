@@ -41,7 +41,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -51,7 +51,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -69,7 +69,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -79,7 +79,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -95,7 +95,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -105,7 +105,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -157,7 +157,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -167,7 +167,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -183,7 +183,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -193,7 +193,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -209,7 +209,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -219,7 +219,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -235,7 +235,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -245,7 +245,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -261,7 +261,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -277,7 +277,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -287,7 +287,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -303,7 +303,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -313,7 +313,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -331,7 +331,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -341,7 +341,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
