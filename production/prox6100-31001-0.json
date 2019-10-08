@@ -40,7 +40,7 @@
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "BOOL",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -50,7 +50,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -66,7 +66,7 @@
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
             "native_units": "Enum",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -76,7 +76,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -92,7 +92,7 @@
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
             "native_units": "Enum",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -102,7 +102,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -118,7 +118,7 @@
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "FLOAT",
             "native_units": "LITER",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -134,7 +134,7 @@
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "FLOAT",
             "native_units": "LITER",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -150,7 +150,7 @@
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
             "native_units": "Percent",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -160,7 +160,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -176,7 +176,7 @@
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -186,7 +186,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -220,7 +220,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "INTEGER",
             "native_units": "Enum",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -230,7 +230,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -246,7 +246,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "INTEGER",
             "native_units": "seconds",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -256,7 +256,7 @@
             "subtype": "PROCESS",
             "units": "SECOND",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -272,7 +272,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "INTEGER",
             "native_units": "seconds",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -282,7 +282,7 @@
             "subtype": "PROCESS",
             "units": "SECOND",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -298,7 +298,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "DOUBLE",
             "native_units": "Millimeter",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -308,7 +308,7 @@
             "subtype": "STANDARD",
             "units": "MILLIMETER",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -324,7 +324,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "DOUBLE",
             "native_units": "Millimeter",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -334,7 +334,7 @@
             "subtype": "STANDARD",
             "units": "MILLIMETER",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -350,7 +350,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "DOUBLE",
             "native_units": "Millimeter",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -360,7 +360,7 @@
             "subtype": "STANDARD",
             "units": "MILLIMETER",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -376,7 +376,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "INTEGER",
             "native_units": "time_t",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -386,7 +386,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -402,7 +402,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "INTEGER",
             "native_units": "time_t",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -412,7 +412,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -428,7 +428,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "LONG",
             "native_units": "Seconds",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -438,7 +438,7 @@
             "subtype": "",
             "units": "SECOND",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -454,7 +454,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "DOUBLE",
             "native_units": "Millimeter",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -464,7 +464,7 @@
             "subtype": "STANDARD",
             "units": "MILLIMETER",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -480,7 +480,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "INTEGER",
             "native_units": "time_t",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -490,7 +490,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -506,7 +506,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "INTEGER",
             "native_units": "time_t",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -516,7 +516,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -532,7 +532,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "INTEGER",
             "native_units": "Seconds",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -542,7 +542,7 @@
             "subtype": "PROCESS",
             "units": "SECOND",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -558,7 +558,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -568,7 +568,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -584,7 +584,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "STRING",
             "native_units": "HD/UHD/HDS",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -594,7 +594,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -610,7 +610,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -620,7 +620,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -636,7 +636,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -646,7 +646,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -662,7 +662,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -672,7 +672,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -688,7 +688,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -698,7 +698,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -714,7 +714,7 @@
             "data_source": "10081 = GET_SPOOLER_JOB_INFO",
             "native_type": "INTEGER",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -724,7 +724,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -740,7 +740,7 @@
             "data_source": "10001 = GET_CURRENT_STATE",
             "native_type": "INTEGER",
             "native_units": "Enum",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -750,7 +750,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -766,7 +766,7 @@
             "data_source": "Event-Emitter",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -776,7 +776,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -792,7 +792,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -802,7 +802,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -818,7 +818,7 @@
             "data_source": "Emitter",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -828,7 +828,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -844,7 +844,7 @@
             "data_source": "",
             "native_type": "",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -854,7 +854,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -889,7 +889,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -899,7 +899,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -916,7 +916,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -926,7 +926,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -944,7 +944,7 @@
             "data_source": "",
             "native_type": "STRING:JSON",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -954,7 +954,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -970,7 +970,7 @@
             "data_source": "",
             "native_type": "STRING:JSON",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -980,7 +980,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -996,7 +996,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1006,7 +1006,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1022,7 +1022,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1032,7 +1032,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1065,7 +1065,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1075,7 +1075,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1091,7 +1091,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1101,7 +1101,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1117,7 +1117,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1127,7 +1127,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1143,7 +1143,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Ohm",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1153,7 +1153,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1169,7 +1169,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1179,7 +1179,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1195,7 +1195,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Amp",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1205,7 +1205,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1221,7 +1221,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1231,7 +1231,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1247,7 +1247,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1257,7 +1257,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1273,7 +1273,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1283,7 +1283,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1299,7 +1299,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1309,7 +1309,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1325,7 +1325,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "%",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1335,7 +1335,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1351,7 +1351,7 @@
             "data_source": "XML File",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1361,7 +1361,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1377,7 +1377,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1387,7 +1387,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1403,7 +1403,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1413,7 +1413,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1429,7 +1429,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1439,7 +1439,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1455,7 +1455,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1465,7 +1465,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1481,7 +1481,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1491,7 +1491,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1507,7 +1507,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1517,7 +1517,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1533,7 +1533,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1543,7 +1543,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1559,7 +1559,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1569,7 +1569,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1585,7 +1585,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1595,7 +1595,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1611,7 +1611,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1621,7 +1621,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1654,7 +1654,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Ohm",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1664,7 +1664,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1680,7 +1680,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1690,7 +1690,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1706,7 +1706,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Amp",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1716,7 +1716,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1732,7 +1732,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Ohm",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1742,7 +1742,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1758,7 +1758,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1768,7 +1768,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1784,7 +1784,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Amp",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1794,7 +1794,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1810,7 +1810,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Ohm",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1820,7 +1820,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1836,7 +1836,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1846,7 +1846,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1862,7 +1862,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Amp",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1872,7 +1872,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1888,7 +1888,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Ohm",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1898,7 +1898,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1914,7 +1914,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1924,7 +1924,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1940,7 +1940,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Amp",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1950,7 +1950,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1966,7 +1966,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Ohm",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1976,7 +1976,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -1992,7 +1992,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2002,7 +2002,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2018,7 +2018,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Amp",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2028,7 +2028,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2044,7 +2044,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Ohm",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2054,7 +2054,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2070,7 +2070,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2080,7 +2080,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2096,7 +2096,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Amp",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2106,7 +2106,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2122,7 +2122,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "%",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2132,7 +2132,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2148,7 +2148,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2158,7 +2158,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2174,7 +2174,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2184,7 +2184,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2200,7 +2200,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2210,7 +2210,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2226,7 +2226,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2236,7 +2236,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2252,7 +2252,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2262,7 +2262,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2278,7 +2278,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "%",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2288,7 +2288,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2321,7 +2321,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2331,7 +2331,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2347,7 +2347,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2357,7 +2357,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2373,7 +2373,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2383,7 +2383,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2399,7 +2399,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2409,7 +2409,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2425,7 +2425,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2435,7 +2435,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2451,7 +2451,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "%",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2461,7 +2461,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2477,7 +2477,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "LONG",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2487,7 +2487,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2503,7 +2503,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "LONG",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2513,7 +2513,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2547,7 +2547,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "INCH",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2557,7 +2557,7 @@
             "subtype": "",
             "units": "MILLIMETER",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2573,7 +2573,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "LONG",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2583,7 +2583,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2599,7 +2599,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "INCH",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2609,7 +2609,7 @@
             "subtype": "",
             "units": "MILLIMETER",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2625,7 +2625,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "LONG",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2635,7 +2635,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2669,7 +2669,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Ohm",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2679,7 +2679,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2695,7 +2695,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Amp",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2705,7 +2705,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2721,7 +2721,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2731,7 +2731,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2747,7 +2747,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2757,7 +2757,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2773,7 +2773,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2783,7 +2783,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2799,7 +2799,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2809,7 +2809,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2825,7 +2825,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "%",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2835,7 +2835,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2851,7 +2851,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2861,7 +2861,7 @@
             "subtype": "",
             "units": "MILLIMETER",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2877,7 +2877,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2887,7 +2887,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2920,7 +2920,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2930,7 +2930,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2946,7 +2946,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2956,7 +2956,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2972,7 +2972,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2982,7 +2982,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -2998,7 +2998,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "LONG",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3008,7 +3008,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3024,7 +3024,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3034,7 +3034,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3050,7 +3050,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3060,7 +3060,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3076,7 +3076,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "%",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3086,7 +3086,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3119,7 +3119,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3129,7 +3129,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3162,7 +3162,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Ohm",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3172,7 +3172,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3188,7 +3188,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Amp",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3198,7 +3198,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3214,7 +3214,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3224,7 +3224,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3240,7 +3240,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3250,7 +3250,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3266,7 +3266,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3276,7 +3276,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3292,7 +3292,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3302,7 +3302,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3318,7 +3318,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "%",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3328,7 +3328,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3344,7 +3344,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3354,7 +3354,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3387,7 +3387,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3397,7 +3397,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3430,7 +3430,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3440,7 +3440,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3456,7 +3456,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3466,7 +3466,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3482,7 +3482,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3492,7 +3492,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3508,7 +3508,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3518,7 +3518,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3534,7 +3534,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "LONG",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3544,7 +3544,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3560,7 +3560,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "%",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3570,7 +3570,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3586,7 +3586,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3596,7 +3596,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3612,7 +3612,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3622,7 +3622,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3638,7 +3638,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "%",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3648,7 +3648,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3664,7 +3664,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3674,7 +3674,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3690,7 +3690,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3700,7 +3700,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3716,7 +3716,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3726,7 +3726,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3742,7 +3742,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3752,7 +3752,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3768,7 +3768,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3778,7 +3778,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3794,7 +3794,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3804,7 +3804,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3837,7 +3837,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3847,7 +3847,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3880,7 +3880,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3890,7 +3890,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3906,7 +3906,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3916,7 +3916,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3932,7 +3932,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3942,7 +3942,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3958,7 +3958,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3968,7 +3968,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -3984,7 +3984,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3994,7 +3994,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4010,7 +4010,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4020,7 +4020,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4036,7 +4036,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4046,7 +4046,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4062,7 +4062,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4072,7 +4072,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4088,7 +4088,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4098,7 +4098,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4114,7 +4114,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4124,7 +4124,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4140,7 +4140,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4150,7 +4150,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4166,7 +4166,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4176,7 +4176,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4192,7 +4192,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4202,7 +4202,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4218,7 +4218,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4228,7 +4228,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4244,7 +4244,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4254,7 +4254,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4270,7 +4270,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4280,7 +4280,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4296,7 +4296,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "LONG",
             "native_units": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4306,7 +4306,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4322,7 +4322,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "LONG",
             "native_units": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4332,7 +4332,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4365,7 +4365,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4375,7 +4375,7 @@
             "subtype": "",
             "units": "PASCAL",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4391,7 +4391,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4401,7 +4401,7 @@
             "subtype": "",
             "units": "PASCAL",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4417,7 +4417,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4427,7 +4427,7 @@
             "subtype": "",
             "units": "PASCAL",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4443,7 +4443,7 @@
             "data_source": "Shared Memory Interface",
             "native_type": "LONG",
             "native_units": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4453,7 +4453,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "DISCRETE",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4486,7 +4486,7 @@
             "description": "",
             "native_code": "N2_PRESSURE_SWITCH_ALARM",
             "native_severity": "ALARM",
-            "sample_rate": 0
+            "sample_interval": 0
           },
           "mtconnect_schema": {
             "type": "SYSTEM",
@@ -4495,7 +4495,7 @@
             "level": "FAULT",
             "message": "",
             "qualifier": "",
-            "sample_rate": 0
+            "sample_interval": 0
           },
           "meta": {
             "alias": "fault.n2_pressure_switch",
@@ -4509,7 +4509,7 @@
             "description": "",
             "native_code": "ANY",
             "native_severity": "ANY",
-            "sample_rate": 0
+            "sample_interval": 0
           },
           "mtconnect_schema": {
             "type": "SYSTEM",
@@ -4518,7 +4518,7 @@
             "level": "ANY",
             "message": "",
             "qualifier": "",
-            "sample_rate": 0
+            "sample_interval": 0
           },
           "meta": {
             "alias": "fault.part_bed_heater_temperature",
@@ -4532,7 +4532,7 @@
             "description": "",
             "native_code": "ALARM_LASER_FAULT",
             "native_severity": "ALARM",
-            "sample_rate": 0
+            "sample_interval": 0
           },
           "mtconnect_schema": {
             "type": "SYSTEM",
@@ -4541,7 +4541,7 @@
             "level": "FAULT",
             "message": "",
             "qualifier": "",
-            "sample_rate": 0
+            "sample_interval": 0
           },
           "meta": {
             "alias": "fault.laser_alarm",
@@ -4555,7 +4555,7 @@
             "description": "",
             "native_code": "WARNING_LASER_WINDOW_TEMP",
             "native_severity": "WARNING",
-            "sample_rate": 0
+            "sample_interval": 0
           },
           "mtconnect_schema": {
             "type": "SYSTEM",
@@ -4564,7 +4564,7 @@
             "level": "WARNING",
             "message": "",
             "qualifier": "HIGH_TEMP",
-            "sample_rate": 0
+            "sample_interval": 0
           },
           "meta": {
             "alias": "fault.laser_window_temperature",
@@ -4578,7 +4578,7 @@
             "description": "",
             "native_code": "WARNING_HFM_LOW_POWDER",
             "native_severity": "WARNING",
-            "sample_rate": 0
+            "sample_interval": 0
           },
           "mtconnect_schema": {
             "type": "SYSTEM",
@@ -4587,7 +4587,7 @@
             "level": "WARNING",
             "message": "",
             "qualifier": "LOW_POWDER",
-            "sample_rate": 0
+            "sample_interval": 0
           },
           "meta": {
             "alias": "fault.hfm_powder",
@@ -4620,7 +4620,7 @@
             "data_source": "",
             "native_type": "INT",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4630,7 +4630,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4646,7 +4646,7 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4656,7 +4656,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4672,7 +4672,7 @@
             "data_source": "Shared Memory",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4682,7 +4682,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4698,7 +4698,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4708,7 +4708,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4724,7 +4724,7 @@
             "data_source": "Shared Memory",
             "native_type": "INTEGER",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4734,7 +4734,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4751,7 +4751,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4761,7 +4761,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4777,7 +4777,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4787,7 +4787,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4804,7 +4804,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "INTEGER",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4814,7 +4814,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4832,7 +4832,7 @@
             "data_source": "10004 = GET_PRINTER_INFO",
             "native_type": "INTEGER",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4842,7 +4842,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4860,7 +4860,7 @@
             "data_source": "Emitter (REGISTER_DEVICE)",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4870,7 +4870,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4888,7 +4888,7 @@
             "data_source": "Emitter",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4898,7 +4898,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4914,7 +4914,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4924,7 +4924,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4942,7 +4942,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4952,7 +4952,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4968,7 +4968,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4978,7 +4978,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -4994,7 +4994,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -5004,7 +5004,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -5020,7 +5020,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -5030,7 +5030,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -5046,7 +5046,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -5056,7 +5056,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -5072,7 +5072,7 @@
             "data_source": "XML",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -5082,7 +5082,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
@@ -5098,7 +5098,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -5108,7 +5108,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_rate": 0,
+            "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
