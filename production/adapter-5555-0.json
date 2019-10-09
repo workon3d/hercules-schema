@@ -1,0 +1,814 @@
+{
+  "schema_version": "0.0.0",
+  "datamodel_version": "v0.1",
+  "firmware_version": "v0.1",
+  "mtconnect_version": "1.4",
+  "hydra_schema": {
+    "model": 5555,
+    "submodel": 0,
+    "native_name": "Hydra Adapter in NUC"
+  },
+  "mtconnect_schema": {
+    "sample_interval": 0,
+    "native_name": "Hydra Adapter in NUC"
+  },
+  "meta": {
+    "alias": "adapter",
+    "hrn": "hrn:5555-0:Device:093f3686388571e8"
+  },
+  "components": [
+    {
+      "hydra_schema": {
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Device",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "device",
+        "hrn": "hrn:5555-0:Component:2824d342cddde423",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "TBD",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "System-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "system_state",
+            "hrn": "hrn:5555-0:DataItem:2f24e2f72ed2563a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "JSON",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Registered-Printers",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "registered_printers",
+            "hrn": "hrn:5555-0:DataItem:165a1a498ba25f41"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Image-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "image_version",
+            "hrn": "hrn:5555-0:DataItem:c8a3f77546f30010"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "JSON",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Docker-Info",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "docker_info",
+            "hrn": "hrn:5555-0:DataItem:e180976be61195b2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "native_type": "STRING",
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "name": "Serial-Number",
+            "category": "EVENT",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "serial_number",
+            "hrn": "hrn:5555-0:DataItem:27df2b90b58b1766",
+            "device_state": true,
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Build",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "build",
+        "hrn": "hrn:5555-0:Component:0ef95c89a75c8ad4",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.current_layer",
+            "hrn": "hrn:5555-0:DataItem:42f6523ddedd66c9",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.time_remaining",
+            "hrn": "hrn:5555-0:DataItem:289c33e569078146",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.progress",
+            "hrn": "hrn:5555-0:DataItem:2c4a9c6b6f0005ef",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.job_data",
+            "hrn": "hrn:5555-0:DataItem:46ad87aad579653e",
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Controller",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "controller",
+        "hrn": "hrn:5555-0:Component:8acd17c349dd2f53",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "CELSIUS",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Controller-Temperature-Max",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.temperature_max",
+            "hrn": "hrn:5555-0:DataItem:bd274e3fa629fa89"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "CELSIUS",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Controller-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.temperature",
+            "hrn": "hrn:5555-0:DataItem:6ccd2d580888c202"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Date Rate",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "KiloBytes/sec ",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.network_load_sent",
+            "hrn": "hrn:5555-0:DataItem:574ea1cb9f21f325"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Data Rate",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "KiloBytes/sec",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.network_load_recv",
+            "hrn": "hrn:5555-0:DataItem:0731054e7d21f98a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "BYTES",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Mem-Used",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.mem_used",
+            "hrn": "hrn:5555-0:DataItem:022db488ad743c6d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "BYTES",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Mem-Total",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.mem_total",
+            "hrn": "hrn:5555-0:DataItem:7939347597a30968"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "BYTES",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Mem-Free",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.mem_free",
+            "hrn": "hrn:5555-0:DataItem:1f567e4ac2ddf14c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "BYTES",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Mem-Available",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.mem_available",
+            "hrn": "hrn:5555-0:DataItem:2c0cb8b0e8ff10d4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Ip-Address",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.ip_address",
+            "hrn": "hrn:5555-0:DataItem:981d9f5cbeebdf95",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "BYTES",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Fs-Used",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.fs_used",
+            "hrn": "hrn:5555-0:DataItem:8c07100e93f7bd74"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "BYTES",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Fs-Total",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.fs_total",
+            "hrn": "hrn:5555-0:DataItem:7069f37a8d50a3dc"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "BYTES",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Fs-Free",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.fs_free",
+            "hrn": "hrn:5555-0:DataItem:c0e46a8b5b160d19"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Cpu-Load",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.cpu_load",
+            "hrn": "hrn:5555-0:DataItem:9fa636d4a2492648"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "COUNT",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Cpu-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.cpu_count",
+            "hrn": "hrn:5555-0:DataItem:3e75076ec0b3b6ad"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_CLOCK_TIME",
+            "notes": "This is the boot time of the system\nexpressed as sec since epoch.",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TIME",
+            "name": "Controller-Boot-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "YYYY-MM-DDThh:mm:ss.ffff",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.boot_time",
+            "hrn": "hrn:5555-0:DataItem:17f361461569ea84"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "x.x.x",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Adman-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.adman_version",
+            "hrn": "hrn:5555-0:DataItem:92d84650cb553842"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Conditions",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "conditions",
+        "hrn": "hrn:5555-0:Component:3cf6b8389629c611",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "Adapter Manager Down\t",
+            "native_severity": "CRITICAL",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Fault-Controller-Adapter-Manager",
+            "category": "CONDITION",
+            "level": "",
+            "message": "Adapter Manager Down ",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.controller.adapter_manager",
+            "hrn": "hrn:5555-0:DataItem:3163ff3eeb3fd237"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "Container Count",
+            "native_severity": "NORMAL",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Normal-Controller-Docker-Container",
+            "category": "CONDITION",
+            "level": "",
+            "message": "Number of Containers",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "normal.controller.docker_container",
+            "hrn": "hrn:5555-0:DataItem:0b1741c00774baaf"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "Printers Connected\t",
+            "native_severity": "NORMAL",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Normal-Controller-Attached-Printer",
+            "category": "CONDITION",
+            "level": "",
+            "message": "Number of Printers Connected",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "normal.controller.attached_printer",
+            "hrn": "hrn:5555-0:DataItem:abfccd9356a1c8d7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "Temperature High\t",
+            "native_severity": "HIGH",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Warning-Controller-Cpu-Temperature",
+            "category": "CONDITION",
+            "level": "",
+            "message": "Temperature value in C",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "warning.controller.cpu_temperature",
+            "hrn": "hrn:5555-0:DataItem:22ea563c3c038dba"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "Filesystem Utilization\t",
+            "native_severity": "LOW",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Warning-Controller-Fs-Utilization",
+            "category": "CONDITION",
+            "level": "",
+            "message": "% Used",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "warning.controller.fs_utilization",
+            "hrn": "hrn:5555-0:DataItem:5bb5337d6fd43c02"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "Memory Utilization\t",
+            "native_severity": "LOW",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Warning-Controller-Memory-Utilization",
+            "category": "CONDITION",
+            "level": "",
+            "message": "% Remaining",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "warning.controller.memory_utilization",
+            "hrn": "hrn:5555-0:DataItem:a7fae0892ab10dac"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "CPU Utilization",
+            "native_severity": "HIGH",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Warning-Controller-Cpu-Utilization",
+            "category": "CONDITION",
+            "level": "",
+            "message": "% Utilization",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "warning.controller.cpu_utilization",
+            "hrn": "hrn:5555-0:DataItem:2c6af4fc942cbbb8"
+          }
+        }
+      ]
+    }
+  ]
+}
