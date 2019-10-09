@@ -568,7 +568,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "x.x.x",
             "description": "",
             "data_source": "",
