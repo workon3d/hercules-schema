@@ -161,67 +161,6 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Build",
-        "sample_interval": 0,
-        "native_name": ""
-      },
-      "meta": {
-        "alias": "build",
-        "hrn": "hrn:5555-0:Component:0ef95c89a75c8ad4",
-        "required": true
-      },
-      "dataitems": [
-        {
-          "hydra_schema": {
-            "type": "EVENT_INT",
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.current_layer",
-            "hrn": "hrn:5555-0:DataItem:42f6523ddedd66c9",
-            "required": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.time_remaining",
-            "hrn": "hrn:5555-0:DataItem:289c33e569078146",
-            "required": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.progress",
-            "hrn": "hrn:5555-0:DataItem:2c4a9c6b6f0005ef",
-            "required": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.job_data",
-            "hrn": "hrn:5555-0:DataItem:46ad87aad579653e",
-            "required": true
-          }
-        }
-      ]
-    },
-    {
-      "hydra_schema": {
-        "native_name": ""
-      },
-      "mtconnect_schema": {
         "name": "Controller",
         "sample_interval": 0,
         "native_name": ""
