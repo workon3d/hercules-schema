@@ -657,7 +657,7 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Fault-Controller-Adapter-Manager",
             "category": "CONDITION",
             "level": "",
@@ -680,7 +680,7 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Normal-Controller-Docker-Container",
             "category": "CONDITION",
             "level": "",
@@ -703,7 +703,7 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Normal-Controller-Attached-Printer",
             "category": "CONDITION",
             "level": "",
@@ -726,7 +726,7 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Warning-Controller-Cpu-Temperature",
             "category": "CONDITION",
             "level": "",
@@ -749,7 +749,7 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Warning-Controller-Fs-Utilization",
             "category": "CONDITION",
             "level": "",
@@ -772,7 +772,7 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Warning-Controller-Memory-Utilization",
             "category": "CONDITION",
             "level": "",
@@ -795,7 +795,7 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Warning-Controller-Cpu-Utilization",
             "category": "CONDITION",
             "level": "",
