@@ -4135,6 +4135,29 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
+            "type": "INTERFACE_STATE",
+            "name": "Fault-Controller-Internal-Temperature-Override",
+            "category": "CONDITION",
+            "level": "WARNING",
+            "message": "",
+            "qualifier": "Engine operating temperature override WARNING (or NORMAL).",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.controller.internal_temperature_override",
+            "hrn": "hrn:34201-0:DataItem:1ca5d24210a68831"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "",
+            "native_severity": "",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
             "type": "SYSTEM",
             "name": "Fault-Resin-Tray-Resin-Level-Status",
             "category": "CONDITION",
