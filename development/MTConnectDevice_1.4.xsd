@@ -611,4 +611,30 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
+  <xs:complexType name="TestcomponentComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Testcomponent" type="TestcomponentComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TestComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Test" type="TestComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
 </xs:schema>
