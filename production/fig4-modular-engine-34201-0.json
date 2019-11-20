@@ -572,7 +572,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "reported_ver:  v1.0.2-2",
             "description": "",
             "data_source": "",
@@ -1103,7 +1103,7 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_JSON",
             "notes": "Job Data Reporting\nreported_ver: v1.0.0-1",
             "description": "",
             "data_source": "",
