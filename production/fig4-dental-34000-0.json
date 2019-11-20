@@ -801,11 +801,11 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "LONG",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
@@ -832,7 +832,7 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
@@ -855,11 +855,11 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "LONG",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
@@ -886,7 +886,7 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
@@ -913,7 +913,7 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
@@ -940,7 +940,7 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1574,11 +1574,11 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "EVENT",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "STRING",
+            "native_type": "LONG",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1605,7 +1605,7 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
@@ -2985,7 +2985,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "data_source": "",
