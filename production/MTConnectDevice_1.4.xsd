@@ -481,7 +481,7 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="SensorsComponentType">
+  <xs:complexType name="ThermistorComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -489,33 +489,7 @@
       <xs:extension base="CommonComponentType"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="Sensors" type="SensorsComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="MotorsComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Motors" type="MotorsComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="ThermistorsComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Thermistors" type="ThermistorsComponentType" substitutionGroup="CommonComponent">
+  <xs:element name="Thermistor" type="ThermistorComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -533,7 +507,7 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="BinderDeliveryComponentType">
+  <xs:complexType name="MdmComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -541,7 +515,7 @@
       <xs:extension base="CommonComponentType"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="BinderDelivery" type="BinderDeliveryComponentType" substitutionGroup="CommonComponent">
+  <xs:element name="Mdm" type="MdmComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
