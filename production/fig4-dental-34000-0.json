@@ -469,6 +469,33 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
+            "notes": "Projector manual compensation in %",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "PERCENTAGE",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Projector-Manual-Compensation",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.manual.compensation",
+            "hrn": "hrn:34000-0:DataItem:731c9cf3bf8b10a7",
+            "origin": "34100-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
             "notes": "value between 0-1023",
             "description": "",
             "data_source": "",
@@ -581,7 +608,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "HOURS",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -604,11 +631,11 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Total Projector LED Exposure Time (lifetime)",
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "HOURS",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -635,7 +662,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "HOURS",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -658,7 +685,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "Total Projector Exposure Time (lifetime)",
+            "notes": "Total Projector On Time (lifetime)",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1574,7 +1601,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE_LONG",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -3399,6 +3426,30 @@
         "origin": "34100-0"
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "",
+            "native_severity": "",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Fault-Sata-Drive-Failure",
+            "category": "CONDITION",
+            "level": "",
+            "message": "",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.sata.drive.failure",
+            "hrn": "hrn:34000-0:DataItem:82ff61e1388b9f78",
+            "origin": "34100-0"
+          }
+        },
         {
           "hydra_schema": {
             "type": "CONDITION",
