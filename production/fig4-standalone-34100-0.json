@@ -605,7 +605,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "Total Projector LED Exposure Time (lifetime)",
             "description": "",
             "data_source": "",
@@ -657,7 +657,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "Total Projector On Time (lifetime)",
             "description": "",
             "data_source": "",
