@@ -630,11 +630,11 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "Total Projector LED Exposure Time (lifetime)",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "FLOAT",
             "native_units": "HOURS",
             "sample_interval": 0,
             "native_name": ""
@@ -684,11 +684,11 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "Total Projector On Time (lifetime)",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "FLOAT",
             "native_units": "HOURS",
             "sample_interval": 0,
             "native_name": ""
