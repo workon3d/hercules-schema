@@ -1,0 +1,2591 @@
+{
+  "schema_version": "0.0.0",
+  "datamodel_version": "v0.1",
+  "firmware_version": "v0.1",
+  "mtconnect_version": "1.4",
+  "hydra_schema": {
+    "model": 32000,
+    "submodel": 0,
+    "native_name": "DMP 320"
+  },
+  "mtconnect_schema": {
+    "sample_interval": 0,
+    "native_name": "DMP 320"
+  },
+  "meta": {
+    "alias": "dmp320",
+    "hrn": "hrn:32000-0:Device:521aab40c4edf95e"
+  },
+  "components": [
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Stock",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "stock",
+        "hrn": "hrn:32000-0:Component:86419c830003b833"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Material-Batch",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.material_batch",
+            "hrn": "hrn:32000-0:DataItem:e7c0be62b885b21c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "type is an enumeration defined by device team that contains the different materials that we support, like different grades of titanium, stainless steel, ...",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Material-Enum",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.material_enum",
+            "hrn": "hrn:32000-0:DataItem:f6c42d043565cebf"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Material-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.material_name",
+            "hrn": "hrn:32000-0:DataItem:c18e3ac28b9dd3e2"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Build",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "build",
+        "hrn": "hrn:32000-0:Component:ce3057c1b12cee64"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "JSON",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Job-Data",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.job_data",
+            "hrn": "hrn:32000-0:DataItem:072f6b64b38660ee"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PART_COUNT",
+            "name": "Build-Remaining-Layers",
+            "category": "EVENT",
+            "subtype": "REMAINING",
+            "units": "COUNT",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.remaining_layers",
+            "hrn": "hrn:32000-0:DataItem:4c949f46ab48287a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PART_COUNT",
+            "name": "Build-Current-Layer",
+            "category": "EVENT",
+            "subtype": "GOOD",
+            "units": "COUNT",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.current_layer",
+            "hrn": "hrn:32000-0:DataItem:3ad8348dc43c9813"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PROCESS",
+            "name": "Build-Estimated-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.estimated_time",
+            "hrn": "hrn:32000-0:DataItem:b94426fd811551d2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Build-Time-Remaining",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.time_remaining",
+            "hrn": "hrn:32000-0:DataItem:e76099695e31a237"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Build-Time-Elapsed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.time_elapsed",
+            "hrn": "hrn:32000-0:DataItem:afaa7b831a6aad6b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Progress",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.progress",
+            "hrn": "hrn:32000-0:DataItem:c8a4a2158d043665"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: see possible states defined in \\n\\n    \\n\\n            \\n\\n\\n\\n    \\n                 HYDRA-196\\n                    -\\n            Getting issue details...\\n                                    STATUS\\n            \\n",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Machine-Cycle-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.machine_cycle_state",
+            "hrn": "hrn:32000-0:DataItem:ad8dac583566b3d1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.state",
+            "hrn": "hrn:32000-0:DataItem:a917f11b57ceeb3d"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Controller",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "controller",
+        "hrn": "hrn:32000-0:Component:53831991ad6de3ef"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Ip-Address",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.ip_address",
+            "hrn": "hrn:32000-0:DataItem:c276d0c8d513566b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-User-Role",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.user_role",
+            "hrn": "hrn:32000-0:DataItem:3619c491523eae77"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Monitoring-Running",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.monitoring_running",
+            "hrn": "hrn:32000-0:DataItem:a1add8faaaacaf92"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Master-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.master_version",
+            "hrn": "hrn:32000-0:DataItem:9626d0ca550b8676"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Master-Running",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.master_running",
+            "hrn": "hrn:32000-0:DataItem:e81f2681c3131169"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Installer-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.installer_name",
+            "hrn": "hrn:32000-0:DataItem:b629f664f4a9b32f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-3dconnect-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.3dconnect_version",
+            "hrn": "hrn:32000-0:DataItem:4637dde505430199"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Monitoring-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.monitoring_version",
+            "hrn": "hrn:32000-0:DataItem:22f98e1d763c891b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Deposition-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.deposition_version",
+            "hrn": "hrn:32000-0:DataItem:874312471cd56660"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Possible?",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Deposition-Running",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.deposition_running",
+            "hrn": "hrn:32000-0:DataItem:482dba48ee7a0ee7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Control-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.control_version",
+            "hrn": "hrn:32000-0:DataItem:efe6b7a482f05d46"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Possible?",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Control-Running",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.control_running",
+            "hrn": "hrn:32000-0:DataItem:888d4df1899a37df"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Machine-Server-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.machine_server_version",
+            "hrn": "hrn:32000-0:DataItem:a9a8b6d6ec8a522d"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Pneumatic",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "pneumatic",
+        "hrn": "hrn:32000-0:Component:3ee0c10da2c5b83b"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PRESSURE",
+            "name": "Pneumatic-Chamber-Relative-Pressure",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PASCAL",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.chamber_relative_pressure",
+            "hrn": "hrn:32000-0:DataItem:5bbe06e7a4d1c702"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PRESSURE",
+            "name": "Pneumatic-Chamber-Absolute-Pressure",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PASCAL",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.chamber_absolute_pressure",
+            "hrn": "hrn:32000-0:DataItem:55594eeb49a26ec7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PRESSURE",
+            "name": "Pneumatic-Filter-Differential-Pressure",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PASCAL",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.filter_differential_pressure",
+            "hrn": "hrn:32000-0:DataItem:bfe4c72886b428d2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Argon-Chamber-Inlet-Valve-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.argon_chamber_inlet_valve.active",
+            "hrn": "hrn:32000-0:DataItem:712b8a478c28239f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Blower-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.blower.active",
+            "hrn": "hrn:32000-0:DataItem:8856c22110154b23"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Blower-Bypass-Valve-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.blower_bypass_valve.active",
+            "hrn": "hrn:32000-0:DataItem:05e93323954cb3e9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Filter-Valves-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.filter_valves.active",
+            "hrn": "hrn:32000-0:DataItem:ad4e884f4c5e14c5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Blower-Outlet-Valve-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.blower_outlet_valve.active",
+            "hrn": "hrn:32000-0:DataItem:4e8291cbcc609191"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Vacuum-Pump-Sensor-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.vacuum_pump_sensor.active",
+            "hrn": "hrn:32000-0:DataItem:e0c25821e659ee3b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Vacuum-Pump-Valve-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.vacuum_pump_valve.active",
+            "hrn": "hrn:32000-0:DataItem:2dfc5537124a1747"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Argon-High-Pressure-Valve-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.argon_high_pressure_valve.active",
+            "hrn": "hrn:32000-0:DataItem:092e94e82647cc4e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Fine-Pressure-Regulator-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.fine_pressure_regulator.active",
+            "hrn": "hrn:32000-0:DataItem:ac2d6019df84bf6d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Release-Valve-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.release_valve.active",
+            "hrn": "hrn:32000-0:DataItem:7b50f6b1413f000c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PRESSURE",
+            "name": "Pneumatic-Filter-Pressure",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PASCAL",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.filter_pressure",
+            "hrn": "hrn:32000-0:DataItem:f71517c317b3a395"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PRESSURE",
+            "name": "Pneumatic-Compressed-Air-Pressure",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PASCAL",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.compressed_air_pressure",
+            "hrn": "hrn:32000-0:DataItem:8b7a78e6fecf57cc"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PRESSURE",
+            "name": "Pneumatic-Argon-Pressure",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.argon_pressure",
+            "hrn": "hrn:32000-0:DataItem:a441773f79bed4a2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "PRESSURE",
+            "name": "Pneumatic-Processing-Pressure",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PASCAL",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.processing_pressure",
+            "hrn": "hrn:32000-0:DataItem:f7b91f80369e318d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Vacuum-Pump-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.vacuum_pump.active",
+            "hrn": "hrn:32000-0:DataItem:b253f79d7e54e326"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Right-Feed",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "right_feed",
+        "hrn": "hrn:32000-0:Component:93d284f4e6b08503"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Right-Feed-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.right_feed.status",
+            "hrn": "hrn:32000-0:DataItem:5c70166ff95b0bd2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Axes-Right-Feed-Position",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.right_feed.position",
+            "hrn": "hrn:32000-0:DataItem:2a8040ba7c4e635d"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Left-Feed",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "left_feed",
+        "hrn": "hrn:32000-0:Component:92b925e71f96d78e"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Left-Feed-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.left_feed.status",
+            "hrn": "hrn:32000-0:DataItem:3fd1c44bd772f46f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Axes-Left-Feed-Position",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.left_feed.position",
+            "hrn": "hrn:32000-0:DataItem:ae5b84f419816a5e"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Coater",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "coater",
+        "hrn": "hrn:32000-0:Component:fa25c5d6652483a4"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Coater-Run-Brake-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.run_brake.active",
+            "hrn": "hrn:32000-0:DataItem:afab67d0abe84e9d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Coater-Alarm-Clear-Signal",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.alarm_clear_signal",
+            "hrn": "hrn:32000-0:DataItem:b3eb54f2ecb3e444"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Coater-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.status",
+            "hrn": "hrn:32000-0:DataItem:311c1f3648e20989"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Axes-Coater-Position",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.position",
+            "hrn": "hrn:32000-0:DataItem:2b54dd933d86dea8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Coater-Right-Right-Limit-Switch-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.right_right_limit_switch.active",
+            "hrn": "hrn:32000-0:DataItem:bff6e3149bfe47d5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Coater-Right-Middle-Limit-Switch-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.right_middle_limit_switch.active",
+            "hrn": "hrn:32000-0:DataItem:29b1736d8e823b35"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Coater-Left-Middle-Limit-Switch-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.left_middle_limit_switch.active",
+            "hrn": "hrn:32000-0:DataItem:a8f8e4866a3be23a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Coater-Left-Left-Limit-Switch-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.left_left_limit_switch.active",
+            "hrn": "hrn:32000-0:DataItem:a148cec70c93072a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Coater-Direction",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.direction",
+            "hrn": "hrn:32000-0:DataItem:38289fb53a6a96d9"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Build-Platform",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "build_platform",
+        "hrn": "hrn:32000-0:Component:f372061b089bf01e"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Axes-Build-Platform-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.build_platform.status",
+            "hrn": "hrn:32000-0:DataItem:06934d16e2babc6f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Axes-Build-Platform-Position",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.build_platform.position",
+            "hrn": "hrn:32000-0:DataItem:57de3050aa97e644"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Laser1",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "laser1",
+        "hrn": "hrn:32000-0:Component:d04a04d3acb9609b"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Not Available",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "WATTAGE",
+            "name": "Laser-1-Max-Calibrated-Power",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "WATT",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.max_calibrated_power",
+            "hrn": "hrn:32000-0:DataItem:c56810676720615e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Laser-1-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.serial_number",
+            "hrn": "hrn:32000-0:DataItem:9f83f16e5864998a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Laser-1-Firmware-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.firmware_version",
+            "hrn": "hrn:32000-0:DataItem:20b3df674a60fbbd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Laser-1-Total-Hours",
+            "category": "SAMPLE",
+            "subtype": "OPERATING",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.total_hours",
+            "hrn": "hrn:32000-0:DataItem:dc2d5110406604d6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Laser-1-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.temperature",
+            "hrn": "hrn:32000-0:DataItem:7f6502d606b5c6e5"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Scanner1",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "scanner1",
+        "hrn": "hrn:32000-0:Component:ed02c22552cad72c"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Scanner-1-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "scanner_1.serial_number",
+            "hrn": "hrn:32000-0:DataItem:664315a20963d22b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Scanner-1-Firmware-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "scanner_1.firmware_version",
+            "hrn": "hrn:32000-0:DataItem:cb16a16d0e2543bd"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Door",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "door",
+        "hrn": "hrn:32000-0:Component:c53e8f33c2fcb5dc"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Process-Door-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "process_door.state",
+            "hrn": "hrn:32000-0:DataItem:ba6469837bae8b9b"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Device",
+        "sample_interval": 0,
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "device",
+        "hrn": "hrn:32000-0:Component:5b914a23f9189758"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Maintenance-Schedule-Tasks",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "maintenance_schedule_tasks",
+            "hrn": "hrn:32000-0:DataItem:53577246535d76b3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Does this exist?",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Job-Counter",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "job_counter",
+            "hrn": "hrn:32000-0:DataItem:fc2dc2a67b6060b3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_CLOCK_TIME",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TIME",
+            "name": "Machine-Install-Date",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "machine_install_date",
+            "hrn": "hrn:32000-0:DataItem:c93244539f6bbd4e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_CLOCK_TIME",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TIME",
+            "name": "Machine-Assembly-Date",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "machine_assembly_date",
+            "hrn": "hrn:32000-0:DataItem:28ea984e3406c4c4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Printer-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_state",
+            "hrn": "hrn:32000-0:DataItem:4554e973d5bedf53"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Does this exist?",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Chamber-Temperature-2",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_temperature_2",
+            "hrn": "hrn:32000-0:DataItem:7a08b740c41f30ff"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Does this exist?",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Chamber-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_temperature",
+            "hrn": "hrn:32000-0:DataItem:e45c74b2d7a3c8ec"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Does this exist?",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "HUMIDITY",
+            "name": "Chamber-Humidity-2",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_humidity_2",
+            "hrn": "hrn:32000-0:DataItem:8766375e97f6a10e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Does this exist?",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "HUMIDITY",
+            "name": "Chamber-Humidity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_humidity",
+            "hrn": "hrn:32000-0:DataItem:09458707f4520a4b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Emitted by Adman",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Adapter-Id",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "adapter_id",
+            "hrn": "hrn:32000-0:DataItem:7d650dc1b411161c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "PM - every 6 months\ninclude: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Blower-Total-Hours",
+            "category": "SAMPLE",
+            "subtype": "OPERATING",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "blower.total_hours",
+            "hrn": "hrn:32000-0:DataItem:815900be358798da"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "PM - every 6 months\ninclude: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Filter-Total-Hours",
+            "category": "SAMPLE",
+            "subtype": "OPERATING",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "filter.total_hours",
+            "hrn": "hrn:32000-0:DataItem:bdf4e74aa83d653e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Lifetime-Melting-Hours",
+            "category": "SAMPLE",
+            "subtype": "OPERATING",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_melting_hours",
+            "hrn": "hrn:32000-0:DataItem:69efde15bf3d870c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Lifetime-Deposition-Hours",
+            "category": "SAMPLE",
+            "subtype": "OPERATING",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_deposition_hours",
+            "hrn": "hrn:32000-0:DataItem:1b56016b0ac7bfc8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Lifetime-Build-Hours",
+            "category": "SAMPLE",
+            "subtype": "WORKING",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_build_hours",
+            "hrn": "hrn:32000-0:DataItem:075531d724b0aab4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Lifetime-On-Hours",
+            "category": "SAMPLE",
+            "subtype": "POWERED",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_on_hours",
+            "hrn": "hrn:32000-0:DataItem:d88314b8dd5909fc"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Useful for leak detection\ninclude: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Oxygen-Sensor-Ppm-Value",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "oxygen_sensor_ppm.value",
+            "hrn": "hrn:32000-0:DataItem:5a90ccd22cf52edc"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Useful for leak detection\ninclude: Needed",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Oxygen-Sensor-Percent-Value",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "oxygen_sensor_percent.value",
+            "hrn": "hrn:32000-0:DataItem:f7c58db51814d7c6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Build-Plate-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELCIUS",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build_plate.temperature",
+            "hrn": "hrn:32000-0:DataItem:5d3bacac10d1130d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONCENTRATION",
+            "name": "Oxygen-Concentration",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "oxygen_concentration",
+            "hrn": "hrn:32000-0:DataItem:5fdafcf76235a1a4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "serial_number",
+            "hrn": "hrn:32000-0:DataItem:6c7d9f1b4e405913"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Timezone",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "timezone",
+            "hrn": "hrn:32000-0:DataItem:97b851c406b61ccf"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICEinteger (enum)",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Submodel",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "submodel",
+            "hrn": "hrn:32000-0:DataItem:5689f157c71fe409"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICEinteger (enum)",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Model",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "model",
+            "hrn": "hrn:32000-0:DataItem:56baca6199928489"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Model-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "model_name",
+            "hrn": "hrn:32000-0:DataItem:4ae5c75fd8a71fe0"
+          }
+        }
+      ]
+    }
+  ]
+}
