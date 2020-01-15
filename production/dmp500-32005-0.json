@@ -328,6 +328,32 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "WATTAGE",
+            "name": "Laser-1-Max-Calibrated-Power",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "WATT",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.max_calibrated_power",
+            "hrn": "hrn:32005-0:DataItem:d906a7bcd0c602ef"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "EVENT",
             "notes": "include: Present",
             "description": "",
@@ -350,6 +376,58 @@
           "meta": {
             "alias": "laser_1.serial_number",
             "hrn": "hrn:32005-0:DataItem:23fd2558b5017566"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Laser-1-Firmware-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.firmware_version",
+            "hrn": "hrn:32005-0:DataItem:a2198ead7b3d9e6a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Laser-1-Total-Hours",
+            "category": "SAMPLE",
+            "subtype": "OPERATING",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.total_hours",
+            "hrn": "hrn:32005-0:DataItem:dff6b8b49a3846c4"
           }
         },
         {
@@ -622,6 +700,32 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Axes-Build-Platform-Torque",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.build_platform.torque",
+            "hrn": "hrn:32005-0:DataItem:cbffc8c94703692d"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
             "description": "",
@@ -664,6 +768,32 @@
         "hrn": "hrn:32005-0:Component:1b0606363ae4e209"
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Axes-Coater-Torque",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.torque",
+            "hrn": "hrn:32005-0:DataItem:3e0a7cd28a7837a3"
+          }
+        },
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
@@ -901,6 +1031,58 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Rpm-Inserted",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "rpm_inserted",
+            "hrn": "hrn:32005-0:DataItem:f94d7f5f49556dec"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "millibar",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Chamber-Pressure",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_pressure",
+            "hrn": "hrn:32005-0:DataItem:dacd4a11a51ad816"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
             "notes": "Does this exist?",
             "description": "",
             "data_source": "",
@@ -953,7 +1135,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Does this exist?",
+            "notes": "include: Present",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -979,7 +1161,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Does this exist?",
+            "notes": "include: Present",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -995,7 +1177,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Does this exist?",
+            "notes": "include: Present",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2015,6 +2197,29 @@
             "notes": "",
             "description": "",
             "native_code": "",
+            "native_severity": "",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Fault-Sieve",
+            "category": "CONDITION",
+            "level": "",
+            "message": "",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.sieve",
+            "hrn": "hrn:32005-0:DataItem:90a0bb31fcc13557"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "",
             "native_severity": "HIGH",
             "sample_interval": 0
           },
@@ -2035,7 +2240,7 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "",
+            "notes": "Include: Present",
             "description": "",
             "native_code": "",
             "native_severity": "HIGH",
