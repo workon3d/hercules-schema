@@ -2656,7 +2656,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2666,7 +2666,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -2844,7 +2844,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2854,7 +2854,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -3082,7 +3082,7 @@
             "data_source": "Emitter (REGISTER_DEVICE)",
             "native_type": "STRING",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3092,7 +3092,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -3110,7 +3110,7 @@
             "data_source": "10004 = GET_PRINTER_INFO",
             "native_type": "INTEGER",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3120,7 +3120,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -3138,7 +3138,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "INTEGER",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3148,7 +3148,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
