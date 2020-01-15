@@ -481,19 +481,6 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="ThermistorComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Thermistor" type="ThermistorComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
   <xs:complexType name="TemperatureComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
@@ -503,6 +490,19 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="Temperature" type="TemperatureComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="OperatingEnvironmentComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="OperatingEnvironment" type="OperatingEnvironmentComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -529,6 +529,19 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="Binderdeliverymodule" type="BinderdeliverymoduleComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="MotorComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Motor" type="MotorComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
