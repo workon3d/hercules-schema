@@ -494,19 +494,6 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="OperatingEnvironmentComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="OperatingEnvironment" type="OperatingEnvironmentComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
   <xs:complexType name="MdmComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
@@ -542,6 +529,45 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="Motor" type="MotorComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="HopperComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Hopper" type="HopperComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="HumidityComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Humidity" type="HumidityComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="HardwareComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Hardware" type="HardwareComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
