@@ -23,6 +23,76 @@
         "native_name": ""
       },
       "mtconnect_schema": {
+        "name": "Hopper",
+        "sample_interval": 0,
+        "tag": "",
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "hopper",
+        "hrn": "hrn:32005-0:Component:8550ba62440298bd"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Axes-Hopper-Axes-Hopper-Powder-Low-Back",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.hopper.axes.hopper.powder_low_back",
+            "hrn": "hrn:32005-0:DataItem:09f077cd2466f221"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Axes-Hopper-Axes-Hopper-Powder-Low-Front",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.hopper.axes.hopper.powder_low_front",
+            "hrn": "hrn:32005-0:DataItem:58ecb419921f63b2"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": ""
+      },
+      "mtconnect_schema": {
         "name": "Laser-3",
         "sample_interval": 0,
         "native_name": ""
@@ -700,6 +770,32 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Rpm-Inserted",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "rpm_inserted",
+            "hrn": "hrn:32005-0:DataItem:f94d7f5f49556dec"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
@@ -892,6 +988,84 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Pneumatic-Blower-Frequency",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.blower.frequency",
+            "hrn": "hrn:32005-0:DataItem:4d99ef421aca3a78"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Pneumatic-Blower-Temperature",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.blower.temperature",
+            "hrn": "hrn:32005-0:DataItem:608e03470987dd8b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Pneumatic-Vacuum-Pump-Oil-Temperature",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.vacuum_pump.oil_temperature",
+            "hrn": "hrn:32005-0:DataItem:be07549df9f48d56"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
             "notes": "include: Present",
             "description": "",
             "data_source": "",
@@ -1028,6 +1202,32 @@
         "required": true
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Printer-Name",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_name",
+            "hrn": "hrn:32005-0:DataItem:ae55a541594c3530"
+          }
+        },
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
