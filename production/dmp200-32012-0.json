@@ -2815,6 +2815,33 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
+            "notes": "nickname",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Printer-Name",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_name",
+            "hrn": "hrn:32012-0:DataItem:ae55a541594c3530",
+            "origin": "32011-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
             "notes": "https://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/659424585/Maintenance+Schedule+Tasks",
             "description": "",
             "data_source": "",
