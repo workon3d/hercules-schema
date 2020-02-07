@@ -2990,6 +2990,32 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
+            "notes": "nickname",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Printer-Name",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_name",
+            "hrn": "hrn:32001-0:DataItem:ae55a541594c3530"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
             "notes": "https://3dsystems.atlassian.net/browse/HYDRA-1050",
             "description": "",
             "data_source": "",
