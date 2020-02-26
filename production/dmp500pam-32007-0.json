@@ -9,7 +9,6 @@
     "native_name": "DMP F500 PAM"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
     "native_name": "DMP F500 PAM"
   },
   "meta": {
@@ -21,11 +20,610 @@
     {
       "hydra_schema": {
         "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Door",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "door",
+        "hrn": "hrn:32007-0:Component:3e0a61ef8bee7d6c",
+        "origin": "32006-0"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "DOOR_STATE : {0 : closed, 1 : opened, 2 : unlatched}",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Door-Right-Gloves-Hatch-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.right_gloves_hatch.state",
+            "hrn": "hrn:32007-0:DataItem:e37c687e4caf42f3",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "DOOR_STATE : {0 : closed, 1 : opened, 2 : unlatched}",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Door-Left-Gloves-Hatch-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.left_gloves_hatch.state",
+            "hrn": "hrn:32007-0:DataItem:e031f70c4f3e6563",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "DOOR_STATE : {0 : closed, 1 : opened, 2 : unlatched}",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Door-Cabin",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.cabin",
+            "hrn": "hrn:32007-0:DataItem:21999423a27aca75",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "DOOR_STATE : {0 : closed, 1 : opened, 2 : unlatched}",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Door-Front",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.front",
+            "hrn": "hrn:32007-0:DataItem:bd7764354c7b170a",
+            "origin": "32006-0"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Lowerchamber",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "lowerchamber",
+        "hrn": "hrn:32007-0:Component:39e587a314749e4c",
+        "origin": "32006-0"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "kg",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Lowerchamber-Rpm-Weight",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lowerchamber.rpm_weight",
+            "hrn": "hrn:32007-0:DataItem:8a0b4a18ca8b4135",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Lowerchamber-Rpm-Inserted",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lowerchamber.rpm_inserted",
+            "hrn": "hrn:32007-0:DataItem:96d6916c3409669b",
+            "origin": "32006-0"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Upperchamber",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "upperchamber",
+        "hrn": "hrn:32007-0:Component:a3407163b8d4c635",
+        "origin": "32006-0"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "hertz",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Vibration-Frequency",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.vibration_frequency",
+            "hrn": "hrn:32007-0:DataItem:50d07f3bcbcdac72",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "degree",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Rotator-Arm-Position",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.rotator_arm.position",
+            "hrn": "hrn:32007-0:DataItem:4d3072653805e722",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Right2-Big-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.right2_big.state",
+            "hrn": "hrn:32007-0:DataItem:9792e57a78442149",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Right1-Big-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.right1_big.state",
+            "hrn": "hrn:32007-0:DataItem:0cc8d00291b424cc",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Left2-Big-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.left2_big.state",
+            "hrn": "hrn:32007-0:DataItem:7635d561ceeaa149",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Left1-Big-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.left1_big.state",
+            "hrn": "hrn:32007-0:DataItem:47e425f310f398e5",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Right4-Small-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.right4_small.state",
+            "hrn": "hrn:32007-0:DataItem:9f2de3e84377e205",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Right3-Small-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.right3_small.state",
+            "hrn": "hrn:32007-0:DataItem:452deb3cb1238375",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Right2-Small-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.right2_small.state",
+            "hrn": "hrn:32007-0:DataItem:088a867f3f78afdb",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Right1-Small-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.right1_small.state",
+            "hrn": "hrn:32007-0:DataItem:ded7fe0d83dd7537",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Left4-Small-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.left4_small.state",
+            "hrn": "hrn:32007-0:DataItem:05d8b3fd3c1b5bf3",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Left3-Small-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.left3_small.state",
+            "hrn": "hrn:32007-0:DataItem:fe8c4e91a0c010aa",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Left2-Small-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.left2_small.state",
+            "hrn": "hrn:32007-0:DataItem:bd6e6df56dafb647",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Upperchamber-Bolts-Left1-Small-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "upperchamber.bolts.left1_small.state",
+            "hrn": "hrn:32007-0:DataItem:969d620b3d2953dd",
+            "origin": "32006-0"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
         "native_name": ""
       },
       "mtconnect_schema": {
         "name": "Pneumatic",
-        "sample_interval": 0,
         "tag": "",
         "native_name": ""
       },
@@ -35,6 +633,87 @@
         "origin": "32006-0"
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 : CLOSED, 1 : OPENED ",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Pneumatic-Rpm-Lock-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.rpm_lock.state",
+            "hrn": "hrn:32007-0:DataItem:0474c5480cdfcd80",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 : UP, 1: DOWN, 2 : ERROR",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Pneumatic-Funnel-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.funnel.state",
+            "hrn": "hrn:32007-0:DataItem:fad340abf28b9a40",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Pneumatic-Lid-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.lid.state",
+            "hrn": "hrn:32007-0:DataItem:7c7007bbacacd5b8",
+            "origin": "32006-0"
+          }
+        },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
@@ -97,7 +776,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -107,6 +785,87 @@
         "origin": "32006-0"
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 : Operator / 1 : Engineer / 2 : Service",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "User-Level",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "user_level",
+            "hrn": "hrn:32007-0:DataItem:dc96f271b05dbecb",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 : Auto, 1 : Manual",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Machine-Mode",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "machine_mode",
+            "hrn": "hrn:32007-0:DataItem:71a4b1b6888be9a9",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Service-Key-Position",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "service_key_position",
+            "hrn": "hrn:32007-0:DataItem:eeb35e9adfe3e9af",
+            "origin": "32006-0"
+          }
+        },
         {
           "hydra_schema": {
             "type": "MESSAGE",
@@ -136,18 +895,18 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "BOOL",
             "native_units": "mbar",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Chamber-Pressure",
+            "name": "Chamber-Pressure-State",
             "category": "",
             "subtype": "",
             "units": "",
@@ -156,7 +915,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "chamber_pressure",
+            "alias": "chamber_pressure.state",
             "hrn": "hrn:32007-0:DataItem:dacd4a11a51ad816",
             "origin": "32006-0"
           }
@@ -234,7 +993,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -244,81 +1002,7 @@
         "origin": "32006-0"
       },
       "dataitems": [
-        {
-          "hydra_schema": {
-            "type": "EVENT_INT",
-            "notes": "",
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "PART_COUNT",
-            "name": "Build",
-            "category": "EVENT",
-            "subtype": "ALL",
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build",
-            "hrn": "hrn:32007-0:DataItem:42f6523ddedd66c9",
-            "required": true,
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ACCUMULATED_TIME",
-            "name": "Build",
-            "category": "SAMPLE",
-            "units": "SECOND",
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build",
-            "hrn": "hrn:32007-0:DataItem:289c33e569078146",
-            "required": true,
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build",
-            "category": "EVENT",
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build",
-            "hrn": "hrn:32007-0:DataItem:2c4a9c6b6f0005ef",
-            "required": true,
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build",
-            "category": "EVENT",
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build",
-            "hrn": "hrn:32007-0:DataItem:46ad87aad579653e",
-            "required": true,
-            "origin": "32006-0"
-          }
-        }
+
       ]
     },
     {
@@ -327,7 +1011,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -340,6 +1023,88 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Controller-Pilz-Checksum",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.pilz_checksum",
+            "hrn": "hrn:32007-0:DataItem:924aad9541a9164e",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Controller-Control-Version",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.control_version",
+            "hrn": "hrn:32007-0:DataItem:e3aaa28d49b7332c",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Controller-3dconnect-Version",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.3dconnect_version",
+            "hrn": "hrn:32007-0:DataItem:d0f95d2c18269bbb",
+            "origin": "32006-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "native_type": "STRING",
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -364,7 +1129,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -374,7 +1138,30 @@
         "origin": "32006-0"
       },
       "dataitems": [
-
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "This is a generic condition stream for all faults that do not require any specific platform handling and serve to inform user of general error fault condition",
+            "description": "",
+            "native_code": "",
+            "native_severity": "ANY",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Fault-General-Faults",
+            "category": "CONDITION",
+            "level": "",
+            "message": "",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.general_faults",
+            "hrn": "hrn:32007-0:DataItem:8f22b395201a77dc",
+            "origin": "32006-0"
+          }
+        }
       ]
     }
   ]
