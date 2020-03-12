@@ -6,11 +6,10 @@
   "hydra_schema": {
     "model": 32004,
     "submodel": 0,
-    "native_name": "DMP 350"
+    "native_name": "DMP Flex 350"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
-    "native_name": "DMP 350"
+    "native_name": "DMP Flex 350"
   },
   "meta": {
     "alias": "dmp350",
@@ -25,7 +24,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -124,7 +122,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -134,6 +131,33 @@
         "origin": "32000-0"
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Feed-Percentage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.feed_percentage",
+            "hrn": "hrn:32004-0:DataItem:3f4584011a1e2242",
+            "origin": "32000-0"
+          }
+        },
         {
           "hydra_schema": {
             "type": "MESSAGE",
@@ -363,7 +387,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -735,7 +758,6 @@
       },
       "mtconnect_schema": {
         "name": "Pneumatic",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1129,7 +1151,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "mbar",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1156,7 +1178,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "Pa",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1239,7 +1261,6 @@
       },
       "mtconnect_schema": {
         "name": "Right-Feed",
-        "sample_interval": 0,
         "tag": "Feeder",
         "native_name": ""
       },
@@ -1312,7 +1333,6 @@
       },
       "mtconnect_schema": {
         "name": "Left-Feed",
-        "sample_interval": 0,
         "tag": "Feeder",
         "native_name": ""
       },
@@ -1385,7 +1405,6 @@
       },
       "mtconnect_schema": {
         "name": "X",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -1647,7 +1666,6 @@
       },
       "mtconnect_schema": {
         "name": "Z",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -1720,7 +1738,6 @@
       },
       "mtconnect_schema": {
         "name": "Laser1",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1846,7 +1863,6 @@
       },
       "mtconnect_schema": {
         "name": "Scanner1",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1918,7 +1934,6 @@
       },
       "mtconnect_schema": {
         "name": "Door",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1962,7 +1977,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1982,7 +1996,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
