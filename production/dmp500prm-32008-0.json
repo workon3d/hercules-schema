@@ -6,15 +6,17 @@
   "hydra_schema": {
     "model": 32008,
     "submodel": 0,
-    "native_name": "DMP F500 PRM"
+    "native_name": "DMP F500 PRM",
+    "sample_interval": 0
   },
   "mtconnect_schema": {
-    "native_name": "DMP F500 PRM"
+    "native_name": "DMP F500 PRM",
+    "sample_interval": 0
   },
   "meta": {
     "alias": "dmp500prm",
     "hrn": "hrn:32008-0:Device:a86d1cb279736588",
-    "origin": "32006-0"
+    "origin": "32007-0"
   },
   "components": [
     {
@@ -31,8 +33,8 @@
       },
       "meta": {
         "alias": "axis",
-        "hrn": "hrn:32008-0:Component:00dd3f86fd776146",
-        "origin": "32006-0"
+        "hrn": "hrn:32008-0:Component:befae5bd88a8928b",
+        "origin": "32007-0"
       },
       "dataitems": [
         {
@@ -59,12 +61,12 @@
           "meta": {
             "alias": "axis.build_platform.position",
             "hrn": "hrn:32008-0:DataItem:331ba8b2d05907fe",
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPL",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -86,7 +88,7 @@
           "meta": {
             "alias": "axis.scrapper.position",
             "hrn": "hrn:32008-0:DataItem:5e36abb007450be5",
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         },
         {
@@ -113,7 +115,7 @@
           "meta": {
             "alias": "axis.vibration_motor.frequency",
             "hrn": "hrn:32008-0:DataItem:102e38c9e5a44ca7",
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         },
         {
@@ -140,236 +142,7 @@
           "meta": {
             "alias": "axis.rotator_arm.position",
             "hrn": "hrn:32008-0:DataItem:eb7ce00fe5b183b4",
-            "origin": "32006-0"
-          }
-        }
-      ]
-    },
-    {
-      "hydra_schema": {
-        "description": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "mtconnect_schema": {
-        "name": "Chamber",
-        "tag": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "meta": {
-        "alias": "chamber",
-        "hrn": "hrn:32008-0:Component:e77165bd92f143c8",
-        "origin": "32006-0"
-      },
-      "dataitems": [
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "\"message\" : {\"left1\" : 0, \"left2\":0, \"left3\" : 0, \"left4\":0, \"right1\":0, \"right2\":0, ...}    \n0 :  PRESENT, 1 : NOT PRESENT",
-            "description": "",
-            "data_source": "",
-            "native_type": "INT[]",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Chamber-Bolts-Small-State",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber.bolts.small.state",
-            "hrn": "hrn:32008-0:DataItem:34042695f62c4dd4",
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "\"message\" : {\"left1\" : 0, \"left2\":0, \"right1\":0, \"right2\":0}    \n0 :  PRESENT, 1 : NOT PRESENT",
-            "description": "",
-            "data_source": "",
-            "native_type": "INT[]",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Chamber-Bolts-Big-State",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber.bolts.big.state",
-            "hrn": "hrn:32008-0:DataItem:11679f49f496aef2",
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "percent",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Chamber-Oxygen-Sensor-Percent-Value",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber.oxygen_sensor_percent.value",
-            "hrn": "hrn:32008-0:DataItem:087f9b3793fbf0bd",
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "mbar",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Chamber-Relative-Pressure",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber.relative_pressure",
-            "hrn": "hrn:32008-0:DataItem:5bf751e203a5eb9f",
-            "origin": "32006-0"
-          }
-        }
-      ]
-    },
-    {
-      "hydra_schema": {
-        "description": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "mtconnect_schema": {
-        "name": "Door",
-        "tag": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "meta": {
-        "alias": "door",
-        "hrn": "hrn:32008-0:Component:3e0a61ef8bee7d6c",
-        "origin": "32006-0"
-      },
-      "dataitems": [
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "DOOR_STATE : {0 : closed, 1 : opened, 2 : unlatched}",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Door-Right-Gloves-Hatch-State",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "door.right_gloves_hatch.state",
-            "hrn": "hrn:32008-0:DataItem:e37c687e4caf42f3",
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "DOOR_STATE : {0 : closed, 1 : opened, 2 : unlatched}",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Door-Left-Gloves-Hatch-State",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "door.left_gloves_hatch.state",
-            "hrn": "hrn:32008-0:DataItem:e031f70c4f3e6563",
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "DOOR_STATE : {0 : closed, 1 : opened, 2 : unlatched}",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Door-Cabin",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "door.cabin",
-            "hrn": "hrn:32008-0:DataItem:21999423a27aca75",
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         }
       ]
@@ -387,77 +160,23 @@
       "meta": {
         "alias": "pneumatic",
         "hrn": "hrn:32008-0:Component:a1c888bcf12956a2",
-        "origin": "32006-0"
+        "origin": "32007-0"
       },
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "0 : CLOSED, 1 : OPENED ",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Pneumatic-Rpm-Lock-State",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "pneumatic.rpm_lock.state",
-            "hrn": "hrn:32008-0:DataItem:0474c5480cdfcd80",
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "0 : UP, 1: DOWN, 2 : ERROR",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Pneumatic-Funnel-State",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "pneumatic.funnel.state",
-            "hrn": "hrn:32008-0:DataItem:fad340abf28b9a40",
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "mbar",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Pneumatic-Lid-State",
+            "name": "Pneumatic-Compressed-Air-Pressure",
             "category": "",
             "subtype": "",
             "units": "",
@@ -466,9 +185,9 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "pneumatic.lid.state",
-            "hrn": "hrn:32008-0:DataItem:7c7007bbacacd5b8",
-            "origin": "32006-0"
+            "alias": "pneumatic.compressed_air_pressure",
+            "hrn": "hrn:32008-0:DataItem:cfaf0b24ebc66c09",
+            "origin": "32007-0"
           }
         },
         {
@@ -495,23 +214,43 @@
           "meta": {
             "alias": "pneumatic.argon_pressure",
             "hrn": "hrn:32008-0:DataItem:a37556b24eb158ad",
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
-        },
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Door",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "door",
+        "hrn": "hrn:32008-0:Component:3e0a61ef8bee7d6c",
+        "origin": "32007-0"
+      },
+      "dataitems": [
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
+            "type": "MESSAGE_INT",
+            "notes": "DOOR_STATE : {0 : closed, 1 : opened, 2 : unlatched}",
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "mbar",
+            "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Pneumatic-Compressed-Air-Pressure",
+            "name": "Door-Front",
             "category": "",
             "subtype": "",
             "units": "",
@@ -520,9 +259,83 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "pneumatic.compressed_air_pressure",
-            "hrn": "hrn:32008-0:DataItem:cfaf0b24ebc66c09",
-            "origin": "32006-0"
+            "alias": "door.front",
+            "hrn": "hrn:32008-0:DataItem:e473d0afe741a35a",
+            "origin": "32007-0"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Chamber",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "chamber",
+        "hrn": "hrn:32008-0:Component:e77165bd92f143c8",
+        "origin": "32007-0"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "mbar",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Chamber-Relative-Pressure",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber.relative_pressure",
+            "hrn": "hrn:32008-0:DataItem:5bf751e203a5eb9f",
+            "origin": "32007-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "percent",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Chamber-Oxygen-Sensor-Percent-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber.oxygen_sensor_percent.value",
+            "hrn": "hrn:32008-0:DataItem:087f9b3793fbf0bd",
+            "origin": "32007-0"
           }
         }
       ]
@@ -539,23 +352,23 @@
         "alias": "device",
         "hrn": "hrn:32008-0:Component:2824d342cddde423",
         "required": true,
-        "origin": "32006-0"
+        "origin": "32007-0"
       },
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "0 : Operator / 1 : Engineer / 2 : Service",
+            "type": "MESSAGE",
+            "notes": "nickname",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "User-Level",
+            "name": "Printer-Name",
             "category": "",
             "subtype": "",
             "units": "",
@@ -564,36 +377,9 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "user_level",
-            "hrn": "hrn:32008-0:DataItem:dc96f271b05dbecb",
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "0 : Auto, 1 : Manual",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Machine-Mode",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "machine_mode",
-            "hrn": "hrn:32008-0:DataItem:71a4b1b6888be9a9",
-            "origin": "32006-0"
+            "alias": "printer_name",
+            "hrn": "hrn:32008-0:DataItem:ae55a541594c3530",
+            "origin": "32007-0"
           }
         },
         {
@@ -620,23 +406,23 @@
           "meta": {
             "alias": "service_key_position",
             "hrn": "hrn:32008-0:DataItem:eeb35e9adfe3e9af",
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         },
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "nickname",
+            "notes": "0 : Auto, 1 : Manual",
             "description": "",
             "data_source": "",
-            "native_type": "STRING",
+            "native_type": "",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Printer-Name",
+            "name": "Machine-Mode",
             "category": "",
             "subtype": "",
             "units": "",
@@ -645,9 +431,36 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "printer_name",
-            "hrn": "hrn:32008-0:DataItem:ae55a541594c3530",
-            "origin": "32006-0"
+            "alias": "machine_mode",
+            "hrn": "hrn:32008-0:DataItem:71a4b1b6888be9a9",
+            "origin": "32007-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 : Operator / 1 : Engineer / 2 : Service",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "User-Level",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "user_level",
+            "hrn": "hrn:32008-0:DataItem:dc96f271b05dbecb",
+            "origin": "32007-0"
           }
         },
         {
@@ -666,7 +479,7 @@
             "hrn": "hrn:32008-0:DataItem:27df2b90b58b1766",
             "device_state": true,
             "required": true,
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         },
         {
@@ -685,7 +498,7 @@
             "alias": "printer_state",
             "hrn": "hrn:32008-0:DataItem:b4669068a296d597",
             "required": true,
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         }
       ]
@@ -702,23 +515,23 @@
         "alias": "build",
         "hrn": "hrn:32008-0:Component:0ef95c89a75c8ad4",
         "required": true,
-        "origin": "32006-0"
+        "origin": "32007-0"
       },
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "STR",
+            "native_type": "",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-Rpm-Material-Batch",
+            "name": "Build-Rpm-Inserted",
             "category": "",
             "subtype": "",
             "units": "",
@@ -727,9 +540,9 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.rpm_material.batch",
-            "hrn": "hrn:32008-0:DataItem:0ec896bc86f66af9",
-            "origin": "32006-0"
+            "alias": "build.rpm_inserted",
+            "hrn": "hrn:32008-0:DataItem:88b17f199ca306e8",
+            "origin": "32007-0"
           }
         },
         {
@@ -756,23 +569,23 @@
           "meta": {
             "alias": "build.rpm_material.name",
             "hrn": "hrn:32008-0:DataItem:c35ebfb3a779e669",
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "FLOAT",
+            "native_type": "STRING",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-Rpm-Weight",
+            "name": "Build-Rpm-Material-Batch",
             "category": "",
             "subtype": "",
             "units": "",
@@ -781,36 +594,9 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.rpm_weight",
-            "hrn": "hrn:32008-0:DataItem:1b8202cbbceae812",
-            "origin": "32006-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Build-Rpm-Inserted",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.rpm_inserted",
-            "hrn": "hrn:32008-0:DataItem:88b17f199ca306e8",
-            "origin": "32006-0"
+            "alias": "build.rpm_material.batch",
+            "hrn": "hrn:32008-0:DataItem:0ec896bc86f66af9",
+            "origin": "32007-0"
           }
         }
       ]
@@ -827,7 +613,7 @@
         "alias": "controller",
         "hrn": "hrn:32008-0:Component:8acd17c349dd2f53",
         "required": true,
-        "origin": "32006-0"
+        "origin": "32007-0"
       },
       "dataitems": [
         {
@@ -843,7 +629,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Controller-Pilz-Checksum",
+            "name": "Controller-3dconnect-Version",
             "category": "",
             "subtype": "",
             "units": "",
@@ -852,9 +638,9 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "controller.pilz_checksum",
-            "hrn": "hrn:32008-0:DataItem:924aad9541a9164e",
-            "origin": "32006-0"
+            "alias": "controller.3dconnect_version",
+            "hrn": "hrn:32008-0:DataItem:d0f95d2c18269bbb",
+            "origin": "32007-0"
           }
         },
         {
@@ -881,23 +667,23 @@
           "meta": {
             "alias": "controller.control_version",
             "hrn": "hrn:32008-0:DataItem:e3aaa28d49b7332c",
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "STRING",
+            "native_type": "INT",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Controller-3dconnect-Version",
+            "name": "Controller-Pilz-Checksum",
             "category": "",
             "subtype": "",
             "units": "",
@@ -906,9 +692,9 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "controller.3dconnect_version",
-            "hrn": "hrn:32008-0:DataItem:d0f95d2c18269bbb",
-            "origin": "32006-0"
+            "alias": "controller.pilz_checksum",
+            "hrn": "hrn:32008-0:DataItem:924aad9541a9164e",
+            "origin": "32007-0"
           }
         },
         {
@@ -928,7 +714,7 @@
             "alias": "controller.mac_address",
             "hrn": "hrn:32008-0:DataItem:1f246e5ca38a38c5",
             "required": true,
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         }
       ]
@@ -945,7 +731,7 @@
         "alias": "conditions",
         "hrn": "hrn:32008-0:Component:3cf6b8389629c611",
         "required": true,
-        "origin": "32006-0"
+        "origin": "32007-0"
       },
       "dataitems": [
         {
@@ -969,7 +755,7 @@
           "meta": {
             "alias": "fault.general_faults",
             "hrn": "hrn:32008-0:DataItem:8f22b395201a77dc",
-            "origin": "32006-0"
+            "origin": "32007-0"
           }
         }
       ]
