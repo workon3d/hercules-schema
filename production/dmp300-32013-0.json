@@ -6,11 +6,10 @@
   "hydra_schema": {
     "model": 32013,
     "submodel": 0,
-    "native_name": "DMP 300"
+    "native_name": "DMP ProX 300"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
-    "native_name": "DMP 300"
+    "native_name": "DMP ProX 300"
   },
   "meta": {
     "alias": "dmp300",
@@ -24,7 +23,6 @@
       },
       "mtconnect_schema": {
         "name": "Door",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -249,7 +247,6 @@
       },
       "mtconnect_schema": {
         "name": "Scanner-1",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -526,7 +523,6 @@
       },
       "mtconnect_schema": {
         "name": "Laser-1",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -803,7 +799,6 @@
       },
       "mtconnect_schema": {
         "name": "Feed-Piston",
-        "sample_interval": 0,
         "tag": "Feeder",
         "native_name": ""
       },
@@ -1003,7 +998,6 @@
       },
       "mtconnect_schema": {
         "name": "X",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -1203,7 +1197,6 @@
       },
       "mtconnect_schema": {
         "name": "Y",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -1351,7 +1344,6 @@
       },
       "mtconnect_schema": {
         "name": "Z",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -1525,7 +1517,6 @@
       },
       "mtconnect_schema": {
         "name": "Pneumatic",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1666,7 +1657,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : NOT OK, 1 : OK",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1692,7 +1683,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : NOT OK, 1 : OK",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2036,7 +2027,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2368,7 +2358,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2401,32 +2390,6 @@
           "meta": {
             "alias": "build.execution",
             "hrn": "hrn:32013-0:DataItem:943a9b59e7d6ee5f"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "move to  build.job_data",
-            "description": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.status",
-            "hrn": "hrn:32013-0:DataItem:80b5007951a77cc5"
           }
         },
         {
@@ -2857,7 +2820,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2978,7 +2940,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3134,7 +3095,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
