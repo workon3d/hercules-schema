@@ -1356,7 +1356,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "HOURS",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1383,7 +1383,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "HOURS",
             "sample_interval": 0,
             "native_name": ""
           },
