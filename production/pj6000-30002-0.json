@@ -9,7 +9,6 @@
     "native_name": "ProJet 6000"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
     "native_name": "ProJet 6000"
   },
   "meta": {
@@ -24,7 +23,6 @@
       },
       "mtconnect_schema": {
         "name": "Cart",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -93,7 +91,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -400,7 +397,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -573,7 +569,6 @@
       },
       "mtconnect_schema": {
         "name": "Vat",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -778,7 +773,6 @@
       },
       "mtconnect_schema": {
         "name": "Laser-Door",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -821,7 +815,6 @@
       },
       "mtconnect_schema": {
         "name": "Laser",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1642,7 +1635,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2652,7 +2644,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2854,7 +2845,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
