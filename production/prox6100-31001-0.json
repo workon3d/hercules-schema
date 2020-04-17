@@ -9,7 +9,6 @@
     "native_name": "ProX 6100"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
     "native_name": "ProX 6100"
   },
   "meta": {
@@ -24,7 +23,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -203,7 +201,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -872,7 +869,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -916,7 +912,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -926,7 +922,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -1049,7 +1045,6 @@
       },
       "mtconnect_schema": {
         "name": "Laser",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1638,7 +1633,6 @@
       },
       "mtconnect_schema": {
         "name": "Part-Bed",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2305,7 +2299,6 @@
       },
       "mtconnect_schema": {
         "name": "Black-Body",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2530,7 +2523,6 @@
       },
       "mtconnect_schema": {
         "name": "Y",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -2652,7 +2644,6 @@
       },
       "mtconnect_schema": {
         "name": "X",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -2904,7 +2895,6 @@
       },
       "mtconnect_schema": {
         "name": "Part-Ir-Block",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3103,7 +3093,6 @@
       },
       "mtconnect_schema": {
         "name": "Ir-Sensor-Head",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3146,7 +3135,6 @@
       },
       "mtconnect_schema": {
         "name": "Cylinder",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3371,7 +3359,6 @@
       },
       "mtconnect_schema": {
         "name": "Scanner",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3414,7 +3401,6 @@
       },
       "mtconnect_schema": {
         "name": "Enclosure",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3821,7 +3807,6 @@
       },
       "mtconnect_schema": {
         "name": "Loader",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3864,7 +3849,6 @@
       },
       "mtconnect_schema": {
         "name": "Feeder",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -4349,7 +4333,6 @@
       },
       "mtconnect_schema": {
         "name": "Pneumatic",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -4470,7 +4453,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -4603,7 +4585,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -4804,7 +4785,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "INTEGER",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4814,7 +4795,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -4832,7 +4813,7 @@
             "data_source": "10004 = GET_PRINTER_INFO",
             "native_type": "INTEGER",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4842,7 +4823,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -4860,7 +4841,7 @@
             "data_source": "Emitter (REGISTER_DEVICE)",
             "native_type": "STRING",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4870,7 +4851,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -5098,7 +5079,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -5108,7 +5089,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
