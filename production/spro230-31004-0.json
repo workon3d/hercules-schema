@@ -9,7 +9,6 @@
     "native_name": "sPro 230"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
     "native_name": "sPro 230"
   },
   "meta": {
@@ -25,7 +24,6 @@
       },
       "mtconnect_schema": {
         "name": "Rcm",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -151,7 +149,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -252,7 +249,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -327,7 +323,6 @@
       },
       "mtconnect_schema": {
         "name": "Laser",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -399,7 +394,6 @@
       },
       "mtconnect_schema": {
         "name": "Part-Bed",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -687,7 +681,6 @@
       },
       "mtconnect_schema": {
         "name": "Black-Body",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -840,7 +833,6 @@
       },
       "mtconnect_schema": {
         "name": "Y",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -913,7 +905,6 @@
       },
       "mtconnect_schema": {
         "name": "X",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -1013,7 +1004,6 @@
       },
       "mtconnect_schema": {
         "name": "Part-Ir-Block",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1085,7 +1075,6 @@
       },
       "mtconnect_schema": {
         "name": "Ir-Sensor-Head",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1130,7 +1119,6 @@
       },
       "mtconnect_schema": {
         "name": "Cylinder",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1472,7 +1460,6 @@
       },
       "mtconnect_schema": {
         "name": "Scanner",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1517,7 +1504,6 @@
       },
       "mtconnect_schema": {
         "name": "Enclosure",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1724,7 +1710,6 @@
       },
       "mtconnect_schema": {
         "name": "Feeder",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2120,7 +2105,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2140,7 +2124,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
