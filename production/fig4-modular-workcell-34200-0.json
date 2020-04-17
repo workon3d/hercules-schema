@@ -6,11 +6,10 @@
   "hydra_schema": {
     "model": 34200,
     "submodel": 0,
-    "native_name": "Figure 4 Modular Workcell"
+    "native_name": "Figure 4 Modular Workcell Controller"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
-    "native_name": "Figure 4 Modular Workcell"
+    "native_name": "Figure 4 Modular Workcell Controller"
   },
   "meta": {
     "alias": "fig4-modular-workcell",
@@ -24,7 +23,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -121,7 +119,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -140,7 +137,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
