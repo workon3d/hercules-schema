@@ -6,11 +6,10 @@
   "hydra_schema": {
     "model": 32012,
     "submodel": 0,
-    "native_name": "DMP 200"
+    "native_name": "DMP ProX 200"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
-    "native_name": "DMP 200"
+    "native_name": "DMP ProX 200"
   },
   "meta": {
     "alias": "dmp200",
@@ -25,7 +24,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -151,7 +149,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -633,7 +630,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -844,7 +840,6 @@
       },
       "mtconnect_schema": {
         "name": "Pneumatic",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1240,7 +1235,6 @@
       },
       "mtconnect_schema": {
         "name": "Z",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -1421,7 +1415,6 @@
       },
       "mtconnect_schema": {
         "name": "Y",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -1575,7 +1568,6 @@
       },
       "mtconnect_schema": {
         "name": "X",
-        "sample_interval": 0,
         "tag": "Linear",
         "native_name": ""
       },
@@ -1783,7 +1775,6 @@
       },
       "mtconnect_schema": {
         "name": "Feed-Piston",
-        "sample_interval": 0,
         "tag": "Feeder",
         "native_name": ""
       },
@@ -1991,7 +1982,6 @@
       },
       "mtconnect_schema": {
         "name": "Laser-1",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2225,7 +2215,6 @@
       },
       "mtconnect_schema": {
         "name": "Scanner-1",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2486,7 +2475,6 @@
       },
       "mtconnect_schema": {
         "name": "Door",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2639,7 +2627,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2802,7 +2789,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
