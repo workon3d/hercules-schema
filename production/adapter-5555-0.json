@@ -9,7 +9,6 @@
     "native_name": "Hydra Adapter in NUC"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
     "native_name": "Hydra Adapter in NUC"
   },
   "meta": {
@@ -23,7 +22,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -162,7 +160,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -577,7 +574,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
