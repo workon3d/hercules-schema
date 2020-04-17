@@ -9,7 +9,6 @@
     "native_name": "Hydra Adapter in Fig4 Modular"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
     "native_name": "Hydra Adapter in Fig4 Modular"
   },
   "meta": {
@@ -24,7 +23,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -169,7 +167,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -601,7 +598,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
