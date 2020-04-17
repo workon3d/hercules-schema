@@ -9,7 +9,6 @@
     "native_name": "MJP 2500W"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
     "native_name": "MJP 2500W"
   },
   "meta": {
@@ -25,7 +24,6 @@
       },
       "mtconnect_schema": {
         "name": "Mli",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -70,7 +68,6 @@
       },
       "mtconnect_schema": {
         "name": "Mdm",
-        "sample_interval": 0,
         "tag": "Feeder",
         "native_name": ""
       },
@@ -88,7 +85,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -98,7 +95,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -115,7 +112,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -125,7 +122,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -142,7 +139,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -152,7 +149,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -169,7 +166,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -179,7 +176,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -196,7 +193,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -206,7 +203,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -223,7 +220,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -233,7 +230,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -250,7 +247,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -260,7 +257,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -278,7 +275,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -490,7 +486,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock-Part-2",
-        "sample_interval": 0,
         "tag": "Stock",
         "native_name": ""
       },
@@ -830,7 +825,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -840,7 +835,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -885,7 +880,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock-Part-1",
-        "sample_interval": 0,
         "tag": "Stock",
         "native_name": ""
       },
@@ -1225,7 +1219,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1235,7 +1229,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -1280,7 +1274,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock-Support-2",
-        "sample_interval": 0,
         "tag": "Stock",
         "native_name": ""
       },
@@ -1620,7 +1613,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -1630,7 +1623,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -1675,7 +1668,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock-Support-1",
-        "sample_interval": 0,
         "tag": "Stock",
         "native_name": ""
       },
@@ -2015,7 +2007,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2025,7 +2017,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -2070,7 +2062,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2278,7 +2269,7 @@
             "data_source": "10010 = GET_NETWORK_SETTINGS",
             "native_type": "STRING",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2288,7 +2279,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -2362,7 +2353,6 @@
       },
       "mtconnect_schema": {
         "name": "Planarizer-Belt",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2379,7 +2369,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2389,7 +2379,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -2407,7 +2397,6 @@
       },
       "mtconnect_schema": {
         "name": "Planarizer-Waste",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2424,7 +2413,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2434,7 +2423,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -2452,7 +2441,6 @@
       },
       "mtconnect_schema": {
         "name": "Hms-Waste",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2469,7 +2457,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2479,7 +2467,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -2497,7 +2485,6 @@
       },
       "mtconnect_schema": {
         "name": "Printhead",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2514,7 +2501,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2524,7 +2511,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -2541,7 +2528,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2551,7 +2538,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -2568,7 +2555,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -2578,7 +2565,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 180,
             "native_name": ""
           },
           "meta": {
@@ -2677,7 +2664,6 @@
       },
       "mtconnect_schema": {
         "name": "Z-Axis",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2749,7 +2735,6 @@
       },
       "mtconnect_schema": {
         "name": "Y-Axis",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2956,7 +2941,6 @@
       },
       "mtconnect_schema": {
         "name": "X-Axis",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3001,7 +2985,6 @@
       },
       "mtconnect_schema": {
         "name": "Hms-Motor",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3046,7 +3029,6 @@
       },
       "mtconnect_schema": {
         "name": "Engine-Calibration",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3550,7 +3532,6 @@
       },
       "mtconnect_schema": {
         "name": "Right-Lamp",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3622,7 +3603,6 @@
       },
       "mtconnect_schema": {
         "name": "Left-Lamp",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3694,7 +3674,6 @@
       },
       "mtconnect_schema": {
         "name": "Plenum",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3711,7 +3690,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 60,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3721,7 +3700,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 60,
             "native_name": ""
           },
           "meta": {
@@ -3739,7 +3718,6 @@
       },
       "mtconnect_schema": {
         "name": "Hood-Fan",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3756,7 +3734,7 @@
             "data_source": "10100 = GET_TEMPERATURE",
             "native_type": "DOUBLE",
             "native_units": "Celsius",
-            "sample_interval": 0,
+            "sample_interval": 60,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -3766,7 +3744,7 @@
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 60,
             "native_name": ""
           },
           "meta": {
@@ -3783,7 +3761,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -4074,7 +4051,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -4768,7 +4744,7 @@
             "data_source": "Stack",
             "native_type": "STRING",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4778,7 +4754,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -4880,7 +4856,7 @@
             "data_source": "Emitter (REGISTER_DEVICE)",
             "native_type": "STRING",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4890,7 +4866,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -4909,7 +4885,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "INTEGER",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4919,7 +4895,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
@@ -4938,7 +4914,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "INTEGER",
             "native_units": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "mtconnect_schema": {
@@ -4948,7 +4924,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "sample_interval": 0,
+            "sample_interval": 30,
             "native_name": ""
           },
           "meta": {
