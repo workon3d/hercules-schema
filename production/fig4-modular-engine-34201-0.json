@@ -6,11 +6,10 @@
   "hydra_schema": {
     "model": 34201,
     "submodel": 0,
-    "native_name": "Figure 4 Modular Engine"
+    "native_name": "Figure 4 Modular Print Station"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
-    "native_name": "Figure 4 Modular Engine"
+    "native_name": "Figure 4 Modular Print Station"
   },
   "meta": {
     "alias": "fig4-modular-engine",
@@ -24,7 +23,6 @@
       },
       "mtconnect_schema": {
         "name": "Light-Tower",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -67,7 +65,6 @@
       },
       "mtconnect_schema": {
         "name": "Catch-Tray",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -110,7 +107,6 @@
       },
       "mtconnect_schema": {
         "name": "Material-Pump",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -205,7 +201,6 @@
       },
       "mtconnect_schema": {
         "name": "Exhaust-Filter",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -352,7 +347,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -893,7 +887,6 @@
       },
       "mtconnect_schema": {
         "name": "Z-Motor",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1092,7 +1085,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1868,7 +1860,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3381,7 +3372,6 @@
       },
       "mtconnect_schema": {
         "name": "Vat",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3450,7 +3440,6 @@
       },
       "mtconnect_schema": {
         "name": "Projector",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3675,7 +3664,6 @@
       },
       "mtconnect_schema": {
         "name": "Resin-Tray",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3926,7 +3914,6 @@
       },
       "mtconnect_schema": {
         "name": "Membrane",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -4047,7 +4034,6 @@
       },
       "mtconnect_schema": {
         "name": "Robot",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -4116,7 +4102,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -4249,7 +4234,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
