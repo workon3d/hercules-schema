@@ -165,12 +165,12 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
+            "type": "MESSAGE_INT",
+            "notes": "No pressure feedback in bar, only presence",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "mbar",
+            "native_type": "BOOL",
+            "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -192,12 +192,12 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
+            "type": "MESSAGE_INT",
+            "notes": "No pressure feedback in bar, only presence",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "mbar",
+            "native_type": "BOOL",
+            "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -313,11 +313,11 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "INT",
+            "native_type": "FLOAT",
             "native_units": "percent",
             "sample_interval": 0,
             "native_name": ""
