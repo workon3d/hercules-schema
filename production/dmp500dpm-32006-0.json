@@ -269,12 +269,12 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
+            "type": "MESSAGE_INT",
+            "notes": "No pressure feedback in bar, only presence",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "mbar",
+            "native_type": "BOOL",
+            "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -296,12 +296,12 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
+            "type": "MESSAGE_INT",
+            "notes": "No pressure feedback in bar, only presence",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "mbar",
+            "native_type": "BOOL",
+            "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -573,11 +573,11 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "INT",
+            "native_type": "FLOAT",
             "native_units": "percent",
             "sample_interval": 0,
             "native_name": ""
@@ -601,7 +601,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "“message”: {\"left[i]\": 0\", right[i]\": 0}   for i in [1..4]. 0 : not present, 1: not present",
+            "notes": "“message”: {\"left[i]\": 0\", right[i]\": 0}   for i in [1..8]. 0 : not present, 1: not present",
             "description": "",
             "data_source": "",
             "native_type": "INT[]",
@@ -627,7 +627,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "“message”: {\"left[i]\": 0\", right[i]\": 0}   for i in [1..8]. 0 : not present, 1: not present",
+            "notes": "“message”: {\"left[i]\": 0\", right[i]\": 0}   for i in [1..4]. 0 : not present, 1: not present",
             "description": "",
             "data_source": "",
             "native_type": "INT[]",
@@ -913,12 +913,12 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "kg",
             "sample_interval": 0,
             "native_name": ""
           },
