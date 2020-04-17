@@ -19,6 +19,26 @@
     {
       "hydra_schema": {
         "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Cpmu",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "cpmu",
+        "hrn": "hrn:32004-1:Component:c0c1a2518b30f30c"
+      },
+      "dataitems": [
+
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
         "native_name": ""
       },
       "mtconnect_schema": {
