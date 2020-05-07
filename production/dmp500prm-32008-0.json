@@ -229,6 +229,33 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 : Normal, 1:Auto",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Machine-Mode",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "machine_mode",
+            "hrn": "hrn:32008-0:DataItem:64f2540e38d897fb",
+            "origin": "32007-0"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "nickname",
             "description": "",
@@ -278,33 +305,6 @@
           "meta": {
             "alias": "service_key_position",
             "hrn": "hrn:32008-0:DataItem:eeb35e9adfe3e9af",
-            "origin": "32007-0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "0 : Auto, 1 : Manual",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Machine-Mode",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "machine_mode",
-            "hrn": "hrn:32008-0:DataItem:71a4b1b6888be9a9",
             "origin": "32007-0"
           }
         },
