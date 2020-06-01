@@ -1769,6 +1769,32 @@
             "description": "",
             "data_source": "",
             "native_type": "INT",
+            "native_units": "seconds",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Cooling-Time",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.cooling_time",
+            "hrn": "hrn:32005-0:DataItem:e8d8eb7deafbb6c6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
