@@ -1296,6 +1296,34 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "supposed to use MESSAGE_INT in the future.",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "INTERFACE_STATE",
+            "name": "Printer-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_state",
+            "hrn": "hrn:34000-0:DataItem:b4669068a296d597",
+            "required": true,
+            "origin": "34100-0"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "Common Job Data reporting: https://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/458621154/Job+Data+Reporting",
             "description": "",
