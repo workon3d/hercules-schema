@@ -2691,6 +2691,33 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "INTERFACE_STATE",
+            "name": "Printer-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_state",
+            "hrn": "hrn:32011-0:DataItem:b4669068a296d597",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "nickname",
             "description": "",
