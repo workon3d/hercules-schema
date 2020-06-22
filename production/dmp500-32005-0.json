@@ -986,6 +986,58 @@
           },
           "mtconnect_schema": {
             "type": "",
+            "name": "Pneumatic-Chamber-Relative-Pressure",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.chamber_relative_pressure",
+            "hrn": "hrn:32005-0:DataItem:dc46631dd113a16d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Pneumatic-Chamber-Absolute-Pressure",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.chamber_absolute_pressure",
+            "hrn": "hrn:32005-0:DataItem:8481e3c0e5a2ffda"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
             "name": "Pneumatic-Blower-Frequency",
             "category": "",
             "subtype": "",
@@ -1717,32 +1769,6 @@
           "meta": {
             "alias": "job_counter",
             "hrn": "hrn:32005-0:DataItem:5636563cf7ccafbd"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "millibar",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Chamber-Pressure",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber_pressure",
-            "hrn": "hrn:32005-0:DataItem:dacd4a11a51ad816"
           }
         }
       ]
