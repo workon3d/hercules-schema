@@ -9,7 +9,6 @@
     "native_name": "DMP 350 "
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
     "native_name": "DMP 350 "
   },
   "meta": {
@@ -25,7 +24,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -124,7 +122,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -385,7 +382,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -754,7 +750,6 @@
       },
       "mtconnect_schema": {
         "name": "Pneumatic",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1258,7 +1253,6 @@
       },
       "mtconnect_schema": {
         "name": "Right-Feed",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1330,7 +1324,6 @@
       },
       "mtconnect_schema": {
         "name": "Left-Feed",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1402,7 +1395,6 @@
       },
       "mtconnect_schema": {
         "name": "Coater",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1663,7 +1655,6 @@
       },
       "mtconnect_schema": {
         "name": "Build-Platform",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1735,7 +1726,6 @@
       },
       "mtconnect_schema": {
         "name": "Laser1",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1888,7 +1878,6 @@
       },
       "mtconnect_schema": {
         "name": "Scanner1",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1960,7 +1949,6 @@
       },
       "mtconnect_schema": {
         "name": "Door",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2005,7 +1993,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
