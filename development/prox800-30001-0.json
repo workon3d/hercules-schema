@@ -3034,6 +3034,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
+            "transmission_timing": "Real Time when Value Changes",
             "sample_interval": 0,
             "native_name": ""
           },
