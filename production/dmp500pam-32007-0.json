@@ -36,7 +36,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "No pressure feedback in bar, only presence",
+            "notes": "No pressure feedback in bar, only presence, logged",
             "description": "",
             "data_source": "",
             "native_type": "BOOL",
@@ -62,7 +62,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "No pressure feedback in bar, only presence",
+            "notes": "No pressure feedback in bar, only presence, logged",
             "description": "",
             "data_source": "",
             "native_type": "BOOL",
@@ -152,7 +152,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Logged",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -178,7 +178,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Logged",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -376,7 +376,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : inserted, 1 : not inserted",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -428,7 +428,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Not implemented yet on the firmware",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
