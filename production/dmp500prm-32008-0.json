@@ -38,7 +38,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "No pressure feedback in bar, only presence",
+            "notes": "No pressure feedback in bar, only presence, logged",
             "description": "",
             "data_source": "",
             "native_type": "BOOL",
@@ -65,7 +65,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "No pressure feedback in bar, only presence",
+            "notes": "No pressure feedback in bar, only presence, logged",
             "description": "",
             "data_source": "",
             "native_type": "BOOL",
@@ -159,7 +159,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Logged",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -186,7 +186,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Logged",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -372,6 +372,33 @@
             "required": true,
             "origin": "32007-0"
           }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval + when Value Changes",
+            "sample_interval": 30,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Emergency-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 30,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "emergency_state",
+            "hrn": "hrn:32008-0:DataItem:4278bdfa8cd35abf"
+          }
         }
       ]
     },
@@ -393,7 +420,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : inserted, 1 : not inserted",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -447,7 +474,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Not implemented yet on the firmware",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -469,6 +496,32 @@
             "alias": "build.rpm_material.batch",
             "hrn": "hrn:32008-0:DataItem:0ec896bc86f66af9",
             "origin": "32007-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Silo-Weight-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.silo_weight.value",
+            "hrn": "hrn:32008-0:DataItem:53d1139588a160f0"
           }
         }
       ]
