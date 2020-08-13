@@ -2165,7 +2165,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT`",
+            "type": "EVENT",
             "notes": "OPEN, UNLATCHED, or CLOSED",
             "description": "",
             "data_source": "",
