@@ -6,10 +6,10 @@
   "hydra_schema": {
     "model": 30002,
     "submodel": 0,
+    "servicemax_device_type": "ProJet 6000",
     "native_name": "ProJet 6000"
   },
   "mtconnect_schema": {
-    "sample_interval": 0,
     "native_name": "ProJet 6000"
   },
   "meta": {
@@ -24,7 +24,6 @@
       },
       "mtconnect_schema": {
         "name": "Cart",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -93,7 +92,6 @@
       },
       "mtconnect_schema": {
         "name": "Controller",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -474,7 +472,6 @@
       },
       "mtconnect_schema": {
         "name": "Stock",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -647,7 +644,6 @@
       },
       "mtconnect_schema": {
         "name": "Vat",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -872,7 +868,6 @@
       },
       "mtconnect_schema": {
         "name": "Laser-Door",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -915,7 +910,6 @@
       },
       "mtconnect_schema": {
         "name": "Laser",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -1816,7 +1810,6 @@
       },
       "mtconnect_schema": {
         "name": "Build",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2821,7 +2814,6 @@
       },
       "mtconnect_schema": {
         "name": "Device",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -2834,6 +2826,8 @@
             "type": "MESSAGE",
             "notes": "",
             "description": "",
+            "servicemax_label": "GUID",
+            "servicemax_type": "Text",
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
@@ -3098,7 +3092,6 @@
       },
       "mtconnect_schema": {
         "name": "Conditions",
-        "sample_interval": 0,
         "native_name": ""
       },
       "meta": {
@@ -3272,6 +3265,8 @@
             "type": "CONDITION",
             "notes": "",
             "description": "",
+            "servicemax_label": "DSP Error",
+            "servicemax_type": "Number",
             "native_code": "DSP Error",
             "native_severity": "CRITICAL",
             "sample_interval": 0
