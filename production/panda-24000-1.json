@@ -3149,6 +3149,2058 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Air-Valve-1-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.air_valve_1_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:763a30f0fea23500"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Air-Valve-2-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.air_valve_2_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:7927d40fbcfd5bf4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Air-Valve-3-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.air_valve_3_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:2003a1e83ab855e2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Air-Valve-4-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.air_valve_4_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:506326a7c671b0d3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Air-Valve-5-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.air_valve_5_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:968d3bb42349ed99"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Air-Valve-6-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.air_valve_6_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:493c372edbe7f9c3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Air-Valve-7-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.air_valve_7_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:9ebb6a6578332c59"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Fluid-Inlet-1-Valve-1-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.fluid_inlet_1_valve_1_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:0f7602da6abedc2c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Fluid-Inlet-2-Valve-1-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.fluid_inlet_2_valve_1_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:5fca3571dc3437b8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Fluid-Outlet-Valve-1-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.fluid_outlet_valve_1_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:a457d511a5ee51ae"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Fluid-Outlet-Valve-2-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.fluid_outlet_valve_2_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:18cdcd13502562ad"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Air-System-12v-Fault",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.air_system_12v_fault",
+            "hrn": "hrn:24000-1:DataItem:60dca81682e254a9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Io-5v-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.io_5v_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:2c4ef014191eb984"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo2-Status-Io-12v-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo2_status.io_12v_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:87200aea5293ad36"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Air-Valve-1-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.air_valve_1_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:e5beace5fc5f848f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Air-Valve-2-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.air_valve_2_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:0a849b924f84d55a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Air-Valve-3-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.air_valve_3_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:6ce4255a00669db8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Air-Valve-4-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.air_valve_4_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:7573b505492a6be8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Air-Valve-5-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.air_valve_5_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:64537bb2b3a999e9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Air-Valve-6-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.air_valve_6_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:a6691e58c93ddde4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Air-Valve-7-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.air_valve_7_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:5977a4f1b4b4f96f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Fluid-Inlet-1-Valve-1-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.fluid_inlet_1_valve_1_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:4911b65d41b597b8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Fluid-Inlet-2-Valve-1-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.fluid_inlet_2_valve_1_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:65261f3021785b3a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Fluid-Outlet-Valve-1-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.fluid_outlet_valve_1_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:a7a65be1a32d913c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Fluid-Outlet-Valve-2-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.fluid_outlet_valve_2_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:7e540be6880a8303"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Air-System-12v-Fault",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.air_system_12v_fault",
+            "hrn": "hrn:24000-1:DataItem:98ba65079f8bd220"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Io-5v-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.io_5v_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:9561a6fba9a2c414"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Bamboo1-Status-Io-12v-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.bamboo1_status.io_12v_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:702faf9d49a068a1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-5v-Ok",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.5v_ok",
+            "hrn": "hrn:24000-1:DataItem:ba4d29509126d3d6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-5v-Sensor-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.5v_sensor_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:53eab296f4c8cfe7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-12v-Ok",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.12v_ok",
+            "hrn": "hrn:24000-1:DataItem:58aa729bcc1b4715"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-12v-Waveamp-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.12v_waveamp_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:89173cd61d5a8e81"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-15v-Power-Good",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 36000,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.15v_power_good",
+            "hrn": "hrn:24000-1:DataItem:1fb6ffd45fbe3a8d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-39v-Ok",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.39v_ok",
+            "hrn": "hrn:24000-1:DataItem:033ac6eaff7408c0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-39v-Motor-Ok",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.39v_motor_ok",
+            "hrn": "hrn:24000-1:DataItem:5ce573d7e5d7f0bd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-Reservoir-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.reservoir_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:d4c61f95cbffe4f3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-50v-Power-Good",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.50v_power_good",
+            "hrn": "hrn:24000-1:DataItem:b2dff4a753128f80"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-Neg50v-Power-Good",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.neg50v_power_good",
+            "hrn": "hrn:24000-1:DataItem:6d4f3cb1cc8a424f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-Y-Axis-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.y_axis_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:9093bd164462062c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Zoo-Status-Leveler-Motor-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.zoo_status.leveler_motor_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:40c61bef740a8753"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-12v-Degas-Solenoid-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.12v_degas_solenoid_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:ca8f5cd1fa5024db"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-12v-Degas-Pump-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.12v_degas_pump_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:889ca4fcde586f23"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-12v-Blue-Led-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.12v_blue_led_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:e83ac4890d5959d0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-12v-Green-Led-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.12v_green_led_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:61a2cb584a23bb82"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-12v-Red-Led-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.12v_red_led_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:f87e9b51bb281a8b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-12v-Led1-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.12v_led1_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:3543683ee5505ee2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-12v-Led2-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.12v_led2_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:a45846e6dd1a4ed0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-12v-Led3-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.12v_led3_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:07f6528a54f61e63"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-Sensor-3v-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.sensor_3v_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:1541d33d1aec6c19"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-5v-Ok",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.5v_ok",
+            "hrn": "hrn:24000-1:DataItem:3d711fea26eca356"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-12v-Ok",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.12v_ok",
+            "hrn": "hrn:24000-1:DataItem:051a1d2b1387553b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-39v-Ok",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.39v_ok",
+            "hrn": "hrn:24000-1:DataItem:3fa04ba369ea23a6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-Filter-Fan1-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.filter_fan1_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:c1fb85bef224e2ce"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-Filter-Fan2-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.filter_fan2_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:51385206a7baf0df"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-Xa-Motor-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.xa_motor_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:670a18a0c3894e51"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-Za-Feed-Motor-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.za_feed_motor_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:eadb9d3db97241e1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-Za-Build-Motor-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.za_build_motor_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:1728e460bcc002c2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-Hms-Motor-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.hms_motor_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:b5cd44faaeb506d5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-5v-Sensor-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.5v_sensor_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:c2a036620cbb44d8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Dmc-Status-Fan-Fuse-Open",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.dmc_status.fan_fuse_open",
+            "hrn": "hrn:24000-1:DataItem:114be8c4ee11675b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Pc-Power-Good",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.pc_power_good",
+            "hrn": "hrn:24000-1:DataItem:32b444880d3ec643"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Ui-Power-Good",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.ui_power_good",
+            "hrn": "hrn:24000-1:DataItem:dba70013fac9bc3b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Dmc-39v-Power-Good",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.dmc_39v_power_good",
+            "hrn": "hrn:24000-1:DataItem:92827d19404a8693"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Zoo-12v-Power-Good",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.zoo_12v_power_good",
+            "hrn": "hrn:24000-1:DataItem:d707336f34b60771"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Zoo-39v-Power-Good",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.zoo_39v_power_good",
+            "hrn": "hrn:24000-1:DataItem:d173ad0115748738"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Sub-39v-Ac-Ok",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.sub_39v_ac_ok",
+            "hrn": "hrn:24000-1:DataItem:024fb4e7dd028a0b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Sub-39v-Dc-Ok",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.sub_39v_dc_ok",
+            "hrn": "hrn:24000-1:DataItem:daf53b227bbd12f3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Pc-12v-Fault",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.pc_12v_fault",
+            "hrn": "hrn:24000-1:DataItem:e463214be82c0f06"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Ui-Fault",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.ui_fault",
+            "hrn": "hrn:24000-1:DataItem:d7b170222454e7ab"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Dmc-39v-Fault",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.dmc_39v_fault",
+            "hrn": "hrn:24000-1:DataItem:45f03581d73f2dc5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Zoo-12v-Fault",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.zoo_12v_fault",
+            "hrn": "hrn:24000-1:DataItem:ba8d807a945469fd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Zoo-39v-Fault",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.zoo_39v_fault",
+            "hrn": "hrn:24000-1:DataItem:60a0fa2dcc019686"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Bamboo1-12v-Power-Good",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.bamboo1_12v_power_good",
+            "hrn": "hrn:24000-1:DataItem:d250f1c71b6e3d8b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Bamboo1-12v-Fault",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.bamboo1_12v_fault",
+            "hrn": "hrn:24000-1:DataItem:872efc546c186282"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Bamboo2-12v-Power-Good",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.bamboo2_12v_power_good",
+            "hrn": "hrn:24000-1:DataItem:e690ac425d938cef"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "data_source": "20085 = GET_BOARD_HW_STATUS",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Board-Status-Sub-Status-Bamboo2-12-Fault",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 3600,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "board_status.sub_status.bamboo2_12_fault",
+            "hrn": "hrn:24000-1:DataItem:3b0c03c933e720b7"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
