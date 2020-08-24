@@ -314,58 +314,6 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "Sensor status on/off (top)",
-            "description": "",
-            "data_source": "",
-            "native_type": "INTEGER",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Stock-Comp-Sensor-2-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.comp_sensor_2.status",
-            "hrn": "hrn:30003-0:DataItem:135d1cda4fd71dcb"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "Sensor status on/off (bottom)",
-            "description": "",
-            "data_source": "",
-            "native_type": "INTEGER",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Stock-Comp-Sensor-1-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.comp_sensor_1.status",
-            "hrn": "hrn:30003-0:DataItem:a93830ab8ea29a05"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "SAMPLE_NUM",
             "notes": "ADC counts from reservoir load cell",
             "description": "",
@@ -679,7 +627,7 @@
           },
           "mtconnect_schema": {
             "type": "LENGTH",
-            "name": "Laser-1-Large-Profile-Width-Y",
+            "name": "Laser-1-Large-Profile-Width-X",
             "category": "SAMPLE",
             "subtype": "STANDARD",
             "units": "MILLIMETER",
@@ -688,14 +636,14 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.large_profile_width_y",
-            "hrn": "hrn:30003-0:DataItem:233c715cb1aadc3d"
+            "alias": "laser_1.large_profile_width_x",
+            "hrn": "hrn:30003-0:DataItem:51f1af0628264e93"
           }
         },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "This is peak sum for SS",
+            "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -704,18 +652,128 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "CONCENTRATION",
-            "name": "Laser-1-Small-Pin-Ratio",
+            "type": "DISPLACEMENT",
+            "name": "Laser-1-Large-Profile-Drift-X",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "PERCENT",
+            "units": "MILLIMETER",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.small_pin_ratio",
-            "hrn": "hrn:30003-0:DataItem:208692157fd74161"
+            "alias": "laser_1.large_profile_drift_x",
+            "hrn": "hrn:30003-0:DataItem:28a26c0d6645f284"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Laser-1-Large-Profile-Drift-Y",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.large_profile_drift_y",
+            "hrn": "hrn:30003-0:DataItem:23838e3869681000"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.large_max_line_sum_y",
+            "hrn": "hrn:30003-0:DataItem:8538763cbcbedc6a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.large_max_line_sum_x",
+            "hrn": "hrn:30003-0:DataItem:5de38a957a583d87"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Laser-1-Large-Profile-Center-Y",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.large_profile_center_y",
+            "hrn": "hrn:30003-0:DataItem:7499e3f875591a6a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Laser-1-Large-Profile-Center-X",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.large_profile_center_x",
+            "hrn": "hrn:30003-0:DataItem:6c99a74d1a4434fd"
           }
         },
         {
@@ -730,14 +788,14 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.small_max_adc",
-            "hrn": "hrn:30003-0:DataItem:5adccb307db446fe"
+            "alias": "laser_1.large_max_adc",
+            "hrn": "hrn:30003-0:DataItem:243d36135e4eab27"
           }
         },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "This is peak sum for LS",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -746,108 +804,76 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Laser-1-Small-Profile-Center-X",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.small_profile_center_x",
-            "hrn": "hrn:30003-0:DataItem:eac4051dbe7052bb"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Laser-1-Small-Profile-Center-Y",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.small_profile_center_y",
-            "hrn": "hrn:30003-0:DataItem:9f30177e0f69695b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.small_max_line_sum_x",
-            "hrn": "hrn:30003-0:DataItem:47a745e4a39fbfbf"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.small_max_line_sum_y",
-            "hrn": "hrn:30003-0:DataItem:3d806b340c1c2561"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Laser-1-Small-Profile-Drift-X",
+            "type": "CONCENTRATION",
+            "name": "Laser-1-Large-Pin-Ratio",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "MILLIMETER",
+            "units": "PERCENT",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.small_profile_drift_x",
-            "hrn": "hrn:30003-0:DataItem:4398b0b108d083a9"
+            "alias": "laser_1.large_pin_ratio",
+            "hrn": "hrn:30003-0:DataItem:c48817f3a3ec7214"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "safety cover",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Laser-1-Door",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.door",
+            "hrn": "hrn:30003-0:DataItem:8dd6b66b7a9f5096"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Laser-1-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.serial_number",
+            "hrn": "hrn:30003-0:DataItem:23fd2558b5017566"
           }
         },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "[HYDRA-1198] Exceeds Max. Threshold: 950",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -856,24 +882,24 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Laser-1-Small-Profile-Drift-Y",
+            "type": "WATTAGE",
+            "name": "Laser-1-Power",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "MILLIMETER",
+            "units": "WATT",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.small_profile_drift_y",
-            "hrn": "hrn:30003-0:DataItem:0bfc7dc4aa428e20"
+            "alias": "laser_1.power",
+            "hrn": "hrn:30003-0:DataItem:4e8c5558534fd276"
           }
         },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "[HYDRA-1198] Exceeds Max. Threshold: 650",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -882,148 +908,18 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Laser-1-Small-Profile-Width-X",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.small_profile_width_x",
-            "hrn": "hrn:30003-0:DataItem:63bb92db796ab21b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Laser-1-Small-Profile-Width-Y",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.small_profile_width_y",
-            "hrn": "hrn:30003-0:DataItem:7137875747b7105c"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ACCUMULATED_TIME",
-            "name": "Laser-1-Switching-Spots-Time",
+            "type": "WATTAGE",
+            "name": "Laser-1-Fad-Power",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "SECOND",
+            "units": "WATT",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.switching_spots_time",
-            "hrn": "hrn:30003-0:DataItem:307b0ed37d6d76d3"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "INTEGER",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ACCUMULATED_TIME",
-            "name": "Laser-1-Installed-Hours",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "SECOND",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.installed_hours",
-            "hrn": "hrn:30003-0:DataItem:aa5fba297524702d"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "When we install a laser printhead there are different amounts of hours on the laser depending on  manufacturing and testing process,. Warranty hours is essentially zeroing out the hour meter by documenting how many hours were on the laser when it was installed.",
-            "description": "",
-            "data_source": "",
-            "native_type": "INTEGER",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ACCUMULATED_TIME",
-            "name": "Laser-1-Warranty-Hours",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "SECOND",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.warranty_hours",
-            "hrn": "hrn:30003-0:DataItem:048e1474ed7900a0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "INTEGER",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ACCUMULATED_TIME",
-            "name": "Laser-1-Current-Hours",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "SECOND",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.current_hours",
-            "hrn": "hrn:30003-0:DataItem:5136f7e4cd6ad4e0"
+            "alias": "laser_1.fad_power",
+            "hrn": "hrn:30003-0:DataItem:fbd3ba20b5f2cfa8"
           }
         },
         {
@@ -1039,7 +935,7 @@
           },
           "mtconnect_schema": {
             "type": "TEMPERATURE",
-            "name": "Laser-1-Diode-Temperature",
+            "name": "Laser-1-Tripler-Temperature",
             "category": "SAMPLE",
             "subtype": "",
             "units": "CELSIUS",
@@ -1048,8 +944,8 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.diode_temperature",
-            "hrn": "hrn:30003-0:DataItem:10a9054473e9256b"
+            "alias": "laser_1.tripler_temperature",
+            "hrn": "hrn:30003-0:DataItem:ae1050e7403e5114"
           }
         },
         {
@@ -1091,7 +987,7 @@
           },
           "mtconnect_schema": {
             "type": "TEMPERATURE",
-            "name": "Laser-1-Tripler-Temperature",
+            "name": "Laser-1-Diode-Temperature",
             "category": "SAMPLE",
             "subtype": "",
             "units": "CELSIUS",
@@ -1100,1002 +996,8 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.tripler_temperature",
-            "hrn": "hrn:30003-0:DataItem:ae1050e7403e5114"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "[HYDRA-1198] Exceeds Max. Threshold: 650",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "WATTAGE",
-            "name": "Laser-1-Fad-Power",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "WATT",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.fad_power",
-            "hrn": "hrn:30003-0:DataItem:fbd3ba20b5f2cfa8"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "[HYDRA-1198] Exceeds Max. Threshold: 950",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "WATTAGE",
-            "name": "Laser-1-Power",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "WATT",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.power",
-            "hrn": "hrn:30003-0:DataItem:4e8c5558534fd276"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "SERIAL_NUMBER",
-            "name": "Laser-1-Serial-Number",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.serial_number",
-            "hrn": "hrn:30003-0:DataItem:23fd2558b5017566"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "safety cover",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Laser-1-Door",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.door",
-            "hrn": "hrn:30003-0:DataItem:8dd6b66b7a9f5096"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "This is peak sum for LS",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "CONCENTRATION",
-            "name": "Laser-1-Large-Pin-Ratio",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "PERCENT",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.large_pin_ratio",
-            "hrn": "hrn:30003-0:DataItem:c48817f3a3ec7214"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "statistic=\"MAXIMUM\"",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.large_max_adc",
-            "hrn": "hrn:30003-0:DataItem:243d36135e4eab27"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Laser-1-Large-Profile-Center-X",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.large_profile_center_x",
-            "hrn": "hrn:30003-0:DataItem:6c99a74d1a4434fd"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Laser-1-Large-Profile-Center-Y",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.large_profile_center_y",
-            "hrn": "hrn:30003-0:DataItem:7499e3f875591a6a"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.large_max_line_sum_x",
-            "hrn": "hrn:30003-0:DataItem:5de38a957a583d87"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.large_max_line_sum_y",
-            "hrn": "hrn:30003-0:DataItem:8538763cbcbedc6a"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Laser-1-Large-Profile-Drift-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.large_profile_drift_y",
-            "hrn": "hrn:30003-0:DataItem:23838e3869681000"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Laser-1-Large-Profile-Drift-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.large_profile_drift_x",
-            "hrn": "hrn:30003-0:DataItem:28a26c0d6645f284"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Laser-1-Large-Profile-Width-X",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_1.large_profile_width_x",
-            "hrn": "hrn:30003-0:DataItem:51f1af0628264e93"
-          }
-        }
-      ]
-    },
-    {
-      "hydra_schema": {
-        "description": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "mtconnect_schema": {
-        "name": "Laser-2",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "meta": {
-        "alias": "laser_2",
-        "hrn": "hrn:30003-0:Component:d2eb2aa51394e4b5"
-      },
-      "dataitems": [
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Laser-2-Small-Profile-Width-Y",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.small_profile_width_y",
-            "hrn": "hrn:30003-0:DataItem:7fa4373102d19088"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Laser-2-Small-Profile-Width-X",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.small_profile_width_x",
-            "hrn": "hrn:30003-0:DataItem:fe3680a1d7698e33"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ACCUMULATED_TIME",
-            "name": "Laser-2-Switching-Spots-Time",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "SECOND",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.switching_spots_time",
-            "hrn": "hrn:30003-0:DataItem:626f0d04d14b2992"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Laser-2-Small-Profile-Drift-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.small_profile_drift_y",
-            "hrn": "hrn:30003-0:DataItem:2fa718f7bc50ef8c"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Laser-2-Small-Profile-Drift-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.small_profile_drift_x",
-            "hrn": "hrn:30003-0:DataItem:69e7c248afa8d0d0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.small_max_line_sum_y",
-            "hrn": "hrn:30003-0:DataItem:85d1a6670919fcd8"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.small_max_line_sum_x",
-            "hrn": "hrn:30003-0:DataItem:24614a5d2d8106f3"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Laser-2-Small-Profile-Center-Y",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.small_profile_center_y",
-            "hrn": "hrn:30003-0:DataItem:3f22a853e2d7ebcc"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Laser-2-Small-Profile-Center-X",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.small_profile_center_x",
-            "hrn": "hrn:30003-0:DataItem:946e537b9f5740c4"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "statistic=\"MAXIMUM\"",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.small_max_adc",
-            "hrn": "hrn:30003-0:DataItem:2dce88e6eeb14c89"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "This is SS peak sum",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "CONCENTRATION",
-            "name": "Laser-2-Small-Pin-Ratio",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "PERCENT",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.small_pin_ratio",
-            "hrn": "hrn:30003-0:DataItem:4d0eefae6107f1dc"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Laser-2-Large-Profile-Drift-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.large_profile_drift_y",
-            "hrn": "hrn:30003-0:DataItem:beab1e7ead563284"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Laser-2-Large-Profile-Drift-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.large_profile_drift_x",
-            "hrn": "hrn:30003-0:DataItem:c21c3ec218fdfc16"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Laser-2-Large-Profile-Width-Y",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.large_profile_width_y",
-            "hrn": "hrn:30003-0:DataItem:fb1dbb3bddf65967"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Laser-2-Large-Profile-Width-X",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.large_profile_width_x",
-            "hrn": "hrn:30003-0:DataItem:a514fc7dca650e19"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.large_max_line_sum_y",
-            "hrn": "hrn:30003-0:DataItem:50ca05a8bdbc1ef9"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.large_max_line_sum_x",
-            "hrn": "hrn:30003-0:DataItem:b3a18f6291a403f8"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Laser-2-Large-Profile-Center-Y",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.large_profile_center_y",
-            "hrn": "hrn:30003-0:DataItem:f81c8c1b0993f781"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Laser-2-Large-Profile-Center-X",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.large_profile_center_x",
-            "hrn": "hrn:30003-0:DataItem:21ef92fab2bb330b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "statistic=\"MAXIMUM\"",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.large_max_adc",
-            "hrn": "hrn:30003-0:DataItem:6f119bf3f8cd38cf"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "This is LS peak sum",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "CONCENTRATION",
-            "name": "Laser-2-Large-Pin-Ratio",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "PERCENT",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.large_pin_ratio",
-            "hrn": "hrn:30003-0:DataItem:a422bbb10846204a"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "safety cover",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Laser-2-Door",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.door",
-            "hrn": "hrn:30003-0:DataItem:9cb552627362b195"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "SERIAL_NUMBER",
-            "name": "Laser-2-Serial-Number",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.serial_number",
-            "hrn": "hrn:30003-0:DataItem:586ecaee9cbb9023"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "[HYDRA-1198] Exceeds Max. Threshold: 950",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "WATTAGE",
-            "name": "Laser-2-Power",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "WATT",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.power",
-            "hrn": "hrn:30003-0:DataItem:d15a3f57efaada2d"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "[HYDRA-1198] Exceeds Max. Threshold: 650",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "WATTAGE",
-            "name": "Laser-2-Fad-Power",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "WATT",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.fad_power",
-            "hrn": "hrn:30003-0:DataItem:d2c9880ca457098c"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "TEMPERATURE",
-            "name": "Laser-2-Tripler-Temperature",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "CELSIUS",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.tripler_temperature",
-            "hrn": "hrn:30003-0:DataItem:d1b99e85a672ff2b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "TEMPERATURE",
-            "name": "Laser-2-Doubler-Temperature",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "CELSIUS",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.doubler_temperature",
-            "hrn": "hrn:30003-0:DataItem:52e77e8f25f6f669"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "TEMPERATURE",
-            "name": "Laser-2-Diode-Temperature",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "CELSIUS",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser_2.diode_temperature",
-            "hrn": "hrn:30003-0:DataItem:cdc779a2c590c09f"
+            "alias": "laser_1.diode_temperature",
+            "hrn": "hrn:30003-0:DataItem:10a9054473e9256b"
           }
         },
         {
@@ -2111,7 +1013,7 @@
           },
           "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
-            "name": "Laser-2-Current-Hours",
+            "name": "Laser-1-Current-Hours",
             "category": "SAMPLE",
             "subtype": "",
             "units": "SECOND",
@@ -2120,8 +1022,8 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_2.current_hours",
-            "hrn": "hrn:30003-0:DataItem:f1dc0c9dcffbaf4c"
+            "alias": "laser_1.current_hours",
+            "hrn": "hrn:30003-0:DataItem:5136f7e4cd6ad4e0"
           }
         },
         {
@@ -2137,7 +1039,7 @@
           },
           "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
-            "name": "Laser-2-Warranty-Hours",
+            "name": "Laser-1-Warranty-Hours",
             "category": "SAMPLE",
             "subtype": "",
             "units": "SECOND",
@@ -2146,8 +1048,8 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_2.warranty_hours",
-            "hrn": "hrn:30003-0:DataItem:0cd3a287e70a8869"
+            "alias": "laser_1.warranty_hours",
+            "hrn": "hrn:30003-0:DataItem:048e1474ed7900a0"
           }
         },
         {
@@ -2163,7 +1065,7 @@
           },
           "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
-            "name": "Laser-2-Installed-Hours",
+            "name": "Laser-1-Installed-Hours",
             "category": "SAMPLE",
             "subtype": "",
             "units": "SECOND",
@@ -2172,8 +1074,290 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_2.installed_hours",
-            "hrn": "hrn:30003-0:DataItem:6aa0358fc56cf4ff"
+            "alias": "laser_1.installed_hours",
+            "hrn": "hrn:30003-0:DataItem:aa5fba297524702d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Laser-1-Switching-Spots-Time",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.switching_spots_time",
+            "hrn": "hrn:30003-0:DataItem:307b0ed37d6d76d3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Laser-1-Small-Profile-Width-Y",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.small_profile_width_y",
+            "hrn": "hrn:30003-0:DataItem:7137875747b7105c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Laser-1-Small-Profile-Width-X",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.small_profile_width_x",
+            "hrn": "hrn:30003-0:DataItem:63bb92db796ab21b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Laser-1-Small-Profile-Drift-Y",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.small_profile_drift_y",
+            "hrn": "hrn:30003-0:DataItem:0bfc7dc4aa428e20"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "DISPLACEMENT",
+            "name": "Laser-1-Small-Profile-Drift-X",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.small_profile_drift_x",
+            "hrn": "hrn:30003-0:DataItem:4398b0b108d083a9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.small_max_line_sum_y",
+            "hrn": "hrn:30003-0:DataItem:3d806b340c1c2561"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.small_max_line_sum_x",
+            "hrn": "hrn:30003-0:DataItem:47a745e4a39fbfbf"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Laser-1-Small-Profile-Center-Y",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.small_profile_center_y",
+            "hrn": "hrn:30003-0:DataItem:9f30177e0f69695b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Laser-1-Small-Profile-Center-X",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.small_profile_center_x",
+            "hrn": "hrn:30003-0:DataItem:eac4051dbe7052bb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "statistic=\"MAXIMUM\"",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.small_max_adc",
+            "hrn": "hrn:30003-0:DataItem:5adccb307db446fe"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "This is peak sum for SS",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONCENTRATION",
+            "name": "Laser-1-Small-Pin-Ratio",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.small_pin_ratio",
+            "hrn": "hrn:30003-0:DataItem:208692157fd74161"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "LENGTH",
+            "name": "Laser-1-Large-Profile-Width-Y",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.large_profile_width_y",
+            "hrn": "hrn:30003-0:DataItem:233c715cb1aadc3d"
           }
         }
       ]
@@ -2255,6 +1439,7 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
+            "transmission_timing": " ",
             "sample_interval": 0,
             "native_name": ""
           },
