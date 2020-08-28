@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 34100,
     "submodel": 0,
+    "servicemax_device_type": "Standalone",
     "native_name": "Figure 4 Standalone"
   },
   "mtconnect_schema": {
