@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 30000,
     "submodel": 0,
+    "servicemax_device_type": "ProX 950",
     "native_name": "ProX 950",
     "sample_interval": 0
   },
