@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 34201,
     "submodel": 0,
+    "servicemax_device_type": "Modular",
     "native_name": "Figure 4 Modular Print Station"
   },
   "mtconnect_schema": {
