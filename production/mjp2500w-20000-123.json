@@ -402,6 +402,7 @@
             "data_source": "10041 = GET_CURRENT_BUILD_LAYER",
             "native_type": "INT",
             "native_units": "Count",
+            "transmission_timing": " ",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -658,7 +659,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/57966940/10062+GET+MATERIAL+INFO",
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
@@ -685,7 +686,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/57966940/10062+GET+MATERIAL+INFO",
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
@@ -1052,7 +1053,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/57966940/10062+GET+MATERIAL+INFO",
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
@@ -1079,7 +1080,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/57966940/10062+GET+MATERIAL+INFO",
             "description": "",
             "data_source": "10062 = GET_MATERIAL_INFO",
             "native_type": "INTEGER",
@@ -2269,6 +2270,7 @@
             "data_source": "10010 = GET_NETWORK_SETTINGS",
             "native_type": "STRING",
             "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
             "sample_interval": 30,
             "native_name": ""
           },
@@ -4339,6 +4341,7 @@
             "data_source": "10004 = GET_PRINTER_USAGE",
             "native_type": "UNSIGNED INTEGER",
             "native_units": "Count",
+            "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -4744,6 +4747,7 @@
             "data_source": "Stack",
             "native_type": "STRING",
             "native_units": "",
+            "transmission_timing": "",
             "sample_interval": 30,
             "native_name": ""
           },
@@ -4856,6 +4860,7 @@
             "data_source": "Emitter (REGISTER_DEVICE)",
             "native_type": "STRING",
             "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
             "sample_interval": 30,
             "native_name": ""
           },
@@ -4885,6 +4890,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "INTEGER",
             "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
             "sample_interval": 30,
             "native_name": ""
           },
@@ -4914,6 +4920,7 @@
             "data_source": "10003 = GET_PRINTER_INFO",
             "native_type": "INTEGER",
             "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
             "sample_interval": 30,
             "native_name": ""
           },
