@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 30002,
     "submodel": 0,
+    "servicemax_device_type": "ProJet 6000",
     "native_name": "ProJet 6000"
   },
   "mtconnect_schema": {
