@@ -847,7 +847,7 @@
             "description": "",
             "native_code": "",
             "native_severity": "ANY",
-            "sample_interval": 0
+            "sample_interval": 30
           },
           "mtconnect_schema": {
             "type": "",
@@ -856,7 +856,7 @@
             "level": "",
             "message": "",
             "qualifier": "",
-            "sample_interval": 0
+            "sample_interval": 30
           },
           "meta": {
             "alias": "fault.general_faults",
