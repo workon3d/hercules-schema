@@ -2450,7 +2450,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "C°",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -2476,7 +2476,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "C°",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -2502,7 +2502,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "C°",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
