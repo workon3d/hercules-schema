@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 34200,
     "submodel": 0,
+    "servicemax_device_type": "",
     "native_name": "Figure 4 Modular Workcell Controller"
   },
   "mtconnect_schema": {
