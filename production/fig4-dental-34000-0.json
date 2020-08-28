@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 34000,
     "submodel": 0,
+    "servicemax_device_type": "5100",
     "native_name": "NextDent 5100"
   },
   "mtconnect_schema": {
