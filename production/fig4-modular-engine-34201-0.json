@@ -392,6 +392,7 @@
             "notes": "Workcell Version",
             "description": "",
             "servicemax_label": "Controller Workcell Version",
+            "servicemax_type": "Text",
             "data_source": "",
             "native_type": "",
             "native_units": "",
