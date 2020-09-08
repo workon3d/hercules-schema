@@ -229,6 +229,36 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Lifetime-Rpm-In-Hours",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_rpm_in_hours",
+            "hrn": "hrn:32008-0:DataItem:00549024cfc5304b",
+            "origin": "32007-0"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE_INT",
             "notes": "0 : Normal, 1:Auto",
             "description": "",
@@ -371,6 +401,35 @@
             "hrn": "hrn:32008-0:DataItem:b4669068a296d597",
             "required": true,
             "origin": "32007-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Lifetime-Sieving-Process-Hours",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_sieving_process_hours",
+            "hrn": "hrn:32008-0:DataItem:e619d564290ad685"
           }
         },
         {
