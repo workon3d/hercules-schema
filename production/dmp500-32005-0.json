@@ -471,7 +471,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE",
+            "type": "SAMPLE_INT",
             "notes": "include: Present",
             "description": "",
             "data_source": "",
@@ -1269,17 +1269,37 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "Does this exist?",
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Printer-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "printer_state",
+            "hrn": "hrn:32005-0:DataItem:b4669068a296d597",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "include: Present",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Job-Counter",
+            "type": "SERIAL_NUMBER",
+            "name": "Serial-Number",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1288,118 +1308,10 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "job_counter",
-            "hrn": "hrn:32005-0:DataItem:5636563cf7ccafbd"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "Does this exist?",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "TEMPERATURE",
-            "name": "Chamber-Temperature-2",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "CELSIUS",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber_temperature_2",
-            "hrn": "hrn:32005-0:DataItem:b720bcf3e1df6751"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "include: Present",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "TEMPERATURE",
-            "name": "Chamber-Temperature",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "CELSIUS",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber_temperature",
-            "hrn": "hrn:32005-0:DataItem:fe7182a2c800d3a9"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "include: Present",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber_humidity_2",
-            "hrn": "hrn:32005-0:DataItem:fe8c3cdbd9893e2d"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "include: Present",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber_humidity",
-            "hrn": "hrn:32005-0:DataItem:442acb2b3a591119"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "include: Present",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "TEMPERATURE",
-            "name": "Build-Plate-Temperature",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "CELSIUS",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build_plate.temperature",
-            "hrn": "hrn:32005-0:DataItem:978eda03885e80ab"
+            "alias": "serial_number",
+            "hrn": "hrn:32005-0:DataItem:27df2b90b58b1766",
+            "device_state": true,
+            "required": true
           }
         },
         {
@@ -1408,14 +1320,14 @@
             "notes": "",
             "description": "",
             "data_source": "",
-            "native_type": "STRING",
+            "native_type": "",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Model-Name",
+            "name": "Maintenance-Schedule-Tasks",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1424,125 +1336,14 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "model_name",
-            "hrn": "hrn:32005-0:DataItem:70f07587e28d1cb8",
-            "device_state": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
-            "description": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "enum",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Model",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "model",
-            "hrn": "hrn:32005-0:DataItem:9a6c650472a3ba4d",
-            "device_state": true,
-            "emitted_by_adapter": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
-            "description": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "enum",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Submodel",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "submodel",
-            "hrn": "hrn:32005-0:DataItem:8aecfacadb540b52",
-            "device_state": true,
-            "emitted_by_adapter": true
+            "alias": "maintenance_schedule_tasks",
+            "hrn": "hrn:32005-0:DataItem:23eb3a378d9f4a9d"
           }
         },
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
-            "description": "",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Timezone",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "timezone",
-            "hrn": "hrn:32005-0:DataItem:f30b533afb3a3ff8",
-            "device_state": true,
-            "emitted_by_adapter": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "include: Present",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "CONCENTRATION",
-            "name": "Oxygen-Concentration",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "PERCENT",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "oxygen_concentration",
-            "hrn": "hrn:32005-0:DataItem:389e3d5345802bb0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "Useful for leak detection\ninclude: Present",
+            "notes": "Emitted by Adman",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1552,7 +1353,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Oxygen-Sensor-Ppm-Value",
+            "name": "Adapter-Id",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1561,8 +1362,10 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "oxygen_sensor_ppm.value",
-            "hrn": "hrn:32005-0:DataItem:82491cb805ee492d"
+            "alias": "adapter_id",
+            "hrn": "hrn:32005-0:DataItem:c599101195a68310",
+            "device_state": true,
+            "emitted_by_adapter": true
           }
         },
         {
@@ -1578,43 +1381,17 @@
           },
           "mtconnect_schema": {
             "type": "EQUIPMENT_TIMER",
-            "name": "Lifetime-On-Hours",
+            "name": "Lifetime-Melting-Hours",
             "category": "SAMPLE",
-            "subtype": "POWERED",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "lifetime_on_hours",
-            "hrn": "hrn:32005-0:DataItem:da8ef98aef0719f4"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "include: Present",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "EQUIPMENT_TIMER",
-            "name": "Lifetime-Build-Hours",
-            "category": "SAMPLE",
-            "subtype": "WORKING",
+            "subtype": "OPERATING",
             "units": "SECOND",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "lifetime_build_hours",
-            "hrn": "hrn:32005-0:DataItem:f5c70158a3700bd0"
+            "alias": "lifetime_melting_hours",
+            "hrn": "hrn:32005-0:DataItem:80240c15fae2ca2d"
           }
         },
         {
@@ -1656,23 +1433,49 @@
           },
           "mtconnect_schema": {
             "type": "EQUIPMENT_TIMER",
-            "name": "Lifetime-Melting-Hours",
+            "name": "Lifetime-Build-Hours",
             "category": "SAMPLE",
-            "subtype": "OPERATING",
+            "subtype": "WORKING",
             "units": "SECOND",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "lifetime_melting_hours",
-            "hrn": "hrn:32005-0:DataItem:80240c15fae2ca2d"
+            "alias": "lifetime_build_hours",
+            "hrn": "hrn:32005-0:DataItem:f5c70158a3700bd0"
           }
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "Emitted by Adman",
+            "type": "SAMPLE_INT",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "EQUIPMENT_TIMER",
+            "name": "Lifetime-On-Hours",
+            "category": "SAMPLE",
+            "subtype": "POWERED",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "lifetime_on_hours",
+            "hrn": "hrn:32005-0:DataItem:da8ef98aef0719f4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Useful for leak detection\ninclude: Present",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1682,7 +1485,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Adapter-Id",
+            "name": "Oxygen-Sensor-Ppm-Value",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1691,8 +1494,116 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "adapter_id",
-            "hrn": "hrn:32005-0:DataItem:c599101195a68310",
+            "alias": "oxygen_sensor_ppm.value",
+            "hrn": "hrn:32005-0:DataItem:82491cb805ee492d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CONCENTRATION",
+            "name": "Oxygen-Concentration",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "oxygen_concentration",
+            "hrn": "hrn:32005-0:DataItem:389e3d5345802bb0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
+            "description": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Timezone",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "timezone",
+            "hrn": "hrn:32005-0:DataItem:f30b533afb3a3ff8",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "enum",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Submodel",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "submodel",
+            "hrn": "hrn:32005-0:DataItem:8aecfacadb540b52",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
+            "description": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "enum",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Model",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "model",
+            "hrn": "hrn:32005-0:DataItem:9a6c650472a3ba4d",
             "device_state": true,
             "emitted_by_adapter": true
           }
@@ -1703,6 +1614,143 @@
             "notes": "",
             "description": "",
             "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Model-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "model_name",
+            "hrn": "hrn:32005-0:DataItem:70f07587e28d1cb8",
+            "device_state": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Build-Plate-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build_plate.temperature",
+            "hrn": "hrn:32005-0:DataItem:978eda03885e80ab"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_humidity",
+            "hrn": "hrn:32005-0:DataItem:442acb2b3a591119"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_humidity_2",
+            "hrn": "hrn:32005-0:DataItem:fe8c3cdbd9893e2d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "include: Present",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Chamber-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_temperature",
+            "hrn": "hrn:32005-0:DataItem:fe7182a2c800d3a9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Does this exist?",
+            "description": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Chamber-Temperature-2",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber_temperature_2",
+            "hrn": "hrn:32005-0:DataItem:b720bcf3e1df6751"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Does this exist?",
+            "description": "",
+            "data_source": "",
             "native_type": "",
             "native_units": "",
             "sample_interval": 0,
@@ -1710,7 +1758,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Maintenance-Schedule-Tasks",
+            "name": "Job-Counter",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1719,56 +1767,8 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "maintenance_schedule_tasks",
-            "hrn": "hrn:32005-0:DataItem:23eb3a378d9f4a9d"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "include: Present",
-            "description": "",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "SERIAL_NUMBER",
-            "name": "Serial-Number",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "serial_number",
-            "hrn": "hrn:32005-0:DataItem:27df2b90b58b1766",
-            "device_state": true,
-            "required": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Printer-State",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "printer_state",
-            "hrn": "hrn:32005-0:DataItem:b4669068a296d597",
-            "required": true
+            "alias": "job_counter",
+            "hrn": "hrn:32005-0:DataItem:5636563cf7ccafbd"
           }
         }
       ]
@@ -1869,7 +1869,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "include: see possible states defined in \\n\\n    \\n\\n            \\n\\n\\n\\n    \\n                 HYDRA-196\\n                    -\\n            Getting issue details...\\n                                    STATUS\\n            \\n",
+            "notes": "include: see possible states defined in  HYDRA-196",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -2596,7 +2596,7 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "",
+            "notes": "Nan, -∞, +∞",
             "description": "",
             "native_code": "Oxygen Concentration Invalid Value",
             "native_severity": "LOW",
