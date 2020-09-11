@@ -1954,7 +1954,144 @@
         "required": true
       },
       "dataitems": [
-
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "",
+            "native_severity": "HIGH",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "HARDWARE",
+            "name": "Fault-Coupling-Safety-Sensor",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.coupling_safety_sensor",
+            "hrn": "hrn:32000-0:DataItem:c71904670de96ec9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "",
+            "native_severity": "HIGH",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "HARDWARE",
+            "name": "Fault-Shared-Vacuum-Pump",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.shared_vacuum_pump",
+            "hrn": "hrn:32000-0:DataItem:5550395aa55a71b5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "",
+            "native_severity": "HIGH",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "HARDWARE",
+            "name": "Fault-Chiller",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.chiller",
+            "hrn": "hrn:32000-0:DataItem:d04e1a65b8bbb2fa"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "native_code": "",
+            "native_severity": "HIGH",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "HARDWARE",
+            "name": "Fault-Blower-Motor",
+            "category": "CONDITION",
+            "level": "FAULT",
+            "message": "",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.blower_motor",
+            "hrn": "hrn:32000-0:DataItem:6dc254d825715e72"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "Nan, -∞, +∞",
+            "description": "",
+            "native_code": "Oxygen Concentration Invalid Value",
+            "native_severity": "LOW",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-Invalid-Oxygen-Value",
+            "category": "CONDITION",
+            "level": "WARNING",
+            "message": "",
+            "qualifier": "INFINITY,-INFINITY,MAXVAL,MINVAL",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.invalid_oxygen_value",
+            "hrn": "hrn:32000-0:DataItem:970595be8c5b714b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "This is a generic condition stream for all faults that do not require any specific platform handling and serve to inform user of general error fault condition",
+            "description": "",
+            "native_code": "",
+            "native_severity": "ANY",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "SYSTEM",
+            "name": "Fault-General-Fault",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.general_fault",
+            "hrn": "hrn:32000-0:DataItem:0026b721ba9c3283"
+          }
+        }
       ]
     },
     {
