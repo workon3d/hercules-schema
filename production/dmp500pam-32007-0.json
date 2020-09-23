@@ -36,7 +36,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "No pressure feedback in bar, only presence, logged",
+            "notes": "No pressure feedback in bar, only presence, logged\n0 : NOK, 1: OK",
             "description": "",
             "data_source": "",
             "native_type": "BOOL",
@@ -62,7 +62,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "No pressure feedback in bar, only presence, logged",
+            "notes": "No pressure feedback in bar, only presence, logged\n0 : NOK, 1: OK",
             "description": "",
             "data_source": "",
             "native_type": "BOOL",
@@ -220,13 +220,13 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "on UI : lifetime_rpm_in",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "hour",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -249,7 +249,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : Normal, 1:Auto",
+            "notes": "0 : Manual, 1:Auto",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -301,7 +301,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : Operator / 1 : Service",
             "description": "",
             "data_source": "",
             "native_type": "",
