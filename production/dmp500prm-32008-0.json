@@ -560,11 +560,41 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
+            "notes": "logged",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "kg",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Rpm-Weight",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.rpm_weight",
+            "hrn": "hrn:32008-0:DataItem:e44c8d6c686b51e2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "kg",
             "sample_interval": 0,
             "native_name": ""
           },
