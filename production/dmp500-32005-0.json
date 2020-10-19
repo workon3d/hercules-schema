@@ -44,7 +44,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Axes-Hopper-Axes-Hopper-Powder-Low-Back",
+            "name": "Axes-Hopper-Powder-Low-Back",
             "category": "",
             "subtype": "",
             "units": "",
@@ -53,7 +53,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "axes.hopper.axes.hopper.powder_low_back",
+            "alias": "axes.hopper.powder_low_back",
             "hrn": "hrn:32005-0:DataItem:09f077cd2466f221"
           }
         },
@@ -70,7 +70,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Axes-Hopper-Axes-Hopper-Powder-Low-Front",
+            "name": "Axes-Hopper-Powder-Low-Front",
             "category": "",
             "subtype": "",
             "units": "",
@@ -79,7 +79,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "axes.hopper.axes.hopper.powder_low_front",
+            "alias": "axes.hopper.powder_low_front",
             "hrn": "hrn:32005-0:DataItem:58ecb419921f63b2"
           }
         }
