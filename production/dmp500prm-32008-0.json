@@ -135,6 +135,36 @@
             "hrn": "hrn:32008-0:DataItem:e473d0afe741a35a",
             "origin": "32007-0"
           }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "DOOR_STATE : {0 : opened, 1 : closed, 2 : unlatched}",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Door-Sieve",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.sieve",
+            "hrn": "hrn:32008-0:DataItem:5ceb4e57acd1703a"
+          }
         }
       ]
     },
@@ -208,6 +238,66 @@
             "alias": "chamber.oxygen_sensor_percent.value",
             "hrn": "hrn:32008-0:DataItem:087f9b3793fbf0bd",
             "origin": "32007-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "0 : unknown, 1 : down, 2 : going up, 3 : going down, 4 : up",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Chamber-Vertical-Auger-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber.vertical_auger.state",
+            "hrn": "hrn:32008-0:DataItem:352f59e0d59aee40"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "rpm",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Chamber-Vertical-Auger-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber.vertical_auger.value",
+            "hrn": "hrn:32008-0:DataItem:7ebbdd90a123c231"
           }
         }
       ]
@@ -559,6 +649,96 @@
         },
         {
           "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Camlock-Pcm2-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.camlock_pcm2.state",
+            "hrn": "hrn:32008-0:DataItem:521fb5a801758644"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Camlock-Pcm1-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.camlock_pcm1.state",
+            "hrn": "hrn:32008-0:DataItem:11d721098422f02e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "mbar",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Silo-Pressure-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.silo_pressure.value",
+            "hrn": "hrn:32008-0:DataItem:5c16067e062b6773"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "SAMPLE_NUM",
             "notes": "logged",
             "description": "",
@@ -770,6 +950,404 @@
             "alias": "fault.general_faults",
             "hrn": "hrn:32008-0:DataItem:8f22b395201a77dc",
             "origin": "32007-0"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Platform",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "platform",
+        "hrn": "hrn:32008-0:Component:671c6d5c870dbe75"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 : closed, 1 : open",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Platform-Powder-Discharge-Sensor-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "platform.powder_discharge_sensor.state",
+            "hrn": "hrn:32008-0:DataItem:a066d3729bcb5453"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "rpm",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Platform-Vertical-Auger-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "platform.vertical_auger.value",
+            "hrn": "hrn:32008-0:DataItem:0df95a9da3177695"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 : not in place, 1 : in place",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Platform-Rpm-Pipes-Right-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "platform.rpm_pipes.right.state",
+            "hrn": "hrn:32008-0:DataItem:93f004bf8cb9f2da"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 : not in place, 1 : in place",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Platform-Rpm-Pipes-Left-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "platform.rpm_pipes.left.state",
+            "hrn": "hrn:32008-0:DataItem:a029c39e32c21275"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 : unlocked, 1 : locked",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Platform-Rpm-Lock-Sensor-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "platform.rpm_lock_sensor.state",
+            "hrn": "hrn:32008-0:DataItem:8ac80fca073a9e10"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "kg",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Platform-Rpm-Weight-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "platform.rpm_weight.value",
+            "hrn": "hrn:32008-0:DataItem:212f10fa1113d405"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Sieve",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "sieve",
+        "hrn": "hrn:32008-0:Component:7628c44ed48ef6d0"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "rpm",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Sieve-Vertical-Auger-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sieve.vertical_auger.value",
+            "hrn": "hrn:32008-0:DataItem:81bbd1438107f5e4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "1 : ON, 2 : OFF",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Sieve-Activity-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sieve.activity.state",
+            "hrn": "hrn:32008-0:DataItem:d61eb024642e5949"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "percent",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Sieve-Intensity-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sieve.intensity.value",
+            "hrn": "hrn:32008-0:DataItem:5ecda7dfa68a26dc"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Sieve-Power-Bin-Sensor-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sieve.power_bin_sensor.state",
+            "hrn": "hrn:32008-0:DataItem:1871b8c5c0ac953f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "mbar",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Sieve-Relative-Pressure",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sieve.relative_pressure",
+            "hrn": "hrn:32008-0:DataItem:0fd131af6337975d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "percent",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Sieve-Oxygen-Sensor-Percent-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sieve.oxygen_sensor_percent.value",
+            "hrn": "hrn:32008-0:DataItem:803e6f576890f94a"
           }
         }
       ]
