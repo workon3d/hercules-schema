@@ -598,4 +598,30 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
+  <xs:complexType name="SieveComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Sieve" type="SieveComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="PlatformComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Platform" type="PlatformComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
 </xs:schema>
