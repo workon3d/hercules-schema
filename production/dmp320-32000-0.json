@@ -2112,6 +2112,36 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
+            "notes": "Configuration Data\nhttps://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/686032598/Configuration+Data",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "JSON",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Configuration-Data",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "configuration_data",
+            "hrn": "hrn:32000-0:DataItem:cbe9a4e757387c1b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
             "notes": "nickname",
             "description": "",
             "data_source": "",
