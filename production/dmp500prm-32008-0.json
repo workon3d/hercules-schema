@@ -1017,7 +1017,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Platform-Vertical-Auger-Value",
+            "name": "Platform-Horizontal-Auger-Value",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1027,7 +1027,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "platform.vertical_auger.value",
+            "alias": "platform.horizontal_auger.value",
             "hrn": "hrn:32008-0:DataItem:0df95a9da3177695"
           }
         },
@@ -1137,7 +1137,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Platform-Rpm-Weight-Value",
+            "name": "Platform-Rpm-Weight",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1147,7 +1147,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "platform.rpm_weight.value",
+            "alias": "platform.rpm_weight",
             "hrn": "hrn:32008-0:DataItem:212f10fa1113d405"
           }
         }
