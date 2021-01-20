@@ -1068,36 +1068,6 @@
             "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "DOUBLE",
-            "native_units": "mbar",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Pneumatic-Argon-Safety-Valve-Trigger-Point",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "pneumatic.argon_safety_valve_trigger_point",
-            "hrn": "hrn:32005-0:DataItem:445f459489f006b8"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
             "data_source": "",
             "native_type": "",
             "native_units": "",
