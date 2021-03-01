@@ -808,7 +808,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Present",
+            "notes": "include: Present (0=Open, 1=Closed)",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -1625,6 +1625,36 @@
         "hrn": "hrn:32005-0:Component:67ee690dcad376f3"
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "include: Present",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Stock-Material-Batch",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock.material_batch",
+            "hrn": "hrn:32005-0:DataItem:e5f05587e60e2e3e"
+          }
+        },
         {
           "hydra_schema": {
             "type": "EVENT",
