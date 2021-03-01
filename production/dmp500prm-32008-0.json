@@ -649,6 +649,36 @@
         },
         {
           "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "progression between [0, 1]",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Pogress",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.pogress",
+            "hrn": "hrn:32008-0:DataItem:ec5935d924ae44bb"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
             "description": "",
