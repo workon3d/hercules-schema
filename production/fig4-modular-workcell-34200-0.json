@@ -63,32 +63,6 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Workcell Version",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Workcell-Version",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.workcell_version",
-            "hrn": "hrn:34200-0:DataItem:e1ea278cd9153522"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
             "notes": "Appliance SW Version\nreported_ver: v1.0.1-8",
             "description": "",
             "data_source": "",
@@ -174,58 +148,6 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "EMERGENCY_STOP",
-            "name": "Emergency-Stop",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "emergency_stop",
-            "hrn": "hrn:34200-0:DataItem:908ee340864e9a23"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "AVAILABILITY",
-            "name": "Available",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "available",
-            "hrn": "hrn:34200-0:DataItem:6e0a520a24a336c9"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "reported_ver: v1.0.1-8",
             "description": "",
@@ -248,48 +170,6 @@
           "meta": {
             "alias": "printer_name",
             "hrn": "hrn:34200-0:DataItem:ae55a541594c3530"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "Humidity of Chamber",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber_humidity",
-            "hrn": "hrn:34200-0:DataItem:442acb2b3a591119"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "Temperature of Chamber",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "TEMPERATURE",
-            "name": "Chamber-Temperature",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "CELSIUS",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chamber_temperature",
-            "hrn": "hrn:34200-0:DataItem:fe7182a2c800d3a9"
           }
         },
         {
@@ -318,32 +198,6 @@
             "hrn": "hrn:34200-0:DataItem:27df2b90b58b1766",
             "device_state": true,
             "required": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "CONDITION",
-            "notes": "Fault Type",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LOGIC_PROGRAM",
-            "name": "Fault-Status",
-            "category": "CONDITION",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "fault_status",
-            "hrn": "hrn:34200-0:DataItem:2f96bc5ebf8d5434"
           }
         }
       ]
