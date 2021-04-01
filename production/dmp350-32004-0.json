@@ -1735,6 +1735,68 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Details about the connected Removable Print Module (RPM)",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Platform-Rpm-Details",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build_platform.rpm_details",
+            "hrn": "hrn:32004-0:DataItem:d55ea8dad8e3550a",
+            "origin": "32000-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Identifier/name of the connected Removable Print Module (RPM).",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Platform-Rpm-Id",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build_platform.rpm_id",
+            "hrn": "hrn:32004-0:DataItem:02bcddd2524e500d",
+            "origin": "32000-0"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
