@@ -39,6 +39,8 @@
             "type": "MESSAGE",
             "notes": "include: Present",
             "description": "",
+            "servicemax_label": "Material Batch",
+            "servicemax_type": "Text",
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
@@ -66,6 +68,8 @@
             "type": "MESSAGE_INT",
             "notes": "type is an enumeration defined by device team that contains the different materials that we support, like different grades of titanium, stainless steel, ...",
             "description": "",
+            "servicemax_label": "Material Enum",
+            "servicemax_type": "Text",
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
@@ -93,6 +97,8 @@
             "type": "EVENT",
             "notes": "include: Present",
             "description": "",
+            "servicemax_label": "Material Name",
+            "servicemax_type": "Text",
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
@@ -322,6 +328,27 @@
             "alias": "build.time_remaining",
             "hrn": "hrn:32004-1:DataItem:289c33e569078146",
             "required": true,
+            "origin": "32000-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "include: Needed",
+            "description": "",
+            "native_type": "INT"
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Build-Time-Elapsed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": ""
+          },
+          "meta": {
+            "alias": "build.time_elapsed",
+            "hrn": "hrn:32004-1:DataItem:5ab6d9160d1037f7",
             "origin": "32000-0"
           }
         },
@@ -802,7 +829,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "mbar",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -829,7 +856,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "mbar",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -856,7 +883,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "mbar",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1153,7 +1180,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "mbar",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1180,7 +1207,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "mbar",
+            "native_units": "bar",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1207,7 +1234,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "Pa",
+            "native_units": "bar",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1234,7 +1261,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "mbar",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1831,7 +1858,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "µm",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1904,7 +1931,10 @@
             "type": "SAMPLE_NUM",
             "notes": "include: Not Available",
             "description": "",
-            "native_type": "FLOAT"
+            "servicemax_label": "Laser 1 Max Calibrated Power (W)",
+            "servicemax_type": "Number",
+            "native_type": "FLOAT",
+            "native_units": "Watts"
           },
           "mtconnect_schema": {
             "type": "WATTAGE",
@@ -1925,6 +1955,8 @@
             "type": "EVENT",
             "notes": "include: Present",
             "description": "",
+            "servicemax_label": "Laser 1 Serial Number",
+            "servicemax_type": "Text",
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
@@ -1979,9 +2011,11 @@
             "type": "SAMPLE_INT",
             "notes": "include: Present since version 1.2.6",
             "description": "",
+            "servicemax_label": "Laser 1 Total Hours (s)",
+            "servicemax_type": "Number",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "Hours",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2008,7 +2042,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "°C",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2050,6 +2084,8 @@
             "type": "EVENT",
             "notes": "include: Present",
             "description": "",
+            "servicemax_label": "Scanner 1 Serial Number",
+            "servicemax_type": "Text",
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
@@ -2383,7 +2419,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "https://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/659424585/Maintenance+Schedule+Tasks",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2523,7 +2559,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "°C",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2550,7 +2586,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "°C",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2638,9 +2674,11 @@
             "type": "SAMPLE_INT",
             "notes": "PM - every 6 months\ninclude: Present",
             "description": "",
+            "servicemax_label": "Blower Total Hours (s)",
+            "servicemax_type": "Number",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "Hours",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2667,7 +2705,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "Hours",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2692,9 +2730,11 @@
             "type": "SAMPLE_INT",
             "notes": "include: Present",
             "description": "",
+            "servicemax_label": "Lifetime Melting Hours (s)",
+            "servicemax_type": "Number",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "Hours",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2721,7 +2761,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "Hours",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2746,9 +2786,11 @@
             "type": "SAMPLE_INT",
             "notes": "include: Present",
             "description": "",
+            "servicemax_label": "Lifetime Build Hours (s)",
+            "servicemax_type": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "Hours",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2773,9 +2815,11 @@
             "type": "SAMPLE_INT",
             "notes": "include: Present",
             "description": "",
+            "servicemax_label": "Lifetime On Hours (s)",
+            "servicemax_type": "Number",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "Hours",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2802,7 +2846,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "ppm",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2829,7 +2873,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "Percent",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2856,7 +2900,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "°C",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2883,7 +2927,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "Percent",
             "sample_interval": 0,
             "native_name": ""
           },
