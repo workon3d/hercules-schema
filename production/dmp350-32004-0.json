@@ -2184,7 +2184,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Present",
+            "notes": "include: Present (0=Open, 1=Closed)",
             "description": "",
             "data_source": "",
             "native_type": "INT",
