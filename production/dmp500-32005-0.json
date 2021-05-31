@@ -1808,6 +1808,36 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "1 : if the service key is turned on. 0 otherwise",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Service-Key-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "service_key.state",
+            "hrn": "hrn:32005-0:DataItem:1cb993e7c994337f"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
             "description": "",
