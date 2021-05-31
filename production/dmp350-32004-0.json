@@ -2389,6 +2389,37 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "1 : if the service key is turned on. 0 otherwise",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Service-Key-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "service_key.state",
+            "hrn": "hrn:32004-0:DataItem:1cb993e7c994337f",
+            "origin": "32000-0"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "Configuration Data\nhttps://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/686032598/Configuration+Data",
             "description": "",
