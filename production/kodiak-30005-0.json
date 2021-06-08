@@ -240,34 +240,6 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "material name for bottle slot#2 on iPro",
-            "description": "",
-            "servicemax_label": "Bottle 2 Material",
-            "servicemax_type": "Text",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MATERIAL",
-            "name": "Stock-Cartridge-2-Material",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.cartridge_2.material",
-            "hrn": "hrn:30005-0:DataItem:8faf3a287791efd2"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
             "notes": "cartridge material name",
             "description": "",
             "servicemax_label": "Bottle 1 Material",
@@ -291,87 +263,6 @@
           "meta": {
             "alias": "stock.cartridge_1.material",
             "hrn": "hrn:30005-0:DataItem:99ec359753d57427"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "bottle weight for bottle slot #2 on iPro",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MASS",
-            "name": "Stock-Cartridge-2-Weight",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "KILOGRAM",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.cartridge_2.weight",
-            "hrn": "hrn:30005-0:DataItem:3acbf4001652355d"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "cartridge weight",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MASS",
-            "name": "Stock-Cartridge-1-Weight",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "KILOGRAM",
-            "representation": "",
-            "data_classification": "Service Facing",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.cartridge_1.weight",
-            "hrn": "hrn:30005-0:DataItem:ad1e0803001afe63"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "batch number for bottle slot #2 on iPro",
-            "description": "",
-            "servicemax_label": "Bottle 2 Batch Number",
-            "servicemax_type": "Text",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Stock-Cartridge-2-Batch-Number",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.cartridge_2.batch_number",
-            "hrn": "hrn:30005-0:DataItem:884f936a7fef955e"
           }
         },
         {
@@ -400,59 +291,6 @@
           "meta": {
             "alias": "stock.cartridge_1.batch_number",
             "hrn": "hrn:30005-0:DataItem:c271d80b23b4ec60"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "Sensor status on/off (top)",
-            "description": "",
-            "data_source": "",
-            "native_type": "INTEGER",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Stock-Comp-Sensor-2-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.comp_sensor_2.status",
-            "hrn": "hrn:30005-0:DataItem:135d1cda4fd71dcb"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "Sensor status on/off (bottom)",
-            "description": "",
-            "data_source": "",
-            "native_type": "INTEGER",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Stock-Comp-Sensor-1-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "Service Facing",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.comp_sensor_1.status",
-            "hrn": "hrn:30005-0:DataItem:a93830ab8ea29a05"
           }
         },
         {
