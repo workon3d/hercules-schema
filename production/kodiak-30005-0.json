@@ -292,33 +292,6 @@
             "alias": "stock.cartridge_1.batch_number",
             "hrn": "hrn:30005-0:DataItem:c271d80b23b4ec60"
           }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "ADC counts from reservoir load cell",
-            "description": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "FILL_LEVEL",
-            "name": "Stock-Level",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "COUNT",
-            "representation": "",
-            "data_classification": "Service Facing",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stock.level",
-            "hrn": "hrn:30005-0:DataItem:4df3fa840139ba2b"
-          }
         }
       ]
     },
