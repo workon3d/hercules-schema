@@ -868,6 +868,36 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Net powder weight inside the Removable Print Module",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "g",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Platform-Rpm-Powder-Weight-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build_platform.rpm_powder_weight.value",
+            "hrn": "hrn:32005-0:DataItem:b00755c5b9c121b2"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "Details about the connected Removable Print Module (RPM)",
             "description": "",
