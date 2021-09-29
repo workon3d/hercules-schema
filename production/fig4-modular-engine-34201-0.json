@@ -1165,32 +1165,6 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "PXL File Name",
-            "description": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Filename",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.filename",
-            "hrn": "hrn:34201-0:DataItem:150ea00f1e760d92"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -1375,34 +1349,6 @@
             "alias": "build.current_layer",
             "hrn": "hrn:34201-0:DataItem:42f6523ddedd66c9",
             "required": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "reported_ver: v1.0.0-1",
-            "description": "",
-            "servicemax_label": "Total Layers Built",
-            "servicemax_type": "Number",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Total-Layers",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "COUNT",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.total_layers",
-            "hrn": "hrn:34201-0:DataItem:7819ae669c802846"
           }
         },
         {
