@@ -664,6 +664,66 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "WATTAGE",
+            "name": "Laser-1-Power-Large-Spot",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "WATT",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.power_large_spot",
+            "hrn": "hrn:30005-0:DataItem:976d76bd98fd44b9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "WATTAGE",
+            "name": "Laser-1-Fad-Power-Large-Spot",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "WATT",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "laser_1.fad_power_large_spot",
+            "hrn": "hrn:30005-0:DataItem:5fd76d4954101e83"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "",
             "notes": "",
             "description": "",
@@ -1368,7 +1428,7 @@
           },
           "mtconnect_schema": {
             "type": "WATTAGE",
-            "name": "Laser-1-Power",
+            "name": "Laser-1-Power-Small-Spot",
             "category": "SAMPLE",
             "subtype": "",
             "units": "WATT",
@@ -1377,14 +1437,14 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.power",
+            "alias": "laser_1.power_small_spot",
             "hrn": "hrn:30005-0:DataItem:4e8c5558534fd276"
           }
         },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "[HYDRA-1198] Exceeds Max. Threshold: 650",
+            "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -1394,7 +1454,7 @@
           },
           "mtconnect_schema": {
             "type": "WATTAGE",
-            "name": "Laser-1-Fad-Power",
+            "name": "Laser-1-Fad-Power-Small-Spot",
             "category": "SAMPLE",
             "subtype": "",
             "units": "WATT",
@@ -1403,7 +1463,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.fad_power",
+            "alias": "laser_1.fad_power_small_spot",
             "hrn": "hrn:30005-0:DataItem:fbd3ba20b5f2cfa8"
           }
         },
