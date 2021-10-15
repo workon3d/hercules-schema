@@ -98,7 +98,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAM",
+            "type": "SAMPLE_NUM",
             "notes": "Chip temperature   - New",
             "description": "",
             "servicemax_label": "",
@@ -134,7 +134,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "XML",
-            "native_type": "INTEGER",
+            "native_type": "STRING",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1239,9 +1239,9 @@
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1420,8 +1420,8 @@
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1505,7 +1505,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SA",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1535,7 +1535,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MES",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1771,8 +1771,8 @@
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
+            "data_source": "S",
+            "native_type": "FLOAT",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1801,8 +1801,8 @@
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
+            "data_source": "S",
+            "native_type": "FLOAT",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1826,14 +1826,14 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "New",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "Sh",
+            "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "%",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1856,7 +1856,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAM",
+            "type": "SAMPLE_NUM",
             "notes": "New",
             "description": "",
             "servicemax_label": "",
@@ -2184,14 +2184,14 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "SAMPLE_NUM",
             "notes": "New UUID per JHSW-36",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Amp",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -2214,43 +2214,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_INT",
             "notes": "New UUID per JHSW-36",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Laser-Safety-Relay-Connected",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "laser.safety_relay_connected",
-            "hrn": "hrn:31006-0:DataItem:907cb16f156b7989"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "New UUID per JHSW-36",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "INTEGER",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -2279,8 +2249,8 @@
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "INTEGER",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -2309,8 +2279,8 @@
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
             "native_units": "%",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -2339,8 +2309,8 @@
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -2395,7 +2365,7 @@
             "type": "SAMPLE_NUM",
             "notes": "Supported",
             "description": "",
-            "data_source": "",
+            "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
             "sample_interval": 0,
@@ -2421,7 +2391,7 @@
             "type": "SAMPLE_NUM",
             "notes": "Supported",
             "description": "",
-            "data_source": "",
+            "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
             "sample_interval": 0,
@@ -2447,7 +2417,7 @@
             "type": "SAMPLE_NUM",
             "notes": "Supported",
             "description": "",
-            "data_source": "",
+            "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
             "sample_interval": 0,
@@ -2754,162 +2724,6 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "{ “value_list”: [{“eco-lco”: “…”, “title”: “…”}, …]}",
-            "description": "",
-            "data_source": "XML",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Eco-Lco",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "eco_lco",
-            "hrn": "hrn:31006-0:DataItem:c7b98c846258983a"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "XML",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Machine-Number",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "machine_number",
-            "hrn": "hrn:31006-0:DataItem:563aaea059a3c8d7"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "XML",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Customer-Name",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "customer_name",
-            "hrn": "hrn:31006-0:DataItem:2741291924aff734"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "XML",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Machine-Performance",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "machine_performance",
-            "hrn": "hrn:31006-0:DataItem:eb97617b0c04f023"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "XML",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Changes-Done",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "changes_done",
-            "hrn": "hrn:31006-0:DataItem:7520eab01c1abd6a"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "",
-            "description": "",
-            "data_source": "Emitter",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "FUNCTIONAL_MODE",
-            "name": "Functional-Mode",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "functional_mode",
-            "hrn": "hrn:31006-0:DataItem:b167fa521d28577b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
             "notes": "Emitted by event-emitter extracted from REGISTER_DEVICE",
             "description": "",
             "data_source": "Emitter (REGISTER_DEVICE)",
@@ -3171,578 +2985,6 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "INTEGER",
-            "native_units": "Enum",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.status",
-            "hrn": "hrn:31006-0:DataItem:80b5007951a77cc5"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "INTEGER",
-            "native_units": "seconds",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "PROCESS_TIMER",
-            "name": "Build-Pending-Duration",
-            "category": "SAMPLE",
-            "subtype": "PROCESS",
-            "units": "SECOND",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.pending_duration",
-            "hrn": "hrn:31006-0:DataItem:6b8c3c5dfefadbee"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "INTEGER",
-            "native_units": "seconds",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "PROCESS_TIMER",
-            "name": "Build-Elapsed-Duration",
-            "category": "SAMPLE",
-            "subtype": "PROCESS",
-            "units": "SECOND",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.elapsed_duration",
-            "hrn": "hrn:31006-0:DataItem:36eebbbb59c22b22"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "DOUBLE",
-            "native_units": "Millimeter",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Build-Total-Stage-Height",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.total_stage_height",
-            "hrn": "hrn:31006-0:DataItem:2f2b875cf2a9564b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "DOUBLE",
-            "native_units": "Millimeter",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Build-Current-Stage-Height",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.current_stage_height",
-            "hrn": "hrn:31006-0:DataItem:36e8688c8a0b83e0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "DOUBLE",
-            "native_units": "Millimeter",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Build-Current-Height",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.current_height",
-            "hrn": "hrn:31006-0:DataItem:31902de57a26286c"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_CLOCK_TIME",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "INTEGER",
-            "native_units": "time_t",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "CLOCK_TIME",
-            "name": "Build-Estimated-End-Time",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.estimated_end_time",
-            "hrn": "hrn:31006-0:DataItem:de68d4f04e3ec799"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_CLOCK_TIME",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "INTEGER",
-            "native_units": "time_t",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "CLOCK_TIME",
-            "name": "Build-Start-Time",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.start_time",
-            "hrn": "hrn:31006-0:DataItem:833bdc191fc876ef"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_LONG",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "LONG",
-            "native_units": "Seconds",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ACCUMULATED_TIME",
-            "name": "Build-Stage-Durations",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "SECOND",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.stage_durations",
-            "hrn": "hrn:31006-0:DataItem:16d05430fb556278"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "DOUBLE",
-            "native_units": "Millimeter",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "LENGTH",
-            "name": "Build-Total-Print-Height",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.total_print_height",
-            "hrn": "hrn:31006-0:DataItem:533b4997d344834c"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_CLOCK_TIME",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "INTEGER",
-            "native_units": "time_t",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "CLOCK_TIME",
-            "name": "Build-Last-Updated-Time",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.last_updated_time",
-            "hrn": "hrn:31006-0:DataItem:d2797d9cf350817b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_CLOCK_TIME",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "INTEGER",
-            "native_units": "time_t",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "CLOCK_TIME",
-            "name": "Build-Submit-Time",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.submit_time",
-            "hrn": "hrn:31006-0:DataItem:de732d0a1d188abd"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "INTEGER",
-            "native_units": "Seconds",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "PROCESS_TIMER",
-            "name": "Build-Time-Estimate",
-            "category": "SAMPLE",
-            "subtype": "PROCESS",
-            "units": "SECOND",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.time_estimate",
-            "hrn": "hrn:31006-0:DataItem:9724a1624f14f566"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Style",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.style",
-            "hrn": "hrn:31006-0:DataItem:83a964b0409b4090"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "DISCRETE",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "STRING",
-            "native_units": "HD/UHD/HDS",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Mode",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.mode",
-            "hrn": "hrn:31006-0:DataItem:223c52a012df79fe"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Machine-Sender",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.machine_sender",
-            "hrn": "hrn:31006-0:DataItem:2a9965d83bbd750a"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Owner",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.owner",
-            "hrn": "hrn:31006-0:DataItem:77cffff523c5ebc8"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "DISCRETE",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Name",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.name",
-            "hrn": "hrn:31006-0:DataItem:e049d1d801cf8ac9"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "DISCRETE",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "PROGRAM",
-            "name": "Build-Filename",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.filename",
-            "hrn": "hrn:31006-0:DataItem:150ea00f1e760d92"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT_INT",
-            "notes": "DISCRETE",
-            "description": "",
-            "data_source": "10081 = GET_SPOOLER_JOB_INFO",
-            "native_type": "INTEGER",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "PART_ID",
-            "name": "Build-Id",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.id",
-            "hrn": "hrn:31006-0:DataItem:b9b64d3d7aa2a6a8"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "data_source": "10001 = GET_CURRENT_STATE",
-            "native_type": "INTEGER",
-            "native_units": "Enum",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Current-State",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.current_state",
-            "hrn": "hrn:31006-0:DataItem:114336c08e789ef1"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "DISCRETE",
-            "description": "",
-            "data_source": "Event-Emitter",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "CONTROLLER_MODE",
-            "name": "Build-State",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.state",
-            "hrn": "hrn:31006-0:DataItem:b9e56f808974be5a"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "MESSAGE_NUM",
             "notes": "BSIdle = 0BSWarmup = 1BSBuild = 2BSCoolDown = 3",
             "description": "",
@@ -3765,32 +3007,6 @@
           "meta": {
             "alias": "build.stage",
             "hrn": "hrn:31006-0:DataItem:1179883c1e643159"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "",
-            "description": "",
-            "data_source": "Emitter",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "EXECUTION",
-            "name": "Build-Execution",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.execution",
-            "hrn": "hrn:31006-0:DataItem:943a9b59e7d6ee5f"
           }
         },
         {
@@ -3920,86 +3136,6 @@
           "meta": {
             "alias": "controller.3dconnect_version",
             "hrn": "hrn:31006-0:DataItem:d0f95d2c18269bbb"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "STRING:JSON",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Previous-Job",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.previous_job",
-            "hrn": "hrn:31006-0:DataItem:cebea9919265d13b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "STRING:JSON",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Current-Job",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.current_job",
-            "hrn": "hrn:31006-0:DataItem:e72debfdbe6530ba"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 30,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Ip-Address",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 30,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.ip_address",
-            "hrn": "hrn:31006-0:DataItem:981d9f5cbeebdf95",
-            "device_state": true,
-            "emitted_by_adapter": true
           }
         },
         {
