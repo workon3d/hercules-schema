@@ -976,7 +976,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "F4-Failed-Job-Count",
+            "name": "F4-Failedjobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -986,7 +986,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "f4_failed_job_count",
+            "alias": "f4_failedjobs",
             "hrn": "hrn:60000-0:DataItem:4886bbbc343697be"
           }
         },
@@ -1006,7 +1006,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "F4-Aborted-Job-Count",
+            "name": "F4-Abortedjobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1016,7 +1016,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "f4_aborted_job_count",
+            "alias": "f4_abortedjobs",
             "hrn": "hrn:60000-0:DataItem:a541d84230f4f740"
           }
         },
@@ -1036,7 +1036,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "F4-Completed-Job-Count",
+            "name": "F4-Completedjobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1046,7 +1046,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "f4_completed_job_count",
+            "alias": "f4_completedjobs",
             "hrn": "hrn:60000-0:DataItem:90571446ef423015"
           }
         },
@@ -1096,7 +1096,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Sla-Failed-Job-Count",
+            "name": "Sla-Failedjobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1106,7 +1106,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "sla_failed_job_count",
+            "alias": "sla_failedjobs",
             "hrn": "hrn:60000-0:DataItem:02a048201d0301e4"
           }
         },
@@ -1126,7 +1126,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Sla-Aborted-Job-Count",
+            "name": "Sla-Abortedjobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1136,7 +1136,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "sla_aborted_job_count",
+            "alias": "sla_abortedjobs",
             "hrn": "hrn:60000-0:DataItem:cab679e3dec7886f"
           }
         },
@@ -1156,7 +1156,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Sla-Completed-Job-Count",
+            "name": "Sla-Completedjobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1166,7 +1166,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "sla_completed_job_count",
+            "alias": "sla_completedjobs",
             "hrn": "hrn:60000-0:DataItem:bc29a1d4ba2d168e"
           }
         },
