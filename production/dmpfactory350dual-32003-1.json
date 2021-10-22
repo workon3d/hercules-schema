@@ -1554,7 +1554,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Laser1-State",
+            "name": "Laser-1-Status",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1564,7 +1564,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser1.state",
+            "alias": "laser_1.status",
             "hrn": "hrn:32003-1:DataItem:bbfe6b0986988426"
           }
         },
@@ -1916,7 +1916,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Laser-2-State",
+            "name": "Laser-2-Status",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1926,7 +1926,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_2.state",
+            "alias": "laser_2.status",
             "hrn": "hrn:32003-1:DataItem:fe02257b6d9bf0ee"
           }
         },
@@ -3124,7 +3124,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "None = 0,Operator = 1,Engineer = 2,Service = 3,Factory = 4, Admin = 5",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
