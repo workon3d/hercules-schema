@@ -482,7 +482,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "None = 0,Operator = 1,Engineer = 2,Service = 3,Factory = 4, Admin = 5",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -1940,7 +1940,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Laser1-State",
+            "name": "Laser-1-Status",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1950,7 +1950,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser1.state",
+            "alias": "laser_1.status",
             "hrn": "hrn:32004-0:DataItem:bbfe6b0986988426",
             "origin": "32000-0"
           }
