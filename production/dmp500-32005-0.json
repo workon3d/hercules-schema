@@ -115,7 +115,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Laser-3-State",
+            "name": "Laser-3-Status",
             "category": "",
             "subtype": "",
             "units": "",
@@ -125,7 +125,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_3.state",
+            "alias": "laser_3.status",
             "hrn": "hrn:32005-0:DataItem:705cf54a7b0a54ba"
           }
         },
@@ -295,7 +295,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Laser-2-State",
+            "name": "Laser-2-Status",
             "category": "",
             "subtype": "",
             "units": "",
@@ -305,7 +305,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_2.state",
+            "alias": "laser_2.status",
             "hrn": "hrn:32005-0:DataItem:fe02257b6d9bf0ee"
           }
         },
@@ -475,7 +475,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Laser-1-State",
+            "name": "Laser-1-Status",
             "category": "",
             "subtype": "",
             "units": "",
@@ -485,7 +485,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_1.state",
+            "alias": "laser_1.status",
             "hrn": "hrn:32005-0:DataItem:6ecb62247fed347a"
           }
         },
