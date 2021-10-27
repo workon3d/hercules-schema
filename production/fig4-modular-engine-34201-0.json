@@ -5119,7 +5119,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -5135,7 +5135,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
