@@ -1925,7 +1925,7 @@
             "subtype": "",
             "units": "KILOGRAM",
             "representation": "",
-            "data_classification": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -3619,7 +3619,7 @@
             "subtype": "POWERED",
             "units": "SECOND",
             "representation": "",
-            "data_classification": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
