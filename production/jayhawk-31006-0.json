@@ -222,7 +222,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "Shared Memory Interface",
-            "native_type": "INT[]",
+            "native_type": "FLOAT",
             "native_units": "Degrees Celsius",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -276,7 +276,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESS",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
