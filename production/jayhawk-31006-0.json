@@ -222,6 +222,96 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "Shared Memory Interface",
+            "native_type": "INT[]",
+            "native_units": "Degrees Celsius",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Part-Bed-Temperature-Setpoint",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.temperature_setpoint",
+            "hrn": "hrn:31006-0:DataItem:4d89ccdc3e4afaa4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "Degrees Celsius",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Part-Bed-Temperature",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.temperature",
+            "hrn": "hrn:31006-0:DataItem:055f33379a36f0c4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESS",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "Shared Memory Interface",
+            "native_type": "FLOAT",
+            "native_units": "%",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Part-Bed-Master-Duty-Cycle",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "part_bed.master_duty_cycle",
+            "hrn": "hrn:31006-0:DataItem:4ee88cb206c1441d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "Shared Memory Interface",
             "native_type": "FLOAT",
             "native_units": "",
             "transmission_timing": "",
@@ -452,96 +542,6 @@
           "meta": {
             "alias": "part_bed.inner_back_left_heater.current",
             "hrn": "hrn:31006-0:DataItem:43065d93b1c42f92"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Part-Bed-Temperature-Setpoint",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "part_bed.temperature_setpoint",
-            "hrn": "hrn:31006-0:DataItem:01a0e1a413d70993"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Part-Bed-Temperature",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "part_bed.temperature",
-            "hrn": "hrn:31006-0:DataItem:6a4bda6d2ff6feea"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Part-Bed-Master-Duty-Cycle",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "part_bed.master_duty_cycle",
-            "hrn": "hrn:31006-0:DataItem:7f4ef33a75145436"
           }
         },
         {
@@ -3182,6 +3182,84 @@
         "required": true
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "ALARM_EPM_FILTER_ABSENT",
+            "native_severity": "ALARM",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Fault-Epm-Filter-Alarm",
+            "category": "CONDITION",
+            "level": "",
+            "message": "",
+            "qualifier": "",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.epm_filter_alarm",
+            "hrn": "hrn:31006-0:DataItem:cd951867d393498d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "ALARM_SOCK_FILTER_ABSENT",
+            "native_severity": "ALARM",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Fault-Sock-Filter-Alarm",
+            "category": "CONDITION",
+            "level": "",
+            "message": "",
+            "qualifier": "",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.sock_filter_alarm",
+            "hrn": "hrn:31006-0:DataItem:9d5dd64d0e018e5b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "ALARM_COOLANT_LEAK_DETECTED",
+            "native_severity": "ALARM",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Fault-Coolant-Leak-Alarm",
+            "category": "CONDITION",
+            "level": "",
+            "message": "",
+            "qualifier": "",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.coolant_leak_alarm",
+            "hrn": "hrn:31006-0:DataItem:e5f5a8b89dc7c265"
+          }
+        },
         {
           "hydra_schema": {
             "type": "CONDITION",
