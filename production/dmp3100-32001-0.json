@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 32001,
     "submodel": 0,
+    "servicemax_device_type": "DMP Flex 100",
     "native_name": "DMP Flex 100"
   },
   "mtconnect_schema": {
