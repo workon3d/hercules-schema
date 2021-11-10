@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 32005,
     "submodel": 0,
+    "servicemax_device_type": "DMP Factory 500",
     "native_name": "DMP Factory 500"
   },
   "mtconnect_schema": {
@@ -34,7 +35,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : false, 1 : true",
             "description": "",
             "data_source": "",
             "native_type": "BOOL",
@@ -60,7 +61,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : false, 1 : true",
             "description": "",
             "data_source": "",
             "native_type": "BOOL",
@@ -102,7 +103,7 @@
         {
           "hydra_schema": {
             "type": "MESS",
-            "notes": "",
+            "notes": "\"Communication not initialized\", \"Communication not running\", \"Emission On\",\"Emission Off\",\"Power supply OFF\"",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -282,7 +283,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "\"Communication not initialized\", \"Communication not running\", \"Emission On\",\"Emission Off\",\"Power supply OFF\"",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -462,7 +463,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "\"Communication not initialized\", \"Communication not running\", \"Emission On\",\"Emission Off\",\"Power supply OFF\"",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1011,7 +1012,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Stop, Error, Warning, MovingNegative, MovingPositive, Disabled, Standby",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -1080,7 +1081,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : clockwise, 1 : counter clockwise",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -1106,7 +1107,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Stop, Error, Warning, MovingNegative, MovingPositive, Disabled, Standby",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -1132,7 +1133,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : false, 1 : true",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -1330,7 +1331,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Needed",
+            "notes": "include: Needed, 0 : closed, 1 : opened",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1356,7 +1357,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Needed",
+            "notes": "include: Needed, 0 : inactive, 1 : active",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1382,7 +1383,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Needed",
+            "notes": "include: Needed, 0 : closed, 1 : opened",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1408,7 +1409,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Needed",
+            "notes": "include: Needed, 0 : closed, 1 : opened",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1434,7 +1435,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Needed",
+            "notes": "include: Needed, 0 : closed, 1 : opened",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1460,7 +1461,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Needed",
+            "notes": "include: Needed, 0 : off, 1 : running",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1486,7 +1487,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Needed",
+            "notes": "include: Needed, 0 : closed, 1 : opened",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1512,7 +1513,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Needed",
+            "notes": "include: Needed, 0 : closed, 1 : opened",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1564,7 +1565,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Needed",
+            "notes": "include: Needed, 0 : closed, 1 : opened",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1642,7 +1643,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Needed",
+            "notes": "include: Needed, 0 : inactive, 1 : active",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1869,7 +1870,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Configuration Data\nhttps://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/686032598/Configuration+Data",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2416,7 +2417,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "https://3dsystems.atlassian.net/wiki/spaces/HYDRASW/pages/659424585/Maintenance+Schedule+Tasks",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2559,7 +2560,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "include: Present",
+            "notes": "include: Present, include: Present. JobStatus + printer_state. JobStatus = {NotRunning, Starting,Running,Completing,Aborting,Pausing}",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -2866,7 +2867,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "Possible?",
+            "notes": "0 : False, 1 : True",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2918,7 +2919,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "Possible?",
+            "notes": "0 : False, 1 : True",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -3048,7 +3049,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : False, 1 : True",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -3100,7 +3101,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : False, 1 : True",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -3126,7 +3127,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "None = 0,Operator = 1,Engineer = 2,Service = 3,Factory = 4, Admin = 5",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
