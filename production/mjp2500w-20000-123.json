@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 20000,
     "submodel": 123,
+    "servicemax_device_type": "ProJet 2500W",
     "native_name": "MJP 2500W"
   },
   "mtconnect_schema": {
