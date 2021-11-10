@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 30003,
     "submodel": 0,
+    "servicemax_device_type": "iPro 8000",
     "native_name": "iPro 8000",
     "sample_interval": 0
   },
