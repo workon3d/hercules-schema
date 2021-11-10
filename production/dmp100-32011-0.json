@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 32011,
     "submodel": 0,
+    "servicemax_device_type": "ProX 100",
     "native_name": "DMP ProX 100"
   },
   "mtconnect_schema": {
