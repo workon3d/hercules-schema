@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 32004,
     "submodel": 1,
+    "servicemax_device_type": "Factory 350 A",
     "native_name": "DMP Factory 350",
     "sample_interval": 0
   },
