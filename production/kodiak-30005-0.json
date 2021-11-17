@@ -6,7 +6,7 @@
   "hydra_schema": {
     "model": 30005,
     "submodel": 0,
-    "servicemax_device_type": "",
+    "servicemax_device_type": "ProX 8500",
     "native_name": "ProX 8500",
     "sample_interval": 0
   },
