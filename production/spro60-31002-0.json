@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 31002,
     "submodel": 0,
+    "servicemax_device_type": "sPro 60",
     "native_name": "sPro 60"
   },
   "mtconnect_schema": {
