@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 24000,
     "submodel": 1,
+    "servicemax_device_type": "Culinary 3D",
     "native_name": "Brill 3D Culinary Printer"
   },
   "mtconnect_schema": {
@@ -50,6 +51,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -77,6 +79,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -104,6 +107,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -131,6 +135,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -158,6 +163,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -185,6 +191,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -212,6 +219,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -239,6 +247,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -266,6 +275,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -293,6 +303,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -320,6 +331,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -347,6 +359,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -374,6 +387,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -401,6 +415,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -428,6 +443,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -455,6 +471,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -482,6 +499,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -509,6 +527,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -536,6 +555,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -563,6 +583,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -590,6 +611,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -617,6 +639,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -644,6 +667,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -671,6 +695,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -698,6 +723,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -725,6 +751,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -752,6 +779,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -779,6 +807,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -806,6 +835,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -833,6 +863,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -860,6 +891,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -887,6 +919,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -914,6 +947,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 36000,
             "native_name": ""
           },
@@ -941,6 +975,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -968,6 +1003,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -995,6 +1031,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1022,6 +1059,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1049,6 +1087,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1076,6 +1115,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1103,6 +1143,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1130,6 +1171,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1157,6 +1199,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1184,6 +1227,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1211,6 +1255,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1238,6 +1283,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1265,6 +1311,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1292,6 +1339,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1319,6 +1367,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1346,6 +1395,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1373,6 +1423,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1400,6 +1451,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1427,6 +1479,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1454,6 +1507,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1481,6 +1535,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1508,6 +1563,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1535,6 +1591,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1562,6 +1619,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1589,6 +1647,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1616,6 +1675,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1643,6 +1703,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1670,6 +1731,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1697,6 +1759,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1724,6 +1787,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1751,6 +1815,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1778,6 +1843,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1805,6 +1871,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1832,6 +1899,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1859,6 +1927,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1886,6 +1955,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1913,6 +1983,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1940,6 +2011,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1967,6 +2039,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -1994,6 +2067,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2021,6 +2095,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2048,6 +2123,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2075,6 +2151,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2102,6 +2179,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2129,6 +2207,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2156,6 +2235,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2183,6 +2263,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2210,6 +2291,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2237,6 +2319,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2264,6 +2347,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2291,6 +2375,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2318,6 +2403,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2345,6 +2431,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2372,6 +2459,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2399,6 +2487,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2426,6 +2515,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2453,6 +2543,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2480,6 +2571,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2507,6 +2599,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2534,6 +2627,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2561,6 +2655,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2588,6 +2683,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2615,6 +2711,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2642,6 +2739,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2669,6 +2767,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2696,6 +2795,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2723,6 +2823,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2750,6 +2851,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2777,6 +2879,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2804,6 +2907,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2831,6 +2935,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2858,6 +2963,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2885,6 +2991,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2912,6 +3019,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2939,6 +3047,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2966,6 +3075,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -2993,6 +3103,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -3020,6 +3131,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -3047,6 +3159,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -3074,6 +3187,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -3101,6 +3215,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -3128,6 +3243,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 3600,
             "native_name": ""
           },
@@ -7631,6 +7747,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -7658,6 +7775,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -7685,6 +7803,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -7712,6 +7831,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -7961,6 +8081,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -8030,6 +8151,8 @@
             "type": "MESSAGE",
             "notes": "jira: PANDA-805",
             "description": "Total part material used by the machine.",
+            "servicemax_label": "Batch Data List (kg)",
+            "servicemax_type": "Text",
             "data_source": "10004 = GET_PRINTER_USAGE",
             "native_type": "STRING:JSON",
             "native_units": "Grams",
@@ -8057,6 +8180,7 @@
             "type": "MESSAGE",
             "notes": "jira: PANDA-805",
             "description": "Total part material used by the machine for a customer.",
+            "servicemax_label": "",
             "data_source": "10004 = GET_PRINTER_USAGE",
             "native_type": "STRING:JSON",
             "native_units": "Grams",
@@ -8233,6 +8357,7 @@
             "subtype": "",
             "units": "SECOND",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -8395,6 +8520,7 @@
             "subtype": "",
             "units": "YYYY-MM-DDThh:mm:ss.ffff",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -8733,6 +8859,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -8760,6 +8887,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -8787,6 +8915,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -8814,6 +8943,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -8841,6 +8971,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -8868,6 +8999,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -8897,6 +9029,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -8924,6 +9057,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -8951,6 +9085,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -8978,6 +9113,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -9005,6 +9141,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -9032,6 +9169,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 86400,
             "native_name": ""
           },
@@ -9073,6 +9211,7 @@
             "level": "",
             "message": "",
             "qualifier": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0
           },
           "meta": {
@@ -9096,6 +9235,7 @@
             "level": "",
             "message": "",
             "qualifier": "",
+            "data_classification": "",
             "sample_interval": 0
           },
           "meta": {
@@ -9119,6 +9259,7 @@
             "level": "",
             "message": "",
             "qualifier": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0
           },
           "meta": {
