@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 32006,
     "submodel": 0,
+    "servicemax_device_type": "DMP Factory 500",
     "native_name": "DMP F500 DPM",
     "sample_interval": 0
   },
@@ -369,7 +370,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "“message”: {\"left[i]\": 0\", right[i]\": 0}   for i in [1..8]. 0 : not present, 1: not present",
+            "notes": "“message”: {\"left[i]\": 0\", right[i]\": 0}   for i in [1..8]. 0 : not present, 1: present",
             "description": "",
             "data_source": "",
             "native_type": "INT[]",
@@ -395,7 +396,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "“message”: {\"left[i]\": 0\", right[i]\": 0}   for i in [1..4]. 0 : not present, 1: not present",
+            "notes": "“message”: {\"left[i]\": 0\", right[i]\": 0}   for i in [1..4]. 0 : not present, 1: present",
             "description": "",
             "data_source": "",
             "native_type": "INT[]",
