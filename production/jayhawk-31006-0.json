@@ -6,7 +6,7 @@
   "hydra_schema": {
     "model": 31006,
     "submodel": 0,
-    "servicemax_device_type": "",
+    "servicemax_device_type": "6150",
     "native_name": "ProX SLS 6150",
     "sample_interval": 0
   },
