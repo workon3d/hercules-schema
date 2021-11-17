@@ -6,6 +6,7 @@
   "hydra_schema": {
     "model": 32008,
     "submodel": 0,
+    "servicemax_device_type": "DMP Factory 500",
     "native_name": "DMP F500 PRM",
     "sample_interval": 0
   },
