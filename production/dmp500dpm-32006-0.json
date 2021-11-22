@@ -145,7 +145,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : closed, 1 : open",
             "description": "",
             "data_source": "",
             "native_type": "",
