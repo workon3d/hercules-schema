@@ -1128,7 +1128,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : Off, 1 : On",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1344,7 +1344,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : NOK , 1 : OK",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -1446,7 +1446,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : , 1 :",
+            "notes": "0 : Not Ready, 1 : Ready",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -2538,7 +2538,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : Safety, 1 : Error",
+            "notes": "0 : Not ready, 1 : Ready",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -2592,7 +2592,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : Error, 1 : Ok",
+            "notes": "0 : Not ready, 1 : Ready",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -2754,7 +2754,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 : Safety, 1 : Error",
             "description": "",
             "data_source": "",
             "native_type": "INT",
