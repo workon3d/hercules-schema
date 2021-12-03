@@ -39,6 +39,36 @@
         {
           "hydra_schema": {
             "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Doorstatus",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.doorstatus",
+            "hrn": "hrn:60000-0:DataItem:1f236e3569548cf7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
@@ -960,7 +990,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Temperature-Heaterchannel1-Temp",
+            "name": "Temperature-Heaterchannel1temp",
             "category": "",
             "subtype": "",
             "units": "",
@@ -970,7 +1000,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "temperature.heaterchannel1_temp",
+            "alias": "temperature.heaterchannel1temp",
             "hrn": "hrn:60000-0:DataItem:a43abb7619c3edf6"
           }
         },
@@ -990,7 +1020,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Temperature-Ambient-Temp",
+            "name": "Temperature-Ambienttemp",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1000,7 +1030,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "temperature.ambient_temp",
+            "alias": "temperature.ambienttemp",
             "hrn": "hrn:60000-0:DataItem:386a23798a9271cf"
           }
         },
@@ -1020,7 +1050,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Temperature-Chamber-Temp",
+            "name": "Temperature-Chambertemp",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1030,7 +1060,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "temperature.chamber_temp",
+            "alias": "temperature.chambertemp",
             "hrn": "hrn:60000-0:DataItem:95e5559c0a708036"
           }
         }
@@ -1337,7 +1367,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Release-Date",
+            "name": "Softwaretimestamp",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1347,7 +1377,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "release_date",
+            "alias": "softwaretimestamp",
             "hrn": "hrn:60000-0:DataItem:4c4b8d462d0dff7e"
           }
         },
@@ -1636,7 +1666,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Cure-Version",
+            "name": "Blazefpgaversion",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1646,7 +1676,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "cure_version",
+            "alias": "blazefpgaversion",
             "hrn": "hrn:60000-0:DataItem:20b7a2a5b7ff447b"
           }
         },
