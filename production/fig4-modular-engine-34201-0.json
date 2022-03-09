@@ -946,7 +946,7 @@
             "name": "Z-Motor-Position",
             "category": "SAMPLE",
             "subtype": "ACTUAL",
-            "units": "MILLIMETER",
+            "units": "MICRONS",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
