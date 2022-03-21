@@ -2044,6 +2044,37 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Controller-Test",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.test",
+            "hrn": "hrn:32013-0:DataItem:8acd17c349dd2f53",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE_LONG",
             "notes": "",
             "description": "",
@@ -2404,7 +2435,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "\t0 : Idle, 1 : Building",
+            "notes": "include: Present. JobStatus + printer_state. JobStatus = {NotRunning, Starting,Running,Completing,Aborting,Pausing}",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
