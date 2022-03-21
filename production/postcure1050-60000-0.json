@@ -1,0 +1,1981 @@
+{
+  "schema_version": "0.0.0",
+  "datamodel_version": "v0.1",
+  "firmware_version": "v0.1",
+  "mtconnect_version": "1.4",
+  "hydra_schema": {
+    "model": 60000,
+    "submodel": 0,
+    "servicemax_device_type": "",
+    "native_name": "POSTCURE 1050",
+    "sample_interval": 0
+  },
+  "mtconnect_schema": {
+    "native_name": "POSTCURE 1050",
+    "sample_interval": 0
+  },
+  "meta": {
+    "alias": "postcure1050",
+    "hrn": "hrn:60000-0:Device:42d11cb1275527c6"
+  },
+  "components": [
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Component",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "component",
+        "hrn": "hrn:60000-0:Component:399d18443b2f84b4"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Doorstatus",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.doorstatus",
+            "hrn": "hrn:60000-0:DataItem:1f236e3569548cf7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Lcm1500-24v-Current-6",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.lcm1500_24v_current_6",
+            "hrn": "hrn:60000-0:DataItem:f13198450121f530"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Lcm1500-24v-Current-5",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.lcm1500_24v_current_5",
+            "hrn": "hrn:60000-0:DataItem:e77555c525a30ffa"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Lcm1500-24v-Current-4",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.lcm1500_24v_current_4",
+            "hrn": "hrn:60000-0:DataItem:d2cfd6d8acb616a4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Lcm1500-24v-Current-3",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.lcm1500_24v_current_3",
+            "hrn": "hrn:60000-0:DataItem:de698c35556c1d6d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Lcm1500-24v-Current-2",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.lcm1500_24v_current_2",
+            "hrn": "hrn:60000-0:DataItem:ed3b135cb7b16954"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Lcm1500-24v-Current-1",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.lcm1500_24v_current_1",
+            "hrn": "hrn:60000-0:DataItem:7fb76b77f7213967"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Lcm600-24v-2-Current",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.lcm600_24v_2_current",
+            "hrn": "hrn:60000-0:DataItem:c850636ed5cc43e4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Lcm600-24v-1-Current",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.lcm600_24v_1_current",
+            "hrn": "hrn:60000-0:DataItem:464013bcc38b08f4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-V24-1-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.v24_1_voltage",
+            "hrn": "hrn:60000-0:DataItem:7a34615641e900ba"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Led-24v-Cs1-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.led_24v_cs1_voltage",
+            "hrn": "hrn:60000-0:DataItem:e0938b4187f0f0ec"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-V24-Sy-Hs-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.v24_sy_hs_voltage",
+            "hrn": "hrn:60000-0:DataItem:37ab9d742b74987a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Led-24v-B3-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.led_24v_b3_voltage",
+            "hrn": "hrn:60000-0:DataItem:dc6fb05c6f010902"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Led-24v-B2-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.led_24v_b2_voltage",
+            "hrn": "hrn:60000-0:DataItem:dcd41655046e37d5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Led-24v-B1-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.led_24v_b1_voltage",
+            "hrn": "hrn:60000-0:DataItem:a086fc532a667ae2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-24v-Sys-In-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.24v_sys_in_voltage",
+            "hrn": "hrn:60000-0:DataItem:3341189cc3eedaeb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Led-24v-In-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.led_24v_in_voltage",
+            "hrn": "hrn:60000-0:DataItem:fbd93ec4dfee9314"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Ps-12v-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.ps_12v_voltage",
+            "hrn": "hrn:60000-0:DataItem:1d6e3831635c0ddf"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Ps-5v-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.ps_5v_voltage",
+            "hrn": "hrn:60000-0:DataItem:049f5646203f4a04"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Ps-3v3-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.ps_3v3_voltage",
+            "hrn": "hrn:60000-0:DataItem:cac016c34df7f339"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Ps-1v8-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.ps_1v8_voltage",
+            "hrn": "hrn:60000-0:DataItem:5b1ec9d52057703f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Ps-1v-Voltage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.ps_1v_voltage",
+            "hrn": "hrn:60000-0:DataItem:1c49eb0e17fe96bb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "MBSW-189",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Component-Litestatus",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "component.litestatus",
+            "hrn": "hrn:60000-0:DataItem:81dd484316dd6ad4"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Calibration",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "calibration",
+        "hrn": "hrn:60000-0:Component:d744b82e3591a760"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-185",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Calibration-History",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "calibration.history",
+            "hrn": "hrn:60000-0:DataItem:3359e2c6d1bd50a8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "MBSW-185",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "count",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Calibration-Count",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "calibration.count",
+            "hrn": "hrn:60000-0:DataItem:06441a3ec36dfbe4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "MBSW-185",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Calibration-Values",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "calibration.values",
+            "hrn": "hrn:60000-0:DataItem:d503b6ff80205257"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "MBSW-185",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Calibration-Date",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "calibration.date",
+            "hrn": "hrn:60000-0:DataItem:2146087ae621457c"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Temperature",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "temperature",
+        "hrn": "hrn:60000-0:Component:da72dab3cc111c97"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "MBSW-188\nQueried once a minute when in warmup state\nQueried once every three minutes when not in warmup state\nReported whenever there is a change or every 15 minutes regardles",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "celsius",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 180,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Temperature-Heaterchannel2temp",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 180,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "temperature.heaterchannel2temp",
+            "hrn": "hrn:60000-0:DataItem:d731f52ce1f40e09"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "MBSW-188\nQueried once a minute when in warmup state\nQueried once every three minutes when not in warmup state\nReported whenever there is a change or every 15 minutes regardles",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "celsius",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 180,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Temperature-Heaterchannel1temp",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 180,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "temperature.heaterchannel1temp",
+            "hrn": "hrn:60000-0:DataItem:a43abb7619c3edf6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "MBSW-188\nQueried once a minute when in warmup state\nQueried once every three minutes when not in warmup state\nReported whenever there is a change or every 15 minutes regardless",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "celsius",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 180,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Temperature-Ambienttemp",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 180,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "temperature.ambienttemp",
+            "hrn": "hrn:60000-0:DataItem:386a23798a9271cf"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "MBSW-188\nQueried once a minute when in warmup state\nQueried once every three minutes when not in warmup state\nReported whenever there is a change or every 15 minutes regardles",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "celsius",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 180,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Temperature-Chambertemp",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 180,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "temperature.chambertemp",
+            "hrn": "hrn:60000-0:DataItem:95e5559c0a708036"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Device",
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "device",
+        "hrn": "hrn:60000-0:Component:2824d342cddde423",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Ledusage-425",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "ledusage.425",
+            "hrn": "hrn:60000-0:DataItem:2fbc7a9a8c2aa892"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Ledusage-395",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "ledusage.395",
+            "hrn": "hrn:60000-0:DataItem:fd0ecabecdf6760b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Ledusage-365",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "ledusage.365",
+            "hrn": "hrn:60000-0:DataItem:18ee8a7286e0343b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Powerontimesecs",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "powerontimesecs",
+            "hrn": "hrn:60000-0:DataItem:fabca93888e31377"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "MBSW-175",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "count",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "F4-Failedjobs",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "f4_failedjobs",
+            "hrn": "hrn:60000-0:DataItem:4886bbbc343697be"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "MBSW-175",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "count",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "F4-Abortedjobs",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "f4_abortedjobs",
+            "hrn": "hrn:60000-0:DataItem:a541d84230f4f740"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "MBSW-175",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "count",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "F4-Completedjobs",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "f4_completedjobs",
+            "hrn": "hrn:60000-0:DataItem:90571446ef423015"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "MBSW-175",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "count",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Sla-Failedjobs",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sla_failedjobs",
+            "hrn": "hrn:60000-0:DataItem:02a048201d0301e4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "MBSW-175",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "count",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Sla-Abortedjobs",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sla_abortedjobs",
+            "hrn": "hrn:60000-0:DataItem:cab679e3dec7886f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "MBSW-175",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "count",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Sla-Completedjobs",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "sla_completedjobs",
+            "hrn": "hrn:60000-0:DataItem:bc29a1d4ba2d168e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "i.e., TRUCURE 1050\nMBSW-181\nfrequence: connect, 1/day",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "One Time when Printer First Connect to Adapter",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Productmodel",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "productmodel",
+            "hrn": "hrn:60000-0:DataItem:8040e5da74db0331"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "MBSW-181\nfrequency: connect, 1/day\nSystem Name",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "One Time when Printer First Connect to Adapter",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Productname",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "productname",
+            "hrn": "hrn:60000-0:DataItem:70f07587e28d1cb8",
+            "device_state": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "MBSW-181",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "transmission_timing": "fixed ",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Softwaretimestamp",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "softwaretimestamp",
+            "hrn": "hrn:60000-0:DataItem:4c4b8d462d0dff7e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "MBSW-181",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Softwareversion",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "softwareversion",
+            "hrn": "hrn:60000-0:DataItem:2f98ccd9d2d0277f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "MBSW-181",
+            "native_type": "STRING",
+            "transmission_timing": "Fixed Interval without Condition",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "serial_number",
+            "hrn": "hrn:60000-0:DataItem:27df2b90b58b1766",
+            "device_state": true,
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "RecipeUserState",
+            "native_type": "STRING",
+            "native_units": "enum",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "system_state",
+            "hrn": "hrn:60000-0:DataItem:b4669068a296d597",
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Build",
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "build",
+        "hrn": "hrn:60000-0:Component:0ef95c89a75c8ad4",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Events",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.events",
+            "hrn": "hrn:60000-0:DataItem:106888c9d6ffd1f8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Metadata",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.metadata",
+            "hrn": "hrn:60000-0:DataItem:c38e987a4d2d6c90"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Failedreason",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.failedreason",
+            "hrn": "hrn:60000-0:DataItem:a85188a971ab5c28"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Status",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.status",
+            "hrn": "hrn:60000-0:DataItem:80b5007951a77cc5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Loadfactor",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.loadfactor",
+            "hrn": "hrn:60000-0:DataItem:2577d2af207fbfe8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "MBSW-182",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Starttime",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.starttime",
+            "hrn": "hrn:60000-0:DataItem:833bdc191fc876ef"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "MBSW-182",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Recipe-Name",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.recipe_name",
+            "hrn": "hrn:60000-0:DataItem:55007d551810ffb0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "MBSW-182",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "enum",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Recipe-User-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.recipe_user_state",
+            "hrn": "hrn:60000-0:DataItem:a227c0d464df93b0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "MBSW-182",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "TIME_T",
+            "native_units": "Epoch (secs)",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Completedtime",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.completedtime",
+            "hrn": "hrn:60000-0:DataItem:6d73f14c0976236a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "native_type": "STRING:JSON",
+            "native_units": "",
+            "transmission_timing": "",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.job_data",
+            "hrn": "hrn:60000-0:DataItem:46ad87aad579653e",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "MBSW-182",
+            "native_type": "DOUBLE",
+            "native_units": "percent",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.progress",
+            "hrn": "hrn:60000-0:DataItem:2c4a9c6b6f0005ef",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "MBSW-182",
+            "native_type": "INT",
+            "native_units": "seconds",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.duration",
+            "hrn": "hrn:60000-0:DataItem:289c33e569078146",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "not applicable to Moab",
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.current_layer",
+            "hrn": "hrn:60000-0:DataItem:42f6523ddedd66c9",
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Controller",
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "controller",
+        "hrn": "hrn:60000-0:Component:8acd17c349dd2f53",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "MBSW-181\nFrequency: connect; 1/day",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 8640,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Blazefpgaversion",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 8640,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "blazefpgaversion",
+            "hrn": "hrn:60000-0:DataItem:20b7a2a5b7ff447b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "MBSW-181\nFrequency: connect; 1/day",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 8640,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Controller-Ip-Address",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 8640,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.ip_address",
+            "hrn": "hrn:60000-0:DataItem:981d9f5cbeebdf95",
+            "device_state": true,
+            "emitted_by_adapter": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "MBSW-181\nFrequency: connect; 1/day",
+            "native_type": "STRING",
+            "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 8640,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.mac_address",
+            "hrn": "hrn:60000-0:DataItem:1f246e5ca38a38c5",
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "native_name": ""
+      },
+      "mtconnect_schema": {
+        "name": "Conditions",
+        "native_name": ""
+      },
+      "meta": {
+        "alias": "conditions",
+        "hrn": "hrn:60000-0:Component:3cf6b8389629c611",
+        "required": true
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "MBSW-187",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "",
+            "native_severity": "NORMAL/WARNING",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Fault-Pest",
+            "category": "CONDITION",
+            "level": "",
+            "message": "",
+            "qualifier": "",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.pest",
+            "hrn": "hrn:60000-0:DataItem:c7295de8677e9044"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "MBSW-187",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "",
+            "native_severity": "NORMAL/WARNING",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Faults-Current",
+            "category": "CONDITION",
+            "level": "",
+            "message": "",
+            "qualifier": "",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "faults.current",
+            "hrn": "hrn:60000-0:DataItem:93a90e0bc8796514"
+          }
+        }
+      ]
+    }
+  ]
+}
