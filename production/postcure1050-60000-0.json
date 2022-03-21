@@ -1489,15 +1489,15 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
+            "type": "MESSAGE",
+            "notes": "MBSW-182",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING:JSON",
             "native_units": "",
-            "transmission_timing": "",
+            "transmission_timing": "Emit when Value Change Real Time",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1519,45 +1519,15 @@
         },
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
+            "type": "MESSAGE",
+            "notes": "MBSW-182",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Build-Metadata",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.metadata",
-            "hrn": "hrn:60000-0:DataItem:c38e987a4d2d6c90"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
+            "transmission_timing": "Emit when Value Change Real Time",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1579,15 +1549,15 @@
         },
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
+            "type": "MESSAGE",
+            "notes": "MBSW-182",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
-            "transmission_timing": "",
+            "transmission_timing": "Emit when Value Change Real Time",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1609,15 +1579,15 @@
         },
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
+            "type": "MESSAGE",
+            "notes": "MBSW-182",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
-            "transmission_timing": "",
+            "transmission_timing": "Emit when Value Change Real Time",
             "sample_interval": 0,
             "native_name": ""
           },
