@@ -579,7 +579,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "0 : Idle, 1 : Building",
+            "notes": "include: Present. JobStatus + printer_state. JobStatus = {NotRunning, Starting,Running,Completing,Aborting,Pausing}",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
