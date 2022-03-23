@@ -1020,7 +1020,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Temperature-Heaterchannel2temp",
+            "name": "Heaterchannel2temp",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1030,7 +1030,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "temperature.heaterchannel2temp",
+            "alias": "heaterchannel2temp",
             "hrn": "hrn:60000-0:DataItem:d731f52ce1f40e09"
           }
         },
@@ -1050,7 +1050,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Temperature-Heaterchannel1temp",
+            "name": "Heaterchannel1temp",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1060,7 +1060,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "temperature.heaterchannel1temp",
+            "alias": "heaterchannel1temp",
             "hrn": "hrn:60000-0:DataItem:a43abb7619c3edf6"
           }
         },
@@ -1080,7 +1080,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Temperature-Ambienttemp",
+            "name": "Ambienttemp",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1090,7 +1090,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "temperature.ambienttemp",
+            "alias": "ambienttemp",
             "hrn": "hrn:60000-0:DataItem:386a23798a9271cf"
           }
         },
@@ -1110,7 +1110,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Temperature-Chambertemp",
+            "name": "Chambertemp",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1120,7 +1120,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "temperature.chambertemp",
+            "alias": "chambertemp",
             "hrn": "hrn:60000-0:DataItem:95e5559c0a708036"
           }
         }
