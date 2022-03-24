@@ -75,7 +75,7 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_INT",
             "notes": "reported_ver: v1.0.2-8",
             "description": "",
             "data_source": "",
@@ -5119,7 +5119,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "data_source": "",
