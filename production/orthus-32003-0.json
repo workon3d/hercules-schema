@@ -7,11 +7,11 @@
     "model": 32003,
     "submodel": 0,
     "servicemax_device_type": "",
-    "native_name": "Orthus",
+    "native_name": "DMP Flex 350 Dual",
     "sample_interval": 0
   },
   "mtconnect_schema": {
-    "native_name": "Orthus",
+    "native_name": "DMP Flex 350 Dual",
     "sample_interval": 0
   },
   "meta": {
@@ -661,6 +661,36 @@
         "hrn": "hrn:32003-0:Component:1b0606363ae4e209"
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Axes-Coater-Average-Layer-Torque-Value",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "axes.coater.average_layer_torque.value",
+            "hrn": "hrn:32003-0:DataItem:ae3b91274d709ac5"
+          }
+        },
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
