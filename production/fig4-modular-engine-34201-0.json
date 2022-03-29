@@ -3781,11 +3781,11 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_",
             "notes": "reported_ver: v1.0.2-8",
             "description": "",
             "data_source": "",
-            "native_type": "STRING",
+            "native_type": "",
             "native_units": "",
             "sample_interval": 0,
             "native_name": ""
