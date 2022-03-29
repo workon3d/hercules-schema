@@ -3781,7 +3781,7 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_",
+            "type": "MESSAGE_INT",
             "notes": "reported_ver: v1.0.2-8",
             "description": "",
             "data_source": "",
