@@ -26,6 +26,382 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
+        "name": "Door",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "door",
+        "hrn": "hrn:60000-0:Component:3e0a61ef8bee7d6c"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Door-Safety-Switch-Left-Top",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.safety_switch_left_top",
+            "hrn": "hrn:60000-0:DataItem:032fb6f9ad5feca5"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Door-Safety-Switch-Left-Bottom",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.safety_switch_left_bottom",
+            "hrn": "hrn:60000-0:DataItem:caa0dd11bbf6eabd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Door-Safety-Switch-Right-Top",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.safety_switch_right_top",
+            "hrn": "hrn:60000-0:DataItem:1beaff0fa094276f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Door-Safety-Switch-Right-Bottom",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.safety_switch_right_bottom",
+            "hrn": "hrn:60000-0:DataItem:edf1eda44c76e6dd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Door-Status",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.status",
+            "hrn": "hrn:60000-0:DataItem:8da0410fea25a005"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Heater-2",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "heater_2",
+        "hrn": "hrn:60000-0:Component:c13272b89c667ae4"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Heater-2-Channel-Temperature",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "heater_2.channel_temperature",
+            "hrn": "hrn:60000-0:DataItem:e5aeaab7b5e0f8e0"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Heater-1",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "heater_1",
+        "hrn": "hrn:60000-0:Component:9256b3edc2f9c2a3"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Heater-1-Channel-Temperature",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "heater_1.channel_temperature",
+            "hrn": "hrn:60000-0:DataItem:9cd9fa0bea8a6557"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Chamber",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "chamber",
+        "hrn": "hrn:60000-0:Component:e77165bd92f143c8"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "celsius",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Chamber-Ambient-Temperature",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber.ambient_temperature",
+            "hrn": "hrn:60000-0:DataItem:d52f3ce9180a6e73"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Chamber-Light",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber.light",
+            "hrn": "hrn:60000-0:DataItem:c438f0241a471260"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "celsius",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Chamber-Chamber-Temperature",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "chamber.chamber_temperature",
+            "hrn": "hrn:60000-0:DataItem:7c2bfb291d6e6453"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
         "name": "Component",
         "tag": "",
         "native_name": "",
@@ -38,13 +414,13 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -52,7 +428,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Doorstatus",
+            "name": "Component-Ground-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -62,139 +438,19 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.doorstatus",
-            "hrn": "hrn:60000-0:DataItem:0e23868722caadb7"
+            "alias": "component.ground_voltage",
+            "hrn": "hrn:60000-0:DataItem:d8441948a5ab59bb"
           }
         },
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Component-Doorsafetyswitchrighttop",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "component.doorsafetyswitchrighttop",
-            "hrn": "hrn:60000-0:DataItem:f6ef78b38e9b03f9"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Component-Doorsafetyswitchrightbottom",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "component.doorsafetyswitchrightbottom",
-            "hrn": "hrn:60000-0:DataItem:3355aed209e641f1"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Component-Doorsafetyswitchlefttop",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "component.doorsafetyswitchlefttop",
-            "hrn": "hrn:60000-0:DataItem:15b274af788364ea"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Component-Doorsafetyswitchleftbottom",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "component.doorsafetyswitchleftbottom",
-            "hrn": "hrn:60000-0:DataItem:72d76f7c72f63ab7"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -218,13 +474,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -248,13 +504,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -278,13 +534,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -308,13 +564,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -338,13 +594,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -368,13 +624,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -398,13 +654,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -428,13 +684,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -458,13 +714,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -488,13 +744,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -518,13 +774,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -548,13 +804,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -578,13 +834,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -608,13 +864,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -622,7 +878,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-24v-Sys-In-Voltage",
+            "name": "Component-24v-System-In-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -632,19 +888,19 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.24v_sys_in_voltage",
+            "alias": "component.24v_system_in_voltage",
             "hrn": "hrn:60000-0:DataItem:3341189cc3eedaeb"
           }
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -668,13 +924,13 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -682,7 +938,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Ps-12v-Voltage",
+            "name": "Component-Power-Supply-12v-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -692,19 +948,19 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.ps_12v_voltage",
+            "alias": "component.power_supply_12v_voltage",
             "hrn": "hrn:60000-0:DataItem:1d6e3831635c0ddf"
           }
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -712,7 +968,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Ps-5v-Voltage",
+            "name": "Component-Power-Supply-5v-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -722,19 +978,19 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.ps_5v_voltage",
+            "alias": "component.power_supply_5v_voltage",
             "hrn": "hrn:60000-0:DataItem:049f5646203f4a04"
           }
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -742,7 +998,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Ps-3v3-Voltage",
+            "name": "Component-Power-Supply-3v3-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -752,19 +1008,19 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.ps_3v3_voltage",
+            "alias": "component.power_supply_3v3_voltage",
             "hrn": "hrn:60000-0:DataItem:cac016c34df7f339"
           }
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -772,7 +1028,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Ps-1v8-Voltage",
+            "name": "Component-Power-Supply-1v8-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -782,19 +1038,19 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.ps_1v8_voltage",
+            "alias": "component.power_supply_1v8_voltage",
             "hrn": "hrn:60000-0:DataItem:5b1ec9d52057703f"
           }
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "MBSW-189",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -802,7 +1058,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Ps-1v-Voltage",
+            "name": "Component-Power-Supply-1v-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -812,38 +1068,8 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.ps_1v_voltage",
+            "alias": "component.power_supply_1v_voltage",
             "hrn": "hrn:60000-0:DataItem:1c49eb0e17fe96bb"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "MBSW-189",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "UNSIGNED INTEGER",
-            "native_units": "",
-            "transmission_timing": "Emit when Value Change Real Time",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Component-Litestatus",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "component.litestatus",
-            "hrn": "hrn:60000-0:DataItem:81dd484316dd6ad4"
           }
         }
       ]
@@ -989,145 +1215,6 @@
     },
     {
       "hydra_schema": {
-        "description": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "mtconnect_schema": {
-        "name": "Temperature",
-        "tag": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "meta": {
-        "alias": "temperature",
-        "hrn": "hrn:60000-0:Component:da72dab3cc111c97"
-      },
-      "dataitems": [
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "MBSW-188\nQueried once a minute when in warmup state\nQueried once every three minutes when not in warmup state\nReported whenever there is a change or every 15 minutes regardles",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "celsius",
-            "transmission_timing": "Fixed Interval without Condition",
-            "sample_interval": 180,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Heaterchannel2temp",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 180,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "heaterchannel2temp",
-            "hrn": "hrn:60000-0:DataItem:d731f52ce1f40e09"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "MBSW-188\nQueried once a minute when in warmup state\nQueried once every three minutes when not in warmup state\nReported whenever there is a change or every 15 minutes regardles",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "celsius",
-            "transmission_timing": "Fixed Interval without Condition",
-            "sample_interval": 180,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Heaterchannel1temp",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 180,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "heaterchannel1temp",
-            "hrn": "hrn:60000-0:DataItem:a43abb7619c3edf6"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "MBSW-188\nQueried once a minute when in warmup state\nQueried once every three minutes when not in warmup state\nReported whenever there is a change or every 15 minutes regardless",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "celsius",
-            "transmission_timing": "Fixed Interval without Condition",
-            "sample_interval": 180,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Ambienttemp",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 180,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "ambienttemp",
-            "hrn": "hrn:60000-0:DataItem:386a23798a9271cf"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "MBSW-188\nQueried once a minute when in warmup state\nQueried once every three minutes when not in warmup state\nReported whenever there is a change or every 15 minutes regardles",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "celsius",
-            "transmission_timing": "Fixed Interval without Condition",
-            "sample_interval": 180,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Chambertemp",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 180,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "chambertemp",
-            "hrn": "hrn:60000-0:DataItem:95e5559c0a708036"
-          }
-        }
-      ]
-    },
-    {
-      "hydra_schema": {
         "native_name": ""
       },
       "mtconnect_schema": {
@@ -1142,13 +1229,13 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "UNSIGNED INTEGER",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1156,7 +1243,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Ledusage-425",
+            "name": "Power-On-Time",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1166,27 +1253,207 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "ledusage.425",
+            "alias": "power_on_time",
+            "hrn": "hrn:60000-0:DataItem:4d665e2d167b1244"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "365nm-Average-Pwm",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "365nm_average_pwm",
+            "hrn": "hrn:60000-0:DataItem:651354cb4e48b2c8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "395nm-Average-Pwm",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "395nm_average_pwm",
+            "hrn": "hrn:60000-0:DataItem:5398d463a7364209"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "425nm-Average-Pwm",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "425nm_average_pwm",
+            "hrn": "hrn:60000-0:DataItem:ba3b9aa2fdda9b9f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "System-Name",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "system_name",
+            "hrn": "hrn:60000-0:DataItem:6444293d56d2e1ed"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Cure-Time-Usage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "cure_time_usage",
+            "hrn": "hrn:60000-0:DataItem:b3c7a6a7cf55e22e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "seconds",
+            "transmission_timing": "Emit when Value Change Real Time",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "365nm-Usage",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "365nm_usage",
             "hrn": "hrn:60000-0:DataItem:2fbc7a9a8c2aa892"
           }
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "seconds",
+            "transmission_timing": "Emit when Value Change Real Time",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Ledusage-395",
+            "name": "395nm-Usage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1196,27 +1463,27 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "ledusage.395",
+            "alias": "395nm_usage",
             "hrn": "hrn:60000-0:DataItem:fd0ecabecdf6760b"
           }
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "seconds",
+            "transmission_timing": "Emit when Value Change Real Time",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Ledusage-365",
+            "name": "425nm-Usage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1226,38 +1493,8 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "ledusage.365",
+            "alias": "425nm_usage",
             "hrn": "hrn:60000-0:DataItem:18ee8a7286e0343b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Powerontimesecs",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "powerontimesecs",
-            "hrn": "hrn:60000-0:DataItem:fabca93888e31377"
           }
         },
         {
@@ -1276,7 +1513,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "F4-Failedjobs",
+            "name": "F4-Failed-Jobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1286,7 +1523,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "f4_failedjobs",
+            "alias": "f4_failed_jobs",
             "hrn": "hrn:60000-0:DataItem:4886bbbc343697be"
           }
         },
@@ -1306,7 +1543,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "F4-Abortedjobs",
+            "name": "F4-Aborted-Jobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1316,7 +1553,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "f4_abortedjobs",
+            "alias": "f4_aborted_jobs",
             "hrn": "hrn:60000-0:DataItem:a541d84230f4f740"
           }
         },
@@ -1336,7 +1573,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "F4-Completedjobs",
+            "name": "F4-Completed-Jobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1346,7 +1583,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "f4_completedjobs",
+            "alias": "f4_completed_jobs",
             "hrn": "hrn:60000-0:DataItem:90571446ef423015"
           }
         },
@@ -1366,7 +1603,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Sla-Failedjobs",
+            "name": "Sla-Failed-Jobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1376,7 +1613,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "sla_failedjobs",
+            "alias": "sla_failed_jobs",
             "hrn": "hrn:60000-0:DataItem:02a048201d0301e4"
           }
         },
@@ -1396,7 +1633,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Sla-Abortedjobs",
+            "name": "Sla-Aborted-Jobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1406,7 +1643,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "sla_abortedjobs",
+            "alias": "sla_aborted_jobs",
             "hrn": "hrn:60000-0:DataItem:cab679e3dec7886f"
           }
         },
@@ -1426,7 +1663,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Sla-Completedjobs",
+            "name": "Sla-Completed-Jobs",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1436,7 +1673,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "sla_completedjobs",
+            "alias": "sla_completed_jobs",
             "hrn": "hrn:60000-0:DataItem:bc29a1d4ba2d168e"
           }
         },
@@ -1456,7 +1693,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Productmodel",
+            "name": "Product-Model",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1466,7 +1703,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "productmodel",
+            "alias": "product_model",
             "hrn": "hrn:60000-0:DataItem:8040e5da74db0331"
           }
         },
@@ -1486,7 +1723,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Productname",
+            "name": "Product-Name",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1496,69 +1733,9 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "productname",
+            "alias": "product_name",
             "hrn": "hrn:60000-0:DataItem:70f07587e28d1cb8",
             "device_state": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "MBSW-181",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "TIME_T",
-            "native_units": "Epoch (secs)",
-            "transmission_timing": "fixed ",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Softwaretimestamp",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "softwaretimestamp",
-            "hrn": "hrn:60000-0:DataItem:4c4b8d462d0dff7e"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "MBSW-181",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "transmission_timing": "Fixed Interval without Condition",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Softwareversion",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "softwareversion",
-            "hrn": "hrn:60000-0:DataItem:2f98ccd9d2d0277f"
           }
         },
         {
@@ -1653,7 +1830,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-Failedreason",
+            "name": "Build-Failed-Reason",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1663,7 +1840,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.failedreason",
+            "alias": "build.failed_reason",
             "hrn": "hrn:60000-0:DataItem:a85188a971ab5c28"
           }
         },
@@ -1713,7 +1890,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-Loadfactor",
+            "name": "Build-Load-Factor",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1723,19 +1900,19 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.loadfactor",
+            "alias": "build.load_factor",
             "hrn": "hrn:60000-0:DataItem:2577d2af207fbfe8"
           }
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE_LONG",
             "notes": "MBSW-182",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "TIME_T",
+            "native_type": "UNSIGNED INTEGER",
             "native_units": "Epoch (secs)",
             "transmission_timing": "Emit when Value Change Real Time",
             "sample_interval": 0,
@@ -1743,7 +1920,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-Starttime",
+            "name": "Build-Start-Time",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1753,7 +1930,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.starttime",
+            "alias": "build.start_time",
             "hrn": "hrn:60000-0:DataItem:833bdc191fc876ef"
           }
         },
@@ -1819,7 +1996,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE_LONG",
             "notes": "MBSW-182",
             "description": "",
             "servicemax_label": "",
@@ -1833,7 +2010,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-Completedtime",
+            "name": "Build-Completed-Time",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1843,7 +2020,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.completedtime",
+            "alias": "build.completed_time",
             "hrn": "hrn:60000-0:DataItem:6d73f14c0976236a"
           }
         },
@@ -1922,13 +2099,73 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Controller-Software-Release",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.software_release",
+            "hrn": "hrn:60000-0:DataItem:1cf1fd57a4b56646"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Controller-Software-Version",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.software_version",
+            "hrn": "hrn:60000-0:DataItem:a4f7726d8e09411d"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "MBSW-181\nFrequency: connect; 1/day",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "STRING",
+            "native_type": "UNSIGNED INTEGER",
             "native_units": "",
             "transmission_timing": "Fixed Interval without Condition",
             "sample_interval": 8640,
@@ -1936,7 +2173,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Blazefpgaversion",
+            "name": "Controller-Fpga-Version",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1946,7 +2183,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "blazefpgaversion",
+            "alias": "controller.fpga_version",
             "hrn": "hrn:60000-0:DataItem:20b7a2a5b7ff447b"
           }
         },
@@ -2026,7 +2263,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Fault-Pest",
+            "name": "Fault-Current",
             "category": "CONDITION",
             "level": "",
             "message": "",
@@ -2035,33 +2272,7 @@
             "sample_interval": 0
           },
           "meta": {
-            "alias": "fault.pest",
-            "hrn": "hrn:60000-0:DataItem:c7295de8677e9044"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "CONDITION",
-            "notes": "MBSW-187",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "native_code": "",
-            "native_severity": "NORMAL/WARNING",
-            "sample_interval": 0
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Faults-Current",
-            "category": "CONDITION",
-            "level": "",
-            "message": "",
-            "qualifier": "",
-            "data_classification": "",
-            "sample_interval": 0
-          },
-          "meta": {
-            "alias": "faults.current",
+            "alias": "fault.current",
             "hrn": "hrn:60000-0:DataItem:93a90e0bc8796514"
           }
         }
