@@ -1786,21 +1786,21 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "MBSW-182",
+            "type": "MESSAGE_NUM",
+            "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "STRING:JSON",
+            "native_type": "",
             "native_units": "",
-            "transmission_timing": "Emit when Value Change Real Time",
+            "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-Events",
+            "name": "Build-Max-Recipe-Temperature",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1810,8 +1810,38 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.events",
-            "hrn": "hrn:60000-0:DataItem:106888c9d6ffd1f8"
+            "alias": "build.max_recipe_temperature",
+            "hrn": "hrn:60000-0:DataItem:9b1039cbf8d868d1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Recipe-Versionm",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.recipe_versionm",
+            "hrn": "hrn:60000-0:DataItem:edf20d4bb4d03485"
           }
         },
         {
@@ -1980,7 +2010,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-Recipe-User-State",
+            "name": "Build-State",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1990,7 +2020,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.recipe_user_state",
+            "alias": "build.state",
             "hrn": "hrn:60000-0:DataItem:a227c0d464df93b0"
           }
         },
