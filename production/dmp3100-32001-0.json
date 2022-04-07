@@ -158,32 +158,6 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "EVENT",
-            "notes": "",
-            "description": "",
-            "data_source": "Emitter",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "EXECUTION",
-            "name": "Build-Execution",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.execution",
-            "hrn": "hrn:32001-0:DataItem:943a9b59e7d6ee5f"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "SAMPLE_NUM",
             "notes": "Native Units is MM. It's the distance needed to move the sintering piston to the home position.Position where build begins.",
             "description": "",
@@ -748,58 +722,6 @@
             "hrn": "hrn:32001-0:DataItem:981d9f5cbeebdf95",
             "device_state": true,
             "emitted_by_adapter": true
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "Strongly insisted this structure exists for populating FM",
-            "description": "",
-            "data_source": "",
-            "native_type": "JSON",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Previous-Job",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.previous_job",
-            "hrn": "hrn:32001-0:DataItem:cebea9919265d13b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "Strongly insisted this structure exists for populating FM",
-            "description": "",
-            "data_source": "",
-            "native_type": "JSON",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Current-Job",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.current_job",
-            "hrn": "hrn:32001-0:DataItem:e72debfdbe6530ba"
           }
         },
         {
