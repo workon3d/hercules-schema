@@ -2180,58 +2180,6 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Strongly insisted this structure exists for populating FM",
-            "description": "",
-            "data_source": "",
-            "native_type": "JSON",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Previous-Job",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.previous_job",
-            "hrn": "hrn:32013-0:DataItem:cebea9919265d13b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "Strongly insisted this structure exists for populating FM",
-            "description": "",
-            "data_source": "",
-            "native_type": "JSON",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Controller-Current-Job",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "controller.current_job",
-            "hrn": "hrn:32013-0:DataItem:e72debfdbe6530ba"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "data_source": "",
@@ -2406,32 +2354,6 @@
         "required": true
       },
       "dataitems": [
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "",
-            "description": "",
-            "data_source": "Emitter",
-            "native_type": "STRING",
-            "native_units": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "EXECUTION",
-            "name": "Build-Execution",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.execution",
-            "hrn": "hrn:32013-0:DataItem:943a9b59e7d6ee5f"
-          }
-        },
         {
           "hydra_schema": {
             "type": "MESSAGE",
