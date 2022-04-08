@@ -1800,7 +1800,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-Max-Recipe-Temperature",
+            "name": "Build-Max-Temperature",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1810,7 +1810,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.max_recipe_temperature",
+            "alias": "build.max_temperature",
             "hrn": "hrn:60000-0:DataItem:9b1039cbf8d868d1"
           }
         },
@@ -1830,7 +1830,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-Recipe-Versionm",
+            "name": "Build-Version",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1840,7 +1840,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.recipe_versionm",
+            "alias": "build.version",
             "hrn": "hrn:60000-0:DataItem:edf20d4bb4d03485"
           }
         },
@@ -2010,7 +2010,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Build-State",
+            "name": "Build-Recipe-State",
             "category": "",
             "subtype": "",
             "units": "",
@@ -2020,7 +2020,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.state",
+            "alias": "build.recipe_state",
             "hrn": "hrn:60000-0:DataItem:a227c0d464df93b0"
           }
         },
