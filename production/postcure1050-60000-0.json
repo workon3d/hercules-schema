@@ -195,13 +195,13 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
-        "name": "Heater-2",
+        "name": "Heater",
         "tag": "",
         "native_name": "",
         "sample_interval": 0
       },
       "meta": {
-        "alias": "heater_2",
+        "alias": "heater",
         "hrn": "hrn:60000-0:Component:c13272b89c667ae4"
       },
       "dataitems": [
@@ -213,7 +213,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "DOUBLE",
+            "native_type": "",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -221,7 +221,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Heater-2-Channel-Temperature",
+            "name": "Heater-Heater-Channel-2-Temperature",
             "category": "",
             "subtype": "",
             "units": "",
@@ -231,29 +231,10 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "heater_2.channel_temperature",
-            "hrn": "hrn:60000-0:DataItem:e5aeaab7b5e0f8e0"
+            "alias": "heater.heater_channel_2_temperature",
+            "hrn": "hrn:60000-0:DataItem:28c73f4facd341d3"
           }
-        }
-      ]
-    },
-    {
-      "hydra_schema": {
-        "description": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "mtconnect_schema": {
-        "name": "Heater-1",
-        "tag": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "meta": {
-        "alias": "heater_1",
-        "hrn": "hrn:60000-0:Component:9256b3edc2f9c2a3"
-      },
-      "dataitems": [
+        },
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
@@ -262,7 +243,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "DOUBLE",
+            "native_type": "",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -270,7 +251,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Heater-1-Channel-Temperature",
+            "name": "Heater-Heater-Channel-1-Temperature",
             "category": "",
             "subtype": "",
             "units": "",
@@ -280,8 +261,8 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "heater_1.channel_temperature",
-            "hrn": "hrn:60000-0:DataItem:9cd9fa0bea8a6557"
+            "alias": "heater.heater_channel_1_temperature",
+            "hrn": "hrn:60000-0:DataItem:e9395fc8875af26d"
           }
         }
       ]
@@ -349,7 +330,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Chamber-Light",
+            "name": "Chamber-Light-Status",
             "category": "",
             "subtype": "",
             "units": "",
@@ -359,7 +340,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "chamber.light",
+            "alias": "chamber.light_status",
             "hrn": "hrn:60000-0:DataItem:c438f0241a471260"
           }
         },
@@ -379,7 +360,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Chamber-Chamber-Temperature",
+            "name": "Chamber-Chamber-Temp",
             "category": "",
             "subtype": "",
             "units": "",
@@ -389,7 +370,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "chamber.chamber_temperature",
+            "alias": "chamber.chamber_temp",
             "hrn": "hrn:60000-0:DataItem:7c2bfb291d6e6453"
           }
         }
@@ -878,7 +859,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-24v-System-In-Voltage",
+            "name": "Component-24v-Sys-In-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -888,7 +869,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.24v_system_in_voltage",
+            "alias": "component.24v_sys_in_voltage",
             "hrn": "hrn:60000-0:DataItem:3341189cc3eedaeb"
           }
         },
@@ -938,7 +919,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Power-Supply-12v-Voltage",
+            "name": "Component-Ps-12v-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -948,7 +929,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.power_supply_12v_voltage",
+            "alias": "component.ps_12v_voltage",
             "hrn": "hrn:60000-0:DataItem:1d6e3831635c0ddf"
           }
         },
@@ -968,7 +949,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Power-Supply-5v-Voltage",
+            "name": "Component-Ps-5v-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -978,7 +959,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.power_supply_5v_voltage",
+            "alias": "component.ps_5v_voltage",
             "hrn": "hrn:60000-0:DataItem:049f5646203f4a04"
           }
         },
@@ -998,7 +979,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Power-Supply-3v3-Voltage",
+            "name": "Component-Ps-3v3-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1008,7 +989,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.power_supply_3v3_voltage",
+            "alias": "component.ps_3v3_voltage",
             "hrn": "hrn:60000-0:DataItem:cac016c34df7f339"
           }
         },
@@ -1028,7 +1009,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Power-Supply-1v8-Voltage",
+            "name": "Component-Ps-1v8-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1038,7 +1019,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.power_supply_1v8_voltage",
+            "alias": "component.ps_1v8_voltage",
             "hrn": "hrn:60000-0:DataItem:5b1ec9d52057703f"
           }
         },
@@ -1058,7 +1039,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Component-Power-Supply-1v-Voltage",
+            "name": "Component-Ps-1v-Voltage",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1068,7 +1049,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "component.power_supply_1v_voltage",
+            "alias": "component.ps_1v_voltage",
             "hrn": "hrn:60000-0:DataItem:1c49eb0e17fe96bb"
           }
         }
@@ -1094,7 +1075,7 @@
         {
           "hydra_schema": {
             "type": "",
-            "notes": "MBSW-185",
+            "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1107,7 +1088,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Calibration-History",
+            "name": "Calibration-365-Max-Irradiance",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1117,44 +1098,14 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "calibration.history",
-            "hrn": "hrn:60000-0:DataItem:3359e2c6d1bd50a8"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_LONG",
-            "notes": "MBSW-185",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "UNSIGNED INTEGER",
-            "native_units": "count",
-            "transmission_timing": "Emit when Value Change Real Time",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Calibration-Count",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "calibration.count",
-            "hrn": "hrn:60000-0:DataItem:06441a3ec36dfbe4"
+            "alias": "calibration.365_max_irradiance",
+            "hrn": "hrn:60000-0:DataItem:877589c95d3cf1f4"
           }
         },
         {
           "hydra_schema": {
             "type": "",
-            "notes": "MBSW-185",
+            "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1167,7 +1118,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Calibration-Values",
+            "name": "Calibration-395-Max-Irradiance",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1177,27 +1128,27 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "calibration.values",
-            "hrn": "hrn:60000-0:DataItem:d503b6ff80205257"
+            "alias": "calibration.395_max_irradiance",
+            "hrn": "hrn:60000-0:DataItem:3063c6d0740fe2c5"
           }
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
-            "notes": "MBSW-185",
+            "type": "",
+            "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "TIME_T",
-            "native_units": "Epoch (secs)",
+            "native_type": "",
+            "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Calibration-Date",
+            "name": "Calibration-425-Max-Irradiance",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1207,8 +1158,8 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "calibration.date",
-            "hrn": "hrn:60000-0:DataItem:2146087ae621457c"
+            "alias": "calibration.425_max_irradiance",
+            "hrn": "hrn:60000-0:DataItem:6dedbfe2e8991249"
           }
         }
       ]
