@@ -1300,36 +1300,6 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "transmission_timing": "Emit when Value Change Real Time",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "System-Name",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "system_name",
-            "hrn": "hrn:60000-0:DataItem:6444293d56d2e1ed"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "MESSAGE_LONG",
             "notes": "",
             "description": "",
@@ -1743,8 +1713,8 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "native_type": "DOUBLE",
+            "native_units": "celsius",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1804,37 +1774,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "STRING",
-            "native_units": "",
-            "transmission_timing": "Emit when Value Change Real Time",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Build-Failed-Reason",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.failed_reason",
-            "hrn": "hrn:60000-0:DataItem:a85188a971ab5c28"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "MBSW-182",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
+            "native_units": "enum",
             "transmission_timing": "Emit when Value Change Real Time",
             "sample_interval": 0,
             "native_name": ""
@@ -1883,36 +1823,6 @@
           "meta": {
             "alias": "build.load_factor",
             "hrn": "hrn:60000-0:DataItem:2577d2af207fbfe8"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_LONG",
-            "notes": "MBSW-182",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "UNSIGNED INTEGER",
-            "native_units": "Epoch (secs)",
-            "transmission_timing": "Emit when Value Change Real Time",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Build-Start-Time",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.start_time",
-            "hrn": "hrn:60000-0:DataItem:833bdc191fc876ef"
           }
         },
         {
@@ -2094,7 +2004,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Controller-Software-Release",
+            "name": "Controller-Software-Release-Date",
             "category": "",
             "subtype": "",
             "units": "",
@@ -2104,7 +2014,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "controller.software_release",
+            "alias": "controller.software_release_date",
             "hrn": "hrn:60000-0:DataItem:1cf1fd57a4b56646"
           }
         },
