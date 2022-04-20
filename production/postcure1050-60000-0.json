@@ -1996,7 +1996,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "UNSIGNED INTEGER",
+            "native_type": "TIME_T",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
