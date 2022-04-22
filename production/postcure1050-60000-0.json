@@ -1707,36 +1707,6 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "DOUBLE",
-            "native_units": "celsius",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Build-Max-Temperature",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.max_temperature",
-            "hrn": "hrn:60000-0:DataItem:9b1039cbf8d868d1"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
             "native_type": "STRING:JSON",
@@ -1775,7 +1745,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.duration",
+            "alias": "build.time_remaining",
             "hrn": "hrn:60000-0:DataItem:289c33e569078146",
             "required": true
           }
