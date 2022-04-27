@@ -1794,7 +1794,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Controller-Software-Release-Date",
+            "name": "Controller-Software-Release",
             "category": "",
             "subtype": "",
             "units": "",
@@ -1804,7 +1804,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "controller.software_release_date",
+            "alias": "controller.software_release",
             "hrn": "hrn:60000-0:DataItem:d2b7f9a63eafcbb9"
           }
         },
