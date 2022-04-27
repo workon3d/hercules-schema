@@ -1187,7 +1187,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "UNSIGNED INTEGER",
-            "native_units": "",
+            "native_units": "seconds",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1307,7 +1307,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "UNSIGNED INTEGER",
-            "native_units": "",
+            "native_units": "seconds",
             "transmission_timing": "Emit when Value Change Real Time",
             "sample_interval": 0,
             "native_name": ""
@@ -1780,14 +1780,14 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "E",
+            "type": "",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "TIME_T",
-            "native_units": "seconds",
+            "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1944,7 +1944,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Fault-Current",
+            "name": "Fault",
             "category": "CONDITION",
             "level": "",
             "message": "",
@@ -1953,7 +1953,7 @@
             "sample_interval": 0
           },
           "meta": {
-            "alias": "fault.current",
+            "alias": "fault",
             "hrn": "hrn:60000-0:DataItem:93a90e0bc8796514"
           }
         }
