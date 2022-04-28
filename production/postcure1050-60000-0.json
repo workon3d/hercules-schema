@@ -1193,7 +1193,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "ACCUMULATED_TIME",
+            "type": "EQUIPMENT_TIMER",
             "name": "Power-On-Time",
             "category": "SAMPLE",
             "subtype": "",
@@ -1668,7 +1668,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "SERIAL_NUMBER",
             "name": "Serial-Number",
             "category": "EVENT",
             "native_name": ""
@@ -1805,7 +1805,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "DATE_CODE",
             "name": "Controller-Software-Release",
             "category": "EVENT",
             "subtype": "",
@@ -1962,11 +1962,11 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "SYSTEM",
+            "type": "HARDWARE",
             "name": "Fault",
             "category": "CONDITION",
-            "level": "FAULT",
-            "message": "",
+            "level": "ANY",
+            "message": "<varies>",
             "qualifier": "",
             "data_classification": "",
             "sample_interval": 0
