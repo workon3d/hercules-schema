@@ -1683,7 +1683,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "RecipeUserState",
+            "notes": "RecipeUserState - READY, DRYING, CURING, COOLING, PAUSED, HALTING, COMPLETE, ABORTED, FAILED, STARTING, UPDATING, SERVICE",
             "native_type": "STRING",
             "native_units": "enum",
             "transmission_timing": "Emit when Value Change Real Time",
