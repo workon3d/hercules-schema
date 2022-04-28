@@ -44,16 +44,16 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "BOOL",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Door-Safety-Switch-Left-Top",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -74,16 +74,16 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "BOOL",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Door-Safety-Switch-Left-Bottom",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -104,16 +104,16 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "BOOL",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Door-Safety-Switch-Right-Top",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -134,16 +134,16 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "BOOL",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Door-Safety-Switch-Right-Bottom",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -171,9 +171,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Door-Status",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -208,23 +208,23 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "heater 2 temperature",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "TEMPERATURE",
             "name": "Heater-Heater-Channel-2-Temperature",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "CELSIUS",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -238,23 +238,23 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "heater 1 temperature",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "TEMPERATURE",
             "name": "Heater-Heater-Channel-1-Temperature",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "CELSIUS",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -287,7 +287,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "ambient temperature outside of chamber",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -299,11 +299,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "TEMPERATURE",
             "name": "Chamber-Ambient-Temperature",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "CELSIUS",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -317,21 +317,21 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "chamber light status - on / off",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "BOOL",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Chamber-Light-Status",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -347,7 +347,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "chamber temperature",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -359,11 +359,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "TEMPERATURE",
             "name": "Chamber-Chamber-Temp",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "CELSIUS",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -396,7 +396,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -408,9 +408,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Ground-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -426,7 +426,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -438,9 +438,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Lcm1500-24v-Current-6",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -456,7 +456,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -468,9 +468,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Lcm1500-24v-Current-5",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -486,7 +486,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -498,9 +498,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Lcm1500-24v-Current-4",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -516,7 +516,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -528,9 +528,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Lcm1500-24v-Current-3",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -546,7 +546,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -558,9 +558,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Lcm1500-24v-Current-2",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -576,7 +576,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -588,9 +588,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Lcm1500-24v-Current-1",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -606,7 +606,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -618,9 +618,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Lcm600-24v-2-Current",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -636,7 +636,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -648,9 +648,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Lcm600-24v-1-Current",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -666,7 +666,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -678,9 +678,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Led-24v-1-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -696,7 +696,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -708,9 +708,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Led-24v-Cs1-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -726,7 +726,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -738,9 +738,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-V24-Sy-Hs-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -756,7 +756,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -768,9 +768,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Led-24v-B3-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -786,7 +786,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -798,9 +798,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Led-24v-B2-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -816,7 +816,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -828,9 +828,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Led-24v-B1-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -846,7 +846,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -858,9 +858,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-24v-Sys-In-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -876,7 +876,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -888,9 +888,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Led-24v-In-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -906,7 +906,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -918,9 +918,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Ps-12v-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -936,7 +936,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -948,9 +948,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Ps-5v-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -966,7 +966,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -978,9 +978,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Ps-3v3-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -996,7 +996,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1008,9 +1008,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Ps-1v8-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1026,7 +1026,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "MBSW-189",
+            "notes": "MBSW-189 - electronic component status",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1038,9 +1038,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Component-Ps-1v-Voltage",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1075,7 +1075,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "calibration value per wL",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1087,9 +1087,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Calibration-365-Max-Irradiance",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1105,7 +1105,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "calibration value per wL",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1117,9 +1117,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Calibration-395-Max-Irradiance",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1135,7 +1135,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "calibration value per wL",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1147,9 +1147,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Calibration-425-Max-Irradiance",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1180,8 +1180,8 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
+            "type": "MESSAGE_NUM",
+            "notes": "length of time the unit has been powered on",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1193,11 +1193,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "ACCUMULATED_TIME",
             "name": "Power-On-Time",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "SECOND",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1211,7 +1211,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "average PWM per wavelength",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1223,9 +1223,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "365nm-Average-Pwm",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1241,7 +1241,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "average PWM per wavelength",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1253,9 +1253,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "395nm-Average-Pwm",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1271,7 +1271,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "average PWM per wavelength",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1283,9 +1283,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "425nm-Average-Pwm",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1301,7 +1301,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_LONG",
-            "notes": "",
+            "notes": "total cure time",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1313,11 +1313,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "ACCUMULATED_TIME",
             "name": "Total-Cure-Time",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "SECOND",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1331,7 +1331,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_LONG",
-            "notes": "",
+            "notes": "total cure time per wavelength",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1343,11 +1343,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "ACCUMULATED_TIME",
             "name": "Total-365nm-Cure-Time",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "SECOND",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1361,7 +1361,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_LONG",
-            "notes": "",
+            "notes": "total cure time per wavelength",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1373,11 +1373,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "ACCUMULATED_TIME",
             "name": "Total-395nm-Cure-Time",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "SECOND",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1391,7 +1391,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_LONG",
-            "notes": "",
+            "notes": "total cure time per wavelength",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1403,11 +1403,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "ACCUMULATED_TIME",
             "name": "Total-425nm-Cure-Time",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "SECOND",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1421,7 +1421,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_LONG",
-            "notes": "MBSW-175",
+            "notes": "MBSW-175 - count of failed F4 jobs",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1433,11 +1433,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "F4-Failed-Jobs",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
-            "units": "",
+            "units": "COUNT",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1451,7 +1451,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_LONG",
-            "notes": "MBSW-175",
+            "notes": "MBSW-175 - count of aborted F4 jobs",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1463,11 +1463,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "F4-Aborted-Jobs",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
-            "units": "",
+            "units": "COUNT",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1481,7 +1481,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_LONG",
-            "notes": "MBSW-175",
+            "notes": "MBSW-175 - count of completed F4 jobs",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1493,11 +1493,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "F4-Completed-Jobs",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
-            "units": "",
+            "units": "COUNT",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1511,7 +1511,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_LONG",
-            "notes": "MBSW-175",
+            "notes": "MBSW-175 - count of SLA failed jobs",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1523,11 +1523,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Sla-Failed-Jobs",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
-            "units": "",
+            "units": "COUNT",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1541,7 +1541,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_LONG",
-            "notes": "MBSW-175",
+            "notes": "MBSW-175 - count of SLA aborted jobs",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1553,11 +1553,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Sla-Aborted-Jobs",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
-            "units": "",
+            "units": "COUNT",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1571,7 +1571,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_LONG",
-            "notes": "MBSW-175",
+            "notes": "MBSW-175 - count of SLA completed jobs",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1583,11 +1583,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Sla-Completed-Jobs",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
-            "units": "",
+            "units": "COUNT",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1601,7 +1601,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "i.e., TRUCURE 1050\nMBSW-181\nfrequence: connect, 1/day",
+            "notes": "i.e., POSTCURE 1050\nMBSW-181",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1613,9 +1613,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Product-Model",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1631,7 +1631,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "MBSW-181\nfrequency: connect, 1/day\nSystem Name",
+            "notes": "MBSW-181 - System Name",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1643,9 +1643,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Product-Name",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1661,10 +1661,16 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
-            "notes": "MBSW-181",
+            "type": "MESSAGE",
+            "notes": "MBSW-181 - serial number of device",
             "native_type": "STRING",
             "transmission_timing": "Fixed Interval without Condition",
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Serial-Number",
+            "category": "EVENT",
             "native_name": ""
           },
           "meta": {
@@ -1681,6 +1687,12 @@
             "native_type": "STRING",
             "native_units": "enum",
             "transmission_timing": "Emit when Value Change Real Time",
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "System-State",
+            "category": "EVENT",
             "native_name": ""
           },
           "meta": {
@@ -1780,8 +1792,8 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
+            "type": "MESSAGE_NUM",
+            "notes": "software release date",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1793,9 +1805,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Controller-Software-Release",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1811,7 +1823,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "software release version",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1823,9 +1835,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Controller-Software-Version",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1840,8 +1852,8 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "MBSW-181\nFrequency: connect; 1/day",
+            "type": "MESSAGE_LONG",
+            "notes": "MBSW-181 - FPGA controller version",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1853,9 +1865,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Controller-Fpga-Version",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1871,7 +1883,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "MBSW-181\nFrequency: connect; 1/day",
+            "notes": "MBSW-181 - IP address",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1883,9 +1895,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Controller-Ip-Address",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1903,9 +1915,16 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "MBSW-181\nFrequency: connect; 1/day",
+            "notes": "MBSW-181 - mac address",
             "native_type": "STRING",
             "transmission_timing": "Fixed Interval without Condition",
+            "sample_interval": 8640,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Controller-Mac-Address",
+            "category": "EVENT",
             "sample_interval": 8640,
             "native_name": ""
           },
@@ -1943,10 +1962,10 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "SYSTEM",
             "name": "Fault",
             "category": "CONDITION",
-            "level": "",
+            "level": "FAULT",
             "message": "",
             "qualifier": "",
             "data_classification": "",
