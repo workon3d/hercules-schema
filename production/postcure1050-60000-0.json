@@ -1798,7 +1798,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "TIME_T",
+            "native_type": "STRING",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1806,7 +1806,7 @@
           },
           "mtconnect_schema": {
             "type": "DATE_CODE",
-            "name": "Controller-Software-Release",
+            "name": "Controller-Software-Release-Date",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1816,7 +1816,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "controller.software_release",
+            "alias": "controller.software_release_date",
             "hrn": "hrn:60000-0:DataItem:d2b7f9a63eafcbb9"
           }
         },
@@ -1852,13 +1852,13 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_LONG",
+            "type": "MESSAGE",
             "notes": "MBSW-181 - FPGA controller version",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "UNSIGNED INTEGER",
+            "native_type": "STRING",
             "native_units": "",
             "transmission_timing": "Fixed Interval without Condition",
             "sample_interval": 8640,
