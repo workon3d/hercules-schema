@@ -301,7 +301,7 @@
           "mtconnect_schema": {
             "type": "TEMPERATURE",
             "name": "Chamber-Ambient-Temperature",
-            "category": "EVENT",
+            "category": "SAMPLE",
             "subtype": "",
             "units": "CELSIUS",
             "representation": "",
