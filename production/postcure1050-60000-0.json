@@ -207,7 +207,7 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_NUM",
+            "type": "SAMPLE_NUM",
             "notes": "heater 2 temperature",
             "description": "",
             "servicemax_label": "",
@@ -237,7 +237,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_NUM",
+            "type": "SAMPLE_NUM",
             "notes": "heater 1 temperature",
             "description": "",
             "servicemax_label": "",
@@ -286,7 +286,7 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_NUM",
+            "type": "SAMPLE_NUM",
             "notes": "ambient temperature outside of chamber",
             "description": "",
             "servicemax_label": "",
@@ -346,7 +346,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_NUM",
+            "type": "SAMPLE_NUM",
             "notes": "chamber temperature",
             "description": "",
             "servicemax_label": "",
