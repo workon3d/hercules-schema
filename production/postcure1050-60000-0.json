@@ -1726,6 +1726,12 @@
             "transmission_timing": "",
             "native_name": ""
           },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Job-Data",
+            "category": "EVENT",
+            "native_name": ""
+          },
           "meta": {
             "alias": "build.job_data",
             "hrn": "hrn:60000-0:DataItem:46ad87aad579653e",
@@ -1741,6 +1747,12 @@
             "transmission_timing": "Emit when Value Change Real Time",
             "native_name": ""
           },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Progress",
+            "category": "EVENT",
+            "native_name": ""
+          },
           "meta": {
             "alias": "build.progress",
             "hrn": "hrn:60000-0:DataItem:2c4a9c6b6f0005ef",
@@ -1754,6 +1766,13 @@
             "native_type": "INT",
             "native_units": "seconds",
             "transmission_timing": "Emit when Value Change Real Time",
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Time-Remaining",
+            "category": "EVENT",
+            "units": "",
             "native_name": ""
           },
           "meta": {
