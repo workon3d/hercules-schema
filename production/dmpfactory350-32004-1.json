@@ -2497,6 +2497,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
