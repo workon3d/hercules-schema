@@ -1199,11 +1199,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "TEMPERATURE",
             "name": "Bed-Current-Temperature",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "CELSIUS",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1229,7 +1229,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Bed-Temperature-Active",
             "category": "SAMPLE",
             "subtype": "",
