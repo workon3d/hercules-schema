@@ -1721,7 +1721,7 @@
           "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
-            "native_type": "JSON",
+            "native_type": "MESSAGE_JSON",
             "native_units": "",
             "transmission_timing": "",
             "native_name": ""
@@ -1824,7 +1824,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATE_CODE",
+            "type": "CLOCK_TIME",
             "name": "Controller-Software-Release-Date",
             "category": "EVENT",
             "subtype": "",
