@@ -57,7 +57,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Controller-Mac-Address",
             "category": "EVENT",
             "native_name": ""
@@ -83,7 +83,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Controller-Hardware-Build",
             "category": "EVENT",
             "subtype": "",
@@ -113,7 +113,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Controller-Firmware-Version",
             "category": "EVENT",
             "subtype": "",
@@ -143,7 +143,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Controller-Api-Version",
             "category": "EVENT",
             "subtype": "",
@@ -173,7 +173,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Controller-Gcode-Interface-Version",
             "category": "EVENT",
             "subtype": "",
@@ -203,7 +203,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Controller-Ip-Address",
             "category": "EVENT",
             "subtype": "",
@@ -283,7 +283,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Build-Progress",
             "category": "EVENT",
             "native_name": ""
@@ -301,7 +301,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Build-Job-Data",
             "category": "EVENT",
             "native_name": ""
@@ -335,6 +335,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
+            "type": "FUNCTIONAL_MODE",
             "name": "Printer-State",
             "category": "EVENT",
             "native_name": ""
@@ -380,7 +381,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Model",
             "category": "EVENT",
             "subtype": "",
@@ -412,9 +413,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "X:MESSAGE",
             "name": "Submodel",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -444,7 +445,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Printer-Status",
             "category": "EVENT",
             "subtype": "",
@@ -474,7 +475,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Last-Print-Killed",
             "category": "EVENT",
             "subtype": "",
@@ -534,7 +535,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Active-Extruder",
             "category": "EVENT",
             "subtype": "",
@@ -564,7 +565,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Position-Mode",
             "category": "EVENT",
             "subtype": "",
@@ -594,7 +595,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Located",
             "category": "EVENT",
             "subtype": "",
@@ -624,7 +625,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Timezone",
             "category": "EVENT",
             "subtype": "",
@@ -675,7 +676,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "FUNCTIONAL_MODE",
             "name": "Wellplate-Type",
             "category": "EVENT",
             "subtype": "",
@@ -705,7 +706,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Wellplate-Well",
             "category": "EVENT",
             "subtype": "",
@@ -754,7 +755,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "POWER_STATE",
             "name": "Bed-Temperature-Active",
             "category": "SAMPLE",
             "subtype": "",
@@ -863,7 +864,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Extruder-1-Id",
             "category": "EVENT",
             "subtype": "",
@@ -893,7 +894,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "FUNCTIONAL_MODE",
             "name": "Extruder-1-Type",
             "category": "EVENT",
             "subtype": "",
@@ -923,10 +924,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "POWER_STATE",
             "name": "Extruder-1-Connected",
             "category": "EVENT",
-            "subtype": "",
+            "subtype": "LINE",
             "units": "",
             "representation": "",
             "data_classification": "",
@@ -953,7 +954,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "INTERFACE_STATE",
             "name": "Extruder-1-Enabled",
             "category": "EVENT",
             "subtype": "",
@@ -983,7 +984,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "INTERFACE_STATE",
             "name": "Extruder-1-Calibrated",
             "category": "EVENT",
             "subtype": "",
@@ -1013,10 +1014,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "POWER_STATE",
             "name": "Extruder-1-Active",
             "category": "EVENT",
-            "subtype": "",
+            "subtype": "LINE",
             "units": "",
             "representation": "",
             "data_classification": "",
@@ -1043,7 +1044,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "FUNCTIONAL_MODE",
             "name": "Extruder-1-Status",
             "category": "EVENT",
             "subtype": "",
@@ -1073,7 +1074,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "POSITION",
             "name": "Extruder-1-Position",
             "category": "EVENT",
             "subtype": "",
@@ -1283,7 +1284,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "INTERFACE_STATE",
             "name": "Extruder-1-E-Axis-Enabled",
             "category": "EVENT",
             "subtype": "",
@@ -1313,10 +1314,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MES",
+            "type": "POWER_STATE",
             "name": "Extruder-1-Temperature-Active",
             "category": "EVENT",
-            "subtype": "",
+            "subtype": "LINE",
             "units": "",
             "representation": "",
             "data_classification": "",
@@ -1403,7 +1404,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "FUNCTIONAL_MODE",
             "name": "Extruder-1-Temperature-Status",
             "category": "EVENT",
             "subtype": "",
@@ -1463,11 +1464,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "SAM",
+            "type": "PRESSURE",
             "name": "Extruder-1-Target-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "PASCAL",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -1493,10 +1494,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "POWER_STATE",
             "name": "Extruder-1-Pressure-Active",
             "category": "EVENT",
-            "subtype": "",
+            "subtype": "LINE",
             "units": "",
             "representation": "",
             "data_classification": "",
@@ -1523,7 +1524,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "COUNT",
             "name": "Extruder-1-Message-Counter",
             "category": "EVENT",
             "subtype": "",
@@ -1553,7 +1554,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "X:MESSAGE",
             "name": "Extruder-1-Message-Acks",
             "category": "EVENT",
             "subtype": "",
@@ -1602,7 +1603,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Crosslinking-During-Print-Enabled",
             "category": "EVENT",
             "subtype": "",
@@ -1632,7 +1633,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "FUNCTIONAL_MODE",
             "name": "Crosslinking-During-Print-Type",
             "category": "EVENT",
             "subtype": "",
@@ -1662,7 +1663,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "POWER_FACTOR",
             "name": "Crosslinking-During-Print-Intensity",
             "category": "EVENT",
             "subtype": "",
@@ -1722,7 +1723,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "FREQUENCY",
             "name": "Crosslinking-During-Print-Frequency",
             "category": "EVENT",
             "subtype": "",
@@ -1752,7 +1753,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "INTERFACE_STATE",
             "name": "Crosslinking-After-Print-Enabled",
             "category": "EVENT",
             "subtype": "",
@@ -1782,7 +1783,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "FUNCTIONAL_MODE",
             "name": "Crosslinking-After-Print-Type",
             "category": "EVENT",
             "subtype": "",
@@ -1812,7 +1813,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "POWER_FACTOR",
             "name": "Crosslinking-After-Print-Intensity",
             "category": "EVENT",
             "subtype": "",
@@ -1872,7 +1873,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "INTERFACE_STATE",
             "name": "Crosslinking-Manual-Enabled",
             "category": "EVENT",
             "subtype": "",
@@ -1902,7 +1903,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "FUNCTIONAL_MODE",
             "name": "Crosslinking-Manual-Type",
             "category": "EVENT",
             "subtype": "",
@@ -1932,7 +1933,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "POWER_FACTOR",
             "name": "Crosslinking-Manual-Intensity",
             "category": "EVENT",
             "subtype": "",
