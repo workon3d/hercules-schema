@@ -7,11 +7,11 @@
     "model": 31006,
     "submodel": 0,
     "servicemax_device_type": "6150",
-    "native_name": "ProX SLS 6150",
+    "native_name": "ProX SLS 380",
     "sample_interval": 0
   },
   "mtconnect_schema": {
-    "native_name": "ProX SLS 6150",
+    "native_name": "ProX SLS 380",
     "sample_interval": 0
   },
   "meta": {
