@@ -57,7 +57,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Controller-Mac-Address",
             "category": "EVENT",
             "native_name": ""
@@ -83,7 +83,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Controller-Hardware-Build",
             "category": "EVENT",
             "subtype": "",
@@ -113,7 +113,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Controller-Firmware-Version",
             "category": "EVENT",
             "subtype": "",
@@ -143,7 +143,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Controller-Api-Version",
             "category": "EVENT",
             "subtype": "",
@@ -173,7 +173,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Controller-Gcode-Interface-Version",
             "category": "EVENT",
             "subtype": "",
@@ -203,7 +203,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Controller-Ip-Address",
             "category": "EVENT",
             "subtype": "",
@@ -283,7 +283,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Build-Progress",
             "category": "EVENT",
             "native_name": ""
@@ -301,7 +301,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Build-Job-Data",
             "category": "EVENT",
             "native_name": ""
@@ -381,7 +381,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Model",
             "category": "EVENT",
             "subtype": "",
@@ -413,7 +413,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Submodel",
             "category": "EVENT",
             "subtype": "",
@@ -445,7 +445,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Printer-Status",
             "category": "EVENT",
             "subtype": "",
@@ -475,7 +475,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Last-Print-Killed",
             "category": "EVENT",
             "subtype": "",
@@ -535,7 +535,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Active-Extruder",
             "category": "EVENT",
             "subtype": "",
@@ -565,7 +565,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Position-Mode",
             "category": "EVENT",
             "subtype": "",
@@ -595,7 +595,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Located",
             "category": "EVENT",
             "subtype": "",
@@ -625,7 +625,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Timezone",
             "category": "EVENT",
             "subtype": "",
@@ -706,7 +706,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Wellplate-Well",
             "category": "EVENT",
             "subtype": "",
@@ -864,7 +864,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Extruder-1-Id",
             "category": "EVENT",
             "subtype": "",
@@ -1554,7 +1554,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "X:MESSAGE",
+            "type": "MESSAGE",
             "name": "Extruder-1-Message-Acks",
             "category": "EVENT",
             "subtype": "",
