@@ -706,7 +706,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
+            "type": "COUNT",
             "name": "Wellplate-Well",
             "category": "EVENT",
             "subtype": "",
