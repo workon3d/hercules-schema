@@ -1395,7 +1395,7 @@
             "name": "Build-Progress",
             "category": "EVENT",
             "subtype": "",
-            "units": "",
+            "units": "PERCENT",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
