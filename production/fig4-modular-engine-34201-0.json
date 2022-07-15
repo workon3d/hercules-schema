@@ -2087,7 +2087,7 @@
             "name": "Stock-Material-Current-Weight",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "KILOGRAM",
+            "units": "MILLIGRAM",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
