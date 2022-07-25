@@ -2021,7 +2021,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "MESSAGE",
             "notes": "Temperature control active",
             "description": "",
             "servicemax_label": "",
