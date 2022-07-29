@@ -1156,6 +1156,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1212,6 +1213,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1265,6 +1267,7 @@
             "subtype": "",
             "units": "KILOGRAM",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1321,6 +1324,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
