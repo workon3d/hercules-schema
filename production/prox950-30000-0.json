@@ -251,6 +251,7 @@
             "subtype": "",
             "units": "WATT",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -335,7 +336,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
-            "data_classification": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -353,6 +354,12 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "name": "Laser-1-Large-Max-Adc",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -380,6 +387,7 @@
             "subtype": "ACTUAL",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -407,6 +415,7 @@
             "subtype": "ACTUAL",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -427,6 +436,12 @@
             "sample_interval": 0,
             "native_name": ""
           },
+          "mtconnect_schema": {
+            "name": "Laser-1-Large-Max-Line-Sum-X",
+            "data_classification": "Service Facing",
+            "sample_interval": 0,
+            "native_name": ""
+          },
           "meta": {
             "alias": "laser_1.large_max_line_sum_x",
             "hrn": "hrn:30000-0:DataItem:5de38a957a583d87",
@@ -441,6 +456,12 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "name": "Laser-1-Large-Max-Line-Sum-Y",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -468,6 +489,7 @@
             "subtype": "",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -495,6 +517,7 @@
             "subtype": "",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -522,6 +545,7 @@
             "subtype": "STANDARD",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -549,6 +573,7 @@
             "subtype": "STANDARD",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -576,6 +601,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -593,6 +619,12 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "name": "Laser-1-Small-Max-Adc",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -620,6 +652,7 @@
             "subtype": "ACTUAL",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -647,6 +680,7 @@
             "subtype": "ACTUAL",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -667,6 +701,12 @@
             "sample_interval": 0,
             "native_name": ""
           },
+          "mtconnect_schema": {
+            "name": "Laser-1-Small-Max-Line-Sum-X",
+            "data_classification": "Service Facing",
+            "sample_interval": 0,
+            "native_name": ""
+          },
           "meta": {
             "alias": "laser_1.small_max_line_sum_x",
             "hrn": "hrn:30000-0:DataItem:47a745e4a39fbfbf",
@@ -681,6 +721,12 @@
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "name": "Laser-1-Small-Max-Line-Sum-Y",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -708,6 +754,7 @@
             "subtype": "",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -735,6 +782,7 @@
             "subtype": "",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -762,6 +810,7 @@
             "subtype": "STANDARD",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -789,6 +838,7 @@
             "subtype": "STANDARD",
             "units": "MILLIMETER",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
