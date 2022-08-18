@@ -1133,32 +1133,7 @@
         "required": true
       },
       "dataitems": [
-        {
-          "hydra_schema": {
-            "type": "CONDITION",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "native_code": "",
-            "native_severity": "",
-            "sample_interval": 0
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Condition",
-            "category": "CONDITION",
-            "level": "",
-            "message": "",
-            "qualifier": "",
-            "data_classification": "",
-            "sample_interval": 0
-          },
-          "meta": {
-            "alias": "condition.",
-            "hrn": "hrn:34400-0:DataItem:6e0a0bb2647095f5"
-          }
-        }
+
       ]
     }
   ]
