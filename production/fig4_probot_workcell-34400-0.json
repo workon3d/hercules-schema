@@ -207,7 +207,7 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "notes": "Ex. \"3%\"",
             "description": "",
             "servicemax_label": "",
@@ -220,9 +220,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Printer-Job-Progress",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -860,6 +860,11 @@
             "notes": "DELETE",
             "native_name": ""
           },
+          "mtconnect_schema": {
+            "name": "Build-Current-Layer",
+            "data_classification": "Service Facing",
+            "native_name": ""
+          },
           "meta": {
             "alias": "build.current_layer",
             "hrn": "hrn:34400-0:DataItem:42f6523ddedd66c9",
@@ -870,6 +875,11 @@
           "hydra_schema": {
             "type": "SAMPLE_INT",
             "notes": "delete",
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "name": "Build-Time-Remaining",
+            "data_classification": "Service Facing",
             "native_name": ""
           },
           "meta": {
@@ -884,6 +894,11 @@
             "notes": "delete",
             "native_name": ""
           },
+          "mtconnect_schema": {
+            "name": "Build-Progress",
+            "data_classification": "Service Facing",
+            "native_name": ""
+          },
           "meta": {
             "alias": "build.progress",
             "hrn": "hrn:34400-0:DataItem:2c4a9c6b6f0005ef",
@@ -894,6 +909,11 @@
           "hydra_schema": {
             "type": "MESSAGE",
             "notes": "delete",
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "name": "Build-Job-Data",
+            "data_classification": "Service Facing",
             "native_name": ""
           },
           "meta": {
