@@ -332,6 +332,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
+            "notes": "Supported for allevi as of now:\n31: \"Idle\"\n35: \"Printing\"\n45: \"Maintenance\"\n38: \"Print Paused\"\n32: \"IDLE Error\"",
             "native_units": "Enum",
             "native_name": ""
           },
