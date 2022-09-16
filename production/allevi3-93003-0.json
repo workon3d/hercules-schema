@@ -2961,6 +2961,36 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Celcius",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "System-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "system_temperature",
+            "hrn": "hrn:93003-0:DataItem:c4dacb269e9c9108"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
             "description": "",
