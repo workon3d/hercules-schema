@@ -345,7 +345,7 @@
           },
           "mtconnect_schema": {
             "type": "TEMPERATURE",
-            "name": "System-Temperature",
+            "name": "System-Pi-Temperature",
             "category": "SAMPLE",
             "subtype": "",
             "units": "CELSIUS",
@@ -355,7 +355,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "system_temperature",
+            "alias": "system_pi_temperature",
             "hrn": "hrn:93001-0:DataItem:c4dacb269e9c9108"
           }
         },
