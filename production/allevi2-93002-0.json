@@ -431,7 +431,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Extruder-1-Message-Acks",
+            "name": "Extruder-0-Message-Acks",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -441,7 +441,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.message_acks",
+            "alias": "extruder.0.message_acks",
             "hrn": "hrn:93002-0:DataItem:c16e7f79fdc19a57"
           }
         },
@@ -461,7 +461,7 @@
           },
           "mtconnect_schema": {
             "type": "COUNT",
-            "name": "Extruder-1-Message-Counter",
+            "name": "Extruder-0-Message-Counter",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -471,7 +471,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.message_counter",
+            "alias": "extruder.0.message_counter",
             "hrn": "hrn:93002-0:DataItem:6fe6c63c35dd9dcb"
           }
         },
@@ -491,7 +491,7 @@
           },
           "mtconnect_schema": {
             "type": "POWER_STATE",
-            "name": "Extruder-1-Pressure-Active",
+            "name": "Extruder-0-Pressure-Active",
             "category": "EVENT",
             "subtype": "LINE",
             "units": "",
@@ -501,7 +501,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.pressure_active",
+            "alias": "extruder.0.pressure_active",
             "hrn": "hrn:93002-0:DataItem:b00000e5a5d2e308"
           }
         },
@@ -521,7 +521,7 @@
           },
           "mtconnect_schema": {
             "type": "PRESSURE",
-            "name": "Extruder-1-Target-Pressure",
+            "name": "Extruder-0-Target-Pressure",
             "category": "SAMPLE",
             "subtype": "",
             "units": "PASCAL",
@@ -531,7 +531,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.target_pressure",
+            "alias": "extruder.0.target_pressure",
             "hrn": "hrn:93002-0:DataItem:bb516164b6ff7bb2"
           }
         },
@@ -551,7 +551,7 @@
           },
           "mtconnect_schema": {
             "type": "SAMPLE",
-            "name": "Extruder-1-Current-Pressure",
+            "name": "Extruder-0-Current-Pressure",
             "category": "SAMPLE",
             "subtype": "",
             "units": "",
@@ -561,7 +561,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.current_pressure",
+            "alias": "extruder.0.current_pressure",
             "hrn": "hrn:93002-0:DataItem:51984a8f8c28d628"
           }
         },
@@ -581,7 +581,7 @@
           },
           "mtconnect_schema": {
             "type": "FUNCTIONAL_MODE",
-            "name": "Extruder-1-Temperature-Status",
+            "name": "Extruder-0-Temperature-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -591,7 +591,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.temperature_status",
+            "alias": "extruder.0.temperature_status",
             "hrn": "hrn:93002-0:DataItem:f7fc33cfbc6e3a59"
           }
         },
@@ -611,7 +611,7 @@
           },
           "mtconnect_schema": {
             "type": "TEMPERATURE",
-            "name": "Extruder-1-Target-Temperature",
+            "name": "Extruder-0-Target-Temperature",
             "category": "SAMPLE",
             "subtype": "",
             "units": "CELSIUS",
@@ -621,7 +621,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.target_temperature",
+            "alias": "extruder.0.target_temperature",
             "hrn": "hrn:93002-0:DataItem:f77d8150939ab545"
           }
         },
@@ -641,7 +641,7 @@
           },
           "mtconnect_schema": {
             "type": "TEMPERATURE",
-            "name": "Extruder-1-Current-Temperature",
+            "name": "Extruder-0-Current-Temperature",
             "category": "SAMPLE",
             "subtype": "",
             "units": "CELSIUS",
@@ -651,7 +651,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.current_temperature",
+            "alias": "extruder.0.current_temperature",
             "hrn": "hrn:93002-0:DataItem:55219e4270e1223b"
           }
         },
@@ -671,7 +671,7 @@
           },
           "mtconnect_schema": {
             "type": "POWER_STATE",
-            "name": "Extruder-1-Temperature-Active",
+            "name": "Extruder-0-Temperature-Active",
             "category": "EVENT",
             "subtype": "LINE",
             "units": "",
@@ -681,7 +681,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.temperature_active",
+            "alias": "extruder.0.temperature_active",
             "hrn": "hrn:93002-0:DataItem:6894f25a90e804e1"
           }
         },
@@ -701,7 +701,7 @@
           },
           "mtconnect_schema": {
             "type": "INTERFACE_STATE",
-            "name": "Extruder-1-E-Axis-Enabled",
+            "name": "Extruder-0-E-Axis-Enabled",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -711,7 +711,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.e_axis_enabled",
+            "alias": "extruder.0.e_axis_enabled",
             "hrn": "hrn:93002-0:DataItem:f8ae6ac1d7dc8e46"
           }
         },
@@ -731,7 +731,7 @@
           },
           "mtconnect_schema": {
             "type": "POSITION",
-            "name": "Extruder-1-Sent-Target-E-Position",
+            "name": "Extruder-0-Sent-Target-E-Position",
             "category": "SAMPLE",
             "subtype": "STANDARD",
             "units": "MILLIMETER",
@@ -741,7 +741,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.sent_target_e_position",
+            "alias": "extruder.0.sent_target_e_position",
             "hrn": "hrn:93002-0:DataItem:b5a766111c832961"
           }
         },
@@ -761,7 +761,7 @@
           },
           "mtconnect_schema": {
             "type": "POSITION",
-            "name": "Extruder-1-Target-E-Position",
+            "name": "Extruder-0-Target-E-Position",
             "category": "SAMPLE",
             "subtype": "STANDARD",
             "units": "MILLIMETER",
@@ -771,7 +771,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.target_e_position",
+            "alias": "extruder.0.target_e_position",
             "hrn": "hrn:93002-0:DataItem:fa7bdd039d87b4be"
           }
         },
@@ -791,7 +791,7 @@
           },
           "mtconnect_schema": {
             "type": "POSITION",
-            "name": "Extruder-1-Target-Position",
+            "name": "Extruder-0-Target-Position",
             "category": "SAMPLE",
             "subtype": "STANDARD",
             "units": "MILLIMETER",
@@ -801,7 +801,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.target_position",
+            "alias": "extruder.0.target_position",
             "hrn": "hrn:93002-0:DataItem:54b3b5ed6b4474ba"
           }
         },
@@ -821,7 +821,7 @@
           },
           "mtconnect_schema": {
             "type": "POSITION",
-            "name": "Extruder-1-Calibrated-E-Position",
+            "name": "Extruder-0-Calibrated-E-Position",
             "category": "SAMPLE",
             "subtype": "ACTUAL",
             "units": "MILLIMETER",
@@ -831,7 +831,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.calibrated_e_position",
+            "alias": "extruder.0.calibrated_e_position",
             "hrn": "hrn:93002-0:DataItem:a2d2946e5bbb0275"
           }
         },
@@ -851,7 +851,7 @@
           },
           "mtconnect_schema": {
             "type": "POSITION",
-            "name": "Extruder-1-E-Offset",
+            "name": "Extruder-0-E-Offset",
             "category": "SAMPLE",
             "subtype": "ACTUAL",
             "units": "MILLIMETER",
@@ -861,7 +861,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.e_offset",
+            "alias": "extruder.0.e_offset",
             "hrn": "hrn:93002-0:DataItem:9e970743f31233e5"
           }
         },
@@ -881,7 +881,7 @@
           },
           "mtconnect_schema": {
             "type": "POSITION",
-            "name": "Extruder-1-E-Position",
+            "name": "Extruder-0-E-Position",
             "category": "SAMPLE",
             "subtype": "STANDARD",
             "units": "MILLIMETER",
@@ -891,7 +891,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.e_position",
+            "alias": "extruder.0.e_position",
             "hrn": "hrn:93002-0:DataItem:0e3c5ac786d25b0c"
           }
         },
@@ -911,7 +911,7 @@
           },
           "mtconnect_schema": {
             "type": "FUNCTIONAL_MODE",
-            "name": "Extruder-1-Status",
+            "name": "Extruder-0-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -921,8 +921,188 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.status",
+            "alias": "extruder.0.status",
             "hrn": "hrn:93002-0:DataItem:9a2c3d51dce8a9cd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "True extruder currently extruding",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POWER_STATE",
+            "name": "Extruder-0-Active",
+            "category": "EVENT",
+            "subtype": "LINE",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.0.active",
+            "hrn": "hrn:93002-0:DataItem:9ddb3e313e8df13e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "INTERFACE_STATE",
+            "name": "Extruder-0-Calibrated",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.0.calibrated",
+            "hrn": "hrn:93002-0:DataItem:4c312215b676201a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "INTERFACE_STATE",
+            "name": "Extruder-0-Enabled",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.0.enabled",
+            "hrn": "hrn:93002-0:DataItem:b2d2d7e8dd326347"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POWER_STATE",
+            "name": "Extruder-0-Connected",
+            "category": "EVENT",
+            "subtype": "LINE",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.0.connected",
+            "hrn": "hrn:93002-0:DataItem:2a338be06992be83"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Type -1 for disconnected, 1000 for CORE",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "Enum",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FUNCTIONAL_MODE",
+            "name": "Extruder-0-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.0.type",
+            "hrn": "hrn:93002-0:DataItem:b630e733e8e1a58e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "NUMBER",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Extruder-0-Id",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.0.id",
+            "hrn": "hrn:93002-0:DataItem:02c9e9cc7a0ab007"
           }
         },
         {
@@ -952,7 +1132,7 @@
           },
           "meta": {
             "alias": "extruder.1.active",
-            "hrn": "hrn:93002-0:DataItem:9ddb3e313e8df13e"
+            "hrn": "hrn:93002-0:DataItem:6c401dcc4ac84370"
           }
         },
         {
@@ -982,37 +1162,37 @@
           },
           "meta": {
             "alias": "extruder.1.calibrated",
-            "hrn": "hrn:93002-0:DataItem:4c312215b676201a"
+            "hrn": "hrn:93002-0:DataItem:2dd039f3d9842cca"
           }
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
+            "type": "SAMPLE_NUM",
+            "notes": "Position along E -axis where extruder was manually or auto calibrated",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "BOOL",
-            "native_units": "",
+            "native_type": "FLOAT",
+            "native_units": "mm",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "INTERFACE_STATE",
-            "name": "Extruder-1-Enabled",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
+            "type": "POSITION",
+            "name": "Extruder-1-Calibrated-E-Position",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.enabled",
-            "hrn": "hrn:93002-0:DataItem:b2d2d7e8dd326347"
+            "alias": "extruder.1.calibrated_e_position",
+            "hrn": "hrn:93002-0:DataItem:ca7988d538cd7b00"
           }
         },
         {
@@ -1042,26 +1222,86 @@
           },
           "meta": {
             "alias": "extruder.1.connected",
-            "hrn": "hrn:93002-0:DataItem:2a338be06992be83"
+            "hrn": "hrn:93002-0:DataItem:1b8ba29db5a05b6f"
           }
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "Type -1 for disconnected, 1000 for CORE",
+            "type": "SAMPLE_NUM",
+            "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "INT",
-            "native_units": "Enum",
+            "native_type": "FLOAT",
+            "native_units": "PSI",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "FUNCTIONAL_MODE",
-            "name": "Extruder-1-Type",
+            "type": "SAMPLE",
+            "name": "Extruder-1-Current-Pressure",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.1.current_pressure",
+            "hrn": "hrn:93002-0:DataItem:7c322cb1691812f7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "Celcius",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Extruder-1-Current-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.1.current_temperature",
+            "hrn": "hrn:93002-0:DataItem:08e9f6e9f292c9d1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "Disable movement checks for broken actuonix",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "INTERFACE_STATE",
+            "name": "Extruder-1-E-Axis-Enabled",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1071,8 +1311,98 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.1.type",
-            "hrn": "hrn:93002-0:DataItem:b630e733e8e1a58e"
+            "alias": "extruder.1.e_axis_enabled",
+            "hrn": "hrn:93002-0:DataItem:e65095bc1d2f1e31"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Value from P852 calibration to offset in Eposition",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "mm",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Extruder-1-E-Offset",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLIMETER",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.1.e_offset",
+            "hrn": "hrn:93002-0:DataItem:da561e859be229ae"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "Position along e-axis",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "mm",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Extruder-1-E-Position",
+            "category": "SAMPLE",
+            "subtype": "STANDARD",
+            "units": "MILLIMETER",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.1.e_position",
+            "hrn": "hrn:93002-0:DataItem:d448306906e4afd7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "BOOL",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "INTERFACE_STATE",
+            "name": "Extruder-1-Enabled",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.1.enabled",
+            "hrn": "hrn:93002-0:DataItem:2b204c70b9b4a691"
           }
         },
         {
@@ -1102,336 +1432,6 @@
           },
           "meta": {
             "alias": "extruder.1.id",
-            "hrn": "hrn:93002-0:DataItem:02c9e9cc7a0ab007"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "True extruder currently extruding",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "BOOL",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POWER_STATE",
-            "name": "Extruder-2-Active",
-            "category": "EVENT",
-            "subtype": "LINE",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.active",
-            "hrn": "hrn:93002-0:DataItem:6c401dcc4ac84370"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "BOOL",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "INTERFACE_STATE",
-            "name": "Extruder-2-Calibrated",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.calibrated",
-            "hrn": "hrn:93002-0:DataItem:2dd039f3d9842cca"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "Position along E -axis where extruder was manually or auto calibrated",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "mm",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Extruder-2-Calibrated-E-Position",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLIMETER",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.calibrated_e_position",
-            "hrn": "hrn:93002-0:DataItem:ca7988d538cd7b00"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "BOOL",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POWER_STATE",
-            "name": "Extruder-2-Connected",
-            "category": "EVENT",
-            "subtype": "LINE",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.connected",
-            "hrn": "hrn:93002-0:DataItem:1b8ba29db5a05b6f"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "PSI",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "SAMPLE",
-            "name": "Extruder-2-Current-Pressure",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.current_pressure",
-            "hrn": "hrn:93002-0:DataItem:7c322cb1691812f7"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "Celcius",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "TEMPERATURE",
-            "name": "Extruder-2-Current-Temperature",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "CELSIUS",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.current_temperature",
-            "hrn": "hrn:93002-0:DataItem:08e9f6e9f292c9d1"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "Disable movement checks for broken actuonix",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "BOOL",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "INTERFACE_STATE",
-            "name": "Extruder-2-E-Axis-Enabled",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.e_axis_enabled",
-            "hrn": "hrn:93002-0:DataItem:e65095bc1d2f1e31"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "Value from P852 calibration to offset in Eposition",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "mm",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Extruder-2-E-Offset",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLIMETER",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.e_offset",
-            "hrn": "hrn:93002-0:DataItem:da561e859be229ae"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "Position along e-axis",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "mm",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Extruder-2-E-Position",
-            "category": "SAMPLE",
-            "subtype": "STANDARD",
-            "units": "MILLIMETER",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.e_position",
-            "hrn": "hrn:93002-0:DataItem:d448306906e4afd7"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "BOOL",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "INTERFACE_STATE",
-            "name": "Extruder-2-Enabled",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.enabled",
-            "hrn": "hrn:93002-0:DataItem:2b204c70b9b4a691"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "NUMBER",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Extruder-2-Id",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.id",
             "hrn": "hrn:93002-0:DataItem:8eb018739fc6a886"
           }
         },
@@ -1451,7 +1451,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Extruder-2-Message-Acks",
+            "name": "Extruder-1-Message-Acks",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1461,7 +1461,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.message_acks",
+            "alias": "extruder.1.message_acks",
             "hrn": "hrn:93002-0:DataItem:16bbb99c360ded75"
           }
         },
@@ -1481,7 +1481,7 @@
           },
           "mtconnect_schema": {
             "type": "COUNT",
-            "name": "Extruder-2-Message-Counter",
+            "name": "Extruder-1-Message-Counter",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1491,7 +1491,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.message_counter",
+            "alias": "extruder.1.message_counter",
             "hrn": "hrn:93002-0:DataItem:356ae41af04e5967"
           }
         },
@@ -1511,7 +1511,7 @@
           },
           "mtconnect_schema": {
             "type": "POWER_STATE",
-            "name": "Extruder-2-Pressure-Active",
+            "name": "Extruder-1-Pressure-Active",
             "category": "EVENT",
             "subtype": "LINE",
             "units": "",
@@ -1521,7 +1521,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.pressure_active",
+            "alias": "extruder.1.pressure_active",
             "hrn": "hrn:93002-0:DataItem:2f48ae9600e6c33f"
           }
         },
@@ -1541,7 +1541,7 @@
           },
           "mtconnect_schema": {
             "type": "POSITION",
-            "name": "Extruder-2-Sent-Target-E-Position",
+            "name": "Extruder-1-Sent-Target-E-Position",
             "category": "SAMPLE",
             "subtype": "STANDARD",
             "units": "MILLIMETER",
@@ -1551,7 +1551,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.sent_target_e_position",
+            "alias": "extruder.1.sent_target_e_position",
             "hrn": "hrn:93002-0:DataItem:8c8d190b165ba920"
           }
         },
@@ -1571,7 +1571,7 @@
           },
           "mtconnect_schema": {
             "type": "FUNCTIONAL_MODE",
-            "name": "Extruder-2-Status",
+            "name": "Extruder-1-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1581,7 +1581,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.status",
+            "alias": "extruder.1.status",
             "hrn": "hrn:93002-0:DataItem:94175c8570c56166"
           }
         },
@@ -1601,7 +1601,7 @@
           },
           "mtconnect_schema": {
             "type": "POSITION",
-            "name": "Extruder-2-Target-E-Position",
+            "name": "Extruder-1-Target-E-Position",
             "category": "SAMPLE",
             "subtype": "ACTUAL",
             "units": "MILLIMETER",
@@ -1611,7 +1611,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.target_e_position",
+            "alias": "extruder.1.target_e_position",
             "hrn": "hrn:93002-0:DataItem:f13e940851ed2ee7"
           }
         },
@@ -1631,7 +1631,7 @@
           },
           "mtconnect_schema": {
             "type": "POSITION",
-            "name": "Extruder-2-Target-Position",
+            "name": "Extruder-1-Target-Position",
             "category": "SAMPLE",
             "subtype": "ACTUAL",
             "units": "MILLIMETER",
@@ -1641,7 +1641,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.target_position",
+            "alias": "extruder.1.target_position",
             "hrn": "hrn:93002-0:DataItem:9705ed7f835c0635"
           }
         },
@@ -1661,7 +1661,7 @@
           },
           "mtconnect_schema": {
             "type": "PRESSURE",
-            "name": "Extruder-2-Target-Pressure",
+            "name": "Extruder-1-Target-Pressure",
             "category": "SAMPLE",
             "subtype": "",
             "units": "PASCAL",
@@ -1671,7 +1671,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.target_pressure",
+            "alias": "extruder.1.target_pressure",
             "hrn": "hrn:93002-0:DataItem:3311142a9eb99e8a"
           }
         },
@@ -1691,7 +1691,7 @@
           },
           "mtconnect_schema": {
             "type": "TEMPERATURE",
-            "name": "Extruder-2-Target-Temperature",
+            "name": "Extruder-1-Target-Temperature",
             "category": "SAMPLE",
             "subtype": "",
             "units": "CELSIUS",
@@ -1701,7 +1701,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.target_temperature",
+            "alias": "extruder.1.target_temperature",
             "hrn": "hrn:93002-0:DataItem:faea420097b3bbb1"
           }
         },
@@ -1721,7 +1721,7 @@
           },
           "mtconnect_schema": {
             "type": "POWER_STATE",
-            "name": "Extruder-2-Temperature-Active",
+            "name": "Extruder-1-Temperature-Active",
             "category": "EVENT",
             "subtype": "LINE",
             "units": "",
@@ -1731,7 +1731,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.temperature_active",
+            "alias": "extruder.1.temperature_active",
             "hrn": "hrn:93002-0:DataItem:df6b802862cfdf36"
           }
         },
@@ -1751,7 +1751,7 @@
           },
           "mtconnect_schema": {
             "type": "FUNCTIONAL_MODE",
-            "name": "Extruder-2-Temperature-Status",
+            "name": "Extruder-1-Temperature-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1761,7 +1761,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.temperature_status",
+            "alias": "extruder.1.temperature_status",
             "hrn": "hrn:93002-0:DataItem:bf23d3f214a1f90a"
           }
         },
@@ -1781,7 +1781,7 @@
           },
           "mtconnect_schema": {
             "type": "FUNCTIONAL_MODE",
-            "name": "Extruder-2-Type",
+            "name": "Extruder-1-Type",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1791,98 +1791,8 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "extruder.2.type",
+            "alias": "extruder.1.type",
             "hrn": "hrn:93002-0:DataItem:7a76c79577c000a3"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "mm",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Extruder-2-Position-X",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.position_x",
-            "hrn": "hrn:93002-0:DataItem:8d1e46aee5fb4224"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "mm",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Extruder-2-Position-Y",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.position_y",
-            "hrn": "hrn:93002-0:DataItem:2cad8c622a73a7a1"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "mm",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "POSITION",
-            "name": "Extruder-2-Position-Z",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "extruder.2.position_z",
-            "hrn": "hrn:93002-0:DataItem:c888eb9ea447e825"
           }
         },
         {
@@ -1912,7 +1822,7 @@
           },
           "meta": {
             "alias": "extruder.1.position_x",
-            "hrn": "hrn:93002-0:DataItem:0a3376cb5ce8ac6e"
+            "hrn": "hrn:93002-0:DataItem:8d1e46aee5fb4224"
           }
         },
         {
@@ -1942,7 +1852,7 @@
           },
           "meta": {
             "alias": "extruder.1.position_y",
-            "hrn": "hrn:93002-0:DataItem:0e1ec948c99c5abd"
+            "hrn": "hrn:93002-0:DataItem:2cad8c622a73a7a1"
           }
         },
         {
@@ -1972,6 +1882,96 @@
           },
           "meta": {
             "alias": "extruder.1.position_z",
+            "hrn": "hrn:93002-0:DataItem:c888eb9ea447e825"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "mm",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Extruder-0-Position-X",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.0.position_x",
+            "hrn": "hrn:93002-0:DataItem:0a3376cb5ce8ac6e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "mm",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Extruder-0-Position-Y",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.0.position_y",
+            "hrn": "hrn:93002-0:DataItem:0e1ec948c99c5abd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "mm",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "POSITION",
+            "name": "Extruder-0-Position-Z",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "extruder.0.position_z",
             "hrn": "hrn:93002-0:DataItem:7693cc20fbcf41cf"
           }
         }
