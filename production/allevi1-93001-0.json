@@ -33,7 +33,7 @@
       },
       "meta": {
         "alias": "stagelight",
-        "hrn": "hrn:93001-0:Component:da65b978ad1cf5b1"
+        "hrn": "hrn:93001-0:Component:edec7956fcc9e7b2"
       },
       "dataitems": [
         {
@@ -52,7 +52,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Stageloghr-Blue",
+            "name": "Stagelight-Red",
             "category": "",
             "subtype": "",
             "units": "",
@@ -62,7 +62,37 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "stageloghr.blue",
+            "alias": "stagelight.red",
+            "hrn": "hrn:93001-0:DataItem:43a361065a972c5d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Stagelight-Blue",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stagelight.blue",
             "hrn": "hrn:93001-0:DataItem:820c23b53e2280db"
           }
         },
@@ -94,36 +124,6 @@
           "meta": {
             "alias": "stagelight.green",
             "hrn": "hrn:93001-0:DataItem:50cfaef8e1b1c026"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
-            "name": "Stagelight-Red",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stagelight.red",
-            "hrn": "hrn:93001-0:DataItem:43a361065a972c5d"
           }
         }
       ]
