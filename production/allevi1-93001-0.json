@@ -38,20 +38,20 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "EVENT_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "NUMBER",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "COUNT",
             "name": "Stagelight-Blue",
             "category": "EVENT",
             "subtype": "",
@@ -68,20 +68,20 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "NUMBER",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "COUNT",
             "name": "Stagelight-Red",
             "category": "EVENT",
             "subtype": "",
@@ -98,20 +98,20 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "NUMBER",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "COUNT",
             "name": "Stagelight-Green",
             "category": "EVENT",
             "subtype": "",
