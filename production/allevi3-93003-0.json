@@ -51,7 +51,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "COUNT",
+            "type": "MESSAGE",
             "name": "Stagelight-Blue",
             "category": "EVENT",
             "subtype": "",
@@ -81,7 +81,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "COUNT",
+            "type": "MESSAGE",
             "name": "Stagelight-Green",
             "category": "EVENT",
             "subtype": "",
@@ -111,7 +111,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "COUNT",
+            "type": "MESSAGE",
             "name": "Stagelight-Red",
             "category": "EVENT",
             "subtype": "",
