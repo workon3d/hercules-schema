@@ -33,27 +33,27 @@
       },
       "meta": {
         "alias": "stagelight",
-        "hrn": "hrn:93001-0:Component:da65b978ad1cf5b1"
+        "hrn": "hrn:93001-0:Component:edec7956fcc9e7b2"
       },
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "NUMBER",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
-            "name": "Stageloghr-Blue",
-            "category": "",
+            "type": "MESSAGE",
+            "name": "Stagelight-Blue",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -62,58 +62,28 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "stageloghr.blue",
-            "hrn": "hrn:93001-0:DataItem:820c23b53e2280db"
+            "alias": "stagelight.blue",
+            "hrn": "hrn:93001-0:DataItem:529866785fdbdc0d"
           }
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "NUMBER",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
-            "name": "Stagelight-Green",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "stagelight.green",
-            "hrn": "hrn:93001-0:DataItem:50cfaef8e1b1c026"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Stagelight-Red",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -123,7 +93,37 @@
           },
           "meta": {
             "alias": "stagelight.red",
-            "hrn": "hrn:93001-0:DataItem:43a361065a972c5d"
+            "hrn": "hrn:93001-0:DataItem:61848e02d11146d7"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "NUMBER",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stagelight-Green",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stagelight.green",
+            "hrn": "hrn:93001-0:DataItem:4177bc920998d95a"
           }
         }
       ]
@@ -1035,7 +1035,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Extruder-0-Led-Intensity",
             "category": "EVENT",
             "subtype": "",
@@ -1065,7 +1065,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Extruder-0-Led-Enabled",
             "category": "EVENT",
             "subtype": "",
