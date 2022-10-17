@@ -569,7 +569,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "FUNCTIONAL_MODE",
             "name": "Extruder-2-Led-Type",
             "category": "EVENT",
             "subtype": "",
@@ -599,7 +599,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "POWER_FACTOR",
+            "type": "MESSAGE",
             "name": "Extruder-2-Led-Intensity",
             "category": "EVENT",
             "subtype": "",
@@ -629,7 +629,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Extruder-2-Led-Enabled",
             "category": "EVENT",
             "subtype": "",
@@ -719,7 +719,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Extruder-1-Led-Intensity",
             "category": "EVENT",
             "subtype": "",
@@ -749,7 +749,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Extruder-1-Led-Enabled",
             "category": "EVENT",
             "subtype": "",
@@ -839,7 +839,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "POWER_FACTOR",
+            "type": "MESSAGE",
             "name": "Extruder-0-Led-Intensity",
             "category": "EVENT",
             "subtype": "",
@@ -869,7 +869,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Extruder-0-Led-Enabled",
             "category": "EVENT",
             "subtype": "",
