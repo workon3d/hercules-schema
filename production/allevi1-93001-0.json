@@ -1035,7 +1035,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Extruder-0-Led-Intensity",
             "category": "EVENT",
             "subtype": "",
@@ -1065,7 +1065,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "INTERFACE_STATE",
             "name": "Extruder-0-Led-Enabled",
             "category": "EVENT",
             "subtype": "",
