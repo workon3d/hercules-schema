@@ -2796,17 +2796,95 @@
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "native_code": "",
-            "native_severity": "",
+            "native_code": "0",
+            "native_severity": "0",
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "CONDITION",
+            "name": "Fault-Post-Increase-Pressure-Adjust-Error-E2",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.post_increase_pressure_adjust_error_e2",
+            "hrn": "hrn:93002-0:DataItem:558462b3f2dd4bbd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Post-Increase-Pressure-Adjust-Error-E1",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.post_increase_pressure_adjust_error_e1",
+            "hrn": "hrn:93002-0:DataItem:24bb0ea622febb24"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Last-Print-Cancelled",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.last_print_cancelled",
+            "hrn": "hrn:93002-0:DataItem:45b955a2dd649309"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
             "name": "Fault-Last-Print-Killed",
             "category": "CONDITION",
-            "level": "",
+            "level": "ANY",
             "message": "",
-            "qualifier": "",
+            "qualifier": "0",
             "data_classification": "",
             "sample_interval": 0
           },
