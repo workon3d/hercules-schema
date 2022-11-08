@@ -1214,11 +1214,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "P",
             "name": "Pneumatic-Chamber-Relative-Pressure",
             "category": "",
             "subtype": "",
-            "units": "",
+            "units": "PASCAL",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1270,7 +1270,7 @@
             "name": "Pneumatic-Blower-Temperature",
             "category": "",
             "subtype": "",
-            "units": "",
+            "units": "CELSIUS",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1712,7 +1712,7 @@
             "name": "Pneumatic-Argon-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "PASCAL",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
