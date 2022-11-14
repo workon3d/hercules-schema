@@ -51,11 +51,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "EQUIPMENT_TIMER",
             "name": "Laser-2-Total-Hours",
-            "category": "",
-            "subtype": "",
-            "units": "",
+            "category": "SAMPLE",
+            "subtype": "OPERATING",
+            "units": "SECOND",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -81,11 +81,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "TEMPERATURE",
             "name": "Laser-2-Temperature",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "CELSIUS",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -98,7 +98,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "EVENT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -111,9 +111,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "SERIAL_NUMBER",
             "name": "Laser-2-Serial-Number",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -141,11 +141,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "WATTAGE",
             "name": "Laser-2-Max-Calibrated-Power",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "WATT",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -158,7 +158,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -171,9 +171,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Laser-2-Firmware-Version",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -196,14 +196,14 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "transmission_timing": "",
+            "transmission_timing": "Emit when Value Change Real Time + only when printing",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "",
             "name": "Laser-2-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -250,9 +250,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "SERIAL_NUMBER",
             "name": "Scanner-2-Serial-Number",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -267,7 +267,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -280,9 +280,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Scanner-2-Firmware-Version",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -562,7 +562,7 @@
           "mtconnect_schema": {
             "type": "",
             "name": "Laser-1-Status",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1237,7 +1237,7 @@
             "name": "Pneumatic-Argon-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "PASCAL",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
