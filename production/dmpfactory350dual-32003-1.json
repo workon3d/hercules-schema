@@ -1585,7 +1585,7 @@
           "mtconnect_schema": {
             "type": "",
             "name": "Laser-1-Status",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1947,7 +1947,7 @@
           "mtconnect_schema": {
             "type": "",
             "name": "Laser-2-Status",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
