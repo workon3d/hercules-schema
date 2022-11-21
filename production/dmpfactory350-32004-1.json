@@ -1244,7 +1244,7 @@
             "name": "Pneumatic-Argon-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "PASCAL",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1942,9 +1942,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Laser-1-Status",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
