@@ -202,7 +202,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Laser-2-State",
+            "name": "Laser-2-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -212,7 +212,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser_2.state",
+            "alias": "laser_2.status",
             "hrn": "hrn:32003-0:DataItem:fe02257b6d9bf0ee"
           }
         }
@@ -560,7 +560,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Laser-1-Status",
             "category": "EVENT",
             "subtype": "",
