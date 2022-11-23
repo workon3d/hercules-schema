@@ -1945,7 +1945,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "M",
             "name": "Laser-2-Status",
             "category": "EVENT",
             "subtype": "",
