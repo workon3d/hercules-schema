@@ -154,12 +154,12 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "CONDITION",
             "name": "Fault-Pressure-Adjust-Timeout",
             "category": "CONDITION",
-            "level": "",
+            "level": "ANY",
             "message": "",
-            "qualifier": "",
+            "qualifier": "0",
             "data_classification": "",
             "sample_interval": 0
           },
@@ -180,12 +180,12 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "CONDITION",
             "name": "Fault-Post-Increase-Pressure-Adjust-Error-E2",
             "category": "CONDITION",
-            "level": "",
+            "level": "ANY",
             "message": "",
-            "qualifier": "",
+            "qualifier": "0",
             "data_classification": "",
             "sample_interval": 0
           },
@@ -206,12 +206,12 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "CONDITION",
             "name": "Fault-Post-Increase-Pressure-Adjust-Error-E1",
             "category": "CONDITION",
-            "level": "",
+            "level": "ANY",
             "message": "",
-            "qualifier": "",
+            "qualifier": "0",
             "data_classification": "",
             "sample_interval": 0
           },
@@ -232,12 +232,12 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "CONDITION",
             "name": "Fault-Last-Print-Killed",
             "category": "CONDITION",
-            "level": "",
+            "level": "ANY",
             "message": "",
-            "qualifier": "",
+            "qualifier": "0",
             "data_classification": "",
             "sample_interval": 0
           },
@@ -258,10 +258,10 @@
             "sample_interval": 0
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "CONDITION",
             "name": "Fault-Last-Print-Cancelled",
             "category": "CONDITION",
-            "level": "",
+            "level": "ANY",
             "message": "",
             "qualifier": "",
             "data_classification": "",
