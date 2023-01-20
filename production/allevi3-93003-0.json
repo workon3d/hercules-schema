@@ -4111,6 +4111,344 @@
           },
           "mtconnect_schema": {
             "type": "CONDITION",
+            "name": "Fault-Autocal-Cancelled-Extruder-Temperature",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.autocal_cancelled_extruder_temperature",
+            "hrn": "hrn:93003-0:DataItem:5047958d3e3926b3"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Autocal-Extruder-Tip-Position-Timeout",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.autocal_extruder_tip_position_timeout",
+            "hrn": "hrn:93003-0:DataItem:92aed9d36a00d6f4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Autocal-Timeout",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.autocal_timeout",
+            "hrn": "hrn:93003-0:DataItem:79acc8380a7f885c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Autocal-Screen-Connection",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.autocal_screen_connection",
+            "hrn": "hrn:93003-0:DataItem:04017942864575e0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Autocal-Bed-Stop-Before-Touch",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.autocal_bed_stop_before_touch",
+            "hrn": "hrn:93003-0:DataItem:c6c53dcbfc1b1ad0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Autocal-Touch-While-Bed-Moving",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.autocal_touch_while_bed_moving",
+            "hrn": "hrn:93003-0:DataItem:8840502406a78a80"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Autocal-Extruder-Connection",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.autocal_extruder_connection",
+            "hrn": "hrn:93003-0:DataItem:1df71d85a792ed05"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Autocal-Extruder-Detect",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.autocal_extruder_detect",
+            "hrn": "hrn:93003-0:DataItem:cf5a38bcd8bb58de"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Z-Probe-Wire",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.z_probe_wire",
+            "hrn": "hrn:93003-0:DataItem:54490a312acffd74"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Extruder-Retract",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.extruder_retract",
+            "hrn": "hrn:93003-0:DataItem:9e0ff4084d2bddb2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Extruder-Position",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.extruder_position",
+            "hrn": "hrn:93003-0:DataItem:2aa2638288b52905"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Extruder-Move-Down",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.extruder_move_down",
+            "hrn": "hrn:93003-0:DataItem:9e00036cb3fac849"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
+            "name": "Fault-Motor-Board-Shutdown",
+            "category": "CONDITION",
+            "level": "ANY",
+            "message": "",
+            "qualifier": "0",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.motor_board_shutdown",
+            "hrn": "hrn:93003-0:DataItem:e5a50c1b7fd8e6bf"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "0",
+            "native_severity": "0",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "CONDITION",
             "name": "Fault-Pressure-Adjust-Timeout",
             "category": "CONDITION",
             "level": "ANY",
