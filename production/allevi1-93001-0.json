@@ -363,7 +363,7 @@
           },
           "mtconnect_schema": {
             "type": "CONDITION",
-            "name": "Fault-Z-Probe-Wire",
+            "name": "Fault-Autocal-Z-Probe-Wire",
             "category": "CONDITION",
             "level": "ANY",
             "message": "",
@@ -372,7 +372,7 @@
             "sample_interval": 0
           },
           "meta": {
-            "alias": "fault.z_probe_wire",
+            "alias": "fault.autocal_z_probe_wire",
             "hrn": "hrn:93001-0:DataItem:54490a312acffd74"
           }
         },
