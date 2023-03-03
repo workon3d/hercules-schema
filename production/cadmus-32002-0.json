@@ -912,6 +912,37 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
+            "notes": "(0 : not inerting, 1 : interting)",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Inerting-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.inerting.active",
+            "hrn": "hrn:32002-0:DataItem:fa904061b6c9cfad",
+            "origin": "32001-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
             "notes": "(0:up, 1:down, 2:error)",
             "description": "",
             "data_source": "",
