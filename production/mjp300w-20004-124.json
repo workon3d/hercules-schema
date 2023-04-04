@@ -26,6 +26,85 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
+        "name": "Planarizer-Belt",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "planarizer_belt",
+        "hrn": "hrn:20004-124:Component:b2e2d89ca2d52e93"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_LONG",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "UNSIGNED INTEGER",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Planarizer-Belt-Roller-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "planarizer_belt.roller_count",
+            "hrn": "hrn:20004-124:DataItem:d25f613dbf4a3010"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Planarizer-Belt-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "planarizer_belt.temperature",
+            "hrn": "hrn:20004-124:DataItem:af32127f29a59c34"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
         "name": "Stock-Support-2",
         "tag": "",
         "native_name": "",
@@ -2227,7 +2306,7 @@
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
-            "data_source": "",
+            "data_source": "10400 = GET_MUD_INFO",
             "native_type": "INT",
             "native_units": "",
             "transmission_timing": "",
