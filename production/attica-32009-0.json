@@ -1796,6 +1796,37 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
+            "notes": "PRM model",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Platform-Rpm-Model",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build_platform.rpm.model",
+            "hrn": "hrn:32009-0:DataItem:9098fbef65251758",
+            "origin": "32000-0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
             "notes": "Details about the connected Removable Print Module (RPM)",
             "description": "",
             "servicemax_label": "",
