@@ -582,9 +582,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "name": "Controller-Mac-Address",
-            "category": "MESSAGE",
+            "category": "EVENT",
             "subtype": "MESSAGE",
             "native_name": ""
           },
