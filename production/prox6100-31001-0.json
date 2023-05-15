@@ -1792,6 +1792,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1818,6 +1819,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1844,6 +1846,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1951,6 +1954,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1977,6 +1981,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2003,6 +2008,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2029,6 +2035,7 @@
             "subtype": "",
             "units": "OHM",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2055,6 +2062,7 @@
             "subtype": "",
             "units": "COUNT",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2081,6 +2089,7 @@
             "subtype": "ACTUAL",
             "units": "AMPERE",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2350,6 +2359,7 @@
             "subtype": "",
             "units": "PERCENT",
             "representation": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
