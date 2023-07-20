@@ -38,36 +38,6 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_LONG",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "UNSIGNED INTEGER",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Planarizer-Belt-Roller-Count",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "planarizer_belt.roller_count",
-            "hrn": "hrn:20004-124:DataItem:d25f613dbf4a3010"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
@@ -2541,6 +2511,36 @@
         "required": true
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Operator-Maintenance-Planarizer-Roller-Rotation-Count",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "operator_maintenance.planarizer_roller_rotation.count",
+            "hrn": "hrn:20004-124:DataItem:d25f613dbf4a3010"
+          }
+        },
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
