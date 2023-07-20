@@ -2587,36 +2587,6 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Operator-Maintenance-Plaarizer-Roller-Rotation-Count",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "operator_maintenance.plaarizer_roller_rotation.count",
-            "hrn": "hrn:20004-124:DataItem:ee5c996f7db902c9"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "20090 = GET_OPERATOR_MAINTEANCE_CONDITIONS and Adder Data Repo",
-            "native_type": "DOUBLE",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
             "name": "Operator-Maintenance-Print-Carriage-Optical-Home-Sensor-Percent",
             "category": "EVENT",
             "subtype": "",
