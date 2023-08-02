@@ -2045,7 +2045,7 @@
             "name": "Build-Total-Layers",
             "category": "EVENT",
             "subtype": "",
-            "units": "COUNT",
+            "units": "",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -2124,7 +2124,7 @@
             "name": "Build-Current-Layer",
             "category": "EVENT",
             "subtype": "GOOD",
-            "units": "COUNT",
+            "units": "",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
