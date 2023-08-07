@@ -1997,7 +1997,7 @@
             "servicemax_type": "Number",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "Hours",
+            "native_units": "seconds",
             "sample_interval": 0,
             "native_name": ""
           },
