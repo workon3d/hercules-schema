@@ -1970,7 +1970,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1979,7 +1979,7 @@
             "name": "Lifetime-On-Hours",
             "category": "SAMPLE",
             "subtype": "POWERED",
-            "units": "",
+            "units": "SECOND",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1996,7 +1996,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
