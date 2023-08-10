@@ -895,7 +895,7 @@
             "name": "Z-Motor-Position",
             "category": "SAMPLE",
             "subtype": "ACTUAL",
-            "units": "MILLIMETER",
+            "units": "MICRONS",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1373,7 +1373,7 @@
             "servicemax_type": "Number",
             "data_source": "",
             "native_type": "",
-            "native_units": "HOURS",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
