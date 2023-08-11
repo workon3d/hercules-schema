@@ -1339,7 +1339,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Total time printed on the printer (lifetime)",
             "description": "",
             "servicemax_label": "Lifetime Build Hours (s)",
             "servicemax_type": "Number",
@@ -1367,7 +1367,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Total time the printer was powered on (lifetime)",
             "description": "",
             "servicemax_label": "Lifetime On Hours (s)",
             "servicemax_type": "Number",
