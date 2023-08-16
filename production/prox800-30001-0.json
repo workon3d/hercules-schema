@@ -1150,7 +1150,7 @@
             "name": "Stock-Level",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "COUNT",
+            "units": "",
             "representation": "",
             "data_classification": "Service Facing",
             "sample_interval": 0,
