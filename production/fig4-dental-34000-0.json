@@ -887,7 +887,7 @@
             "name": "Build-Current-Layer",
             "category": "EVENT",
             "subtype": "GOOD",
-            "units": "COUNT",
+            "units": "",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1033,7 +1033,7 @@
             "name": "Controller-Secure-Device-Read-Failure-Count",
             "category": "EVENT",
             "subtype": "",
-            "units": "COUNT",
+            "units": "",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
