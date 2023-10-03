@@ -2108,7 +2108,7 @@
             "servicemax_type": "Number",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "seconds",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2944,7 +2944,7 @@
             "servicemax_type": "Number",
             "data_source": "",
             "native_type": "",
-            "native_units": "Hours",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2953,7 +2953,7 @@
             "name": "Lifetime-On-Hours",
             "category": "SAMPLE",
             "subtype": "POWERED",
-            "units": "",
+            "units": "SECOND",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -3225,6 +3225,164 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
+        "name": "Scanner3",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "scanner3",
+        "hrn": "hrn:32009-0:Component:f440c19b36963c4f"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "Scanner 3 Serial Number",
+            "servicemax_type": "Text",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Scanner3-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "scanner3.serial_number",
+            "hrn": "hrn:32009-0:DataItem:be2a59d3af025f59"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Scanner3-Firmware-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "scanner3.firmware_version",
+            "hrn": "hrn:32009-0:DataItem:d715e02b9771c38f"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Scanner2",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "scanner2",
+        "hrn": "hrn:32009-0:Component:cabc9d79a8d30183"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "\tScanner 2 Serial Number",
+            "servicemax_type": "Text",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Scanner2-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "scanner2.serial_number",
+            "hrn": "hrn:32009-0:DataItem:f3d2d3e5513c9707"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Scanner2-Firmware-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "scanner2.firmware_version",
+            "hrn": "hrn:32009-0:DataItem:847e5a155e9cf363"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
         "name": "Laser3",
         "tag": "",
         "native_name": "",
@@ -3240,8 +3398,8 @@
             "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
+            "servicemax_label": "Laser 3 Total Hours (s)",
+            "servicemax_type": "Number",
             "data_source": "",
             "native_type": "INT",
             "native_units": "Hours",
@@ -3250,11 +3408,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "EQUIPMENT_TIMER",
             "name": "Laser3-Total-Hours",
-            "category": "",
-            "subtype": "",
-            "units": "",
+            "category": "SAMPLE",
+            "subtype": "OPERATING",
+            "units": "SECOND",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -3280,11 +3438,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "TEMPERATURE",
             "name": "Laser3-Temperature",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "CELSIUS",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -3298,21 +3456,21 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "\"Communication not initialized\", \"Communication not running\", \"Emission On\",\"Emission Off\",\"Power supply OFF\"",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "transmission_timing": "",
+            "transmission_timing": "Emit when Value Change Real Time + only when printing",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Laser3-Status",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -3328,9 +3486,9 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "\"Communication not initialized\", \"Communication not running\", \"Emission On\",\"Emission Off\",\"Power supply OFF\"",
+            "notes": "",
             "description": "",
-            "servicemax_label": "",
+            "servicemax_label": "Laser 3 Serial Number",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3340,9 +3498,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "SERIAL_NUMBER",
             "name": "Laser3-Serial-Number",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -3360,8 +3518,8 @@
             "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
+            "servicemax_label": "Laser 3 Max Calibrated Power \t\t",
+            "servicemax_type": "Number",
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Watts",
@@ -3370,11 +3528,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "WATTAGE",
             "name": "Laser3-Max-Calibrated-Power",
-            "category": "",
-            "subtype": "",
-            "units": "",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "WATT",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -3390,7 +3548,7 @@
             "type": "MESSAGE",
             "notes": "",
             "description": "",
-            "servicemax_label": "",
+            "servicemax_label": "\t",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3400,9 +3558,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Laser3-Firmware-Version",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -3439,8 +3597,8 @@
             "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
+            "servicemax_label": "Laser 2 Total Hours (s)",
+            "servicemax_type": "Number",
             "data_source": "",
             "native_type": "INT",
             "native_units": "Hours",
@@ -3449,11 +3607,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "EQUIPMENT_TIMER",
             "name": "Laser2-Total-Hours",
-            "category": "",
-            "subtype": "",
-            "units": "",
+            "category": "SAMPLE",
+            "subtype": "OPERATING",
+            "units": "SECOND",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -3479,11 +3637,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "TEMPERATURE",
             "name": "Laser2-Temperature",
-            "category": "",
+            "category": "SAMPLE",
             "subtype": "",
-            "units": "",
+            "units": "CELSIUS",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -3504,14 +3662,14 @@
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
-            "transmission_timing": "",
+            "transmission_timing": "Emit when Value Change Real Time + only when printing",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Laser2-Status",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -3529,8 +3687,8 @@
             "type": "EVENT",
             "notes": "",
             "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
+            "servicemax_label": "Laser 2 Serial Number",
+            "servicemax_type": "Text",
             "data_source": "",
             "native_type": "STRING",
             "native_units": "",
@@ -3539,9 +3697,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "SERIAL_NUMBER",
             "name": "Laser2-Serial-Number",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -3559,8 +3717,8 @@
             "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
+            "servicemax_label": "Laser 2 Max Calibrated Power \t\t",
+            "servicemax_type": "Number",
             "data_source": "",
             "native_type": "FLOAT",
             "native_units": "Watts",
@@ -3569,11 +3727,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "WATTAGE",
             "name": "Laser2-Max-Calibrated-Power",
-            "category": "",
-            "subtype": "",
-            "units": "",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "WATT",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -3599,9 +3757,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Laser2-Firmware-Version",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
