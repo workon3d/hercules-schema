@@ -2078,7 +2078,7 @@
             "servicemax_type": "Number",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "seconds",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2914,7 +2914,7 @@
             "servicemax_type": "Number",
             "data_source": "",
             "native_type": "",
-            "native_units": "Hours",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2923,7 +2923,7 @@
             "name": "Lifetime-On-Hours",
             "category": "SAMPLE",
             "subtype": "POWERED",
-            "units": "",
+            "units": "SECOND",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
