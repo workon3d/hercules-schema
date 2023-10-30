@@ -2546,7 +2546,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Does this exist?",
+            "notes": "Planed but never implemented",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2572,7 +2572,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Does this exist?",
+            "notes": "For DMP500 only",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2598,7 +2598,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Does this exist?",
+            "notes": "Planed but never implemented",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2614,7 +2614,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Does this exist?",
+            "notes": "For DMP500 only",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2861,7 +2861,7 @@
             "name": "Oxygen-Sensor-Percent-Value",
             "category": "EVENT",
             "subtype": "",
-            "units": "",
+            "units": "PERCENT",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
