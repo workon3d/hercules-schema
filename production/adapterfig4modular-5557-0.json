@@ -550,7 +550,7 @@
           "mtconnect_schema": {
             "type": "CLOCK_TIME",
             "name": "Controller-Boot-Time",
-            "category": "SAMPLE",
+            "category": "EVENT",
             "subtype": "",
             "units": "YYYY-MM-DDThh:mm:ss.ffff",
             "representation": "",
