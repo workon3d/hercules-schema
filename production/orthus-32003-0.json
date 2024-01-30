@@ -1228,7 +1228,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "Pa",
+            "native_units": "bar",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1237,7 +1237,7 @@
             "name": "Pneumatic-Argon-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "PASCAL",
+            "units": "BAR",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1254,7 +1254,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "mbar",
+            "native_units": "bar",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1263,7 +1263,7 @@
             "name": "Pneumatic-Compressed-Air-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "PASCAL",
+            "units": "BAR",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
