@@ -993,7 +993,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "Pa",
+            "native_units": "bar",
             "sample_interval": 0,
             "native_name": ""
           },
