@@ -1246,7 +1246,7 @@
             "name": "Pneumatic-Compressed-Air-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "PASCAL",
+            "units": "BAR",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1273,7 +1273,7 @@
             "name": "Pneumatic-Argon-Pressure",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "PASCAL",
+            "units": "BAR",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
