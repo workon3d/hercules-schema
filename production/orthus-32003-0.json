@@ -1280,7 +1280,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "mbar",
             "sample_interval": 0,
             "native_name": ""
           },
