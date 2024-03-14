@@ -808,6 +808,37 @@
         },
         {
           "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Controller-Test",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "controller.test",
+            "hrn": "hrn:32009-0:DataItem:8acd17c349dd2f53",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
             "description": "",
@@ -1751,7 +1782,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : clockwise, 1 : counter clockwise",
+            "notes": "0 : clockwise, 1 : counter clockwise\nNot available on Dual/Triple",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
