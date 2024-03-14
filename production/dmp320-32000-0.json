@@ -1653,7 +1653,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : clockwise, 1 : counter clockwise",
+            "notes": "0 : clockwise, 1 : counter clockwise\nNot available on Dual/Triple",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
