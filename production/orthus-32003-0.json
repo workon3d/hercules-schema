@@ -2245,7 +2245,7 @@
           "mtconnect_schema": {
             "type": "CLOCK_TIME",
             "name": "Machine-Assembly-Date",
-            "category": "SAMPLE",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -2271,7 +2271,7 @@
           "mtconnect_schema": {
             "type": "CLOCK_TIME",
             "name": "Machine-Install-Date",
-            "category": "SAMPLE",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
