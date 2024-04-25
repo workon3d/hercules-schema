@@ -3282,7 +3282,7 @@
           },
           "mtconnect_schema": {
             "type": "SERIAL_NUMBER",
-            "name": "Scanner3-Serial-Number",
+            "name": "Scanner-3-Serial-Number",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -3292,7 +3292,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "scanner3.serial_number",
+            "alias": "scanner_3.serial_number",
             "hrn": "hrn:32009-0:DataItem:be2a59d3af025f59"
           }
         },
@@ -3312,7 +3312,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Scanner3-Firmware-Version",
+            "name": "Scanner-3-Firmware-Version",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -3322,7 +3322,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "scanner3.firmware_version",
+            "alias": "scanner_3.firmware_version",
             "hrn": "hrn:32009-0:DataItem:d715e02b9771c38f"
           }
         }
@@ -3361,7 +3361,7 @@
           },
           "mtconnect_schema": {
             "type": "SERIAL_NUMBER",
-            "name": "Scanner2-Serial-Number",
+            "name": "Scanner-2-Serial-Number",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -3371,7 +3371,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "scanner2.serial_number",
+            "alias": "scanner_2.serial_number",
             "hrn": "hrn:32009-0:DataItem:f3d2d3e5513c9707"
           }
         },
@@ -3391,7 +3391,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Scanner2-Firmware-Version",
+            "name": "Scanner-2-Firmware-Version",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -3401,7 +3401,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "scanner2.firmware_version",
+            "alias": "scanner_2.firmware_version",
             "hrn": "hrn:32009-0:DataItem:847e5a155e9cf363"
           }
         }
@@ -3440,7 +3440,7 @@
           },
           "mtconnect_schema": {
             "type": "EQUIPMENT_TIMER",
-            "name": "Laser3-Total-Hours",
+            "name": "Laser-3-Total-Hours",
             "category": "SAMPLE",
             "subtype": "OPERATING",
             "units": "SECOND",
@@ -3450,7 +3450,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser3.total_hours",
+            "alias": "laser_3.total_hours",
             "hrn": "hrn:32009-0:DataItem:f20ff94f89cd59f6"
           }
         },
@@ -3470,7 +3470,7 @@
           },
           "mtconnect_schema": {
             "type": "TEMPERATURE",
-            "name": "Laser3-Temperature",
+            "name": "Laser-3-Temperature",
             "category": "SAMPLE",
             "subtype": "",
             "units": "CELSIUS",
@@ -3480,7 +3480,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser3.temperature",
+            "alias": "laser_3.temperature",
             "hrn": "hrn:32009-0:DataItem:de55617e832b683e"
           }
         },
@@ -3500,7 +3500,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Laser3-Status",
+            "name": "Laser-3-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -3510,7 +3510,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser3.status",
+            "alias": "laser_3.status",
             "hrn": "hrn:32009-0:DataItem:8ada202d8ebb2465"
           }
         },
@@ -3530,7 +3530,7 @@
           },
           "mtconnect_schema": {
             "type": "SERIAL_NUMBER",
-            "name": "Laser3-Serial-Number",
+            "name": "Laser-3-Serial-Number",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -3540,7 +3540,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser3.serial_number",
+            "alias": "laser_3.serial_number",
             "hrn": "hrn:32009-0:DataItem:ee773d202a36535b"
           }
         },
@@ -3560,7 +3560,7 @@
           },
           "mtconnect_schema": {
             "type": "WATTAGE",
-            "name": "Laser3-Max-Calibrated-Power",
+            "name": "Laser-3-Max-Calibrated-Power",
             "category": "SAMPLE",
             "subtype": "ACTUAL",
             "units": "WATT",
@@ -3570,7 +3570,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser3.max_calibrated_power",
+            "alias": "laser_3.max_calibrated_power",
             "hrn": "hrn:32009-0:DataItem:9dba54000b781584"
           }
         },
@@ -3590,7 +3590,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Laser3-Firmware-Version",
+            "name": "Laser-3-Firmware-Version",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -3600,7 +3600,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser3.firmware_version",
+            "alias": "laser_3.firmware_version",
             "hrn": "hrn:32009-0:DataItem:bba462af24b2615a"
           }
         }
@@ -3639,7 +3639,7 @@
           },
           "mtconnect_schema": {
             "type": "EQUIPMENT_TIMER",
-            "name": "Laser2-Total-Hours",
+            "name": "Laser-2-Total-Hours",
             "category": "SAMPLE",
             "subtype": "OPERATING",
             "units": "SECOND",
@@ -3649,7 +3649,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser2.total_hours",
+            "alias": "laser_2.total_hours",
             "hrn": "hrn:32009-0:DataItem:496ca344acc46353"
           }
         },
@@ -3669,7 +3669,7 @@
           },
           "mtconnect_schema": {
             "type": "TEMPERATURE",
-            "name": "Laser2-Temperature",
+            "name": "Laser-2-Temperature",
             "category": "SAMPLE",
             "subtype": "",
             "units": "CELSIUS",
@@ -3679,7 +3679,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser2.temperature",
+            "alias": "laser_2.temperature",
             "hrn": "hrn:32009-0:DataItem:49c865faae3ca5c1"
           }
         },
@@ -3699,7 +3699,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Laser2-Status",
+            "name": "Laser-2-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -3709,7 +3709,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser2.status",
+            "alias": "laser_2.status",
             "hrn": "hrn:32009-0:DataItem:fb7171fb94a03f66"
           }
         },
@@ -3729,7 +3729,7 @@
           },
           "mtconnect_schema": {
             "type": "SERIAL_NUMBER",
-            "name": "Laser2-Serial-Number",
+            "name": "Laser-2-Serial-Number",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -3739,7 +3739,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser2.serial_number",
+            "alias": "laser_2.serial_number",
             "hrn": "hrn:32009-0:DataItem:f4b9abd04b07926e"
           }
         },
@@ -3759,7 +3759,7 @@
           },
           "mtconnect_schema": {
             "type": "WATTAGE",
-            "name": "Laser2-Max-Calibrated-Power",
+            "name": "Laser-2-Max-Calibrated-Power",
             "category": "SAMPLE",
             "subtype": "ACTUAL",
             "units": "WATT",
@@ -3769,7 +3769,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser2.max_calibrated_power",
+            "alias": "laser_2.max_calibrated_power",
             "hrn": "hrn:32009-0:DataItem:59c1ced7748d3ef6"
           }
         },
@@ -3789,7 +3789,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Laser2-Firmware-Version",
+            "name": "Laser-2-Firmware-Version",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -3799,7 +3799,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "laser2.firmware_version",
+            "alias": "laser_2.firmware_version",
             "hrn": "hrn:32009-0:DataItem:338c710a1a3e9efe"
           }
         }
