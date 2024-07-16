@@ -454,7 +454,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "grams",
+            "native_units": "GRAM",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -574,7 +574,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "MESSAGE",
-            "native_units": "",
+            "native_units": "milliwatt",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -604,7 +604,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "",
+            "native_units": "millisecond",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1129,7 +1129,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "MESSAGE_INT",
+            "native_type": "INT",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1189,7 +1189,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "MESSAGE_INT",
+            "native_type": "INT",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1219,7 +1219,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "MESSAGE_INT",
+            "native_type": "INT",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1249,7 +1249,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "MESSAGE_INT",
+            "native_type": "INT",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1309,7 +1309,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "BOOL",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1412,7 +1412,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "MESSAGE",
             "native_name": ""
           },
           "meta": {
@@ -1499,7 +1499,37 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "milliwatt",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Visitech-Led-Power-Commanded",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "WATT",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "visitech.led_power_commanded",
+            "hrn": "hrn:34502-0:DataItem:ba7d8a6f2da5530f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1512,9 +1542,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
-            "name": "Visitech-Projector-Lifetime-On-Hours",
-            "category": "",
+            "type": "WATTAGE",
+            "name": "Visitech-Led-Pwm-Value",
+            "category": "SAMPLE",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1523,7 +1553,247 @@
             "native_name": ""
           },
           "meta": {
+            "alias": "visitech.led_pwm_value",
+            "hrn": "hrn:34502-0:DataItem:aaf5a89e513dab50"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "second",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Visitech-Led-Total-Hours",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "visitech.led_total_hours",
+            "hrn": "hrn:34502-0:DataItem:326254ae61ad851f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "second",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Visitech-Projector-Lifetime-On-Hours",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
             "alias": "visitech.projector_lifetime_on_hours",
+            "hrn": "hrn:34502-0:DataItem:eb3bbeed69d8fc74"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "minute",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Visitech-Projector-Lifetime-Build-Hours",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "visitech.projector_lifetime_build_hours",
+            "hrn": "hrn:34502-0:DataItem:d5e4fe70764385dd"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Visitech-Uv-Enable-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "visitech.uv_enable_status",
+            "hrn": "hrn:34502-0:DataItem:defc1a8a538100f6"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Visitech-Projector-Enable-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "visitech.projector_enable_status",
+            "hrn": "hrn:34502-0:DataItem:6c76d50bba559020"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "FLOAT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ROTARY_VELOCITY",
+            "name": "Visitech-Fan-Rpm",
+            "category": "SAMPLE",
+            "subtype": "ACTUAAL",
+            "units": "REVOLUTION/MINUTE",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "visitech.fan_rpm",
+            "hrn": "hrn:34502-0:DataItem:3f1a042dd1534a13"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Visitech-Fan-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "visitech.fan_status",
+            "hrn": "hrn:34502-0:DataItem:96cf9b082933be47"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Visitech-Fw-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "visitech.fw_version",
             "hrn": "hrn:34502-0:DataItem:ce346f9f415b1c10"
           }
         },
@@ -1535,7 +1805,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1543,7 +1813,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Visitech-Projector-Lifetime-Build-Hours",
+            "name": "Visitech-Fpga-Version",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1553,7 +1823,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.projector_lifetime_build_hours",
+            "alias": "visitech.fpga_version",
             "hrn": "hrn:34502-0:DataItem:0d3e08f9b2c12311"
           }
         },
@@ -1563,12 +1833,12 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "name": "Visitech-Mac-Address",
+            "name": "Visitech-Serial-Number",
             "category": "EVENT",
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.mac_address",
+            "alias": "visitech.serial_number",
             "hrn": "hrn:34502-0:DataItem:1f246e5ca38a38c5",
             "required": true
           }
