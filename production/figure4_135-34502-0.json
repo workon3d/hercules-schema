@@ -99,8 +99,8 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
+            "notes": "1 = HOME\n0 = NOT HOME",
+            "description": "Status if elevator arms reached home position",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
@@ -112,7 +112,7 @@
           },
           "mtconnect_schema": {
             "type": "",
-            "name": "Zstage-Motor-Home-Position-Up",
+            "name": "Zstage-Motor-Home-Position-Status",
             "category": "SAMPLE",
             "subtype": "",
             "units": "",
@@ -122,7 +122,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "zstage.motor.home_position_up",
+            "alias": "zstage.motor.home_position_status",
             "hrn": "hrn:34502-0:DataItem:49f584dc2907ee5f"
           }
         },
@@ -853,6 +853,36 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "EVENT_INT",
+            "notes": "0 = DISABLED\n1 = ENABLED",
+            "description": "Job server is special printer mode to receive jobs from the job server SW, not 3D Sprint",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Device-Job-Server-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.job_server_status",
+            "hrn": "hrn:34502-0:DataItem:dcb2bb4b223321fa"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
             "description": "",
@@ -1190,7 +1220,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "fahrenheit",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1439,7 +1469,7 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1454,7 +1484,7 @@
           "mtconnect_schema": {
             "type": "",
             "name": "Build-Irradiance-Mask",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1469,7 +1499,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1482,39 +1512,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
-            "name": "Build-Interval-Pause-Time",
-            "category": "",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.interval_pause_time",
-            "hrn": "hrn:34502-0:DataItem:2aeb94d974c9a24d"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Build-Scale-Factor-Y",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1529,7 +1529,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1542,9 +1542,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Build-Scale-Factor-X",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1559,7 +1559,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1574,7 +1574,7 @@
           "mtconnect_schema": {
             "type": "",
             "name": "Build-Layer-Thickness",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1589,7 +1589,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1602,9 +1602,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Build-Job-Drain-Height",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1619,22 +1619,22 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "second",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Build-Job-Drain-Time-Estimate",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1649,7 +1649,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "EVENT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1664,7 +1664,7 @@
           "mtconnect_schema": {
             "type": "",
             "name": "Build-Build-Job-Status-Change-Time",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1679,7 +1679,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1692,9 +1692,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Build-Job-Completion-Progress",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1709,7 +1709,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1722,9 +1722,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Build-Job-Completion-Time",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1739,7 +1739,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "EVENT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1754,7 +1754,7 @@
           "mtconnect_schema": {
             "type": "",
             "name": "Build-Job-Status",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1769,7 +1769,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1782,9 +1782,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Build-Job-Start-Time",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1799,14 +1799,14 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "GRAM",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1814,7 +1814,7 @@
           "mtconnect_schema": {
             "type": "",
             "name": "Build-Job-Material-Estimated-Total-Weight",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1829,22 +1829,22 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "second",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Build-Job-Build-Time-Estimate",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1859,7 +1859,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "EVENT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1872,9 +1872,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MATERIAL",
             "name": "Build-Job-Material-Name",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1889,7 +1889,7 @@
         },
         {
           "hydra_schema": {
-            "type": "",
+            "type": "EVENT_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1902,10 +1902,10 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "PART_COUNT",
             "name": "Build-Current-Layer",
-            "category": "",
-            "subtype": "",
+            "category": "EVENT",
+            "subtype": "ALL",
             "units": "",
             "representation": "",
             "data_classification": "",
@@ -1922,6 +1922,12 @@
             "type": "MESSAGE",
             "native_name": ""
           },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Job-Name",
+            "category": "EVENT",
+            "native_name": ""
+          },
           "meta": {
             "alias": "build.job_name",
             "hrn": "hrn:34502-0:DataItem:46ad87aad579653e",
@@ -1933,6 +1939,12 @@
             "type": "MESSAGE_NUM",
             "native_name": ""
           },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Job-Total-Layers",
+            "category": "EVENT",
+            "native_name": ""
+          },
           "meta": {
             "alias": "build.job_total_layers",
             "hrn": "hrn:34502-0:DataItem:2c4a9c6b6f0005ef",
@@ -1941,7 +1953,14 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "MESSAGE_NUM",
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Progress",
+            "category": "EVENT",
+            "units": "PERCENT",
             "native_name": ""
           },
           "meta": {
@@ -1953,6 +1972,12 @@
         {
           "hydra_schema": {
             "type": "EVENT_INT",
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Job-Id",
+            "category": "EVENT",
             "native_name": ""
           },
           "meta": {
@@ -2343,7 +2368,7 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "HIGH = Enabled\nLOW = Disabled",
+            "notes": "MTR = Motor\nHIGH = Enabled\nLOW = Disabled",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
