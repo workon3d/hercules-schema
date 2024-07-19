@@ -1534,7 +1534,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "0 = NOT PRESENT\n1 = PRESENT",
+            "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
