@@ -104,66 +104,6 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Mdm-Resin-Tray-Resin-Level-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "mdm.resin_tray_resin_level_status",
-            "hrn": "hrn:34502-0:DataItem:49d4f69e137327e2"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Mdm-Resin-Tray-Present-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "mdm.resin_tray_present_status",
-            "hrn": "hrn:34502-0:DataItem:1c814a71cfae40e0"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
             "native_type": "LONG",
             "native_units": "milliliter",
             "transmission_timing": "",
@@ -214,36 +154,6 @@
           "meta": {
             "alias": "mdm.pump_timeout_status",
             "hrn": "hrn:34502-0:DataItem:88df8c4923f4f9c7"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Mdm-Print-Platform-Present-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "mdm.print_platform_present_status",
-            "hrn": "hrn:34502-0:DataItem:a5492669259feef6"
           }
         },
         {
@@ -322,7 +232,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Mdm-Catch-Tray-Present-Status",
+            "name": "Device-Catch-Tray-Present-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -332,7 +242,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "mdm.catch_tray_present_status",
+            "alias": "device.catch_tray_present_status",
             "hrn": "hrn:34502-0:DataItem:f56c563e27b2a2a0"
           }
         },
@@ -1202,6 +1112,156 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Mdm-Catch-Tray-Present-Status",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "mdm.catch_tray_present_status",
+            "hrn": "hrn:34502-0:DataItem:f56c563e27b2a2a0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Mdm-Resin-Tray-Present-Status",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "mdm.resin_tray_present_status",
+            "hrn": "hrn:34502-0:DataItem:1c814a71cfae40e0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Device-Print-Platform-Present-Status",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.print_platform_present_status",
+            "hrn": "hrn:34502-0:DataItem:7e8bfb46b9634531"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "0 = PRESENT\n1 = NOT PRESENT",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Device-Platform-Barcode-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.platform_barcode_state",
+            "hrn": "hrn:34502-0:DataItem:325ef93392c9c185"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "0 = PRESENT\n1 = NOT PRESENT",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Device-Material-Barcode-State",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.material_barcode_state",
+            "hrn": "hrn:34502-0:DataItem:a6f79dfa509105cf"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "EVENT_INT",
             "notes": "0 = DISABLED\n1 = ENABLED",
             "description": "Job server is special printer mode to receive jobs from the job server SW, not 3D Sprint",
@@ -1216,7 +1276,7 @@
           },
           "mtconnect_schema": {
             "type": "INTERFACE_STATE",
-            "name": "Device-Job-Server-Status",
+            "name": "Device-Job-Server-Enable",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1226,7 +1286,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "device.job_server_status",
+            "alias": "device.job_server_enable",
             "hrn": "hrn:34502-0:DataItem:dcb2bb4b223321fa"
           }
         },
@@ -1276,17 +1336,17 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Device-Printer-Eth2-Mac-Address",
+            "name": "Device-Printer-Internal-Mac-Address",
             "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "device.printer_eth2_mac_address",
+            "alias": "device.printer_internal_mac_address",
             "hrn": "hrn:34502-0:DataItem:729d6d4002dd8d52"
           }
         },
@@ -1306,7 +1366,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Device-Printer-Eth1-Mac-Address",
+            "name": "Device-Printer-External-Mac-Address",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1316,7 +1376,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "device.printer_eth1_mac_address",
+            "alias": "device.printer_external_mac_address",
             "hrn": "hrn:34502-0:DataItem:6e3ed84a1f7754c7"
           }
         },
@@ -1336,108 +1396,18 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Device-Printer-Eth2-Ip-Address",
+            "name": "Device-Printer-Internal-Ip-Address",
             "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "device.printer_eth2_ip_address",
+            "alias": "device.printer_internal_ip_address",
             "hrn": "hrn:34502-0:DataItem:20e1d723f8766c9a"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "RPM",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ROTARY_VELOCITY",
-            "name": "Device-Exhaust-Filter-Fan-Actual-Rpm",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "device.exhaust_filter.fan_actual_rpm",
-            "hrn": "hrn:34502-0:DataItem:21c34136f0435a56"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "RPM",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ROTARY_VELOCITY",
-            "name": "Device-Exhaust-Filter-Fan-Target-Rpm",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "device.exhaust_filter.fan_target_rpm",
-            "hrn": "hrn:34502-0:DataItem:9272f4bb6787346a"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "",
-            "description": "Exhaust fan on hours. Not impacting machine performance - just a refererence how long/old the machine was up based on fan runtime data.",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "minute",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ACCUMULATED_TIME",
-            "name": "Device-Exhaust-Filter-Fan-On-Hours",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "SECOND",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "device.exhaust_filter.fan_on_hours",
-            "hrn": "hrn:34502-0:DataItem:6f3d8080a0794f04"
           }
         },
         {
@@ -1486,7 +1456,7 @@
           },
           "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
-            "name": "Device-Exhaust-Filter-Carbon-Filter-Element-Hours",
+            "name": "Device-Exhaust-Filter-Carbon-Filter-Installed-Date",
             "category": "SAMPLE",
             "subtype": "",
             "units": "SECOND",
@@ -1496,7 +1466,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "device.exhaust_filter.carbon_filter_element_hours",
+            "alias": "device.exhaust_filter.carbon_filter_installed_date",
             "hrn": "hrn:34502-0:DataItem:5a54cdc611250455"
           }
         },
@@ -1556,7 +1526,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "device.light_tower.status",
+            "alias": "device.light_tower_status",
             "hrn": "hrn:34502-0:DataItem:b05796bc411aeae5"
           }
         },
@@ -1682,38 +1652,8 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "BOOL",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Device-Bypass-State",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "device.bypass_state",
-            "hrn": "hrn:34502-0:DataItem:12dacf84ff7ac30a"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "EVENT_INT",
-            "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/70485216/10001+GET+CURRENT+STATE",
+            "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/70485216/10001+GET+CURRENT+STATE\nEngine state",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1743,7 +1683,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Eth1 is the customer network port IP address. External",
+            "notes": "Eth1 is the customer network port IP address. External network",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1756,7 +1696,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Device-Printer-Eth1-Ip-Address",
+            "name": "Device-Printer-External-Ip-Address",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1766,7 +1706,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "device.printer_eth1_ip_address",
+            "alias": "device.printer_external_ip_address",
             "hrn": "hrn:34502-0:DataItem:15702308af953156"
           }
         },
@@ -2325,15 +2265,45 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Visitech",
+        "name": "Projector",
         "native_name": ""
       },
       "meta": {
-        "alias": "visitech",
+        "alias": "projector",
         "hrn": "hrn:34502-0:Component:8acd17c349dd2f53",
         "required": true
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "Projector type",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Visitech-Projector-Model",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "visitech.projector_model",
+            "hrn": "hrn:34502-0:DataItem:b0203a999fa392aa"
+          }
+        },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
@@ -2350,7 +2320,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Visitech-Led-Power-Commanded",
+            "name": "Projector-Led-Power-Commanded",
             "category": "SAMPLE",
             "subtype": "",
             "units": "WATT",
@@ -2360,7 +2330,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.led_power_commanded",
+            "alias": "projector.led_power_commanded",
             "hrn": "hrn:34502-0:DataItem:ba7d8a6f2da5530f"
           }
         },
@@ -2380,7 +2350,7 @@
           },
           "mtconnect_schema": {
             "type": "WATTAGE",
-            "name": "Visitech-Led-Pwm-Value",
+            "name": "Projector-Led-Pwm-Value",
             "category": "SAMPLE",
             "subtype": "",
             "units": "",
@@ -2390,7 +2360,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.led_pwm_value",
+            "alias": "projector.led_pwm_value",
             "hrn": "hrn:34502-0:DataItem:aaf5a89e513dab50"
           }
         },
@@ -2410,7 +2380,7 @@
           },
           "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
-            "name": "Visitech-Led-Total-Hours",
+            "name": "Projector-Led-Total-Hours",
             "category": "SAMPLE",
             "subtype": "",
             "units": "SECOND",
@@ -2420,7 +2390,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.led_total_hours",
+            "alias": "projector.led_total_hours",
             "hrn": "hrn:34502-0:DataItem:326254ae61ad851f"
           }
         },
@@ -2440,7 +2410,7 @@
           },
           "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
-            "name": "Visitech-Projector-Lifetime-On-Hours",
+            "name": "Projector-Projector-Lifetime-On-Hours",
             "category": "SAMPLE",
             "subtype": "",
             "units": "SECOND",
@@ -2450,7 +2420,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.projector_lifetime_on_hours",
+            "alias": "projector.projector_lifetime_on_hours",
             "hrn": "hrn:34502-0:DataItem:eb3bbeed69d8fc74"
           }
         },
@@ -2470,7 +2440,7 @@
           },
           "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
-            "name": "Visitech-Projector-Lifetime-Build-Hours",
+            "name": "Projector-Projector-Lifetime-Build-Hours",
             "category": "SAMPLE",
             "subtype": "",
             "units": "SECOND",
@@ -2480,7 +2450,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.projector_lifetime_build_hours",
+            "alias": "projector.projector_lifetime_build_hours",
             "hrn": "hrn:34502-0:DataItem:d5e4fe70764385dd"
           }
         },
@@ -2500,7 +2470,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Visitech-Uv-Enable-Status",
+            "name": "Projector-Uv-Enable-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -2510,7 +2480,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.uv_enable_status",
+            "alias": "projector.uv_enable_status",
             "hrn": "hrn:34502-0:DataItem:defc1a8a538100f6"
           }
         },
@@ -2530,7 +2500,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Visitech-Projector-Enable-Status",
+            "name": "Projector-Projector-Enable-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -2540,7 +2510,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.projector_enable_status",
+            "alias": "projector.projector_enable_status",
             "hrn": "hrn:34502-0:DataItem:6c76d50bba559020"
           }
         },
@@ -2560,7 +2530,7 @@
           },
           "mtconnect_schema": {
             "type": "ROTARY_VELOCITY",
-            "name": "Visitech-Fan-Rpm",
+            "name": "Projector-Fan-Rpm",
             "category": "SAMPLE",
             "subtype": "ACTUAAL",
             "units": "REVOLUTION/MINUTE",
@@ -2570,7 +2540,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.fan_rpm",
+            "alias": "projector.fan_rpm",
             "hrn": "hrn:34502-0:DataItem:3f1a042dd1534a13"
           }
         },
@@ -2590,7 +2560,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Visitech-Fan-Status",
+            "name": "Projector-Fan-Status",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -2600,7 +2570,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.fan_status",
+            "alias": "projector.fan_status",
             "hrn": "hrn:34502-0:DataItem:96cf9b082933be47"
           }
         },
@@ -2620,7 +2590,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Visitech-Fw-Version",
+            "name": "Projector-Fw-Version",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -2630,7 +2600,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.fw_version",
+            "alias": "projector.fw_version",
             "hrn": "hrn:34502-0:DataItem:ce346f9f415b1c10"
           }
         },
@@ -2650,7 +2620,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Visitech-Fpga-Version",
+            "name": "Projector-Fpga-Version",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -2660,7 +2630,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.fpga_version",
+            "alias": "projector.fpga_version",
             "hrn": "hrn:34502-0:DataItem:0d3e08f9b2c12311"
           }
         },
@@ -2671,12 +2641,12 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "name": "Visitech-Serial-Number",
+            "name": "Projector-Serial-Number",
             "category": "EVENT",
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.serial_number",
+            "alias": "projector.serial_number",
             "hrn": "hrn:34502-0:DataItem:1f246e5ca38a38c5",
             "required": true
           }
