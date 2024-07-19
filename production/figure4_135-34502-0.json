@@ -218,36 +218,6 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Device-Catch-Tray-Present-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "device.catch_tray_present_status",
-            "hrn": "hrn:34502-0:DataItem:f56c563e27b2a2a0"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "",
             "notes": "",
             "description": "",
@@ -1126,6 +1096,37 @@
           },
           "mtconnect_schema": {
             "type": "",
+            "name": "Device-Sdsd",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.sdsd",
+            "hrn": "hrn:34502-0:DataItem:2824d342cddde423",
+            "required": true
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
             "name": "Mdm-Catch-Tray-Present-Status",
             "category": "",
             "subtype": "",
@@ -1173,7 +1174,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "0 = NOT PRESENT\n1 = PRESENT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1185,9 +1186,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Device-Print-Platform-Present-Status",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1203,7 +1204,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = PRESENT\n1 = NOT PRESENT",
+            "notes": "0 = NOT PRESENT\n1 = PRESENT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1215,9 +1216,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Device-Platform-Barcode-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1233,7 +1234,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "0 = PRESENT\n1 = NOT PRESENT",
+            "notes": "0 = NOT PRESENT\n1 = PRESENT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1245,9 +1246,9 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Device-Material-Barcode-State",
-            "category": "",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1533,7 +1534,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "0 = NOT PRESENT\n1 = PRESENT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2276,22 +2277,22 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "notes": "Projector type",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "STRING",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
-            "name": "Visitech-Projector-Model",
-            "category": "",
+            "type": "MESSAGE",
+            "name": "Projector-Projector-Model",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -2300,7 +2301,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "visitech.projector_model",
+            "alias": "projector.projector_model",
             "hrn": "hrn:34502-0:DataItem:b0203a999fa392aa"
           }
         },
