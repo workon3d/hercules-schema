@@ -1082,22 +1082,22 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
-            "notes": "",
+            "type": "MESSAGE",
+            "notes": "0 = NOT PRESENT\n1 = PRESENT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "INT",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
-            "name": "Device-Sdsd",
-            "category": "",
+            "type": "MESSAGE",
+            "name": "Device-Resin-Tray-Present-Status",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -1106,7 +1106,37 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "device.sdsd",
+            "alias": "device.resin_tray_present_status",
+            "hrn": "hrn:34502-0:DataItem:65cc0fb21fd0bb8d"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "0 = NOT PRESENT\n1 = PRESENT",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Device-Catch-Tray-Present-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.catch_tray_present_status",
             "hrn": "hrn:34502-0:DataItem:2824d342cddde423",
             "required": true
           }
@@ -2642,6 +2672,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
+            "type": "MESSAGE",
             "name": "Projector-Serial-Number",
             "category": "EVENT",
             "native_name": ""
