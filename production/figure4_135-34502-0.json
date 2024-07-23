@@ -38,32 +38,62 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "INT",
-            "native_units": "RPM",
+            "native_type": "STRING",
+            "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "ROTARY_VELOCITY",
-            "name": "Mdm-Total-Revolutions",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "REVOLUTION/MINUTE",
+            "type": "MESSAGE",
+            "name": "Mdm-Motor-Model",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "mdm.total_revolutions",
-            "hrn": "hrn:34502-0:DataItem:5da7603d5a84802e"
+            "alias": "mdm.motor_model",
+            "hrn": "hrn:34502-0:DataItem:c0cfc1a344c6b998"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "0 = DISABLED\n1 = ENABLED",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Mdm-Motor-Driver-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "mdm.motor_driver_status",
+            "hrn": "hrn:34502-0:DataItem:4424b84e0b0408a3"
           }
         },
         {
@@ -74,56 +104,56 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "INT",
-            "native_units": "RPM",
+            "native_type": "STRING",
+            "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "ROTARY_VELOCITY",
-            "name": "Mdm-Target-Pumping-Rpm",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "REVOLUTION/MINUTE",
+            "type": "MESSAGE",
+            "name": "Mdm-Motor-Driver-Alarm",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "mdm.target_pumping_rpm",
-            "hrn": "hrn:34502-0:DataItem:15eef383cb5a7845"
+            "alias": "mdm.motor_driver_alarm",
+            "hrn": "hrn:34502-0:DataItem:d98982237c4d18a7"
           }
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "LONG",
-            "native_units": "milliliter",
+            "native_type": "STRING",
+            "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "VOLUME_FLUID",
-            "name": "Mdm-Resin-Tray-Current-Level",
-            "category": "SAMPLE",
-            "subtype": "ACTUAL",
-            "units": "MILLILITER",
+            "type": "MESSAGE",
+            "name": "Mdm-Motor-Driver-Ip",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "mdm.resin_tray_current_level",
-            "hrn": "hrn:34502-0:DataItem:0a8c3d40f2f299ac"
+            "alias": "mdm.motor_driver_ip",
+            "hrn": "hrn:34502-0:DataItem:417c59db5ec21715"
           }
         },
         {
@@ -154,36 +184,6 @@
           "meta": {
             "alias": "mdm.pump_timeout_status",
             "hrn": "hrn:34502-0:DataItem:88df8c4923f4f9c7"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "MTR = MOTOR",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Mdm-Mdm-Mtr-Enable",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "mdm.mdm_mtr_enable",
-            "hrn": "hrn:34502-0:DataItem:ac3b86d31cfadac0"
           }
         },
         {
@@ -267,32 +267,242 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
+            "type": "MESSAGE",
+            "notes": "do we need to track it? Chinmay mentioned GE wanted to know age of z stage",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "micron or millimeter?",
+            "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Zstage-Motor-Total-Movement-Distance",
-            "category": "SAMPLE",
+            "type": "MESSAGE",
+            "name": "Zstage-Total-Hours",
+            "category": "EVENT",
             "subtype": "",
-            "units": "MILLIMETER",
+            "units": "",
+            "representation": "",
+            "data_classification": "Service Facing",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "zstage.total_hours",
+            "hrn": "hrn:34502-0:DataItem:512b719157533792"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "HK, PBC, etc",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Zstage-Model-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "Service Facing",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "zstage.model_type",
+            "hrn": "hrn:34502-0:DataItem:0008785cb2c3941a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Zstage-Motor-Model",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "zstage.motor.total_movement_distance",
-            "hrn": "hrn:34502-0:DataItem:80a3b922239cf431"
+            "alias": "zstage.motor_model",
+            "hrn": "hrn:34502-0:DataItem:ec2deddf9e3132cb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Zstage-Motor-Driver-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "zstage.motor_driver_status",
+            "hrn": "hrn:34502-0:DataItem:01bf050870b11bfb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Zstage-Motor-Driver-Alarm",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "zstage.motor_driver_alarm",
+            "hrn": "hrn:34502-0:DataItem:a28d652fdbd808c8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Zstage-Motor-Driver-Ip",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "zstage.motor_driver_ip",
+            "hrn": "hrn:34502-0:DataItem:f56f0a8f4c3faa07"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "VALID\nNOT VALID",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Zstage-Motor-Position-Valid",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "zstage.motor_position_valid",
+            "hrn": "hrn:34502-0:DataItem:86bf2527d5b8cf70"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "micron",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Zstage-Motor-Home-Position",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "zstage.motor_home_position",
+            "hrn": "hrn:34502-0:DataItem:cfffccd642d6e296"
           }
         },
         {
@@ -304,7 +514,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "micron or millimeter?",
+            "native_units": "micron",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -351,7 +561,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "zstage.motor.home_position_status",
+            "alias": "zstage.motor_home_position_status",
             "hrn": "hrn:34502-0:DataItem:49f584dc2907ee5f"
           }
         },
@@ -364,14 +574,14 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "micron or millimeter?",
+            "native_units": "micron ",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "DISPLACEMENT",
-            "name": "Zstage-Motor-Home-Position-Down",
+            "name": "Zstage-Build-Start-Position",
             "category": "SAMPLE",
             "subtype": "",
             "units": "MILLIMETER",
@@ -381,7 +591,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "zstage.motor_home_position_down",
+            "alias": "zstage.build_start_position",
             "hrn": "hrn:34502-0:DataItem:d896526955a2708d"
           }
         },
@@ -394,67 +604,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "LONG",
-            "native_units": "micron or millimeter?",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Zstage-Motor-Home-Location",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLIMETER",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "zstage.motor_home_location",
-            "hrn": "hrn:34502-0:DataItem:8fbfb8eac9a005d9"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "LONG",
-            "native_units": "micron or millimeter?",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "DISPLACEMENT",
-            "name": "Zstage-Motor-Current-Location",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "MILLIMETER",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "zstage.motor_current_location",
-            "hrn": "hrn:34502-0:DataItem:9c29ad8b39d77c23"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "LONG",
-            "native_units": "micron or millimeter?",
+            "native_units": "micron",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -491,7 +641,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Zstage-Motor-Enable",
+            "name": "Zstage-Motor-Enabled",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -501,7 +651,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "zstage.motor_enable",
+            "alias": "zstage.motor_enabled",
             "hrn": "hrn:34502-0:DataItem:4926826de655b63d"
           }
         }
@@ -557,37 +707,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MASS",
-            "name": "Mqg-Material-Fill-Overage-Weight",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "KILOGRAM",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "mqg.material_fill_overage_weight",
-            "hrn": "hrn:34502-0:DataItem:8f0a6fd7720a3239"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "1.5 for 1kg bottle",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -707,7 +827,7 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "EMPTY\nACTIVE",
+            "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -732,66 +852,6 @@
           "meta": {
             "alias": "mqg.barcode_status",
             "hrn": "hrn:34502-0:DataItem:9b8357a9dfc66736"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Mqg-Barcode-Uuid",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "mqg.barcode_uuid",
-            "hrn": "hrn:34502-0:DataItem:879ff56b6eb2a0ff"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "1 = 3D Systems\n2 = NextDent\n3 = Amann Girrbach\n4 = Jewelry",
-            "description": "Material owner",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Mqg-Owner-Type",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "mqg.owner_type",
-            "hrn": "hrn:34502-0:DataItem:4861905676464663"
           }
         },
         {
@@ -852,36 +912,6 @@
           "meta": {
             "alias": "mqg.material_clean_job_exposure_time",
             "hrn": "hrn:34502-0:DataItem:43d96f99bdaf5660"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "LONG",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Mqg-Barcode-Udi",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "mqg.barcode_udi",
-            "hrn": "hrn:34502-0:DataItem:28de63a2e4aafa93"
           }
         },
         {
@@ -1080,6 +1110,186 @@
         "required": true
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "EVENT",
+            "notes": "version and release date",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Device-Os-Version",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.os_version",
+            "hrn": "hrn:34502-0:DataItem:9c2bbaf70510c62a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "0 = DISCONNECTED\n1 = CONNECTED",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Device-Usb-Secure-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.usb_secure_status",
+            "hrn": "hrn:34502-0:DataItem:1808d87bedefc342"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "total hours powered on",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "LONG",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Device-On-Hours",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.on_hours",
+            "hrn": "hrn:34502-0:DataItem:33542704ac819693"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Device-Print-Platform-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.print_platform_serial_number",
+            "hrn": "hrn:34502-0:DataItem:baa4b25a83077dc4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "0 = MDM DISABLED / HAND POUR\n1 = MDM ENABLED",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Device-Mdm-Enabled",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.mdm_enabled",
+            "hrn": "hrn:34502-0:DataItem:8c2b4aba5c2f9cdb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "milliliter",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "VOLUME_FLUID",
+            "name": "Device-Resin-Tray-Current-Level",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "MILLILITER",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.resin_tray_current_level",
+            "hrn": "hrn:34502-0:DataItem:06bd595ccf416b2c"
+          }
+        },
         {
           "hydra_schema": {
             "type": "MESSAGE",
@@ -1797,21 +2007,21 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "STRING",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "second",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Build-Irradiance-Mask",
+            "name": "Build-Delayed-Time",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -1821,8 +2031,38 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "build.irradiance_mask",
-            "hrn": "hrn:34502-0:DataItem:2b68153e3ff699f0"
+            "alias": "build.delayed_time",
+            "hrn": "hrn:34502-0:DataItem:d83a05ac3e2bd5f1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Scale-Factor-Z",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.scale_factor_z",
+            "hrn": "hrn:34502-0:DataItem:7371fa6af6e4815b"
           }
         },
         {
@@ -1973,36 +2213,6 @@
           "meta": {
             "alias": "build.job_drain_time_estimate",
             "hrn": "hrn:34502-0:DataItem:69ee08130d5e3176"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "EVENT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "YYYY-MM-DDTHH:MM:SS.FFFF",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Build-Job-Status-Change-Time",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.build.job_status_change_time",
-            "hrn": "hrn:34502-0:DataItem:c4f76652488d0765"
           }
         },
         {
@@ -2308,7 +2518,37 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "to track projector peak power",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Projector-Peak-Power",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.peak_power",
+            "hrn": "hrn:34502-0:DataItem:eae9efae6354b752"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Current or power",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2321,7 +2561,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Projector-Calibration-Data",
+            "name": "Projector-Led-Feedback",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -2331,13 +2571,13 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "projector.calibration_data",
-            "hrn": "hrn:34502-0:DataItem:a9c42b099dfd484b"
+            "alias": "projector.led_feedback",
+            "hrn": "hrn:34502-0:DataItem:69d91a374c06f257"
           }
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2351,8 +2591,38 @@
           },
           "mtconnect_schema": {
             "type": "TEMPERATURE",
-            "name": "Projector-Dmd-Temp",
+            "name": "Projector-Led-Board-Temperature",
             "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.led_board_temperature",
+            "hrn": "hrn:34502-0:DataItem:559cc6c41de00bc8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "Projector connection over HDMI, Ethernet or display port",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Projector-Interface-Mode",
+            "category": "EVENT",
             "subtype": "",
             "units": "",
             "representation": "",
@@ -2361,14 +2631,224 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "projector.dmd_temp",
+            "alias": "projector.interface_mode",
+            "hrn": "hrn:34502-0:DataItem:39580a3916e1a9bb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "REGULATION_MODE_OPTICAL = 0x1; REGULATION_MODE_CURRENT = 0x0; REGULATION_MODE_COMBINED_CURRENT = 0x2; REGULATION_MODE_COMBINED_OPTICAL = 0x3",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Projector-Led-Regulation-Mode",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "Service Facing",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.led_regulation_mode",
+            "hrn": "hrn:34502-0:DataItem:09067d33af7300e0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "fan feedback",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Projector-Fan-Mode",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "Service Facing",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.fan_mode",
+            "hrn": "hrn:34502-0:DataItem:572c46cec7995ebf"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Projector-Scale-Y",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.scale_y",
+            "hrn": "hrn:34502-0:DataItem:496c6e50d46f4132"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Projector-Scale-X",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.scale_x",
+            "hrn": "hrn:34502-0:DataItem:136cea24867c7508"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Projector-Irr-Map",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.irr_map",
+            "hrn": "hrn:34502-0:DataItem:e1b19741ba072706"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Projector-Power-Calibration-Table",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.power_calibration_table",
+            "hrn": "hrn:34502-0:DataItem:a9c42b099dfd484b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_INT",
+            "notes": "Temp of LED driver in the projector",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "fahrenheit",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Projector-Led-Drive-Temp",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "Service Facing",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.led_drive_temp",
             "hrn": "hrn:34502-0:DataItem:62f0940063e79871"
           }
         },
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Projector type",
+            "notes": "Projector type (4KA, WQm, etc)",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2458,7 +2938,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "only when projection is on",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2488,37 +2968,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "LONG",
-            "native_units": "second",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "ACCUMULATED_TIME",
-            "name": "Projector-Projector-Lifetime-On-Hours",
-            "category": "SAMPLE",
-            "subtype": "",
-            "units": "SECOND",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "projector.projector_lifetime_on_hours",
-            "hrn": "hrn:34502-0:DataItem:eb3bbeed69d8fc74"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "includes z stage build time",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2607,13 +3057,13 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "FLOAT",
+            "native_type": "INT",
             "native_units": "RPM",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -2621,9 +3071,9 @@
           },
           "mtconnect_schema": {
             "type": "ROTARY_VELOCITY",
-            "name": "Projector-Fan-Rpm",
+            "name": "Projector-Fan-Rpm-Current",
             "category": "SAMPLE",
-            "subtype": "ACTUAAL",
+            "subtype": "ACTUAL",
             "units": "REVOLUTION/MINUTE",
             "representation": "",
             "data_classification": "",
@@ -2631,7 +3081,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "projector.fan_rpm",
+            "alias": "projector.fan_rpm_current",
             "hrn": "hrn:34502-0:DataItem:3f1a042dd1534a13"
           }
         },
@@ -2644,24 +3094,24 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "RPM",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Projector-Fan-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
+            "type": "ROTARY_VELOCITY",
+            "name": "Projector-Fan-Rpm-Commanded",
+            "category": "SAMPLE",
+            "subtype": "ACTUAL",
+            "units": "REVOLUTION/MINUTE",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "projector.fan_status",
+            "alias": "projector.fan_rpm_commanded",
             "hrn": "hrn:34502-0:DataItem:96cf9b082933be47"
           }
         },
