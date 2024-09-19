@@ -1,6 +1,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns="urn:mtconnect.org:MTConnectDevices:1.4" targetNamespace="urn:mtconnect.org:MTConnectDevices:1.4" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
   <xs:include schemaLocation="http://schemas.mtconnect.org/schemas/MTConnectDevices_1.4.xsd"/>
-  <xs:complexType name="LaserComponentType">
+  <xs:complexType name="StockSupportComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -8,33 +8,7 @@
       <xs:extension base="CommonComponentType"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="Laser" type="LaserComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="LaserDoorComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="LaserDoor" type="LaserDoorComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="VatComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Vat" type="VatComponentType" substitutionGroup="CommonComponent">
+  <xs:element name="StockSupport" type="StockSupportComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -48,6 +22,32 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="Cart" type="CartComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="PrintheadComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Printhead" type="PrintheadComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="LaserComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Laser" type="LaserComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -169,6 +169,32 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
+  <xs:complexType name="EngineCalibrationComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EngineCalibration" type="EngineCalibrationComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="BoardComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Board" type="BoardComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
   <xs:complexType name="ExhaustFilterComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
@@ -191,6 +217,19 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="ZMotor" type="ZMotorComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="VatComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Vat" type="VatComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -247,6 +286,45 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
+  <xs:complexType name="PlanarizerBeltComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PlanarizerBelt" type="PlanarizerBeltComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="MdmComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Mdm" type="MdmComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="MqgComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Mqg" type="MqgComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
   <xs:complexType name="MaterialPumpComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
@@ -282,6 +360,19 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="LightTower" type="LightTowerComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="TemperatureComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Temperature" type="TemperatureComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -351,19 +442,6 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="EngineCalibrationComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="EngineCalibration" type="EngineCalibrationComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
   <xs:complexType name="HmsMotorComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
@@ -416,19 +494,6 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="PrintheadComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Printhead" type="PrintheadComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
   <xs:complexType name="HmsWasteComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
@@ -455,19 +520,6 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="PlanarizerBeltComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="PlanarizerBelt" type="PlanarizerBeltComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
   <xs:complexType name="MliComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
@@ -477,58 +529,6 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="Mli" type="MliComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="TemperatureComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Temperature" type="TemperatureComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="MdmComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Mdm" type="MdmComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="BinderdeliverymoduleComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Binderdeliverymodule" type="BinderdeliverymoduleComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="MotorComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Motor" type="MotorComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -546,6 +546,19 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
+  <xs:complexType name="ZstageComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Zstage" type="ZstageComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
   <xs:complexType name="HumidityComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
@@ -559,19 +572,6 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="BoardComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Board" type="BoardComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
   <xs:complexType name="ChamberComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
@@ -581,6 +581,32 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="Chamber" type="ChamberComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="MotorComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Motor" type="MotorComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="BinderdeliverymoduleComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Binderdeliverymodule" type="BinderdeliverymoduleComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -676,7 +702,7 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="WellplateComponentType">
+  <xs:complexType name="PrintHeadComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -684,12 +710,12 @@
       <xs:extension base="CommonComponentType"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="Wellplate" type="WellplateComponentType" substitutionGroup="CommonComponent">
+  <xs:element name="PrintHead" type="PrintHeadComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="BedComponentType">
+  <xs:complexType name="StockPartComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -697,7 +723,20 @@
       <xs:extension base="CommonComponentType"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="Bed" type="BedComponentType" substitutionGroup="CommonComponent">
+  <xs:element name="StockPart" type="StockPartComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="CrosslinkingComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Crosslinking" type="CrosslinkingComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -715,7 +754,7 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="CrosslinkingComponentType">
+  <xs:complexType name="BedComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -723,7 +762,20 @@
       <xs:extension base="CommonComponentType"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="Crosslinking" type="CrosslinkingComponentType" substitutionGroup="CommonComponent">
+  <xs:element name="Bed" type="BedComponentType" substitutionGroup="CommonComponent">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="WellplateComponentType">
+    <xs:annotation>
+      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="CommonComponentType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Wellplate" type="WellplateComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -754,7 +806,7 @@
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="PrintHeadComponentType">
+  <xs:complexType name="LaserDoorComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -762,12 +814,12 @@
       <xs:extension base="CommonComponentType"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="PrintHead" type="PrintHeadComponentType" substitutionGroup="CommonComponent">
+  <xs:element name="LaserDoor" type="LaserDoorComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="StockPartComponentType">
+  <xs:complexType name="RecoaterComponentType">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
@@ -775,46 +827,7 @@
       <xs:extension base="CommonComponentType"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="StockPart" type="StockPartComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="StockSupportComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="StockSupport" type="StockSupportComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="MqgComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Mqg" type="MqgComponentType" substitutionGroup="CommonComponent">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="ZstageComponentType">
-    <xs:annotation>
-      <xs:documentation>Custom Component by 3DConnect</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="CommonComponentType"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Zstage" type="ZstageComponentType" substitutionGroup="CommonComponent">
+  <xs:element name="Recoater" type="RecoaterComponentType" substitutionGroup="CommonComponent">
     <xs:annotation>
       <xs:documentation>Custom Component by 3DConnect</xs:documentation>
     </xs:annotation>
