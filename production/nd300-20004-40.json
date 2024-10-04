@@ -26,6 +26,1642 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
+        "name": "Stock-Part-6",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "stock_part_6",
+        "hrn": "hrn:20004-40:Component:a48fc7a52338c4ff"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-6-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.type",
+            "hrn": "hrn:20004-40:DataItem:b891a0aa1c8f996b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-6-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.status",
+            "hrn": "hrn:20004-40:DataItem:c156005773a31db2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Stock-Part-6-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.serial_number",
+            "hrn": "hrn:20004-40:DataItem:c8bbead9bb4fa5c8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-6-Order-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.order_number",
+            "hrn": "hrn:20004-40:DataItem:bfc75a992d7cffb9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Part-6-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.name",
+            "hrn": "hrn:20004-40:DataItem:d0d3f19e7fde07a8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-6-Material-Pump-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.material_pump_count",
+            "hrn": "hrn:20004-40:DataItem:48d0c81f13818d05"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Stock-Part-6-Material-Density",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.material_density",
+            "hrn": "hrn:20004-40:DataItem:c8f27e7d1bc8e654"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FILL",
+            "name": "Stock-Part-6-Level",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.level",
+            "hrn": "hrn:20004-40:DataItem:c653da224959fc05"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TIME",
+            "name": "Stock-Part-6-Expiration",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.expiration",
+            "hrn": "hrn:20004-40:DataItem:41aed6ecb892604c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-6-Consumed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.consumed",
+            "hrn": "hrn:20004-40:DataItem:4c069301370de244"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-6-Color-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.color_code",
+            "hrn": "hrn:20004-40:DataItem:9e79415859ffc458"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-6-Capacity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.capacity",
+            "hrn": "hrn:20004-40:DataItem:407354634b8c4265"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-6-Batch-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_6.batch_code",
+            "hrn": "hrn:20004-40:DataItem:f82fdbf4028c7f4b"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Stock-Part-5",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "stock_part_5",
+        "hrn": "hrn:20004-40:Component:947c7a6275614b2f"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-5-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.type",
+            "hrn": "hrn:20004-40:DataItem:4050158ad44b6221"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-5-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.status",
+            "hrn": "hrn:20004-40:DataItem:19fcf0ec3a145401"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_",
+            "name": "Stock-Part-5-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.serial_number",
+            "hrn": "hrn:20004-40:DataItem:a4476b53fc3eb160"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-5-Order-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.order_number",
+            "hrn": "hrn:20004-40:DataItem:c0b384162fc16581"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Stock-Part-5-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.name",
+            "hrn": "hrn:20004-40:DataItem:26aa8e7a7719cfd4"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Stock-Part-5-Material-Pump-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.material_pump_count",
+            "hrn": "hrn:20004-40:DataItem:61c0662f36139d95"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-5-Material-Density",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.material_density",
+            "hrn": "hrn:20004-40:DataItem:7e63bde739bc451f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FILL_",
+            "name": "Stock-Part-5-Level",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.level",
+            "hrn": "hrn:20004-40:DataItem:d6ad29b9b834402a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TIME",
+            "name": "Stock-Part-5-Expiration",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.expiration",
+            "hrn": "hrn:20004-40:DataItem:9c107d0e0e5168fa"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-5-Consumed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.consumed",
+            "hrn": "hrn:20004-40:DataItem:78f229b439a33ece"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-5-Color-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.color_code",
+            "hrn": "hrn:20004-40:DataItem:2345ccc323432a9f"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-5-Capacity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.capacity",
+            "hrn": "hrn:20004-40:DataItem:375fc092494db697"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-5-Batch-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_5.batch_code",
+            "hrn": "hrn:20004-40:DataItem:971b99a0f32ca72b"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Stock-Part-4",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "stock_part_4",
+        "hrn": "hrn:20004-40:Component:397d6433fb0f4cf4"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-4-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.type",
+            "hrn": "hrn:20004-40:DataItem:e99c75509b1efda8"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-4-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.status",
+            "hrn": "hrn:20004-40:DataItem:9c54c5991249ac50"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "SERIAL_NUMBER",
+            "name": "Stock-Part-4-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.serial_number",
+            "hrn": "hrn:20004-40:DataItem:bb169d9912fbba84"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-4-Order-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.order_number",
+            "hrn": "hrn:20004-40:DataItem:c5c79a12afbedcdc"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Part-4-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.name",
+            "hrn": "hrn:20004-40:DataItem:00fb56ecba6ea3d9"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-4-Material-Pump-Count",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.material_pump_count",
+            "hrn": "hrn:20004-40:DataItem:b033e6a1b8922959"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-4-Material-Density",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.material_density",
+            "hrn": "hrn:20004-40:DataItem:112bbc01c3144319"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FILL_LEVEL",
+            "name": "Stock-Part-4-Level",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.level",
+            "hrn": "hrn:20004-40:DataItem:8d36f5c39936873a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_",
+            "name": "Stock-Part-4-Expiration",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.expiration",
+            "hrn": "hrn:20004-40:DataItem:d6f63a62d314f073"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-4-Consumed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.consumed",
+            "hrn": "hrn:20004-40:DataItem:b2379b11462bf3bb"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-4-Color-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.color_code",
+            "hrn": "hrn:20004-40:DataItem:a7e09b059764ea34"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-4-Capacity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.capacity",
+            "hrn": "hrn:20004-40:DataItem:8c0c0c67041e75aa"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-4-Batch-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_4.batch_code",
+            "hrn": "hrn:20004-40:DataItem:69f1bdc7f7f7643f"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
+        "name": "Stock-Part-3",
+        "tag": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "meta": {
+        "alias": "stock_part_3",
+        "hrn": "hrn:20004-40:Component:0eb4d51a82205fb7"
+      },
+      "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-3-Type",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.type",
+            "hrn": "hrn:20004-40:DataItem:5a40f2962bff6542"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-3-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.status",
+            "hrn": "hrn:20004-40:DataItem:b6d84b41a9d3a94a"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "S",
+            "name": "Stock-Part-3-Serial-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.serial_number",
+            "hrn": "hrn:20004-40:DataItem:3643881d92affe15"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-3-Order-Number",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.order_number",
+            "hrn": "hrn:20004-40:DataItem:fcea00d095a541c0"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MATERIAL",
+            "name": "Stock-Part-3-Name",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.name",
+            "hrn": "hrn:20004-40:DataItem:8eb8506b9afd034b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Stock-Part-3-Material-Pump-Count",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.material_pump_count",
+            "hrn": "hrn:20004-40:DataItem:8c2c5b9f6777a1e1"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-3-Material-Density",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.material_density",
+            "hrn": "hrn:20004-40:DataItem:0968371fa4ac7b0e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "FILL_LEVEL",
+            "name": "Stock-Part-3-Level",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "PERCENT",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.level",
+            "hrn": "hrn:20004-40:DataItem:a6ebe595e55b3d58"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "CLOCK_TYPE",
+            "name": "Stock-Part-3-Expiration",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.expiration",
+            "hrn": "hrn:20004-40:DataItem:cab88f8ccd4ca2ea"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-3-Consumed",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "KILOGRAM",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.consumed",
+            "hrn": "hrn:20004-40:DataItem:163bbc2ec9e36a9e"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-3-Color-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.color_code",
+            "hrn": "hrn:20004-40:DataItem:6e2fc3ea0f6d8f94"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MASS",
+            "name": "Stock-Part-3-Capacity",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.capacity",
+            "hrn": "hrn:20004-40:DataItem:6f672b344823e448"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Stock-Part-3-Batch-Code",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "stock_part_3.batch_code",
+            "hrn": "hrn:20004-40:DataItem:2299874efffcef26"
+          }
+        }
+      ]
+    },
+    {
+      "hydra_schema": {
+        "description": "",
+        "native_name": "",
+        "sample_interval": 0
+      },
+      "mtconnect_schema": {
         "name": "Print-Head-2",
         "tag": "",
         "native_name": "",
@@ -104,36 +1740,6 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "EVENT",
-            "name": "Print-Head-2-Norm-Adjust",
-            "category": "MESSAGE_NUM",
-            "subtype": "MESSAGE",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "print_head_2.norm_adjust",
-            "hrn": "hrn:20004-40:DataItem:d88013d16c154b0d"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
             "native_type": "DOUBLE",
             "native_units": "",
             "transmission_timing": "",
@@ -184,36 +1790,6 @@
           "meta": {
             "alias": "print_head_2.jetstack_1_temperature",
             "hrn": "hrn:20004-40:DataItem:d99cb55748411fae"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "VOLTAGE",
-            "name": "Print-Head-2-Base-Voltage",
-            "category": "SAMPLE",
-            "subtype": "ALTERNATING",
-            "units": "VOLT",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "print_head_2.base_voltage",
-            "hrn": "hrn:20004-40:DataItem:1f5070cbad7548fb"
           }
         }
       ]
@@ -421,26 +1997,6 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
-        "name": "Mli",
-        "tag": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "meta": {
-        "alias": "mli",
-        "hrn": "hrn:20004-40:Component:f9044344e9e3fc53"
-      },
-      "dataitems": [
-
-      ]
-    },
-    {
-      "hydra_schema": {
-        "description": "",
-        "native_name": "",
-        "sample_interval": 0
-      },
-      "mtconnect_schema": {
         "name": "Print-Head 1",
         "tag": "",
         "native_name": "",
@@ -451,36 +2007,6 @@
         "hrn": "hrn:20004-40:Component:a3100552cc790493"
       },
       "dataitems": [
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "20053 = PERFORM_PRINTHEAD_DROPMASS (operation 12)",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "VOLTAGE",
-            "name": "Print-Head-1-Base-Voltage",
-            "category": "SAMPLE",
-            "subtype": "ALTERNATING",
-            "units": "VOLT",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "print_head_1.base_voltage",
-            "hrn": "hrn:20004-40:DataItem:18155342e5597629"
-          }
-        },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
@@ -539,36 +2065,6 @@
           "meta": {
             "alias": "print_head_1.jetstack_2_temperature",
             "hrn": "hrn:20004-40:DataItem:5fb34f3a488d6dac"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "20053 = PERFORM_PRINTHEAD_DROPMASS (operation 12)",
-            "native_type": "FLOAT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Print-Head-1-Norm-Adjust",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "print_head_1.norm_adjust",
-            "hrn": "hrn:20004-40:DataItem:e6a7bc016efc85c2"
           }
         },
         {
@@ -650,6 +2146,66 @@
         "hrn": "hrn:20004-40:Component:4477102290e25396"
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Print-Head-2-Inlet-Block-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.print_head_2.inlet_block.temperature",
+            "hrn": "hrn:20004-40:DataItem:6c810fb4663a75da"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "TEMPERATURE",
+            "name": "Feeder-Print-Head-1-Inlet-Block-Temperature",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "CELSIUS",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "feeder.print_head_1.inlet_block.temperature",
+            "hrn": "hrn:20004-40:DataItem:8f5a07fd7c0c4693"
+          }
+        },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
@@ -821,7 +2377,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -881,7 +2437,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -911,7 +2467,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -941,7 +2497,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -971,7 +2527,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1031,7 +2587,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1091,7 +2647,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1230,7 +2786,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1290,7 +2846,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1320,7 +2876,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1350,7 +2906,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1380,7 +2936,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1440,7 +2996,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1500,7 +3056,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1639,7 +3195,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1699,7 +3255,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1729,7 +3285,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1759,7 +3315,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1789,7 +3345,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1849,7 +3405,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1909,7 +3465,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2078,7 +3634,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2138,7 +3694,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2168,7 +3724,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2198,7 +3754,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2228,7 +3784,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2288,7 +3844,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2348,7 +3904,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
