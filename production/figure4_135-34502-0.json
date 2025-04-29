@@ -2722,36 +2722,6 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "HIGH = bypass active\nLOW= not in bypass",
-            "description": "FW Bypass mode.\nWhen FW_Pypass is enabled then that allows us to bypass some of the safety circuits tied to door open. So say when we Pause then we want to enable FW_Bypass to allow user to open the door without killing power to everything under the sun.",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "BOOL",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Device-Firmware-Bypass-Mode",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "device.firmware_bypass_mode",
-            "hrn": "hrn:34502-0:DataItem:43c0bb542cb20f82"
-          }
-        },
-        {
-          "hydra_schema": {
             "type": "STRING",
             "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/70485216/10001+GET+CURRENT+STATE\nEngine state",
             "description": "",
@@ -3201,7 +3171,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -3231,7 +3201,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -3261,7 +3231,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -3321,7 +3291,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -3865,7 +3835,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -3895,7 +3865,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
