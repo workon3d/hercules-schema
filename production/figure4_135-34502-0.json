@@ -2722,7 +2722,7 @@
         },
         {
           "hydra_schema": {
-            "type": "STRING",
+            "type": "MESSAGE",
             "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/70485216/10001+GET+CURRENT+STATE\nEngine state",
             "description": "",
             "servicemax_label": "",
@@ -2735,7 +2735,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "INTERFACE_STATE",
+            "type": "MESSAGE",
             "name": "Device-Printer-State",
             "category": "EVENT",
             "subtype": "",
