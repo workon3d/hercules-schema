@@ -508,7 +508,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Need to document faults",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -628,7 +628,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Applied motion documentation",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -706,7 +706,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1357,7 +1357,7 @@
           "hydra_schema": {
             "type": "MESSAGE",
             "notes": "Material Identifier",
-            "description": "Example for Figure 4 PRO-BLK 10 = ",
+            "description": "Example for Figure 4 PRO-BLK 10 = 420126",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
@@ -1374,7 +1374,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1524,7 +1524,7 @@
             "subtype": "",
             "units": "KILOGRAM",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1822,6 +1822,36 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
+            "notes": "0 = NOT PRESENT\n1 = PRESENT",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Device-Resin-Tray-Present-Status",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.resin_tray_present_status",
+            "hrn": "hrn:34502-0:DataItem:bc515adbbf93d375"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1917,7 +1947,7 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "INT",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -1997,36 +2027,6 @@
           "meta": {
             "alias": "device.building_state",
             "hrn": "hrn:34502-0:DataItem:9083214d0776a660"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Device-Top-Chamber-Door-State",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "Service Facing",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "device.top_chamber_door.state",
-            "hrn": "hrn:34502-0:DataItem:de1ebaad13a17499"
           }
         },
         {
@@ -2152,7 +2152,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = MDM DISABLED / HAND POUR\n1 = MDM ENABLED",
+            "notes": "0 = MDM DISABLED / HAND POUR\n1 = MDM ENABLED / AUTO",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2170,7 +2170,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2241,7 +2241,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "MESSAGE_INT",
             "notes": "0 = NOT PRESENT\n1 = PRESENT",
             "description": "",
             "servicemax_label": "",
@@ -2260,7 +2260,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2531,7 +2531,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2542,37 +2542,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "HIGH = ON\nLOW = OFF",
-            "description": "why fan 1?",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "BOOL",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Device-Exhaust-Filter-Fan1-State",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "Service Facing",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "device.exhaust_filter.fan1_state",
-            "hrn": "hrn:34502-0:DataItem:66477bce141ca27f"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2586,17 +2556,17 @@
           },
           "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
-            "name": "Device-Exhaust-Filter-Carbon-Filter-Installed-Date",
+            "name": "Device-Air-Filter-Usage-Hours",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "SECOND",
+            "units": "HOURS",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "meta": {
-            "alias": "device.exhaust_filter.carbon_filter_installed_date",
+            "alias": "device.air_filter_usage_hours",
             "hrn": "hrn:34502-0:DataItem:5a54cdc611250455"
           }
         },
@@ -2842,36 +2812,6 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "On Figure 4 we only have one print mode in print file",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Print-Mode",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "Service Facing",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.print_mode",
-            "hrn": "hrn:34502-0:DataItem:b90c1bb0f5bb344b"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2957,36 +2897,6 @@
           "meta": {
             "alias": "build.material_code",
             "hrn": "hrn:34502-0:DataItem:b93817103239f9ad"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "SAMPLE_NUM",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "DOUBLE",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Build-Pause-Time",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "Service Facing",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "build.pause_time",
-            "hrn": "hrn:34502-0:DataItem:5c16e3710a0192ed"
           }
         },
         {
@@ -3160,7 +3070,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -3381,7 +3291,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE_INT",
             "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/70485216/10001+GET+CURRENT+STATE",
             "description": "",
             "servicemax_label": "",
@@ -3400,7 +3310,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -3531,7 +3441,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT_INT",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -3550,7 +3460,7 @@
             "subtype": "ALL",
             "units": "",
             "representation": "",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -3569,7 +3479,7 @@
             "type": "MESSAGE",
             "name": "Build-Job-Name",
             "category": "EVENT",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "native_name": ""
           },
           "meta": {
@@ -3599,7 +3509,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_NUM",
+            "type": "MESSAGE_INT",
             "native_type": "INT",
             "native_units": "",
             "native_name": ""
@@ -3609,7 +3519,7 @@
             "name": "Build-Progress",
             "category": "EVENT",
             "units": "PERCENT",
-            "data_classification": "Service Facing",
+            "data_classification": "",
             "native_name": ""
           },
           "meta": {
