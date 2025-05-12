@@ -1984,7 +1984,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Device-Scale-Factor-Z",
             "category": "EVENT",
             "subtype": "",
