@@ -1821,6 +1821,36 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE",
+            "notes": "This state is enforced by the IOT team. This is the common printer state across all 3D Systems Printer. Needed to standardize basic minimum printer states across all printers.\nPRINTER_STATE_INITIALIZING,\nPRINTER_STATE_IDLE ,\nPRINTER_STATE_PREPARING,\nPRINTER_STATE_BUILDING,\nPRINTER_STATE_PAUSED,\nPRINTER_STATE_ABORTED,\nPRINTER_STATE_COMPLETED,\nPRINTER_STATE_BUSY,\nNote:\nPRINTER_STATE_IDLE - (Printer is available to start new job ,only to be set when old print has been cleared)\nPRINTER_STATE_BUSY - (State for anything the printer is busy doing any manual operation/procedure what does not fit in the above states)",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "STRING",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Device-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "device.state",
+            "hrn": "hrn:34502-0:DataItem:94a7d1cc13cafccb"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE_INT",
             "notes": "0 = NOT PRESENT\n1 = PRESENT",
             "description": "",
@@ -2015,7 +2045,7 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Device-Building-State",
+            "name": "Device-Printer-Build-State",
             "category": "EVENT",
             "subtype": "",
             "units": "",
@@ -2025,7 +2055,7 @@
             "native_name": ""
           },
           "meta": {
-            "alias": "device.building_state",
+            "alias": "device.printer_build_state",
             "hrn": "hrn:34502-0:DataItem:9083214d0776a660"
           }
         },
@@ -2721,6 +2751,36 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "",
+            "notes": "JSON string with all the job data specified here, example:\n{\"build_filename\":\"47m_Ferrari_PB10_v1065\",\"build_mode\":0,\"build_progress\":1,\"build_state\":\"PRINT_STATE_COMPLETED\",\"build_time_estimate\":2885,\"completion_time\":1742424095,\"current_layer\":176,\"extent_units\":1,\"job_id\":23,\"material\":[\"PRO-BLK 10 (Shade Black)\"],\"material_estimate_total_volume\":[31.018],\"printer_build_state\":\"Engine_Build_AbortedState\",\"printer_manual_op_state\":\"Engine_ManualOp_IdleState\",\"printer_system_state\":\"Engine_System_BuildState\",\"start_time\":1742419106,\"status\":2,\"status_change_time\":1742424095,\"submit_time\":1742402193,\"time_remaining\":0,\"total_layers\":176,\"x_extent\":51.39,\"y_extent\":31.86,\"z_extent\":17.6}",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "JSON",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Build-Job-Data",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build.job_data",
+            "hrn": "hrn:34502-0:DataItem:e3242bbc4860b051"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
@@ -3387,13 +3447,13 @@
           },
           "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Build-Job-Name",
+            "name": "Build-Build-Job-Name",
             "category": "EVENT",
             "data_classification": "",
             "native_name": ""
           },
           "meta": {
-            "alias": "build.job_name",
+            "alias": "build.build_job_name",
             "hrn": "hrn:34502-0:DataItem:46ad87aad579653e",
             "required": true
           }
