@@ -3565,7 +3565,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "SAMPLE_NUM",
             "notes": "Current or power",
             "description": "",
             "servicemax_label": "",
@@ -4041,36 +4041,6 @@
           "meta": {
             "alias": "projector.uv_enable_status",
             "hrn": "hrn:34502-0:DataItem:defc1a8a538100f6"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE_INT",
-            "notes": "",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "INT",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
-            "type": "MESSAGE",
-            "name": "Projector-Projector-Enable-Status",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": 0,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "projector.projector_enable_status",
-            "hrn": "hrn:34502-0:DataItem:6c76d50bba559020"
           }
         },
         {
