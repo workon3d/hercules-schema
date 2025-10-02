@@ -827,6 +827,96 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Door-Laser-Window-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.laser_window.state",
+            "hrn": "hrn:32005-0:DataItem:134f918db4dcd2ab"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Door-Shutter-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.shutter.state",
+            "hrn": "hrn:32005-0:DataItem:68dd774ea54dafe2"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "include: Present (0=Open, 1=Closed)",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Door-Door-Laser-Windows-Locked",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "door.door.laser_windows.locked",
+            "hrn": "hrn:32005-0:DataItem:e1876bc5c2b93e4b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
             "notes": "include: Present (0=Open, 1=Closed)",
             "description": "",
             "data_source": "",
@@ -869,6 +959,66 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "0 : open, 1 : close, 2 : mid",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Platform-Rpm-Lid-Move-State",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build_platform.rpm_lid_move.state",
+            "hrn": "hrn:32005-0:DataItem:5dd25ac37e660bda"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "INT",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Build-Platform-Process-Position",
+            "category": "",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "build_platform.process_position",
+            "hrn": "hrn:32005-0:DataItem:169d795079cc8578"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "",
             "description": "",
@@ -906,7 +1056,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "g",
+            "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -1141,7 +1291,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : clockwise, 1 : counter clockwise",
+            "notes": "0 : clockwise, 1 : counter clockwise\nNot available on Dual/Triple",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -1232,6 +1382,126 @@
         "hrn": "hrn:32005-0:Component:a1c888bcf12956a2"
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "pressure in seal is OK",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Seal-Laser-Windows-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.seal_laser_windows.active",
+            "hrn": "hrn:32005-0:DataItem:e3b38ae7b1070a6c"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "MESSAGE_INT",
+            "notes": "",
+            "description": "pressure seal shutter plate is OK",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Seal-Shutter-Pressure-Active",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.seal_shutter_pressure.active",
+            "hrn": "hrn:32005-0:DataItem:bd54f0e48d398c0b"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Vcb-Heat-Exchanger-Valve",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.vcb_heat_exchanger.valve",
+            "hrn": "hrn:32005-0:DataItem:b6ddb4cd0b07a016"
+          }
+        },
+        {
+          "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "",
+            "native_units": "mbar",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "MESSAGE",
+            "name": "Pneumatic-Laser-Window-Pressure-Value",
+            "category": "EVENT",
+            "subtype": "",
+            "units": "PASCAL",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "pneumatic.laser_window_pressure.value",
+            "hrn": "hrn:32005-0:DataItem:d314149e177b16ba"
+          }
+        },
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
@@ -3256,6 +3526,32 @@
         "required": true
       },
       "dataitems": [
+        {
+          "hydra_schema": {
+            "type": "CONDITION",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "native_code": "",
+            "native_severity": "",
+            "sample_interval": 0
+          },
+          "mtconnect_schema": {
+            "type": "",
+            "name": "Fault-Cabinet-Water-Leak",
+            "category": "CONDITION",
+            "level": "WARNING",
+            "message": "",
+            "qualifier": "",
+            "data_classification": "",
+            "sample_interval": 0
+          },
+          "meta": {
+            "alias": "fault.cabinet_water_leak",
+            "hrn": "hrn:32005-0:DataItem:6407a91a85a340f5"
+          }
+        },
         {
           "hydra_schema": {
             "type": "CONDITION",
