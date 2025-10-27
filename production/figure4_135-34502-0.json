@@ -3394,7 +3394,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MATERIAL",
+            "type": "MESSAGE",
             "name": "Build-Material-Name",
             "category": "EVENT",
             "subtype": "",
@@ -3424,7 +3424,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "PART_COUNT",
+            "type": "MESSAGE",
             "name": "Build-Current-Layer",
             "category": "EVENT",
             "subtype": "ALL",
