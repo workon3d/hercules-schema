@@ -400,7 +400,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Mdm-Motor-Position",
             "category": "SAMPLE",
             "subtype": "",
@@ -1186,7 +1186,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "SAMPLE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2001,7 +2001,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "Z device scale applied to the printer (not related to projector or print job)",
             "description": "",
             "servicemax_label": "",
@@ -2151,7 +2151,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "total hours powered on",
             "description": "",
             "servicemax_label": "",
@@ -2497,7 +2497,7 @@
           "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
             "name": "Device-Air-Filter-Usage-Hours",
-            "category": "SAMPLE",
+            "category": "EVENT",
             "subtype": "",
             "units": "HOURS",
             "representation": "",
@@ -2871,7 +2871,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -3321,7 +3321,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -3565,13 +3565,13 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "Current or power",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "STRING",
+            "native_type": "INT",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -3895,7 +3895,7 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_NUM",
+            "type": "MESSAGE_INT",
             "notes": "",
             "description": "",
             "servicemax_label": "",
