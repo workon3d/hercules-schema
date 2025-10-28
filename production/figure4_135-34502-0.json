@@ -3910,7 +3910,7 @@
           "mtconnect_schema": {
             "type": "MESSAGE",
             "name": "Projector-Led-Power-Commanded",
-            "category": "SAMPLE",
+            "category": "EVENT",
             "subtype": "",
             "units": "WATT",
             "representation": "",
