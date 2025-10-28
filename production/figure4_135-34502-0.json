@@ -2001,38 +2001,8 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_NUM",
-            "notes": "Z device scale applied to the printer (not related to projector or print job)",
-            "description": "",
-            "servicemax_label": "",
-            "servicemax_type": "",
-            "data_source": "",
-            "native_type": "DOUBLE",
-            "native_units": "",
-            "transmission_timing": "",
-            "sample_interval": null,
-            "native_name": ""
-          },
-          "mtconnect_schema": {
             "type": "MESSAGE",
-            "name": "Device-Scale-Factor-Z",
-            "category": "EVENT",
-            "subtype": "",
-            "units": "",
-            "representation": "",
-            "data_classification": "",
-            "sample_interval": null,
-            "native_name": ""
-          },
-          "meta": {
-            "alias": "device.scale_factor_z",
-            "hrn": "hrn:34502-0:DataItem:0246ed1dacd13491"
-          }
-        },
-        {
-          "hydra_schema": {
-            "type": "MESSAGE",
-            "notes": "",
+            "notes": "Engine_IdleBuildState,\nEngine_CompletedBuildState,\nEngine_AbortedBuildState,\nEngine_DrainingBuildState,\nEngine_AbortingBuildState,\nEngine_PausedBuildState,\nEngine_PausingBuildState,\nEngine_PrintingBuildState,",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2555,7 +2525,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "INTERFACE_STATE",
+            "type": "MESSAGE",
             "name": "Device-Light-Tower-Status",
             "category": "EVENT",
             "subtype": "",
@@ -2633,7 +2603,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/70485216/10001+GET+CURRENT+STATE\nEngine state",
+            "notes": "Engine_InitState,\nEngine_MechInitState,\nEngine_DelayedState,\nEngine_WarmupState,\nEngine_BuildState,\nEngine_BusyState,\nEngine_AutoBuildStartPositionState,\nEngine_ProjectorFocusState,\nEngine_PowerAutoCalState,\nEngine_PowerSpotCheckState,\nEngine_CleaningState,\nEngine_IdleState,",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
