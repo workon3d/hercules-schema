@@ -1308,7 +1308,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATE_CODE",
+            "type": "MESSAGE",
             "name": "Mqg-Cleaning-Job-Timestamp",
             "category": "EVENT",
             "subtype": "",
@@ -1338,7 +1338,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MATERIAL",
+            "type": "MESSAGE",
             "name": "Mqg-Cleaning-Job-Material-Name",
             "category": "EVENT",
             "subtype": "",
@@ -1398,7 +1398,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "SERIAL_NUMBER",
+            "type": "MESSAGE",
             "name": "Mqg-Print-Platform-Serial-Number",
             "category": "EVENT",
             "subtype": "",
@@ -1488,7 +1488,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MASS",
+            "type": "MESSAGE",
             "name": "Mqg-Material-Current-Weight",
             "category": "EVENT",
             "subtype": "",
@@ -1535,7 +1535,7 @@
         },
         {
           "hydra_schema": {
-            "type": "EVENT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -1578,7 +1578,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "WATTAGE",
+            "type": "MESSAGE",
             "name": "Mqg-Material-Clean-Job-Led-Watts",
             "category": "SAMPLE",
             "subtype": "",
@@ -1638,7 +1638,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DATE_CODE",
+            "type": "MESSAGE",
             "name": "Mqg-Material-Expiration",
             "category": "EVENT",
             "subtype": "MANUFACTURE",
@@ -1758,7 +1758,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "MATERIAL",
+            "type": "MESSAGE",
             "name": "Mqg-Material-Name",
             "category": "EVENT",
             "subtype": "",
@@ -3505,6 +3505,36 @@
       "dataitems": [
         {
           "hydra_schema": {
+            "type": "SAMPLE_NUM",
+            "notes": "",
+            "description": "",
+            "servicemax_label": "",
+            "servicemax_type": "",
+            "data_source": "",
+            "native_type": "DOUBLE",
+            "native_units": "",
+            "transmission_timing": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "mtconnect_schema": {
+            "type": "ACCUMULATED_TIME",
+            "name": "Projector-Led-Lifetime-On-Seconds",
+            "category": "SAMPLE",
+            "subtype": "",
+            "units": "SECOND",
+            "representation": "",
+            "data_classification": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
+          "meta": {
+            "alias": "projector.led_lifetime_on_seconds",
+            "hrn": "hrn:34502-0:DataItem:1088b3b6e7a4fee8"
+          }
+        },
+        {
+          "hydra_schema": {
             "type": "MESSAGE",
             "notes": "to track projector peak power",
             "description": "",
@@ -3565,14 +3595,14 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE",
+            "type": "SAMPLE_NUM",
             "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "fahrenheit",
+            "native_units": "celcius",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -3764,7 +3794,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -3805,14 +3835,14 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "Temp of LED driver in the projector",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "fahrenheit",
+            "native_units": "celcius",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
@@ -3908,11 +3938,11 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "WATTAGE",
+            "type": "MESSAGE",
             "name": "Projector-Led-Pwm-Value",
-            "category": "SAMPLE",
+            "category": "EVENT",
             "subtype": "",
-            "units": "",
+            "units": "WATT",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
@@ -3944,7 +3974,7 @@
             "subtype": "",
             "units": "SECOND",
             "representation": "",
-            "data_classification": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -3955,13 +3985,13 @@
         },
         {
           "hydra_schema": {
-            "type": "SAMPLE_INT",
+            "type": "SAMPLE_NUM",
             "notes": "includes z stage build time",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "",
-            "native_type": "LONG",
+            "native_type": "DOUBLE",
             "native_units": "minute",
             "transmission_timing": "",
             "sample_interval": 0,
@@ -3972,7 +4002,7 @@
             "name": "Projector-Projector-Lifetime-Build-Hours",
             "category": "SAMPLE",
             "subtype": "",
-            "units": "SECOND",
+            "units": "HOURS",
             "representation": "",
             "data_classification": "",
             "sample_interval": 0,
