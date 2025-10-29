@@ -1580,7 +1580,7 @@
           "mtconnect_schema": {
             "type": "MESSAGE",
             "name": "Mqg-Material-Clean-Job-Led-Watts",
-            "category": "SAMPLE",
+            "category": "EVENT",
             "subtype": "",
             "units": "WATT",
             "representation": "",
