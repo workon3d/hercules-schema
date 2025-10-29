@@ -1216,7 +1216,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "SAMPLE_INT",
             "notes": "Value to move",
             "description": "",
             "servicemax_label": "",
@@ -2578,14 +2578,14 @@
             "servicemax_label": "",
             "servicemax_type": "",
             "data_source": "X",
-            "native_type": "INT",
+            "native_type": "BOOL",
             "native_units": "",
             "transmission_timing": "",
             "sample_interval": 0,
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "DOOR_STATE",
+            "type": "MESSAGE",
             "name": "Device-Top-Chamber-Door-Status",
             "category": "EVENT",
             "subtype": "",
@@ -2721,7 +2721,7 @@
       "dataitems": [
         {
           "hydra_schema": {
-            "type": "",
+            "type": "MESSAGE_JSON",
             "notes": "JSON string with all the job data specified here, example:\n{\"build_filename\":\"47m_Ferrari_PB10_v1065\",\"build_mode\":0,\"build_progress\":1,\"build_state\":\"PRINT_STATE_COMPLETED\",\"build_time_estimate\":2885,\"completion_time\":1742424095,\"current_layer\":176,\"extent_units\":1,\"job_id\":23,\"material\":[\"PRO-BLK 10 (Shade Black)\"],\"material_estimate_total_volume\":[31.018],\"printer_build_state\":\"Engine_Build_AbortedState\",\"printer_manual_op_state\":\"Engine_ManualOp_IdleState\",\"printer_system_state\":\"Engine_System_BuildState\",\"start_time\":1742419106,\"status\":2,\"status_change_time\":1742424095,\"submit_time\":1742402193,\"time_remaining\":0,\"total_layers\":176,\"x_extent\":51.39,\"y_extent\":31.86,\"z_extent\":17.6}",
             "description": "",
             "servicemax_label": "",
@@ -2751,7 +2751,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "MESSAGE",
             "notes": "",
             "description": "",
             "servicemax_label": "",
@@ -2764,7 +2764,7 @@
             "native_name": ""
           },
           "mtconnect_schema": {
-            "type": "",
+            "type": "MESSAGE",
             "name": "Build-Tagging-Info",
             "category": "EVENT",
             "subtype": "",
@@ -4075,7 +4075,7 @@
         },
         {
           "hydra_schema": {
-            "type": "MESSAGE_INT",
+            "type": "SAMPLE_INT",
             "notes": "we can provide this data if needed",
             "description": "",
             "servicemax_label": "",
