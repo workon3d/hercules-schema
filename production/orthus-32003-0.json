@@ -26,7 +26,7 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
-        "name": "Laser-2",
+        "name": "Laser2",
         "tag": "",
         "native_name": "",
         "sample_interval": 0
@@ -225,7 +225,7 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
-        "name": "Scanner-2",
+        "name": "Scanner2",
         "tag": "",
         "native_name": "",
         "sample_interval": 0
@@ -583,7 +583,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Z",
+        "name": "Build Platform",
         "tag": "Linear",
         "native_name": ""
       },
@@ -742,7 +742,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "X",
+        "name": "Coater",
         "tag": "Linear",
         "native_name": ""
       },
