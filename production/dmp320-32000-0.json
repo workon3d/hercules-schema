@@ -139,7 +139,7 @@
             "description": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "seconds",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -148,7 +148,7 @@
             "name": "Build-Cooling-Time",
             "category": "",
             "subtype": "",
-            "units": "",
+            "units": "SECOND",
             "representation": "",
             "sample_interval": 0,
             "native_name": ""
@@ -271,7 +271,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -297,7 +297,7 @@
             "description": "",
             "data_source": "",
             "native_type": "INT",
-            "native_units": "",
+            "native_units": "SECONDhous",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -322,7 +322,8 @@
             "type": "SAMPLE_INT",
             "notes": "include: Needed",
             "description": "",
-            "native_type": "INT"
+            "native_type": "INT",
+            "native_units": "SECOND"
           },
           "mtconnect_schema": {
             "type": "ACCUMULATED_TIME",
@@ -344,7 +345,7 @@
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
-            "native_units": "",
+            "native_units": "Percent",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -1403,7 +1404,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "X",
+        "name": "Coater",
         "tag": "Linear",
         "native_name": ""
       },
@@ -1684,7 +1685,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Z",
+        "name": "Build-Platform",
         "tag": "Linear",
         "native_name": ""
       },
@@ -2664,7 +2665,7 @@
             "servicemax_type": "Number",
             "data_source": "",
             "native_type": "",
-            "native_units": "Hours",
+            "native_units": "",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2690,7 +2691,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "Hours",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2718,7 +2719,7 @@
             "servicemax_type": "Number",
             "data_source": "",
             "native_type": "",
-            "native_units": "Hours",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2744,7 +2745,7 @@
             "description": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "Hours",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2772,7 +2773,7 @@
             "servicemax_type": "",
             "data_source": "",
             "native_type": "",
-            "native_units": "Hours",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
