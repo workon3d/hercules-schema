@@ -92,7 +92,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Laser-3",
+        "name": "Laser3",
         "native_name": ""
       },
       "meta": {
@@ -272,7 +272,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Laser-2",
+        "name": "Laser2",
         "native_name": ""
       },
       "meta": {
@@ -452,7 +452,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Laser-1",
+        "name": "Laser1",
         "native_name": ""
       },
       "meta": {
@@ -632,7 +632,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Scanner-3",
+        "name": "Scanner 3",
         "native_name": ""
       },
       "meta": {
@@ -702,7 +702,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Scanner-2",
+        "name": "Scanner 2",
         "native_name": ""
       },
       "meta": {
@@ -772,7 +772,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Scanner-1",
+        "name": "Scanner 1",
         "native_name": ""
       },
       "meta": {
@@ -948,7 +948,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Build-Platform",
+        "name": "Build Platform",
         "tag": "Linear",
         "native_name": ""
       },
