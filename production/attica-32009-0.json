@@ -2011,7 +2011,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Laser1",
+        "name": "Laser-1",
         "native_name": ""
       },
       "meta": {
@@ -2195,7 +2195,7 @@
         "native_name": ""
       },
       "mtconnect_schema": {
-        "name": "Scanner1",
+        "name": "Scanner-1",
         "native_name": ""
       },
       "meta": {
@@ -3257,7 +3257,7 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
-        "name": "Scanner3",
+        "name": "Scanner-3",
         "tag": "",
         "native_name": "",
         "sample_interval": 0
@@ -3336,7 +3336,7 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
-        "name": "Scanner2",
+        "name": "Scanner-2",
         "tag": "",
         "native_name": "",
         "sample_interval": 0
@@ -3415,7 +3415,7 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
-        "name": "Laser3",
+        "name": "Laser-3",
         "tag": "",
         "native_name": "",
         "sample_interval": 0
@@ -3614,7 +3614,7 @@
         "sample_interval": 0
       },
       "mtconnect_schema": {
-        "name": "Laser2",
+        "name": "Laser-2",
         "tag": "",
         "native_name": "",
         "sample_interval": 0
