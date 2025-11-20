@@ -39,7 +39,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -69,7 +69,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -99,7 +99,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -129,7 +129,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -159,7 +159,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -189,7 +189,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -219,7 +219,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -249,7 +249,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -279,7 +279,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -328,7 +328,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -358,7 +358,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -388,7 +388,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -418,7 +418,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -448,7 +448,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -478,7 +478,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -508,7 +508,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "Need to document faults",
+            "notes": "Data limits:\nNeed to document faults",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -538,7 +538,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -598,7 +598,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "0 = DISABLED\n1 = ENABLED",
+            "notes": "Data limits:\n0 = DISABLED\n1 = ENABLED",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -688,7 +688,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -797,7 +797,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = HOMING NOT IN PROGRESS\n1 = HOMING IN PROGRESS",
+            "notes": "Data limits:\n0 = HOMING NOT IN PROGRESS\n1 = HOMING IN PROGRESS",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -827,7 +827,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = NO ALARM PRESENT\n1 = ALARM PRESENT",
+            "notes": "Data limits:\n0 = NO ALARM PRESENT\n1 = ALARM PRESENT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -857,7 +857,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = NO FAULT\n1 = FAULT",
+            "notes": "Data limits:\n0 = NO FAULT\n1 = FAULT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -977,7 +977,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1007,7 +1007,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1067,7 +1067,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "VALID\nNOT VALID",
+            "notes": "Data limits:\nVALID\nNOT VALID",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1127,7 +1127,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Current motor position",
+            "notes": "Data limits:\nCurrent motor position",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1157,7 +1157,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "1 = HOME\n0 = NOT HOME",
+            "notes": "Data limits:\n1 = HOME\n0 = NOT HOME",
             "description": "Status if elevator arms reached home position at least once since startup",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1187,7 +1187,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1247,7 +1247,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "HIGH = Enabled\nLOW = Disabled",
+            "notes": "Data limits:\nHIGH = Enabled\nLOW = Disabled",
             "description": "Z Stage Motor / ST10",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1296,7 +1296,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1326,7 +1326,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1356,7 +1356,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Material Identifier",
+            "notes": "Data limits:\nMaterial Identifier",
             "description": "Example for Figure 4 PRO-BLK 10 = 420126",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1386,7 +1386,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1446,7 +1446,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1476,7 +1476,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1506,7 +1506,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1536,7 +1536,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1566,7 +1566,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1596,7 +1596,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1626,7 +1626,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1656,7 +1656,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1686,7 +1686,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "Example for Figure 4 PRO-BLK 10 = 420126-901",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1716,7 +1716,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1746,7 +1746,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "Currently installed bottle material name (example \"FIGURE 4 HI TEMP 300-AMB\")",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1822,7 +1822,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "This state is enforced by the IOT team. This is the common printer state across all 3D Systems Printer. Needed to standardize basic minimum printer states across all printers.\nPRINTER_STATE_INITIALIZING,\nPRINTER_STATE_IDLE ,\nPRINTER_STATE_PREPARING,\nPRINTER_STATE_BUILDING,\nPRINTER_STATE_PAUSED,\nPRINTER_STATE_ABORTED,\nPRINTER_STATE_COMPLETED,\nPRINTER_STATE_BUSY,\nNote:\nPRINTER_STATE_IDLE - (Printer is available to start new job ,only to be set when old print has been cleared)\nPRINTER_STATE_BUSY - (State for anything the printer is busy doing any manual operation/procedure what does not fit in the above states)",
+            "notes": "Data limits:\nThis state is enforced by the IOT team. This is the common printer state across all 3D Systems Printer. Needed to standardize basic minimum printer states across all printers.\nPRINTER_STATE_INITIALIZING,\nPRINTER_STATE_IDLE ,\nPRINTER_STATE_PREPARING,\nPRINTER_STATE_BUILDING,\nPRINTER_STATE_PAUSED,\nPRINTER_STATE_ABORTED,\nPRINTER_STATE_COMPLETED,\nPRINTER_STATE_BUSY,\nNote:\nPRINTER_STATE_IDLE - (Printer is available to start new job ,only to be set when old print has been cleared)\nPRINTER_STATE_BUSY - (State for anything the printer is busy doing any manual operation/procedure what does not fit in the above states)",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1852,7 +1852,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = NOT PRESENT\n1 = PRESENT",
+            "notes": "Data limits:\n0 = NOT PRESENT\n1 = PRESENT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1882,7 +1882,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1912,7 +1912,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1942,7 +1942,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1972,7 +1972,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2002,7 +2002,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Engine_IdleBuildState,\nEngine_CompletedBuildState,\nEngine_AbortedBuildState,\nEngine_DrainingBuildState,\nEngine_AbortingBuildState,\nEngine_PausedBuildState,\nEngine_PausingBuildState,\nEngine_PrintingBuildState,",
+            "notes": "Data limits:\nEngine_IdleBuildState,\nEngine_CompletedBuildState,\nEngine_AbortedBuildState,\nEngine_DrainingBuildState,\nEngine_AbortingBuildState,\nEngine_PausedBuildState,\nEngine_PausingBuildState,\nEngine_PrintingBuildState,",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2062,7 +2062,7 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "version and release date",
+            "notes": "Data limits:\nversion and release date",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2092,7 +2092,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = DISCONNECTED\n1 = CONNECTED",
+            "notes": "Data limits:\n0 = DISCONNECTED\n1 = CONNECTED",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2122,7 +2122,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "total hours powered on",
+            "notes": "Data limits:\ntotal hours powered on",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2152,7 +2152,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = MDM DISABLED / HAND POUR\n1 = MDM ENABLED / AUTO",
+            "notes": "Data limits:\n0 = MDM DISABLED / HAND POUR\n1 = MDM ENABLED / AUTO",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2182,7 +2182,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2212,7 +2212,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = NOT PRESENT\n1 = PRESENT",
+            "notes": "Data limits:\n0 = NOT PRESENT\n1 = PRESENT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2243,7 +2243,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = NOT PRESENT\n1 = PRESENT",
+            "notes": "Data limits:\n0 = NOT PRESENT\n1 = PRESENT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2333,7 +2333,7 @@
         {
           "hydra_schema": {
             "type": "EVENT_INT",
-            "notes": "0 = DISABLED\n1 = ENABLED",
+            "notes": "Data limits:\n0 = DISABLED\n1 = ENABLED",
             "description": "Job server is special printer mode to receive jobs from the job server SW, not 3D Sprint",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2363,7 +2363,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2423,7 +2423,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2453,7 +2453,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2483,7 +2483,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = OFF\n1 = ON",
+            "notes": "Data limits:\n0 = OFF\n1 = ON",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2513,7 +2513,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Light tower colors/status. This is described in 3D Systems user guide.\n\nexamples: ALL_OFF, RED_SOLID, YELLOW_SOLID, GREEN_SOLID, RED_FLASHING, YELLOW_FLASHING, GREEN_FLASHING, RED_FLASHING_GREEN_SOLID, YELLOW_FLASHING_GREEN_SOLID, YELLOW_FLASHING_GREEN_FLASHING, IDENTIFY, RED_PULSE, YELLOW_PULSE, GREEN_PULSE, RED_GREEN_SOLID, YELLOW_GREEN_SOLID",
+            "notes": "Data limits:\nLight tower colors/status. This is described in 3D Systems user guide.\n\nexamples: ALL_OFF, RED_SOLID, YELLOW_SOLID, GREEN_SOLID, RED_FLASHING, YELLOW_FLASHING, GREEN_FLASHING, RED_FLASHING_GREEN_SOLID, YELLOW_FLASHING_GREEN_SOLID, YELLOW_FLASHING_GREEN_FLASHING, IDENTIFY, RED_PULSE, YELLOW_PULSE, GREEN_PULSE, RED_GREEN_SOLID, YELLOW_GREEN_SOLID",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2543,7 +2543,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2573,7 +2573,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 = Door Closed\n1 = Door Open",
+            "notes": "Data limits:\n0 = Door Closed\n1 = Door Open",
             "description": "Top door detect sensor",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2603,7 +2603,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Engine_InitState,\nEngine_MechInitState,\nEngine_DelayedState,\nEngine_WarmupState,\nEngine_BuildState,\nEngine_BusyState,\nEngine_AutoBuildStartPositionState,\nEngine_ProjectorFocusState,\nEngine_PowerAutoCalState,\nEngine_PowerSpotCheckState,\nEngine_CleaningState,\nEngine_IdleState,",
+            "notes": "Data limits:\nEngine_InitState,\nEngine_MechInitState,\nEngine_DelayedState,\nEngine_WarmupState,\nEngine_BuildState,\nEngine_BusyState,\nEngine_AutoBuildStartPositionState,\nEngine_ProjectorFocusState,\nEngine_PowerAutoCalState,\nEngine_PowerSpotCheckState,\nEngine_CleaningState,\nEngine_IdleState,",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2633,7 +2633,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Eth1 is the customer network port IP address. External network",
+            "notes": "Data limits:\nEth1 is the customer network port IP address. External network",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2663,7 +2663,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\nVariable, 13 characters",
             "description": "Printer serial number. This value is programmed in the printer board and also printed on the dataplate (located on the back of the printer)\n\nEach printer s/n is unique",
             "data_source": "X",
             "native_type": "STRING",
@@ -2686,6 +2686,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
+            "notes": "Data limits:\n",
             "data_source": "X",
             "native_type": "STRING",
             "native_name": ""
@@ -2722,7 +2723,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_JSON",
-            "notes": "JSON string with all the job data specified here, example:\n{\"build_filename\":\"47m_Ferrari_PB10_v1065\",\"build_mode\":0,\"build_progress\":1,\"build_state\":\"PRINT_STATE_COMPLETED\",\"build_time_estimate\":2885,\"completion_time\":1742424095,\"current_layer\":176,\"extent_units\":1,\"job_id\":23,\"material\":[\"PRO-BLK 10 (Shade Black)\"],\"material_estimate_total_volume\":[31.018],\"printer_build_state\":\"Engine_Build_AbortedState\",\"printer_manual_op_state\":\"Engine_ManualOp_IdleState\",\"printer_system_state\":\"Engine_System_BuildState\",\"start_time\":1742419106,\"status\":2,\"status_change_time\":1742424095,\"submit_time\":1742402193,\"time_remaining\":0,\"total_layers\":176,\"x_extent\":51.39,\"y_extent\":31.86,\"z_extent\":17.6}",
+            "notes": "Data limits:\nJSON string with all the job data specified here, example:\n{\"build_filename\":\"47m_Ferrari_PB10_v1065\",\"build_mode\":0,\"build_progress\":1,\"build_state\":\"PRINT_STATE_COMPLETED\",\"build_time_estimate\":2885,\"completion_time\":1742424095,\"current_layer\":176,\"extent_units\":1,\"job_id\":23,\"material\":[\"PRO-BLK 10 (Shade Black)\"],\"material_estimate_total_volume\":[31.018],\"printer_build_state\":\"Engine_Build_AbortedState\",\"printer_manual_op_state\":\"Engine_ManualOp_IdleState\",\"printer_system_state\":\"Engine_System_BuildState\",\"start_time\":1742419106,\"status\":2,\"status_change_time\":1742424095,\"submit_time\":1742402193,\"time_remaining\":0,\"total_layers\":176,\"x_extent\":51.39,\"y_extent\":31.86,\"z_extent\":17.6}",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2752,7 +2753,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2782,7 +2783,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2812,7 +2813,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2842,7 +2843,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2872,7 +2873,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2902,7 +2903,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2932,7 +2933,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2962,7 +2963,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2992,7 +2993,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3022,7 +3023,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3052,7 +3053,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3082,7 +3083,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3142,7 +3143,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3202,7 +3203,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3232,7 +3233,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "https://3dsystems.atlassian.net/wiki/spaces/CON/pages/70485216/10001+GET+CURRENT+STATE",
+            "notes": "Data limits:\nhttps://3dsystems.atlassian.net/wiki/spaces/CON/pages/70485216/10001+GET+CURRENT+STATE",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3262,7 +3263,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3292,7 +3293,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3322,7 +3323,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3352,7 +3353,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3382,7 +3383,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3412,6 +3413,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
+            "notes": "Data limits:\n",
             "native_type": "STRING",
             "native_name": ""
           },
@@ -3431,6 +3433,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
+            "notes": "Data limits:\n",
             "native_type": "INT",
             "native_name": ""
           },
@@ -3450,6 +3453,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
+            "notes": "Data limits:\n",
             "native_type": "INT",
             "native_units": "",
             "native_name": ""
@@ -3471,6 +3475,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
+            "notes": "Data limits:\n",
             "native_type": "INT",
             "native_name": ""
           },
@@ -3506,7 +3511,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3536,7 +3541,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "to track projector peak power",
+            "notes": "Data limits:\nto track projector peak power",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3566,7 +3571,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "Current or power",
+            "notes": "Data limits:\nCurrent or power",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3596,7 +3601,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3626,7 +3631,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Projector connection over HDMI, Ethernet or display port",
+            "notes": "Data limits:\nProjector connection over HDMI, Ethernet or display port",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3716,7 +3721,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3746,7 +3751,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3806,7 +3811,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3866,7 +3871,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Projector type (4KA, WQm, etc)",
+            "notes": "Data limits:\nProjector type (4KA, WQm, etc)",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3896,7 +3901,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3926,7 +3931,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3986,7 +3991,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "includes z stage build time",
+            "notes": "Data limits:\nincludes z stage build time",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -4016,7 +4021,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -4106,7 +4111,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "FW version of the projector",
+            "notes": "Data limits:\nFW version of the projector",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -4136,7 +4141,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data limits:\n",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -4166,6 +4171,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
+            "notes": "Data limits:\n",
             "native_type": "STRING",
             "native_name": ""
           },
