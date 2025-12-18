@@ -3209,7 +3209,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "The total weight of powder sieved",
+            "notes": "The total weight of powder sieved\nData Limits : variable",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3239,7 +3239,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3269,7 +3269,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : [0,500000]",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3298,7 +3298,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : [0,500000]",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3327,7 +3327,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : [0,500000]",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3356,7 +3356,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : [0, 0.2]",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3385,7 +3385,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : ]-400, 30[",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3414,7 +3414,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "data_source": "",
             "native_type": "DOUBLE",
@@ -3440,7 +3440,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "data_source": "",
             "native_type": "DOUBLE",
@@ -3466,7 +3466,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "data_source": "",
             "native_type": "LONG",
@@ -3492,7 +3492,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "data_source": "",
             "native_type": "LONG",
@@ -3518,7 +3518,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "data_source": "",
             "native_type": "LONG",
@@ -3544,7 +3544,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "data_source": "",
             "native_type": "LONG",
@@ -3570,7 +3570,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "data_source": "",
             "native_type": "LONG",
@@ -3596,7 +3596,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "data_source": "",
             "native_type": "LONG",
