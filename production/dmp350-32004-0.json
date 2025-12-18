@@ -1616,7 +1616,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "include: Present",
+            "notes": "Position of the coater in µm. Data Range: Varies",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -1796,7 +1796,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "PRM model",
+            "notes": "RPM model",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -1947,7 +1947,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "include: Present",
+            "notes": "Position of the buildplatform in µm. Data Range: Varies",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -2571,7 +2571,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "include: Present",
+            "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2598,7 +2598,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_CLOCK_TIME",
-            "notes": "include: Present",
+            "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2625,7 +2625,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_CLOCK_TIME",
-            "notes": "include: Present",
+            "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2680,7 +2680,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Planed but never implemented",
+            "notes": "Planned but never implemented",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2707,7 +2707,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "For DMP500 only",
+            "notes": "For DMP500 only\nProcess chamber temperature\nData Range: -40 to 70 degrees celcius",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2734,7 +2734,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Planed but never implemented",
+            "notes": "Planned but never implemented",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2751,7 +2751,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "For DMP500 only",
+            "notes": "For DMP500 only\nProcess chamber humidity\nData Range: 0 to 200 000 ppm",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2853,7 +2853,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "include: Present",
+            "notes": "",
             "description": "",
             "servicemax_label": "Lifetime Melting Hours (s)",
             "servicemax_type": "Number",
@@ -2882,7 +2882,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "include: Present",
+            "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2909,7 +2909,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "include: Present",
+            "notes": "",
             "description": "",
             "servicemax_label": "Lifetime Build Hours (s)",
             "servicemax_type": "",
@@ -2938,7 +2938,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "include: Present",
+            "notes": "",
             "description": "",
             "servicemax_label": "Lifetime On Hours (s)",
             "servicemax_type": "Number",
@@ -3021,7 +3021,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "include: Present",
+            "notes": "Build platform temperature\nData Range: 0 - 1000 degrees celcius",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -3048,7 +3048,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "include: Present",
+            "notes": "",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
