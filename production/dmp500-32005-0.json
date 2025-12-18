@@ -1166,7 +1166,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits:variable",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -1192,7 +1192,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "Stop, Error, Warning, MovingNegative, MovingPositive, Disabled, Standby",
+            "notes": "Stop, Error, Warning, MovingNegative, MovingPositive, Disabled, Standby\nData Limits : \"Stop\"-\"Standby\"",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -2170,7 +2170,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "1 : if the service key is turned on. 0 otherwise",
+            "notes": "1 : if the service key is turned on. 0 otherwise\nLimits:0-1",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2308,7 +2308,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Range: -40 to 70 degrees celcius",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2334,7 +2334,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "include: Present",
+            "notes": "include: Not Present",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2350,7 +2350,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Range: 0 to 200 000 ppm",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2366,7 +2366,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "PM - every 6 months\ninclude: Needed",
+            "notes": "PM - every 6 months\ninclude: Needed\nData range : variable",
             "description": "",
             "servicemax_label": "Blower Total Hours (s)",
             "servicemax_type": "Numb",
@@ -2420,7 +2420,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Range: -100 - 600 degrees celcius",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -2557,7 +2557,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Limits : [1, 25]",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -2583,7 +2583,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "Useful for leak detection\ninclude: Present",
+            "notes": "Useful for leak detection\ninclude: Present\n",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2839,7 +2839,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -2865,7 +2865,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : 0-100",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -2891,7 +2891,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "include: Present, include: Present. JobStatus + printer_state. JobStatus = {NotRunning, Starting,Running,Completing,Aborting,Pausing}",
+            "notes": "include: Present, include: Present. JobStatus + printer_state. JobStatus = {NotRunning, Starting,Running,Completing,Aborting,Pausing}\nData Limits : 'Data Limits JobStatus'  'Data Limits printer_state'",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -2917,7 +2917,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "include: see possible states defined in  HYDRA-196",
+            "notes": "\tinclude: see possible states defined in\nhttps://3dsystems.atlassian.net/browse/HYDRA-196\nData Limits : \nNone = 0\nPreparingJobStartCancelAllowed = 2 ^ 0\nPreparingJobStartCancelNo = 2 ^ 1\nPreparingJobStartRecovery = 2 ^ 2\nRunJob = 2 ^ 4\nCooling = 2 ^ 5\nCoolingRefresh = 2 ^ 6\nBackFillWithAir = 2 ^ 7\nEmergencyVacuum = 2 ^ 8\nPowderProtect = 2 ^ 9\nFilterPreparation = 2 ^ 10\nTestProgram = 2 ^ 12",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -2943,7 +2943,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Limits : variable",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -2969,7 +2969,7 @@
         {
           "hydra_schema": {
             "type": "EVENT_INT",
-            "notes": "",
+            "notes": "Data Limits : 0 - build.job_data.total_layers",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -2995,7 +2995,7 @@
         {
           "hydra_schema": {
             "type": "EVENT_INT",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Limits : 0 -build.job_data.total_layers",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -3022,7 +3022,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : 0-build.estimated_time",
             "description": "",
             "data_source": "",
             "native_type": "INT",
@@ -3049,7 +3049,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_NUM",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Limits : 0 - 100",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
@@ -3120,7 +3120,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data Limits : [dd].[dd].[dd]",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3172,7 +3172,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Limits : [dd].[dd].[dd]",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3198,7 +3198,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : False, 1 : True",
+            "notes": "0 : False, 1 : True\nData Limits : 0-1",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -3224,7 +3224,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Limits : [dd].[dd].[dd]",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3250,7 +3250,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : False, 1 : True",
+            "notes": "0 : False, 1 : True\nData Limits : 0-1",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -3276,7 +3276,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Limits : [dd].[dd].[dd]",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3302,7 +3302,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Limits : [dd].[dd].[dd]",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3328,7 +3328,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "include: Present",
+            "notes": "include: Present\nData Limits : [dd].[dd].[dd]",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3380,7 +3380,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : False, 1 : True",
+            "notes": "0 : False, 1 : True\nData Limits : 0-1",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -3406,7 +3406,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data Limits : [dd].[dd].[dd]",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3432,7 +3432,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "0 : False, 1 : True",
+            "notes": "0 : False, 1 : True\nData Limits : 0-1",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -3458,7 +3458,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "None = 0,Operator = 1,Engineer = 2,Service = 3,Factory = 4, Admin = 5",
+            "notes": "None = 0,Operator = 1,Engineer = 2,Service = 3,Factory = 4, Admin = 5\nData Limits : 0-5",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3484,7 +3484,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "",
+            "notes": "Data Limits : x.x.x.x",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
@@ -3529,7 +3529,7 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "",
+            "notes": "Data Limits : NORMAL, FAULT",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3555,7 +3555,7 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "",
+            "notes": "Data Limits : NORMAL, FAULT",
             "description": "",
             "native_code": "",
             "native_severity": "",
@@ -3578,7 +3578,7 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "",
+            "notes": "Data Limits : Variable",
             "description": "",
             "native_code": "",
             "native_severity": "HIGH",
@@ -3601,7 +3601,7 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "Include: Present",
+            "notes": "Include: Present\nData Limits : NORMAL, FAULT",
             "description": "",
             "native_code": "",
             "native_severity": "HIGH",
@@ -3624,7 +3624,7 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "",
+            "notes": "Data Limits : NORMAL, FAULT",
             "description": "",
             "native_code": "",
             "native_severity": "HIGH",
@@ -3647,7 +3647,7 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "",
+            "notes": "Data Limits : NORMAL, FAULT",
             "description": "",
             "native_code": "",
             "native_severity": "HIGH",
@@ -3670,7 +3670,7 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "Nan, -∞, +∞",
+            "notes": "Data Limits : NORMAL, WARNING",
             "description": "",
             "native_code": "Oxygen Concentration Invalid Value",
             "native_severity": "LOW",
@@ -3693,7 +3693,7 @@
         {
           "hydra_schema": {
             "type": "CONDITION",
-            "notes": "This is a generic condition stream for all faults that do not require any specific platform handling and serve to inform user of general error fault condition",
+            "notes": "Data Limits : Variable\nThis is a generic condition stream for all faults that do not require any specific platform handling and serve to inform user of general error fault condition",
             "description": "",
             "native_code": "",
             "native_severity": "ANY",
