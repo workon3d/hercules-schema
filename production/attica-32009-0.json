@@ -810,7 +810,7 @@
         {
           "hydra_schema": {
             "type": "",
-            "notes": "121231231231213123123",
+            "notes": "",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3428,7 +3428,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "servicemax_label": "Laser 3 Total Hours (s)",
             "servicemax_type": "Number",
@@ -3458,7 +3458,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3488,7 +3488,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "\"Communication not initialized\", \"Communication not running\", \"Emission On\",\"Emission Off\",\"Power supply OFF\"",
+            "notes": "\"Communication not initialized\", \"Communication not running\", \"Emission On\",\"Emission Off\",\"Power supply OFF\"\nData Limits : \"Communication not initialized\"-\"Power supply OFF\"",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3518,7 +3518,7 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "",
+            "notes": "Data Limits : x*",
             "description": "",
             "servicemax_label": "Laser 3 Serial Number",
             "servicemax_type": "",
@@ -3548,7 +3548,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "servicemax_label": "Laser 3 Max Calibrated Power \t\t",
             "servicemax_type": "Number",
@@ -3627,7 +3627,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_INT",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "servicemax_label": "Laser 2 Total Hours (s)",
             "servicemax_type": "Number",
@@ -3657,7 +3657,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3687,7 +3687,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "\"Communication not initialized\", \"Communication not running\", \"Emission On\",\"Emission Off\",\"Power supply OFF\"",
+            "notes": "\"Communication not initialized\", \"Communication not running\", \"Emission On\",\"Emission Off\",\"Power supply OFF\"\nData Limits : \"Communication not initialized\"-\"Power supply OFF\"",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -3717,7 +3717,7 @@
         {
           "hydra_schema": {
             "type": "EVENT",
-            "notes": "",
+            "notes": "Data Limits : x*",
             "description": "",
             "servicemax_label": "Laser 2 Serial Number",
             "servicemax_type": "Text",
@@ -3747,7 +3747,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "",
+            "notes": "Data Limits : variable",
             "description": "",
             "servicemax_label": "Laser 2 Max Calibrated Power \t\t",
             "servicemax_type": "Number",
