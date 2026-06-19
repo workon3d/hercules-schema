@@ -1969,7 +1969,7 @@
             "notes": "include: Present",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "INT",
             "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
@@ -1995,7 +1995,7 @@
             "notes": "include: Present",
             "description": "",
             "data_source": "",
-            "native_type": "",
+            "native_type": "INT",
             "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
@@ -2021,8 +2021,8 @@
             "notes": "include: Present",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2047,8 +2047,8 @@
             "notes": "include: Present",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2073,8 +2073,8 @@
             "notes": "PM - every 6 months\ninclude: Present",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2099,8 +2099,8 @@
             "notes": "PM - every 6 months\ninclude: Present",
             "description": "",
             "data_source": "",
-            "native_type": "",
-            "native_units": "",
+            "native_type": "INT",
+            "native_units": "SECOND",
             "sample_interval": 0,
             "native_name": ""
           },
@@ -2493,7 +2493,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE",
-            "notes": "include: see possible states defined in\nhttps://3dsystems.atlassian.net/browse/HYDRA-196\nData Limits : \nNone = 0\nPreparingJobStartCancelAllowed = 2 ^ 0\nPreparingJobStartCancelNo = 2 ^ 1\nPreparingJobStartRecovery = 2 ^ 2\nRunJob = 2 ^ 4\nCooling = 2 ^ 5\nCoolingRefresh = 2 ^ 6",
+            "notes": "\tinclude: see possible states defined in\nhttps://3dsystems.atlassian.net/browse/HYDRA-196\nData Limits : \nIdle\nFull inert cycle\nPrep cycle including filter recovery\nEmergency vacuum\nCyclone maintenance\nEmergency stop\nEasy door unlock\nSetup mode\nPMU mode\nTSR mode\nPreparing job start cancel allowed\nPreparing job start cancel no\nPreparing job start recovery\nRun job\nCooling\nCooling refresh",
             "description": "",
             "data_source": "",
             "native_type": "STRING",
