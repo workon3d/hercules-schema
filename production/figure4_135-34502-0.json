@@ -1942,7 +1942,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Data limits: Variable\n",
+            "notes": "Data limits: Variable",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2453,7 +2453,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Data limits: 0 - 2160\n",
+            "notes": "Data limits: 0 - 2160",
             "description": "",
             "servicemax_label": "",
             "servicemax_type": "",
@@ -2831,7 +2831,7 @@
             "subtype": "",
             "units": "",
             "representation": "",
-            "data_classification": "",
+            "data_classification": "Service Facing",
             "sample_interval": 0,
             "native_name": ""
           },
