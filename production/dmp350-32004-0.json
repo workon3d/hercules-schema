@@ -2759,6 +2759,12 @@
             "sample_interval": 0,
             "native_name": ""
           },
+          "mtconnect_schema": {
+            "name": "Chamber-Humidity",
+            "category": "",
+            "sample_interval": 0,
+            "native_name": ""
+          },
           "meta": {
             "alias": "chamber_humidity",
             "hrn": "hrn:32004-0:DataItem:442acb2b3a591119",
@@ -2967,7 +2973,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "Useful for leak detection\ninclude: Present",
+            "notes": "Useful for leak detection\ninclude: Present\nData Limits 0-500",
             "description": "",
             "data_source": "",
             "native_type": "",
@@ -3021,7 +3027,7 @@
         {
           "hydra_schema": {
             "type": "SAMPLE_NUM",
-            "notes": "Build platform temperature\nData Range: -100 - 600 degrees celcius",
+            "notes": "Build platform temperature\nData Range: [-100 ,600] degrees celcius",
             "description": "",
             "data_source": "",
             "native_type": "FLOAT",
