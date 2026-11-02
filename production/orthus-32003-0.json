@@ -1940,7 +1940,7 @@
         {
           "hydra_schema": {
             "type": "MESSAGE_INT",
-            "notes": "Useful for leak detection\ninclude: Present",
+            "notes": "Useful for leak detection\ninclude: Present\nData Limits 0-500",
             "description": "",
             "data_source": "",
             "native_type": "",
